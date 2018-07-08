@@ -1,10 +1,10 @@
 # fbi_hate_crimes_data_viz
 
-This is a repo to visualise hate crimes data published by the FBI.
+This is a repo to visualise the hate crimes in 2016 data which are published by the FBI.
 
-The aim is to create two maps that shows where hate crimes are recorded and also where they are not.
+The aim is to create two maps that show where hate crimes are recorded and also where they are not.
 
-The idea is drawn from ProPublica's amazing viz https://projects.propublica.org/graphics/hatecrime-map.
+The inspiration comes from ProPublica's amazing work https://projects.propublica.org/graphics/hatecrime-map. This is mostly replication at this stage but might evolve into something else, will see.
 
 First task is to download and clean data from FBI's website https://ucr.fbi.gov/hate-crime/2016/topic-pages/incidentsandoffenses.
 
