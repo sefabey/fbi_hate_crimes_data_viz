@@ -6,7 +6,7 @@ The aim is to create two maps that show where hate crimes are recorded and also 
 
 The inspiration comes from ProPublica's amazing work https://projects.propublica.org/graphics/hatecrime-map. This is mostly replication at this stage but might evolve into something else, will see.
 
-First task is to download and clean data from FBI's website https://ucr.fbi.gov/hate-crime/2016/topic-pages/incidentsandoffenses.
+First task is to download and clean data from FBI's website https://ucr.fbi.gov/hate-crime/2016/topic-pages/incidentsandoffenses. Although this is a straightforward task, as always, there are problems.
 
 First problem is that the data provided by the FBI come in excel format, which is quite inconvenient. What's more (or worse), there are many merged cells and header groupings, which makes it nearly impossible to work with the data. Therefore, it's necessary to pre-process the data manually. This is a huge pain and it will take time. 
 
