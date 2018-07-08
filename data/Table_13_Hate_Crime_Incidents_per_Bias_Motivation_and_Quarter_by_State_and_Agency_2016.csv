@@ -1,0 +1,1777 @@
+"State","Agency_Type","Agency_name","Total_incidents_bias_motivation","Bias_Motivation_Race_Ethnicity_Ancestry","Bias_Motivation_Religion","Bias_Motivation_Sexual_orientation","Bias_Motivation_Disability","Bias_Motivation_Gender","Bias_Motivation_Gender_Identity","Total_incidents_Q1_to_Q4","No_of_incidents_Q1","No_of_incidents_Q2","No_of_incidents_Q3","No_of_incidents_Q4","Population"
+"Alabama","Cities","Birmingham",9,7,1,1,0,0,0,9,3,2,2,2,"212,549"
+"Alabama","Cities","Florence",1,1,0,0,0,0,0,1,0,0,1,0,"40,160"
+"Alabama","Cities","Foley",1,1,0,0,0,0,0,1,0,1,0,0,"17,639"
+"Alabama","Cities","Hoover",3,3,0,0,0,0,0,3,1,0,1,1,"85,601"
+"Alaska","Cities","Anchorage",4,4,0,0,0,0,0,4,1,0,2,1,"299,097"
+"Alaska","Cities","Juneau",6,6,0,0,0,0,0,6,1,1,3,1,"32,964"
+"Alaska","Cities","Wasilla",1,1,0,0,0,0,0,1,1,0,0,0,"9,585"
+"Arizona","Cities","Apache Junction",2,2,0,0,0,0,0,2,1,0,1,0,"38,506"
+"Arizona","Cities","Chandler",4,2,2,0,0,0,0,4,1,0,1,2,"265,922"
+"Arizona","Cities","Gilbert",1,1,0,0,0,0,0,1,1,0,0,0,"255,899"
+"Arizona","Cities","Glendale",1,1,0,0,0,0,0,1,0,1,0,0,"242,938"
+"Arizona","Cities","Mesa",5,3,0,2,0,0,0,5,3,0,0,2,"478,277"
+"Arizona","Cities","Phoenix",175,90,40,44,1,0,0,174,34,39,45,56,"1,586,611"
+"Arizona","Cities","Prescott Valley",2,1,0,1,0,0,0,2,1,1,,,"42,900"
+"Arizona","Cities","Sahuarita",1,1,0,0,0,0,0,1,0,0,0,1,"25,792"
+"Arizona","Cities","Scottsdale",4,1,3,0,0,0,0,4,0,,2,2,"240,885"
+"Arizona","Cities","St. Johns",1,0,0,1,0,0,0,1,1,0,0,0,"3,482"
+"Arizona","Cities","Tempe",1,0,0,1,0,0,0,1,1,0,0,0,"178,654"
+"Arizona","Cities","Tucson",5,1,2,2,0,0,0,5,2,1,1,1,"533,663"
+"Arizona","Cities","Williams",1,0,0,1,0,0,0,1,0,1,0,0,"3,140"
+"Arizona","Cities","Yuma",4,2,1,1,0,0,0,4,1,1,2,0,"94,696"
+"Arizona","Universities and Colleges","Arizona State University, Main Campus",1,1,0,0,0,0,0,1,0,0,0,1,"90,906"
+"Arizona","Universities and Colleges","University of Arizona",2,0,2,0,0,0,0,2,0,2,,,"42,595"
+"Arizona","Metropolitan Counties","Maricopa",3,3,0,0,0,0,0,3,,0,3,0,
+"Arizona","Metropolitan Counties","Pima",1,1,0,0,0,0,0,1,0,1,0,,
+"Arkansas","Cities","Fort Smith",4,3,1,0,0,0,0,4,2,0,0,2,"88,573"
+"Arkansas","Cities","Jacksonville",2,2,0,0,0,0,0,2,0,0,0,2,"28,684"
+"Arkansas","Cities","Little Rock",1,0,0,0,0,0,1,1,0,1,0,0,"198,800"
+"Arkansas","Metropolitan Counties","Sebastian",3,3,0,0,0,0,0,3,0,1,0,2,
+"Arkansas","Nonmetropolitan Counties","Sevier",2,2,0,0,0,0,0,2,0,0,2,0,
+"California","Cities","Adelanto",2,1,0,1,0,0,0,2,0,1,1,0,"33,479"
+"California","Cities","Alameda",3,3,0,0,0,0,0,3,0,1,0,2,"79,597"
+"California","Cities","Alhambra",1,1,0,0,0,0,0,1,0,0,0,1,"86,035"
+"California","Cities","Anaheim",1,1,0,0,0,0,0,1,1,0,0,0,"353,504"
+"California","Cities","Antioch",2,2,0,0,0,0,0,2,0,0,2,0,"112,090"
+"California","Cities","Arcata",2,2,0,0,0,0,0,2,0,0,1,1,"17,913"
+"California","Cities","Azusa",2,2,0,0,0,0,0,2,2,0,0,0,"50,393"
+"California","Cities","Bakersfield",8,8,0,0,0,0,0,8,0,3,2,3,"378,788"
+"California","Cities","Baldwin Park",1,0,0,1,0,0,0,1,1,0,0,0,"77,400"
+"California","Cities","Bellflower",1,0,0,1,0,0,0,1,1,0,0,0,"78,806"
+"California","Cities","Berkeley",13,9,2,2,0,0,0,13,5,3,2,3,"122,651"
+"California","Cities","Beverly Hills",1,1,0,0,0,0,0,1,0,0,1,0,"35,018"
+"California","Cities","Brea",1,0,0,1,0,0,0,1,0,1,0,0,"42,465"
+"California","Cities","Buena Park",3,2,1,0,0,0,0,3,0,0,2,1,"83,768"
+"California","Cities","Burbank",1,1,0,0,0,0,0,1,0,0,1,0,"105,720"
+"California","Cities","Calabasas",3,3,0,0,0,0,0,3,1,0,2,0,"24,492"
+"California","Cities","Camarillo",1,1,0,0,0,0,0,1,0,1,0,0,"68,072"
+"California","Cities","Campbell",1,0,1,0,0,0,0,1,0,1,0,0,"41,457"
+"California","Cities","Capitola",1,1,0,0,0,0,0,1,0,0,0,1,"10,241"
+"California","Cities","Central Marin",2,2,0,0,0,0,0,2,0,1,1,0,"35,265"
+"California","Cities","Cerritos",1,0,0,1,0,0,0,1,0,0,1,0,"50,159"
+"California","Cities","Chico",3,3,0,0,0,0,0,3,0,1,0,2,"91,122"
+"California","Cities","Chino",3,2,0,1,0,0,0,3,0,1,1,1,"87,081"
+"California","Cities","Chino Hills",1,1,0,0,0,0,0,1,1,0,0,0,"78,990"
+"California","Cities","Chula Vista",5,1,2,2,0,0,0,5,1,1,3,0,"270,175"
+"California","Cities","Citrus Heights",2,1,0,1,0,0,0,2,1,0,0,1,"87,811"
+"California","Cities","Claremont",9,7,1,1,0,0,0,9,1,0,1,7,"36,553"
+"California","Cities","Clayton",2,0,0,2,0,0,0,2,0,2,0,0,"12,057"
+"California","Cities","Clearlake",1,1,0,0,0,0,0,1,0,0,0,1,"15,165"
+"California","Cities","Clovis",1,1,0,0,0,0,0,1,0,0,1,0,"105,865"
+"California","Cities","Coalinga",1,0,0,1,0,0,0,1,1,0,0,0,"16,282"
+"California","Cities","Compton",1,0,0,0,0,0,1,1,0,0,1,0,"98,861"
+"California","Cities","Concord",3,1,0,2,0,0,0,3,1,0,0,2,"129,903"
+"California","Cities","Culver City",1,0,0,1,0,0,0,1,0,1,0,0,"39,880"
+"California","Cities","Cupertino",3,2,1,0,0,0,0,3,0,0,3,0,"60,948"
+"California","Cities","Danville",1,0,1,0,0,0,0,1,1,0,0,0,"44,897"
+"California","Cities","Davis",8,5,1,1,0,0,1,8,2,0,1,5,"68,087"
+"California","Cities","Desert Hot Springs",1,0,0,1,0,0,0,1,0,1,0,0,"28,573"
+"California","Cities","Downey",1,1,0,0,0,0,0,1,0,1,0,0,"114,704"
+"California","Cities","East Palo Alto",1,0,0,1,0,0,0,1,0,0,0,1,"29,957"
+"California","Cities","Eastvale",1,0,1,0,0,0,0,1,0,1,0,0,"60,115"
+"California","Cities","Elk Grove",1,1,0,0,0,0,0,1,1,0,0,0,"169,742"
+"California","Cities","El Segundo",2,2,0,0,0,0,0,2,1,0,1,0,"17,113"
+"California","Cities","Encinitas",1,1,0,0,0,0,0,1,0,0,0,1,"63,597"
+"California","Cities","Escondido",1,1,0,0,0,0,0,1,0,1,0,0,"152,897"
+"California","Cities","Fairfield",3,1,1,1,0,0,0,3,2,0,1,0,"114,521"
+"California","Cities","Farmersville",1,0,1,0,0,0,0,1,0,0,1,0,"10,812"
+"California","Cities","Folsom",1,0,1,0,0,0,0,1,0,1,0,0,"77,245"
+"California","Cities","Fort Bragg",3,1,1,1,0,0,0,3,0,2,1,0,"7,292"
+"California","Cities","Fremont",1,1,0,0,0,0,0,1,1,0,0,0,"235,881"
+"California","Cities","Fresno",13,7,3,3,0,0,0,13,3,3,4,3,"524,796"
+"California","Cities","Fullerton",2,1,0,1,0,0,0,2,1,0,0,1,"141,968"
+"California","Cities","Garden Grove",2,1,1,0,0,0,0,2,1,0,0,1,"176,230"
+"California","Cities","Glendale",2,1,1,0,0,0,0,2,0,1,0,1,"202,903"
+"California","Cities","Hanford",1,0,1,0,0,0,0,1,0,1,0,0,"55,973"
+"California","Cities","Hawaiian Gardens",1,0,0,0,0,0,1,1,0,1,0,0,"14,654"
+"California","Cities","Hawthorne",1,0,1,0,0,0,0,1,0,0,0,1,"89,299"
+"California","Cities","Hayward",2,1,1,0,0,0,0,2,0,0,1,1,"161,122"
+"California","Cities","Highland",1,1,0,0,0,0,0,1,0,0,1,0,"55,184"
+"California","Cities","Hollister",1,0,0,1,0,0,0,1,0,0,1,0,"37,953"
+"California","Cities","Huntington Beach",6,3,3,0,0,0,0,6,1,1,3,1,"204,071"
+"California","Cities","Huntington Park",1,0,0,1,0,0,0,1,1,0,0,0,"59,692"
+"California","Cities","Irvine",2,2,0,0,0,0,0,2,1,0,0,1,"266,663"
+"California","Cities","Jurupa Valley",1,1,0,0,0,0,0,1,0,1,0,0,"101,316"
+"California","Cities","Kingsburg",1,1,0,0,0,0,0,1,1,0,0,0,"11,905"
+"California","Cities","Laguna Beach",1,1,0,0,0,0,0,1,0,0,0,1,"23,486"
+"California","Cities","La Habra",1,1,0,0,0,0,0,1,0,1,0,0,"62,483"
+"California","Cities","Lake Elsinore",2,1,0,1,0,0,0,2,1,1,0,0,"63,907"
+"California","Cities","Lakewood",4,3,0,1,0,0,0,4,2,0,1,1,"81,921"
+"California","Cities","La Mesa",3,2,1,0,0,0,0,3,0,0,1,2,"60,681"
+"California","Cities","La Mirada",2,0,2,0,0,0,0,2,0,2,0,0,"49,715"
+"California","Cities","Lancaster",8,5,0,2,0,0,1,8,1,4,1,2,"161,963"
+"California","Cities","La Puente",1,0,0,1,0,0,0,1,1,0,0,0,"40,928"
+"California","Cities","Loma Linda",1,1,0,0,0,0,0,1,0,1,0,0,"24,190"
+"California","Cities","Long Beach",8,2,2,3,0,0,1,8,2,0,3,3,"476,476"
+"California","Cities","Los Angeles",227,112,43,58,0,1,13,227,55,56,52,64,"4,007,905"
+"California","Cities","Malibu",2,2,0,0,0,0,0,2,1,0,0,1,"13,030"
+"California","Cities","Mammoth Lakes",1,1,0,0,0,0,0,1,0,1,0,0,"7,891"
+"California","Cities","Manteca",5,5,0,0,0,0,0,5,1,1,3,0,"77,104"
+"California","Cities","Merced",2,0,0,1,0,0,1,2,0,0,1,1,"83,106"
+"California","Cities","Modesto",11,6,4,1,0,0,0,11,2,4,2,3,"212,880"
+"California","Cities","Montclair",2,1,1,0,0,0,0,2,0,1,0,1,"39,085"
+"California","Cities","Monterey",1,1,0,0,0,0,0,1,0,0,0,1,"28,506"
+"California","Cities","Mountain View",1,0,1,0,0,0,0,1,1,0,0,0,"81,726"
+"California","Cities","Murrieta",1,0,0,0,0,1,0,1,0,0,0,1,"111,043"
+"California","Cities","Napa",1,0,0,1,0,0,0,1,0,0,0,1,"81,115"
+"California","Cities","National City",1,1,0,0,0,0,0,1,1,0,0,0,"61,550"
+"California","Cities","Newark",1,1,0,0,0,0,0,1,0,1,0,0,"45,893"
+"California","Cities","Norco",2,2,0,0,0,0,0,2,1,0,0,1,"26,132"
+"California","Cities","Norwalk",1,1,0,0,0,0,0,1,0,0,1,0,"107,453"
+"California","Cities","Novato",2,1,1,0,0,0,0,2,0,0,0,2,"56,263"
+"California","Cities","Oakland",9,3,3,3,0,0,0,9,3,2,2,2,"424,998"
+"California","Cities","Oceanside",7,2,2,3,0,0,0,7,1,3,1,2,"177,340"
+"California","Cities","Orange",1,1,0,0,0,0,0,1,0,1,0,0,"141,841"
+"California","Cities","Oxnard",6,4,1,1,0,0,0,6,2,1,1,2,"209,048"
+"California","Cities","Pacific Grove",1,1,0,0,0,0,0,1,0,1,0,0,"15,795"
+"California","Cities","Palmdale",8,6,2,0,0,0,0,8,5,0,2,1,"159,441"
+"California","Cities","Palm Springs",3,3,0,0,0,0,0,3,1,2,0,0,"47,909"
+"California","Cities","Palo Alto",4,3,1,0,0,0,0,4,1,2,1,0,"67,317"
+"California","Cities","Paradise",1,1,0,0,0,0,0,1,0,1,0,0,"26,532"
+"California","Cities","Parlier",1,0,0,1,0,0,0,1,0,1,0,0,"15,262"
+"California","Cities","Pasadena",2,1,1,0,0,0,0,2,1,0,1,0,"143,288"
+"California","Cities","Perris",1,0,1,0,0,0,0,1,0,0,0,1,"76,260"
+"California","Cities","Petaluma",1,1,0,0,0,0,0,1,1,0,0,0,"60,933"
+"California","Cities","Placentia",1,1,0,0,0,0,0,1,0,1,0,0,"52,800"
+"California","Cities","Pomona",5,2,1,2,0,0,0,5,2,1,2,0,"154,109"
+"California","Cities","Poway",1,0,0,1,0,0,0,1,0,0,0,1,"50,606"
+"California","Cities","Rancho Cucamonga",4,4,0,0,0,0,0,4,0,2,1,1,"177,089"
+"California","Cities","Rancho Palos Verdes",1,1,0,0,0,0,0,1,0,0,1,0,"42,947"
+"California","Cities","Redding",10,7,1,2,0,0,0,10,0,1,7,2,"91,918"
+"California","Cities","Redlands",6,4,0,2,0,0,0,6,1,2,3,0,"71,485"
+"California","Cities","Redwood City",4,2,0,2,0,0,0,4,0,0,1,3,"87,046"
+"California","Cities","Rialto",1,1,0,0,0,0,0,1,0,0,0,1,"103,893"
+"California","Cities","Richmond",4,4,0,0,0,0,0,4,0,1,1,2,"110,868"
+"California","Cities","Ridgecrest",1,1,0,0,0,0,0,1,0,1,0,0,"29,003"
+"California","Cities","Riverside",8,5,1,2,0,0,0,8,2,2,2,2,"325,896"
+"California","Cities","Roseville",11,7,4,0,0,0,0,11,0,1,4,6,"132,566"
+"California","Cities","Sacramento",6,2,0,4,0,0,0,6,4,1,1,0,"495,471"
+"California","Cities","Salinas",1,0,1,0,0,0,0,1,0,1,0,0,"158,729"
+"California","Cities","San Bernardino2",7,6,0,1,0,0,0,6,0,1,4,1,"217,303"
+"California","Cities","San Bruno",2,2,0,0,0,0,0,2,0,0,1,1,"43,613"
+"California","Cities","San Diego",35,16,7,12,0,0,0,35,7,10,6,12,"1,413,414"
+"California","Cities","San Fernando",2,0,1,1,0,0,0,2,1,0,0,1,"25,194"
+"California","Cities","San Francisco2",37,11,7,14,0,1,4,36,9,12,10,5,"871,155"
+"California","Cities","San Jose",19,10,7,2,0,0,0,19,5,1,4,9,"1,041,844"
+"California","Cities","San Leandro",22,15,3,3,1,0,0,22,4,5,5,8,"91,870"
+"California","Cities","San Luis Obispo",2,2,0,0,0,0,0,2,2,0,0,0,"47,774"
+"California","Cities","San Marcos",2,1,1,0,0,0,0,2,1,0,0,1,"94,840"
+"California","Cities","San Mateo",2,0,1,1,0,0,0,2,0,1,0,1,"104,802"
+"California","Cities","San Rafael",1,1,0,0,0,0,0,1,0,0,0,1,"59,435"
+"California","Cities","San Ramon",4,4,0,0,0,0,0,4,0,0,0,4,"76,901"
+"California","Cities","Santa Ana",6,2,3,1,0,0,0,6,3,2,0,1,"337,419"
+"California","Cities","Santa Clarita",10,6,4,0,0,0,0,10,3,1,2,4,"219,611"
+"California","Cities","Santa Cruz",12,7,3,2,0,0,0,12,4,1,2,5,"64,969"
+"California","Cities","Santa Monica",3,1,1,1,0,0,0,3,0,2,1,0,"93,921"
+"California","Cities","Santa Rosa",1,0,0,1,0,0,0,1,1,0,0,0,"176,383"
+"California","Cities","Santee",1,0,1,0,0,0,0,1,0,0,0,1,"58,651"
+"California","Cities","Sebastopol",1,1,0,0,0,0,0,1,0,1,0,0,"7,734"
+"California","Cities","Simi Valley",2,1,1,0,0,0,0,2,0,1,0,1,"127,252"
+"California","Cities","Solvang",1,0,0,1,0,0,0,1,0,0,1,0,"5,844"
+"California","Cities","Sonoma",1,1,0,0,0,0,0,1,1,0,0,0,"11,113"
+"California","Cities","Sonora",1,1,0,0,0,0,0,1,0,0,0,1,"4,802"
+"California","Cities","South Gate",2,0,1,1,0,0,0,2,0,0,1,1,"96,791"
+"California","Cities","South San Francisco",4,0,4,0,0,0,0,4,0,0,0,4,"67,995"
+"California","Cities","Stockton",3,2,0,0,1,0,0,3,0,0,2,1,"308,348"
+"California","Cities","Suisun City",1,1,0,0,0,0,0,1,0,1,0,0,"29,768"
+"California","Cities","Sunnyvale",1,0,1,0,0,0,0,1,0,0,1,0,"154,108"
+"California","Cities","Thousand Oaks",1,0,1,0,0,0,0,1,0,1,0,0,"129,853"
+"California","Cities","Torrance",1,0,1,0,0,0,0,1,0,0,1,0,"149,078"
+"California","Cities","Turlock",3,3,0,0,0,0,0,3,3,0,0,0,"73,031"
+"California","Cities","Twentynine Palms",1,1,0,0,0,0,0,1,0,0,0,1,"26,213"
+"California","Cities","Ukiah",1,0,0,1,0,0,0,1,0,1,0,0,"15,897"
+"California","Cities","Union City",1,0,0,1,0,0,0,1,0,1,0,0,"75,501"
+"California","Cities","Vacaville",1,1,0,0,0,0,0,1,1,0,0,0,"97,671"
+"California","Cities","Vallejo",2,2,0,0,0,0,0,2,0,0,1,1,"122,293"
+"California","Cities","Ventura",3,2,0,1,0,0,0,3,0,1,1,1,"110,228"
+"California","Cities","Victorville",2,1,0,1,0,0,0,2,0,1,0,1,"123,438"
+"California","Cities","Walnut Creek",3,1,1,1,0,0,0,3,0,1,1,1,"69,860"
+"California","Cities","Watsonville",1,0,1,0,0,0,0,1,1,0,0,0,"54,110"
+"California","Cities","West Covina",1,1,0,0,0,0,0,1,1,0,0,0,"108,950"
+"California","Cities","West Hollywood",7,2,0,5,0,0,0,7,0,2,2,3,"36,594"
+"California","Cities","Westminster",4,3,0,1,0,0,0,4,3,0,1,0,"92,582"
+"California","Cities","Wildomar",1,1,0,0,0,0,0,1,0,0,0,1,"36,310"
+"California","Cities","Windsor",2,2,0,0,0,0,0,2,1,0,0,1,"27,594"
+"California","Universities and Colleges","California State Polytechnic University, San Luis Obispo",1,1,0,0,0,0,0,1,1,0,0,0,"20,944"
+"California","Universities and Colleges","California State University: Dominguez Hills",4,4,0,0,0,0,0,4,2,0,0,2,"14,635"
+"California","Universities and Colleges","California State University: Fullerton",1,0,0,1,0,0,0,1,0,1,0,0,"38,948"
+"California","Universities and Colleges","California State University: Long Beach",2,2,0,0,0,0,0,2,0,0,2,0,"37,446"
+"California","Universities and Colleges","California State University: San Jose",5,5,0,0,0,0,0,5,0,0,1,4,"32,773"
+"California","Universities and Colleges","California State University: Stanislaus",1,0,0,1,0,0,0,1,1,0,0,0,"9,282"
+"California","Universities and Colleges","Foothill-De Anza College",2,0,0,1,0,0,1,2,1,1,0,0,"37,960"
+"California","Universities and Colleges","Humboldt State University",3,1,1,1,0,0,0,3,0,2,1,0,"8,790"
+"California","Universities and Colleges","Riverside Community College",1,0,1,0,0,0,0,1,0,0,0,1,"37,594"
+"California","Universities and Colleges","San Diego State University",3,3,0,0,0,0,0,3,1,1,0,1,"34,254"
+"California","Universities and Colleges","University of California: Berkeley",4,1,2,1,0,0,0,4,1,1,0,2,"38,189"
+"California","Universities and Colleges","University of California: Davis",1,1,0,0,0,0,0,1,1,0,0,0,"35,186"
+"California","Universities and Colleges","University of California: Los Angeles",4,2,1,1,0,0,0,4,2,0,1,1,"41,908"
+"California","Universities and Colleges","University of California: Riverside",1,0,1,0,0,0,0,1,1,0,0,0,"21,385"
+"California","Universities and Colleges","University of California: San Diego",3,2,0,1,0,0,0,3,0,2,0,1,"32,906"
+"California","Universities and Colleges","University of California: San Francisco",1,0,1,0,0,0,0,1,0,0,0,1,"3,107"
+"California","Universities and Colleges","University of California: Santa Cruz",1,0,0,1,0,0,0,1,0,0,0,1,"17,868"
+"California","Universities and Colleges","Ventura County Community College District",1,0,0,1,0,0,0,1,0,0,0,1,"34,022"
+"California","Metropolitan Counties","Butte",1,0,0,1,0,0,0,1,0,0,1,0,
+"California","Metropolitan Counties","El Dorado",1,0,1,0,0,0,0,1,1,0,0,0,
+"California","Metropolitan Counties","Fresno",1,0,0,1,0,0,0,1,0,1,0,0,
+"California","Metropolitan Counties","Los Angeles",26,17,3,6,0,0,0,26,5,4,6,11,
+"California","Metropolitan Counties","Orange",2,2,0,0,0,0,0,2,2,0,0,0,
+"California","Metropolitan Counties","Riverside",5,3,0,1,0,0,1,5,0,1,3,1,
+"California","Metropolitan Counties","Sacramento",10,8,1,1,0,0,0,10,5,3,1,1,
+"California","Metropolitan Counties","San Bernardino",7,3,2,1,0,0,1,7,4,3,0,0,
+"California","Metropolitan Counties","San Diego",18,13,1,4,0,0,0,18,1,7,8,2,
+"California","Metropolitan Counties","San Mateo",3,1,1,1,0,0,0,3,1,1,1,0,
+"California","Metropolitan Counties","Santa Barbara",1,1,0,0,0,0,0,1,0,0,0,1,
+"California","Metropolitan Counties","Santa Clara",2,2,0,0,0,0,0,2,1,0,1,0,
+"California","Metropolitan Counties","Shasta",2,2,0,0,0,0,0,2,1,1,0,0,
+"California","Metropolitan Counties","Solano",1,1,0,0,0,0,0,1,0,0,1,0,
+"California","Metropolitan Counties","Sonoma",4,1,0,3,0,0,0,4,0,1,3,0,
+"California","Metropolitan Counties","Sutter",1,1,0,0,0,0,0,1,0,0,0,1,
+"California","Metropolitan Counties","Ventura",2,2,0,0,0,0,0,2,0,1,1,0,
+"California","Metropolitan Counties","Yuba",2,1,0,1,0,0,0,2,0,0,0,2,
+"California","Nonmetropolitan Counties","Amador",1,0,1,0,0,0,0,1,0,0,1,0,
+"California","Nonmetropolitan Counties","Humboldt",1,0,1,0,0,0,0,1,0,0,0,1,
+"California","Nonmetropolitan Counties","Lake",1,1,0,0,0,0,0,1,0,1,0,0,
+"California","Nonmetropolitan Counties","Mendocino",2,2,0,0,0,0,0,2,1,0,0,1,
+"California","Nonmetropolitan Counties","Tuolumne",1,0,1,0,0,0,0,1,0,0,1,0,
+"California","Other Agencies","California State Fair",1,1,0,0,0,0,0,1,0,0,1,0,
+"California","Other Agencies","East Bay Regional Parks, Alameda County",1,0,1,0,0,0,0,1,0,0,0,1,
+"California","Other Agencies","Fontana Unified School District",1,0,0,1,0,0,0,1,0,0,0,1,
+"California","Other Agencies","Los Angeles Transportation Services Bureau2",15,10,0,4,0,0,1,15,7,2,3,3,
+"California","Other Agencies","Port of San Diego Harbor",3,2,1,0,0,0,0,3,2,0,1,0,
+"California","Other Agencies","San Francisco Bay Area Rapid Transit:  Alameda County",2,2,0,0,0,0,0,2,1,0,0,1,
+"California","Other Agencies","San Francisco Bay Area Rapid Transit:  Contra Costa County",2,2,0,0,0,0,0,2,1,0,0,1,
+"California","Other Agencies","Santa Clara Transit District",2,1,0,1,0,0,0,2,0,0,1,1,
+"Colorado","Cities","Aspen",1,0,1,0,0,0,0,1,0,0,0,1,"6,926"
+"Colorado","Cities","Aurora",18,15,0,3,0,0,0,18,1,3,6,8,"366,477"
+"Colorado","Cities","Boulder",4,2,1,1,0,0,0,4,1,1,2,0,"109,189"
+"Colorado","Cities","Breckenridge",1,0,0,1,0,0,0,1,0,0,1,0,"4,971"
+"Colorado","Cities","Carbondale",1,1,0,0,0,0,0,1,0,1,0,0,"6,728"
+"Colorado","Cities","Centennial",2,2,0,0,0,0,0,2,0,0,2,0,"111,479"
+"Colorado","Cities","Colorado Springs",6,1,1,4,0,0,0,6,0,2,1,3,"464,113"
+"Colorado","Cities","Delta",1,0,0,1,0,0,0,1,1,0,0,0,"8,778"
+"Colorado","Cities","Denver",19,10,3,6,0,0,0,19,4,2,1,12,"699,259"
+"Colorado","Cities","Dillon",1,0,1,0,0,0,0,1,0,0,0,1,972
+"Colorado","Cities","Erie",1,1,0,0,0,0,0,1,0,0,1,0,"22,115"
+"Colorado","Cities","Florence",1,1,0,0,0,0,0,1,0,0,1,0,"3,861"
+"Colorado","Cities","Fort Collins",2,2,0,0,0,0,0,2,2,0,0,0,"164,670"
+"Colorado","Cities","Fort Lupton",1,1,0,0,0,0,0,1,0,1,0,0,"7,903"
+"Colorado","Cities","Fountain",1,0,0,1,0,0,0,1,0,0,0,1,"28,115"
+"Colorado","Cities","Golden",1,1,0,0,0,0,0,1,0,0,1,0,"20,616"
+"Colorado","Cities","Grand Junction",3,3,0,0,0,0,0,3,0,0,3,0,"60,628"
+"Colorado","Cities","Longmont",3,3,0,0,0,0,0,3,0,0,1,2,"93,268"
+"Colorado","Cities","Loveland",1,1,0,0,0,0,0,1,0,0,1,0,"76,936"
+"Colorado","Cities","Nederland",1,1,0,0,0,0,0,1,0,0,1,0,"1,534"
+"Colorado","Cities","Pueblo",1,1,0,0,0,0,0,1,0,0,0,1,"109,927"
+"Colorado","Cities","Sterling",1,1,0,0,0,0,0,1,0,0,0,1,"14,087"
+"Colorado","Universities and Colleges","Auraria Higher Education Center ",1,0,0,1,0,0,0,1,0,1,0,0,
+"Colorado","Universities and Colleges","University of Colorado, Boulder",6,2,3,1,0,0,0,6,2,0,2,2,"33,056"
+"Colorado","Universities and Colleges","University of Northern Colorado",1,0,0,1,0,0,0,1,0,0,1,0,"12,216"
+"Colorado","Metropolitan Counties","Adams",1,1,0,0,0,0,0,1,0,0,1,0,
+"Colorado","Metropolitan Counties","Arapahoe",5,2,1,2,0,0,0,5,0,3,1,1,
+"Colorado","Metropolitan Counties","Boulder",2,1,1,0,0,0,0,2,0,0,0,2,
+"Colorado","Metropolitan Counties","Douglas",2,2,0,0,0,0,0,2,0,0,1,1,
+"Colorado","Metropolitan Counties","El Paso",1,1,0,0,0,0,0,1,1,0,0,0,
+"Colorado","Metropolitan Counties","Larimer",13,6,6,1,0,0,0,8,0,2,1,5,
+"Colorado","Metropolitan Counties","Mesa",1,1,0,0,0,0,0,1,1,0,0,0,
+"Colorado","Metropolitan Counties","Teller",1,1,0,0,0,0,0,1,0,1,0,0,
+"Colorado","Nonmetropolitan Counties","Custer",1,1,0,0,0,0,0,1,0,0,1,0,
+"Colorado","Nonmetropolitan Counties","Garfield",1,1,0,0,0,0,0,1,1,0,0,0,
+"Colorado","Nonmetropolitan Counties","San Juan",1,1,0,0,0,0,0,1,0,0,1,0,
+"Colorado","Nonmetropolitan Counties","Summit",1,0,1,0,0,0,0,1,0,0,0,1,
+"Connecticut","Cities","Bloomfield",2,0,1,1,0,0,0,2,1,1,0,0,"20,801"
+"Connecticut","Cities","Bridgeport",6,5,1,0,0,0,0,6,0,4,2,0,"148,180"
+"Connecticut","Cities","Bristol",2,0,0,2,0,0,0,2,0,0,1,1,"60,445"
+"Connecticut","Cities","Clinton",1,1,0,0,0,0,0,1,0,0,1,0,"13,008"
+"Connecticut","Cities","Danbury",9,3,5,1,0,0,0,9,1,1,1,6,"85,335"
+"Connecticut","Cities","Darien",1,0,1,0,0,0,0,1,0,0,1,0,"21,995"
+"Connecticut","Cities","Greenwich",1,0,1,0,0,0,0,1,0,0,1,0,"62,970"
+"Connecticut","Cities","Groton",1,1,0,0,0,0,0,1,0,0,0,1,"9,189"
+"Connecticut","Cities","Groton Town",1,1,0,0,0,0,0,1,0,0,1,0,"29,910"
+"Connecticut","Cities","Guilford",1,1,0,0,0,0,0,1,1,0,0,0,"22,343"
+"Connecticut","Cities","Hartford",6,5,0,1,0,0,0,6,2,2,1,1,"123,736"
+"Connecticut","Cities","Ledyard",1,0,0,1,0,0,0,1,0,0,0,1,"15,021"
+"Connecticut","Cities","Madison",1,0,1,0,0,0,0,1,0,0,0,1,"18,212"
+"Connecticut","Cities","Manchester",7,6,0,1,0,0,0,7,1,2,1,3,"57,957"
+"Connecticut","Cities","Middletown",2,1,1,0,0,0,0,2,0,2,0,0,"46,580"
+"Connecticut","Cities","Naugatuck",1,1,0,0,0,0,0,1,0,1,0,0,"31,469"
+"Connecticut","Cities","New Haven",9,4,3,2,0,0,0,9,5,1,0,3,"130,425"
+"Connecticut","Cities","Newington",2,1,0,1,0,0,0,2,1,0,0,1,"30,610"
+"Connecticut","Cities","New London",2,0,2,0,0,0,0,2,2,0,0,0,"27,092"
+"Connecticut","Cities","Norwalk",7,5,2,0,0,0,0,7,1,5,0,1,"88,989"
+"Connecticut","Cities","Norwich",1,1,0,0,0,0,0,1,1,0,0,0,"39,771"
+"Connecticut","Cities","Old Saybrook",1,1,0,0,0,0,0,1,0,0,0,1,"10,145"
+"Connecticut","Cities","Ridgefield",1,0,1,0,0,0,0,1,0,0,0,1,"25,358"
+"Connecticut","Cities","Rocky Hill",1,0,1,0,0,0,0,1,0,0,0,1,"20,085"
+"Connecticut","Cities","Shelton",1,0,1,0,0,0,0,1,0,0,0,1,"41,638"
+"Connecticut","Cities","Southington",1,1,0,0,0,0,0,1,0,1,0,0,"43,948"
+"Connecticut","Cities","Stamford",8,5,1,2,0,0,0,8,4,2,1,1,"130,116"
+"Connecticut","Cities","Stratford",1,1,0,0,0,0,0,1,0,1,0,0,"52,841"
+"Connecticut","Cities","Torrington",3,1,2,0,0,0,0,3,0,1,1,1,"34,626"
+"Connecticut","Cities","Trumbull",1,1,0,0,0,0,0,1,1,0,0,0,"36,741"
+"Connecticut","Cities","Vernon",1,1,0,0,0,0,0,1,0,0,0,1,"28,915"
+"Connecticut","Cities","Wallingford",1,1,0,0,0,0,0,1,0,0,1,0,"44,840"
+"Connecticut","Cities","Waterbury",6,6,0,0,0,0,0,6,2,3,0,1,"108,491"
+"Connecticut","Cities","Waterford",1,0,1,0,0,0,0,1,0,0,1,0,"19,236"
+"Connecticut","Cities","West Hartford",2,1,1,0,0,0,0,2,0,0,0,2,"62,979"
+"Connecticut","Cities","Westport",2,2,0,0,0,0,0,2,0,2,0,0,"28,198"
+"Connecticut","Cities","Wethersfield",1,1,0,0,0,0,0,1,1,0,0,0,"26,306"
+"Connecticut","Cities","Willimantic",1,1,0,0,0,0,0,1,0,0,1,0,"17,766"
+"Connecticut","Cities","Woodbridge",1,0,1,0,0,0,0,1,0,0,1,0,"8,864"
+"Connecticut","Universities and Colleges","Southern Connecticut State University",2,0,1,1,0,0,0,2,1,0,1,0,"10,473"
+"Connecticut","State Police Agencies","Connecticut State Police",5,2,2,1,0,0,0,5,0,1,3,1,
+"Connecticut","Tribal Agencies","Mashantucket Pequot Tribal",1,1,0,0,0,0,0,1,0,0,0,1,
+"Delaware","Cities","Camden",1,1,0,0,0,0,0,1,0,0,0,1,"3,512"
+"Delaware","Cities","Newark",1,1,0,0,0,0,0,1,0,0,0,1,"34,297"
+"Delaware","Cities","Rehoboth Beach",1,1,0,0,0,0,0,1,1,0,0,0,"1,485"
+"Delaware","Cities","Smyrna",1,0,1,0,0,0,0,1,0,1,0,0,"11,573"
+"Delaware","Metropolitan Counties","New Castle County Police Department",4,3,1,0,0,0,0,4,1,0,2,1,
+"Delaware","State Police Agencies","State Police: Kent County",1,1,0,0,0,0,0,1,0,0,1,0,
+"Delaware","State Police Agencies","State Police: New Castle County",4,2,1,1,0,0,0,4,1,2,0,1,
+"Delaware","Other Agencies","Park Rangers",2,2,0,0,0,0,0,2,0,0,0,2,
+"District of Columbia","Cities","Washington",104,26,18,40,1,0,19,104,20,35,25,24,"681,170"
+"District of Columbia","Other Agencies","Metro Transit Police",11,7,0,2,1,0,1,11,0,4,3,4,
+"Florida","Cities","Arcadia",1,1,0,0,0,0,0,1,,,1,,"7,893"
+"Florida","Cities","Cape Coral",1,1,0,0,0,0,0,1,,,,1,"179,631"
+"Florida","Cities","Casselberry",1,0,1,0,0,0,0,1,,,1,,"27,220"
+"Florida","Cities","Cocoa",1,0,0,1,0,0,0,1,1,,,,"17,825"
+"Florida","Cities","Coral Gables",1,1,0,0,0,0,0,1,1,,,,"51,980"
+"Florida","Cities","Davie",5,3,1,1,0,0,0,5,2,3,,,"102,692"
+"Florida","Cities","Fort Myers",3,2,0,1,0,0,0,3,1,,1,1,"76,579"
+"Florida","Cities","Gainesville",4,4,0,0,0,0,0,4,1,,,3,"131,242"
+"Florida","Cities","Homestead",2,1,0,1,0,0,0,2,2,,,,"67,700"
+"Florida","Cities","Largo",2,1,0,1,0,0,0,2,,1,,1,"81,402"
+"Florida","Cities","Miami Beach",17,0,4,12,1,0,0,17,6,4,4,3,"93,165"
+"Florida","Cities","New Port Richey",2,2,0,0,0,0,0,2,,2,,,"16,038"
+"Florida","Cities","North Miami",1,0,0,1,0,0,0,1,,1,,,"62,974"
+"Florida","Cities","North Miami Beach",2,0,2,0,0,0,0,2,,2,,,"44,442"
+"Florida","Cities","Oakland Park",1,0,0,1,0,0,0,1,,1,,,"44,903"
+"Florida","Cities","Orlando",5,3,1,1,0,0,0,5,,2,1,2,"277,719"
+"Florida","Cities","Palm Bay",4,3,1,0,0,0,0,4,,2,1,1,"108,823"
+"Florida","Cities","Pinellas Park",1,1,0,0,0,0,0,1,,,1,,"52,113"
+"Florida","Cities","Southwest Ranches",2,1,1,0,0,0,0,2,1,,1,,"7,953"
+"Florida","Cities","Sunrise",1,0,1,0,0,0,0,1,,1,,,"94,400"
+"Florida","Cities","Tamarac",1,0,0,1,0,0,0,1,1,,,,"65,516"
+"Florida","Cities","Tampa",3,2,0,1,0,0,0,3,,,2,1,"375,904"
+"Florida","Cities","Temple Terrace",1,0,0,1,0,0,0,1,,,,1,"25,972"
+"Florida","Cities","Titusville",1,0,1,0,0,0,0,1,1,,,,"45,723"
+"Florida","Cities","West Palm Beach",1,0,1,0,0,0,0,1,,,1,,"108,074"
+"Florida","Cities","West Park",1,1,0,0,0,0,0,1,1,,,,"15,285"
+"Florida","Universities and Colleges","University of Florida",1,1,0,0,0,0,0,1,,,1,,"50,645"
+"Florida","Metropolitan Counties","Brevard",3,1,0,2,0,0,0,3,,1,1,1,
+"Florida","Metropolitan Counties","Charlotte",1,1,0,0,0,0,0,1,1,,,,
+"Florida","Metropolitan Counties","Clay",2,2,0,0,0,0,0,2,1,,,1,
+"Florida","Metropolitan Counties","Escambia",2,2,0,0,0,0,0,2,1,1,,,
+"Florida","Metropolitan Counties","Hillsborough",1,1,0,0,0,0,0,1,,,1,,
+"Florida","Metropolitan Counties","Lake",1,1,0,0,0,0,0,1,1,,,,
+"Florida","Metropolitan Counties","Lee",2,1,0,1,0,0,0,2,2,,,,
+"Florida","Metropolitan Counties","Miami-Dade",1,0,1,0,0,0,0,1,,1,,,
+"Florida","Metropolitan Counties","Orange",3,0,1,1,0,0,1,3,2,,,1,
+"Florida","Metropolitan Counties","Osceola",1,1,0,0,0,0,0,1,1,,,,
+"Florida","Metropolitan Counties","Palm Beach",1,0,1,0,0,0,0,1,,,,1,
+"Florida","Metropolitan Counties","Pasco",1,0,0,1,0,0,0,1,,,,1,
+"Florida","Metropolitan Counties","Pinellas",2,1,0,1,0,0,0,2,,2,,,
+"Florida","Metropolitan Counties","Seminole",1,0,1,0,0,0,0,1,,1,,,
+"Florida","Metropolitan Counties","St. Johns",1,0,0,1,0,0,0,1,,,1,,
+"Florida","Metropolitan Counties","St. Lucie",1,0,1,0,0,0,0,1,,,1,,
+"Florida","Metropolitan Counties","Volusia",6,4,0,2,0,0,0,6,,2,1,3,
+"Georgia","Cities","Atlanta",5,0,0,5,0,0,0,5,1,4,0,0,"472,579"
+"Georgia","Cities","Conyers",1,1,0,0,0,0,0,1,0,0,0,1,"16,004"
+"Georgia","Universities and Colleges","University of Georgia",1,1,0,0,0,0,0,1,1,0,0,0,"36,130"
+"Georgia","Metropolitan Counties","Cobb County Police Department",25,19,2,4,0,0,0,25,6,7,12,0,
+"Georgia","Metropolitan Counties","Fulton County Police Department",1,0,0,1,0,0,0,1,0,1,0,0,
+"Georgia","Metropolitan Counties","Gwinnett County Police Department",6,4,0,2,0,0,0,6,2,1,3,0,
+"Idaho","Cities","Blackfoot",1,0,0,1,0,0,0,1,0,0,1,0,"11,700"
+"Idaho","Cities","Boise",3,0,2,1,0,0,0,3,1,1,1,0,"220,749"
+"Idaho","Cities","Chubbuck",1,1,0,0,0,0,0,1,0,0,0,1,"14,515"
+"Idaho","Cities","Coeur d'Alene",5,3,2,0,0,0,0,5,0,3,1,1,"50,155"
+"Idaho","Cities","Meridian",2,1,1,0,0,0,0,2,0,0,0,2,"94,113"
+"Idaho","Cities","Moscow",1,0,0,1,0,0,0,1,0,0,0,1,"25,307"
+"Idaho","Cities","Mountain Home",1,1,0,0,0,0,0,1,0,0,0,1,"13,627"
+"Idaho","Cities","Nampa",2,2,0,0,0,0,0,2,0,1,1,0,"91,520"
+"Idaho","Cities","Payette",1,0,1,0,0,0,0,1,0,0,1,0,"7,360"
+"Idaho","Cities","Pocatello",3,3,0,0,0,0,0,3,1,2,0,0,"54,462"
+"Idaho","Cities","Twin Falls",2,2,0,0,0,0,0,2,0,2,0,0,"48,083"
+"Idaho","Metropolitan Counties","Ada",1,0,1,0,0,0,0,1,1,0,0,0,
+"Idaho","Metropolitan Counties","Canyon",3,2,0,1,0,0,0,3,0,2,1,0,
+"Idaho","Nonmetropolitan Counties","Benewah",1,1,0,0,0,0,0,1,1,0,0,0,
+"Illinois","Cities","Algonquin",2,2,0,0,0,0,0,2,0,1,1,0,"30,673"
+"Illinois","Cities","Aurora",3,3,0,0,0,0,0,3,0,1,0,2,"201,159"
+"Illinois","Cities","Berwyn",3,3,0,0,0,0,0,3,0,0,1,2,"56,305"
+"Illinois","Cities","Bradley",3,3,0,0,0,0,0,3,,1,1,1,"15,561"
+"Illinois","Cities","Braidwood",1,1,0,0,0,0,0,1,0,0,1,0,"6,160"
+"Illinois","Cities","Centralia",1,1,0,0,0,0,0,1,0,0,0,1,"12,580"
+"Illinois","Cities","Champaign",2,1,0,1,0,0,0,2,0,0,1,1,"87,071"
+"Illinois","Cities","Charleston",1,1,0,0,0,0,0,1,0,0,1,0,"21,067"
+"Illinois","Cities","Chicago",51,26,9,14,0,0,2,51,5,19,10,17,"2,725,153"
+"Illinois","Cities","Collinsville",1,1,0,0,0,0,0,1,0,0,0,1,"24,599"
+"Illinois","Cities","Crete",1,0,0,1,0,0,0,1,0,0,0,1,"8,171"
+"Illinois","Cities","Crystal Lake",1,1,0,0,0,0,0,1,1,0,0,0,"40,374"
+"Illinois","Cities","De Kalb",1,1,0,0,0,0,0,1,0,0,1,0,"43,034"
+"Illinois","Cities","Downers Grove",1,1,0,0,0,0,0,1,0,0,1,0,"49,894"
+"Illinois","Cities","Effingham",2,1,1,0,0,0,0,2,0,0,0,2,"12,660"
+"Illinois","Cities","Elk Grove Village",1,1,0,0,0,0,0,1,0,1,0,0,"33,255"
+"Illinois","Cities","Flossmoor",1,1,0,0,0,0,0,1,0,0,1,0,"9,479"
+"Illinois","Cities","Glenwood",1,1,0,0,0,0,0,1,0,0,1,0,"8,996"
+"Illinois","Cities","Grayslake",1,1,0,0,0,0,0,1,1,0,0,0,"20,916"
+"Illinois","Cities","Homewood",1,1,0,0,0,0,0,1,1,0,0,0,"19,379"
+"Illinois","Cities","Joliet",2,1,0,1,0,0,0,2,0,0,1,1,"147,886"
+"Illinois","Cities","Mokena",1,1,0,0,0,0,0,1,0,0,0,1,"20,156"
+"Illinois","Cities","Monmouth",1,1,0,0,0,0,0,1,0,1,0,0,"9,261"
+"Illinois","Cities","Morrison",1,0,0,1,0,0,0,1,0,1,0,0,"4,137"
+"Illinois","Cities","New Lenox",1,1,0,0,0,0,0,1,0,0,0,1,"26,085"
+"Illinois","Cities","Normal",3,3,0,0,0,0,0,3,,0,2,1,"54,727"
+"Illinois","Cities","Oak Lawn",1,1,0,0,0,0,0,1,1,0,0,0,"56,791"
+"Illinois","Cities","Pekin",1,1,0,0,0,0,0,1,0,0,0,1,"33,052"
+"Illinois","Cities","Peoria",1,1,0,0,0,0,0,1,1,0,0,0,"115,099"
+"Illinois","Cities","Plainfield",2,1,1,0,0,0,0,2,0,0,0,2,"43,063"
+"Illinois","Cities","Robinson",1,1,0,0,0,0,0,1,0,0,1,0,"7,616"
+"Illinois","Cities","Rockford",5,3,0,2,0,0,0,5,1,2,1,1,"147,363"
+"Illinois","Cities","Salem",1,1,0,0,0,0,0,1,0,1,0,0,"7,249"
+"Illinois","Cities","Springfield",2,2,0,0,0,0,0,2,0,1,1,0,"116,563"
+"Illinois","Cities","Urbana",1,0,1,0,0,0,0,1,0,0,0,1,"42,461"
+"Illinois","Cities","West Chicago",1,1,0,0,0,0,0,1,0,0,1,0,"27,490"
+"Illinois","Cities","Wheeling",1,0,0,0,0,0,1,1,1,0,0,0,"38,158"
+"Illinois","Cities","Woodstock",1,1,0,0,0,0,0,1,0,0,0,1,"25,259"
+"Illinois","Universities and Colleges","Southern Illinois University, Carbondale",1,1,0,0,0,0,0,1,0,0,1,0,"17,292"
+"Illinois","Metropolitan Counties","Champaign",2,0,1,0,0,1,0,2,0,1,1,0,
+"Illinois","Metropolitan Counties","Sangamon",1,1,0,0,0,0,0,1,0,0,0,1,
+"Illinois","Metropolitan Counties","Will",1,0,0,1,0,0,0,1,0,1,0,0,
+"Indiana","Cities","Anderson",1,0,0,1,0,0,0,1,,1,,,"55,134"
+"Indiana","Cities","Bloomington",9,7,0,2,0,0,0,9,3,1,1,4,"84,772"
+"Indiana","Cities","Fort Wayne",4,2,0,2,0,0,0,4,1,1,1,1,"261,642"
+"Indiana","Cities","Indianapolis",28,20,3,5,0,0,0,28,5,11,8,4,"866,351"
+"Indiana","Cities","La Porte",2,2,0,0,0,0,0,2,,2,,,"21,891"
+"Indiana","Cities","Muncie",1,1,0,0,0,0,0,1,0,0,1,0,"70,065"
+"Indiana","Cities","Munster",1,0,1,0,0,0,0,1,1,,,,"22,865"
+"Indiana","Cities","Plainfield",1,0,1,0,0,0,0,1,1,0,0,,"31,198"
+"Indiana","Cities","South Bend",10,10,0,0,0,0,0,10,3,2,5,0,"101,621"
+"Indiana","Cities","Westville",1,0,0,1,0,0,0,1,,,1,,"5,641"
+"Indiana","Universities and Colleges","Ball State University",1,1,0,0,0,0,0,1,,,,1,"21,196"
+"Indiana","Universities and Colleges","Indiana University, Indianapolis",1,1,0,0,0,0,0,1,,1,,,"30,105"
+"Indiana","Universities and Colleges","Purdue University",3,1,0,2,0,0,0,3,1,1,0,1,"40,472"
+"Indiana","Metropolitan Counties","Brown",1,0,0,1,0,0,0,1,,,,1,
+"Indiana","Metropolitan Counties","Porter",1,1,0,0,0,0,0,1,,,1,,
+"Indiana","Nonmetropolitan Counties","Dubois",1,0,0,0,0,1,0,1,1,,,,
+"Indiana","State Police Agencies","Indiana State Police ",3,3,0,0,0,0,0,3,,,2,1,
+"Indiana","State Police Agencies","State Police: Daviess County",1,0,1,0,0,0,0,1,0,0,0,1,
+"Indiana","State Police Agencies","State Police: Marion County",2,1,1,0,0,0,0,2,0,1,0,1,
+"Indiana","State Police Agencies","State Police: Monroe County",2,0,2,0,0,0,0,2,2,0,0,0,
+"Indiana","State Police Agencies","State Police: Putnam County",1,1,0,0,0,0,0,1,0,0,1,0,
+"Indiana","State Police Agencies","State Police: Scott County",1,1,0,0,0,0,0,1,0,1,0,0,
+"Indiana","State Police Agencies","State Police: Vanderburgh County",1,0,1,0,0,0,0,1,0,0,1,0,
+"Indiana","State Police Agencies","State Police: Washington County",1,0,1,0,0,0,0,1,0,1,0,0,
+"Iowa","Cities","Boone",1,1,0,0,0,0,0,1,0,0,1,0,"12,702"
+"Iowa","Cities","Clinton",1,0,1,0,0,0,0,1,0,0,0,1,"25,906"
+"Iowa","Cities","Des Moines",3,2,1,0,0,0,0,3,0,1,1,1,"211,501"
+"Iowa","Cities","Dubuque",1,1,0,0,0,0,0,1,0,1,0,0,"59,026"
+"Iowa","Cities","Iowa City",3,3,0,0,0,0,0,3,1,0,0,2,"75,527"
+"Iowa","Cities","Newton",1,1,0,0,0,0,0,1,0,0,1,0,"15,102"
+"Iowa","Cities","North Liberty",1,1,0,0,0,0,0,1,0,0,1,0,"16,458"
+"Iowa","Cities","Oskaloosa",1,1,0,0,0,0,0,1,0,0,1,0,"11,626"
+"Iowa","Cities","West Des Moines",1,0,0,1,0,0,0,1,0,0,0,1,"65,631"
+"Iowa","Universities and Colleges","Iowa State University",1,1,0,0,0,0,0,1,0,0,0,1,"35,714"
+"Iowa","Universities and Colleges","University of Iowa",2,2,0,0,0,0,0,2,0,0,0,2,"30,844"
+"Iowa","Metropolitan Counties","Linn",1,0,0,1,0,0,0,1,0,1,0,0,
+"Kansas","Cities","Andover",1,1,0,0,0,0,0,1,0,0,0,1,"12,937"
+"Kansas","Cities","Chanute",1,1,0,0,0,0,0,1,0,1,0,0,"9,279"
+"Kansas","Cities","Coffeyville",1,0,0,0,1,0,0,1,0,0,1,0,"9,555"
+"Kansas","Cities","Dodge City",3,2,0,0,1,0,0,3,1,1,1,0,"27,997"
+"Kansas","Cities","Edwardsville",1,1,0,0,0,0,0,1,0,1,0,0,"4,377"
+"Kansas","Cities","El Dorado",2,1,1,0,0,0,0,2,2,0,0,0,"12,913"
+"Kansas","Cities","Elwood",1,1,0,0,0,0,0,1,0,0,1,0,"1,181"
+"Kansas","Cities","Garden City",1,0,0,1,0,0,0,1,0,0,0,1,"27,038"
+"Kansas","Cities","Hays",1,1,0,0,0,0,0,1,1,0,0,0,"21,206"
+"Kansas","Cities","Hiawatha",1,1,0,0,0,0,0,1,0,1,0,0,"3,080"
+"Kansas","Cities","Hutchinson",1,0,0,1,0,0,0,1,0,0,1,0,"41,439"
+"Kansas","Cities","Independence",1,1,0,0,0,0,0,1,0,0,1,0,"8,860"
+"Kansas","Cities","Lenexa",1,1,0,0,0,0,0,1,0,0,0,1,"53,376"
+"Kansas","Cities","Newton",2,2,0,0,0,0,0,2,0,0,1,1,"19,226"
+"Kansas","Cities","Oakley",1,1,0,0,0,0,0,1,0,1,0,0,"2,104"
+"Kansas","Cities","Ottawa",1,1,0,0,0,0,0,1,0,0,0,1,"12,334"
+"Kansas","Cities","Overland Park",4,2,2,0,0,0,0,4,2,0,1,1,"189,104"
+"Kansas","Cities","Pittsburg",1,1,0,0,0,0,0,1,0,0,1,0,"20,439"
+"Kansas","Cities","Pratt",1,1,0,0,0,0,0,1,0,1,0,0,"6,854"
+"Kansas","Cities","Salina",3,3,0,0,0,0,0,3,0,0,1,2,"47,805"
+"Kansas","Cities","Wichita",7,5,0,2,0,0,0,7,1,1,3,2,"391,399"
+"Kansas","Universities and Colleges","University of Kansas, Medical Center3",1,1,0,0,0,0,0,1,0,1,0,0,
+"Kansas","Universities and Colleges","Washburn University",1,1,0,0,0,0,0,1,0,0,0,1,"6,615"
+"Kansas","Universities and Colleges","Wichita State University",1,1,0,0,0,0,0,1,0,0,1,0,"14,240"
+"Kansas","Metropolitan Counties","Linn",1,1,0,0,0,0,0,1,0,0,0,1,
+"Kansas","Metropolitan Counties","Riley County Police Department",4,2,1,1,0,0,0,4,2,1,1,0,
+"Kansas","Metropolitan Counties","Shawnee",2,1,1,0,0,0,0,2,0,1,0,1,
+"Kansas","Metropolitan Counties","Wabaunsee",1,1,0,0,0,0,0,1,0,0,1,0,
+"Kansas","Nonmetropolitan Counties","Greeley",1,0,0,0,1,0,0,1,0,0,1,0,
+"Kansas","Nonmetropolitan Counties","Reno",1,1,0,0,0,0,0,1,1,0,0,,
+"Kentucky","Cities","Alexandria",1,1,0,0,0,0,0,1,0,1,0,0,"9,112"
+"Kentucky","Cities","Ashland",1,0,1,0,0,0,0,1,1,0,0,0,"20,987"
+"Kentucky","Cities","Audubon Park",1,1,0,0,0,0,0,1,1,0,0,0,"1,515"
+"Kentucky","Cities","Bellevue",2,1,0,1,0,0,0,2,0,0,0,2,"5,879"
+"Kentucky","Cities","Benton",2,0,1,1,0,0,0,2,0,0,0,2,"4,346"
+"Kentucky","Cities","Berea",3,2,1,0,0,0,0,3,1,0,1,1,"15,135"
+"Kentucky","Cities","Bowling Green",11,6,2,3,0,0,0,11,1,3,4,3,"64,561"
+"Kentucky","Cities","Cave City",1,1,0,0,0,0,0,1,0,1,0,0,"2,411"
+"Kentucky","Cities","Cloverport",1,1,0,0,0,0,0,1,0,0,1,0,"1,157"
+"Kentucky","Cities","Covington",10,4,3,3,0,0,0,10,2,3,3,2,"41,094"
+"Kentucky","Cities","Cynthiana",1,1,0,0,0,0,0,1,1,0,0,0,"6,421"
+"Kentucky","Cities","Elizabethtown",1,0,0,1,0,0,0,1,0,0,0,1,"29,821"
+"Kentucky","Cities","Elkton",1,0,1,0,0,0,0,1,1,0,0,0,"2,181"
+"Kentucky","Cities","Elsmere",3,2,0,1,0,0,0,3,1,1,0,1,"8,563"
+"Kentucky","Cities","Fort Mitchell",1,0,0,1,0,0,0,1,0,0,1,0,"8,334"
+"Kentucky","Cities","Frankfort",3,2,1,0,0,0,0,3,0,1,1,1,"27,926"
+"Kentucky","Cities","Franklin",2,2,0,0,0,0,0,2,0,0,1,1,"8,852"
+"Kentucky","Cities","Georgetown",3,3,0,0,0,0,0,3,1,1,1,0,"33,007"
+"Kentucky","Cities","Glasgow",2,1,0,1,0,0,0,2,0,1,1,0,"14,560"
+"Kentucky","Cities","Henderson",2,2,0,0,0,0,0,2,1,0,0,1,"28,904"
+"Kentucky","Cities","Highland Heights",1,0,1,0,0,0,0,1,0,0,0,1,"7,216"
+"Kentucky","Cities","Hopkinsville",5,5,0,0,0,0,0,5,3,1,0,1,"32,222"
+"Kentucky","Cities","Lakeside Park-Crestview Hills",1,0,0,1,0,0,0,1,0,0,0,1,"6,159"
+"Kentucky","Cities","Lancaster",1,1,0,0,0,0,0,1,1,0,0,0,"3,873"
+"Kentucky","Cities","Lexington",41,26,9,4,1,1,0,41,7,9,14,11,"317,853"
+"Kentucky","Cities","Louisville Metro",11,5,3,1,0,0,2,11,2,1,3,5,"683,825"
+"Kentucky","Cities","Loyall",1,1,0,0,0,0,0,1,0,0,0,1,648
+"Kentucky","Cities","Madisonville",4,2,2,0,0,0,0,4,4,0,0,0,"19,467"
+"Kentucky","Cities","Mayfield",2,2,0,0,0,0,0,2,1,0,1,0,"10,086"
+"Kentucky","Cities","Mount Washington",3,3,0,0,0,0,0,3,1,0,0,2,"14,162"
+"Kentucky","Cities","Murray",2,1,1,0,0,0,0,2,1,1,0,0,"19,182"
+"Kentucky","Cities","Nicholasville",6,5,1,0,0,0,0,6,2,0,3,1,"30,093"
+"Kentucky","Cities","Owensboro",4,4,0,0,0,0,0,4,1,0,0,3,"59,359"
+"Kentucky","Cities","Paducah",3,2,1,0,0,0,0,3,0,1,1,1,"24,836"
+"Kentucky","Cities","Paris",1,0,1,0,0,0,0,1,0,0,1,0,"9,883"
+"Kentucky","Cities","Radcliff",4,3,0,0,0,0,1,4,1,0,2,1,"22,346"
+"Kentucky","Cities","Richmond",1,1,0,0,0,0,0,1,0,0,0,1,"33,965"
+"Kentucky","Cities","Shelbyville",2,2,0,0,0,0,0,2,1,1,0,0,"15,488"
+"Kentucky","Cities","Shively",1,0,0,1,0,0,0,1,0,1,0,0,"15,800"
+"Kentucky","Cities","Stanton",1,0,1,0,0,0,0,1,0,0,1,0,"2,651"
+"Kentucky","Cities","St. Matthews",3,3,0,0,0,0,0,3,0,0,2,1,"18,127"
+"Kentucky","Cities","Versailles",1,1,0,0,0,0,0,1,0,1,0,0,"25,923"
+"Kentucky","Cities","Winchester",3,3,0,0,0,0,0,3,1,0,2,0,"18,461"
+"Kentucky","Universities and Colleges","Eastern Kentucky University",1,1,0,0,0,0,0,1,0,1,0,0,"16,844"
+"Kentucky","Universities and Colleges","Murray State University",1,0,1,0,0,0,0,1,0,0,0,1,"10,998"
+"Kentucky","Universities and Colleges","University of Kentucky",1,1,0,0,0,0,0,1,0,0,0,1,"29,727"
+"Kentucky","Universities and Colleges","University of Louisville",2,0,0,2,0,0,0,2,1,1,0,0,"21,294"
+"Kentucky","Universities and Colleges","Western Kentucky University",1,1,0,0,0,0,0,1,0,0,1,0,"20,063"
+"Kentucky","Metropolitan Counties","Boone",2,1,0,1,0,0,0,2,0,1,1,0,
+"Kentucky","Metropolitan Counties","Boyd",1,1,0,0,0,0,0,1,1,0,0,0,
+"Kentucky","Metropolitan Counties","Bracken",1,0,0,0,1,0,0,1,0,0,0,1,
+"Kentucky","Metropolitan Counties","Bullitt",4,4,0,0,0,0,0,4,0,2,2,0,
+"Kentucky","Metropolitan Counties","Campbell County Police Department",1,1,0,0,0,0,0,1,0,1,0,0,
+"Kentucky","Metropolitan Counties","Christian",1,1,0,0,0,0,0,1,0,0,1,0,
+"Kentucky","Metropolitan Counties","Daviess",2,1,1,0,0,0,0,2,0,0,0,2,
+"Kentucky","Metropolitan Counties","Hardin",1,1,0,0,0,0,0,1,1,0,0,0,
+"Kentucky","Metropolitan Counties","Jefferson",1,0,1,0,0,0,0,1,1,0,0,0,
+"Kentucky","Metropolitan Counties","Kenton",1,1,0,0,0,0,0,1,1,0,0,0,
+"Kentucky","Metropolitan Counties","Oldham County Police Department",1,1,0,0,0,0,0,1,0,0,1,0,
+"Kentucky","Metropolitan Counties","Pendleton",1,0,1,0,0,0,0,1,0,0,0,1,
+"Kentucky","Metropolitan Counties","Shelby",2,1,1,0,0,0,0,2,1,0,1,0,
+"Kentucky","Metropolitan Counties","Spencer",1,1,0,0,0,0,0,1,0,0,1,0,
+"Kentucky","Nonmetropolitan Counties","Anderson",1,1,0,0,0,0,0,1,0,0,0,1,
+"Kentucky","Nonmetropolitan Counties","Franklin",2,1,1,0,0,0,0,2,0,1,1,0,
+"Kentucky","Nonmetropolitan Counties","Letcher",1,1,0,0,0,0,0,1,1,0,0,0,
+"Kentucky","Nonmetropolitan Counties","Mason",1,1,0,0,0,0,0,1,0,0,0,1,
+"Kentucky","Nonmetropolitan Counties","McCracken",1,1,0,0,0,0,0,1,1,0,0,0,
+"Kentucky","Nonmetropolitan Counties","McCreary",1,1,0,0,0,0,0,1,0,1,0,0,
+"Kentucky","Nonmetropolitan Counties","Muhlenberg County Police Department",2,2,0,0,0,0,0,2,2,0,0,0,
+"Kentucky","Nonmetropolitan Counties","Nelson",1,1,0,0,0,0,0,1,0,0,1,0,
+"Kentucky","Nonmetropolitan Counties","Wolfe",1,1,0,0,0,0,0,1,1,0,0,0,
+"Kentucky","State Police Agencies","State Police:Bowling Green",4,1,3,0,0,0,0,4,0,0,2,2,
+"Kentucky","State Police Agencies","State Police:Harlan",1,0,1,0,0,0,0,1,0,1,0,0,
+"Kentucky","State Police Agencies","State Police:Hazard",2,2,0,0,0,0,0,2,0,0,1,1,
+"Kentucky","State Police Agencies","State Police:Henderson",2,1,1,0,0,0,0,2,0,0,2,0,
+"Kentucky","State Police Agencies","State Police:Mayfield",1,1,0,0,0,0,0,1,0,0,1,0,
+"Kentucky","State Police Agencies","State Police:Richmond",1,0,1,0,0,0,0,1,1,0,0,0,
+"Kentucky","Other Agencies","Fayette County Schools",2,2,0,0,0,0,0,2,1,0,0,1,
+"Kentucky","Other Agencies","Jefferson County School District",2,1,1,0,0,0,0,2,1,0,1,0,
+"Louisiana","Cities","Baton Rouge",3,2,0,1,0,0,0,3,0,0,1,2,"228,389"
+"Louisiana","Cities","New Orleans2",6,3,2,1,0,0,0,5,3,1,0,1,"397,208"
+"Louisiana","Cities","Thibodaux",1,1,0,0,0,0,0,1,0,0,1,0,"14,588"
+"Louisiana","Cities","Westlake",1,1,0,0,0,0,0,1,1,0,0,0,"4,626"
+"Louisiana","Metropolitan Counties","Bossier",2,1,0,1,0,0,0,2,1,0,1,0,
+"Louisiana","Metropolitan Counties","Caddo",1,0,1,0,0,0,0,1,0,0,0,1,
+"Louisiana","Metropolitan Counties","St. Charles",6,6,0,0,0,0,0,6,0,0,6,,
+"Louisiana","Metropolitan Counties","St. John the Baptist",5,4,0,1,0,0,0,5,0,3,2,0,
+"Louisiana","Nonmetropolitan Counties","Avoyelles",1,1,0,0,0,0,0,1,,,1,,
+"Louisiana","Nonmetropolitan Counties","Madison",1,1,0,0,0,0,0,1,0,0,1,0,
+"Maine","Cities","Augusta",2,0,1,1,0,0,0,2,1,0,1,0,"18,347"
+"Maine","Cities","Biddeford",1,0,1,0,0,0,0,1,0,0,1,0,"21,285"
+"Maine","Cities","Farmington",1,0,0,1,0,0,0,1,0,0,1,0,"7,401"
+"Maine","Cities","Lewiston",2,2,0,0,0,0,0,2,0,1,1,0,"36,126"
+"Maine","Cities","Lincoln",1,1,0,0,0,0,0,1,0,0,0,1,"5,020"
+"Maine","Cities","Old Orchard Beach",1,1,0,0,0,0,0,1,0,0,0,1,"8,807"
+"Maine","Cities","Portland",11,6,3,2,0,0,0,11,2,3,6,0,"67,041"
+"Maine","Cities","Saco",6,4,2,0,0,0,0,6,1,2,1,2,"19,197"
+"Maine","Cities","Sanford",2,1,0,1,0,0,0,2,0,1,0,1,"20,914"
+"Maine","Cities","Scarborough",1,0,1,0,0,0,0,1,0,1,0,0,"19,851"
+"Maine","Cities","South Portland",3,0,2,1,0,0,0,3,0,1,1,1,"25,674"
+"Maine","Cities","Waterville",1,1,0,0,0,0,0,1,0,0,0,1,"16,370"
+"Maine","Universities and Colleges","University of Southern Maine",7,4,1,2,0,0,0,7,2,0,3,2,"7,739"
+"Maine","State Police Agencies","State Police, Kennebec County",1,1,0,0,0,0,0,1,1,0,0,0,
+"Maryland","Cities","Baltimore",3,1,0,2,0,0,0,3,0,1,2,0,"618,385"
+"Maryland","Cities","Laurel",2,1,0,1,0,0,0,2,0,2,0,0,"26,424"
+"Maryland","Universities and Colleges","University of Maryland, College Park",1,1,0,0,0,0,0,1,0,0,0,1,"38,140"
+"Maryland","Metropolitan Counties","Anne Arundel County Police Department",16,10,5,1,0,0,0,16,2,1,3,10,
+"Maryland","Metropolitan Counties","Baltimore County Police Department",1,1,0,0,0,0,0,1,0,0,1,0,
+"Maryland","Metropolitan Counties","Harford",4,4,0,0,0,0,0,4,1,1,0,2,
+"Maryland","Metropolitan Counties","Howard County Police Department",1,1,0,0,0,0,0,1,0,,0,1,
+"Maryland","Metropolitan Counties","Montgomery County Police Department",7,4,1,2,0,0,0,7,2,,3,2,
+"Maryland","State Police Agencies","State Police, Anne Arundel County",1,0,1,0,0,0,0,1,0,0,0,1,
+"Maryland","Other Agencies","National Capitol Park Police, Montgomery County",1,1,0,0,0,0,0,1,0,1,0,0,
+"Massachusetts","Cities","Acton",3,2,0,0,0,0,1,3,1,2,0,0,"23,770"
+"Massachusetts","Cities","Andover",3,2,1,0,0,0,0,3,1,2,0,0,"35,558"
+"Massachusetts","Cities","Arlington",11,9,1,0,1,0,0,10,2,4,3,1,"45,004"
+"Massachusetts","Cities","Barnstable",4,0,0,3,1,0,0,4,1,0,3,0,"43,974"
+"Massachusetts","Cities","Belmont",1,1,0,0,0,0,0,1,0,0,0,1,"25,637"
+"Massachusetts","Cities","Beverly",3,2,1,0,0,0,0,3,1,1,1,0,"41,303"
+"Massachusetts","Cities","Billerica",2,1,1,0,0,0,0,2,1,0,0,1,"42,965"
+"Massachusetts","Cities","Boston",129,75,16,28,1,0,9,120,29,34,27,30,"673,880"
+"Massachusetts","Cities","Boxford",1,0,1,0,0,0,0,1,0,0,0,1,"8,271"
+"Massachusetts","Cities","Braintree",9,6,1,1,0,1,0,7,3,1,2,1,"37,673"
+"Massachusetts","Cities","Cambridge",26,16,6,4,0,0,0,25,5,7,3,10,"111,030"
+"Massachusetts","Cities","Chelmsford",1,0,0,0,0,1,0,1,0,1,0,0,"35,251"
+"Massachusetts","Cities","Chelsea",1,0,1,0,0,0,0,1,0,0,1,0,"40,096"
+"Massachusetts","Cities","Chicopee",1,1,0,0,0,0,0,1,1,0,0,0,"56,887"
+"Massachusetts","Cities","Cohasset",1,1,0,0,0,0,0,1,0,0,0,1,"8,538"
+"Massachusetts","Cities","Danvers",3,0,3,0,0,0,0,3,0,0,1,2,"27,997"
+"Massachusetts","Cities","Dartmouth",1,1,0,0,0,0,0,1,0,0,1,0,"34,630"
+"Massachusetts","Cities","Dennis",2,2,0,0,0,0,0,2,0,0,1,1,"13,905"
+"Massachusetts","Cities","Dudley",1,0,1,0,0,0,0,1,0,0,0,1,"11,558"
+"Massachusetts","Cities","Everett",8,7,1,0,0,0,0,8,1,0,4,3,"46,754"
+"Massachusetts","Cities","Fitchburg",1,0,1,0,0,0,0,1,0,0,0,1,"40,391"
+"Massachusetts","Cities","Framingham",3,3,0,0,0,0,0,3,1,1,1,0,"71,422"
+"Massachusetts","Cities","Freetown",1,1,0,0,0,0,0,1,0,0,1,0,"9,199"
+"Massachusetts","Cities","Greenfield",1,0,0,0,0,1,0,1,0,0,1,0,"17,456"
+"Massachusetts","Cities","Haverhill",6,3,1,2,0,0,0,5,0,1,1,3,"62,851"
+"Massachusetts","Cities","Holliston",1,0,0,1,0,0,0,1,0,1,0,0,"14,656"
+"Massachusetts","Cities","Hopkinton",3,0,2,1,0,0,0,3,1,2,0,0,"16,960"
+"Massachusetts","Cities","Lancaster",1,0,0,1,0,0,0,1,1,0,0,0,"8,150"
+"Massachusetts","Cities","Lawrence",1,0,0,1,0,0,0,1,0,0,0,1,"80,622"
+"Massachusetts","Cities","Lenox",1,0,0,1,0,0,0,1,0,0,1,0,"4,971"
+"Massachusetts","Cities","Lexington",2,1,1,0,0,0,0,2,0,0,2,0,"33,643"
+"Massachusetts","Cities","Lowell",2,0,1,1,0,0,0,2,1,0,0,1,"111,027"
+"Massachusetts","Cities","Lynn",8,5,0,2,0,0,1,7,2,1,3,1,"92,443"
+"Massachusetts","Cities","Malden",3,1,0,2,0,0,0,3,0,0,2,1,"61,102"
+"Massachusetts","Cities","Manchester-by-the-Sea",1,0,0,0,1,0,0,1,0,0,1,0,"5,387"
+"Massachusetts","Cities","Mansfield",1,1,0,0,0,0,0,1,0,0,0,1,"23,681"
+"Massachusetts","Cities","Mattapoisett",1,1,0,0,0,0,0,1,0,1,0,0,"6,282"
+"Massachusetts","Cities","Medford",3,3,0,0,0,0,0,3,0,0,1,2,"57,367"
+"Massachusetts","Cities","Methuen",3,2,1,0,0,0,0,2,0,0,2,0,"49,912"
+"Massachusetts","Cities","Milford",1,1,0,0,0,0,0,1,0,0,0,1,"28,606"
+"Massachusetts","Cities","Millbury",1,0,1,0,0,0,0,1,1,0,0,0,"13,532"
+"Massachusetts","Cities","Milton",2,1,0,1,0,0,0,2,0,0,2,0,"27,317"
+"Massachusetts","Cities","Nahant",2,1,0,1,0,0,0,2,1,1,0,0,"3,484"
+"Massachusetts","Cities","Newburyport",1,1,0,0,0,0,0,1,0,1,0,0,"18,011"
+"Massachusetts","Cities","Newton",24,7,16,0,0,0,1,21,8,6,4,3,"89,116"
+"Massachusetts","Cities","Northampton",4,2,1,1,0,0,0,4,1,0,2,1,"28,521"
+"Massachusetts","Cities","Pepperell",1,0,1,0,0,0,0,1,0,0,1,0,"12,242"
+"Massachusetts","Cities","Pittsfield",1,1,0,0,0,0,0,1,0,0,0,1,"43,031"
+"Massachusetts","Cities","Provincetown",1,0,0,1,0,0,0,1,0,1,0,0,"2,959"
+"Massachusetts","Cities","Quincy",5,3,0,1,0,1,0,5,1,1,2,1,"93,437"
+"Massachusetts","Cities","Randolph",3,3,0,0,0,0,0,3,0,1,2,0,"33,807"
+"Massachusetts","Cities","Salem",5,1,1,3,0,0,0,5,0,2,3,0,"42,888"
+"Massachusetts","Cities","Saugus",1,1,0,0,0,0,0,1,1,0,0,0,"28,131"
+"Massachusetts","Cities","Sharon",1,0,0,0,0,1,0,1,0,0,0,1,"18,200"
+"Massachusetts","Cities","Shelburne",1,0,0,0,1,0,0,1,0,0,0,1,"1,839"
+"Massachusetts","Cities","Somerville",11,6,3,1,1,0,0,11,2,2,2,5,"80,899"
+"Massachusetts","Cities","Southbridge",1,1,0,0,0,0,0,1,0,0,1,0,"16,819"
+"Massachusetts","Cities","Springfield",10,7,0,3,0,0,0,10,3,1,4,2,"154,102"
+"Massachusetts","Cities","Stoughton",1,0,1,0,0,0,0,1,0,0,1,0,"28,583"
+"Massachusetts","Cities","Sturbridge",1,0,0,0,1,0,0,1,0,1,0,0,"9,520"
+"Massachusetts","Cities","Sudbury",1,0,1,0,0,0,0,1,0,0,0,1,"19,035"
+"Massachusetts","Cities","Swampscott",3,0,3,0,0,0,0,3,0,2,0,1,"14,551"
+"Massachusetts","Cities","Taunton",5,3,0,1,0,1,0,5,2,1,2,0,"56,720"
+"Massachusetts","Cities","Topsfield",1,1,0,0,0,0,0,1,1,0,0,0,"6,590"
+"Massachusetts","Cities","Waltham",6,1,0,1,1,0,3,6,2,1,1,2,"63,613"
+"Massachusetts","Cities","Watertown",4,0,2,2,0,0,0,3,0,0,2,1,"34,655"
+"Massachusetts","Cities","Westfield",1,0,0,1,0,0,0,1,0,1,0,0,"41,700"
+"Massachusetts","Cities","West Tisbury",1,0,0,0,0,1,0,1,0,0,1,0,"2,927"
+"Massachusetts","Cities","Williamstown",1,1,0,0,0,0,0,1,0,0,1,0,"7,591"
+"Massachusetts","Cities","Worcester",6,5,0,0,0,0,1,6,0,1,2,3,"184,595"
+"Massachusetts","Universities and Colleges","Boston University",21,5,11,4,0,1,0,19,3,3,9,4,"32,158"
+"Massachusetts","Universities and Colleges","Brandeis University",1,0,1,0,0,0,0,1,0,0,0,1,"5,752"
+"Massachusetts","Universities and Colleges","Bridgewater State University",1,0,0,1,0,0,0,1,1,0,0,0,"11,089"
+"Massachusetts","Universities and Colleges","Bristol Community College",1,1,0,0,0,0,0,1,0,0,0,1,"8,761"
+"Massachusetts","Universities and Colleges","Clark University",3,0,3,0,0,0,0,3,2,0,0,1,"3,485"
+"Massachusetts","Universities and Colleges","Hampshire College",1,1,0,0,0,0,0,1,0,0,0,1,"1,410"
+"Massachusetts","Universities and Colleges","Massachusetts Institute of Technology",1,0,1,0,0,0,0,1,1,0,0,0,"11,331"
+"Massachusetts","Universities and Colleges","Northeastern University",1,0,1,0,0,0,0,1,,1,,,"19,940"
+"Massachusetts","Universities and Colleges","Salem State University",3,0,0,3,0,0,0,3,2,1,0,0,"9,215"
+"Massachusetts","Universities and Colleges","Tufts University, Suffolk",1,0,1,0,0,0,0,1,0,1,0,0,
+"Massachusetts","Universities and Colleges","University of Massachusetts:Amherst",12,6,4,2,0,0,0,11,6,4,1,0,"29,269"
+"Massachusetts","Universities and Colleges","University of Massachusetts:Medical Center, Worcester",1,1,0,0,0,0,0,1,0,0,0,1,"1,079"
+"Massachusetts","Other Agencies","Massachusetts Bay Transportation Authority:Middlesex County",1,1,0,0,0,0,0,1,0,0,1,,
+"Massachusetts","Other Agencies","Massachusetts Bay Transportation Authority:Suffolk County",5,3,1,1,0,0,0,5,1,1,1,2,
+"Michigan","Cities","Albion",3,2,1,0,0,0,0,3,0,0,0,3,"8,155"
+"Michigan","Cities","Allegan",1,0,0,1,0,0,0,1,0,1,0,0,"5,086"
+"Michigan","Cities","Ann Arbor",1,0,1,0,0,0,0,1,0,0,0,1,"117,688"
+"Michigan","Cities","Auburn Hills",1,1,0,0,0,0,0,1,0,1,0,0,"22,933"
+"Michigan","Cities","Battle Creek",3,3,0,0,0,0,0,3,0,1,1,1,"60,904"
+"Michigan","Cities","Belleville",1,1,0,0,0,0,0,1,0,0,0,1,"3,860"
+"Michigan","Cities","Benton Harbor",1,1,0,0,0,0,0,1,1,0,0,0,"9,963"
+"Michigan","Cities","Benton Township",2,2,0,0,0,0,0,2,0,0,2,0,"14,413"
+"Michigan","Cities","Berkley",1,1,0,0,0,0,0,1,0,0,1,0,"15,328"
+"Michigan","Cities","Big Rapids",1,1,0,0,0,0,0,1,0,0,0,1,"10,389"
+"Michigan","Cities","Birmingham",1,0,1,0,0,0,0,1,0,1,0,0,"21,012"
+"Michigan","Cities","Blackman Township",3,3,0,0,0,0,0,3,0,0,2,1,"37,522"
+"Michigan","Cities","Bloomfield Hills",2,1,1,0,0,0,0,2,0,1,0,1,"4,031"
+"Michigan","Cities","Bloomfield Township",2,1,1,0,0,0,0,2,0,0,0,2,"42,313"
+"Michigan","Cities","Buena Vista Township",2,2,0,0,0,0,0,2,0,1,1,0,"8,158"
+"Michigan","Cities","Burton",1,1,0,0,0,0,0,1,0,0,1,0,"28,563"
+"Michigan","Cities","Cadillac",1,1,0,0,0,0,0,1,0,0,0,1,"10,372"
+"Michigan","Cities","Caro",1,1,0,0,0,0,0,1,0,0,0,1,"4,074"
+"Michigan","Cities","Chesterfield Township",1,1,0,0,0,0,0,1,1,0,0,0,"44,963"
+"Michigan","Cities","Clawson",2,2,0,0,0,0,0,2,0,0,1,1,"12,053"
+"Michigan","Cities","Clinton Township",1,1,0,0,0,0,0,1,1,0,0,0,"100,514"
+"Michigan","Cities","Clio",1,1,0,0,0,0,0,1,0,0,1,0,"2,516"
+"Michigan","Cities","Coldwater",1,1,0,0,0,0,0,1,0,1,0,0,"10,827"
+"Michigan","Cities","Commerce Township",1,1,0,0,0,0,0,1,0,0,1,0,"38,218"
+"Michigan","Cities","Dearborn",14,7,4,3,0,0,0,14,3,5,5,1,"94,646"
+"Michigan","Cities","Dearborn Heights",2,1,1,0,0,0,0,2,0,0,1,1,"55,852"
+"Michigan","Cities","Detroit",32,16,1,13,2,0,0,32,6,6,7,13,"669,673"
+"Michigan","Cities","East Lansing",3,2,1,0,0,0,0,3,2,0,0,1,"48,451"
+"Michigan","Cities","Eastpointe",3,3,0,0,0,0,0,3,0,1,0,2,"32,701"
+"Michigan","Cities","Eaton Rapids",1,1,0,0,0,0,0,1,0,0,1,0,"5,226"
+"Michigan","Cities","Escanaba",2,1,0,0,0,1,0,2,0,0,2,0,"12,278"
+"Michigan","Cities","Evart",1,1,0,0,0,0,0,1,0,0,1,0,"1,853"
+"Michigan","Cities","Farmington",1,0,0,1,0,0,0,1,0,0,1,0,"10,553"
+"Michigan","Cities","Ferndale",2,2,0,0,0,0,0,2,0,1,0,1,"20,232"
+"Michigan","Cities","Flint",16,14,1,1,0,0,0,16,1,4,8,3,"97,548"
+"Michigan","Cities","Flushing",1,0,0,1,0,0,0,1,0,1,0,0,"8,028"
+"Michigan","Cities","Forsyth Township",1,1,0,0,0,0,0,1,1,0,0,0,"6,196"
+"Michigan","Cities","Fruitport Township",1,1,0,0,0,0,0,1,0,0,1,0,"13,879"
+"Michigan","Cities","Galesburg",2,2,0,0,0,0,0,2,0,1,0,1,"2,050"
+"Michigan","Cities","Garden City",3,2,1,0,0,0,0,3,0,0,1,2,"26,781"
+"Michigan","Cities","Gaylord",1,1,0,0,0,0,0,1,0,0,1,0,"3,662"
+"Michigan","Cities","Genesee Township",1,0,0,1,0,0,0,1,1,0,0,0,"20,393"
+"Michigan","Cities","Grand Rapids",2,2,0,0,0,0,0,2,0,1,0,1,"196,538"
+"Michigan","Cities","Grandville",1,0,1,0,0,0,0,1,0,1,0,0,"16,070"
+"Michigan","Cities","Grant",3,3,0,0,0,0,0,3,0,2,0,1,880
+"Michigan","Cities","Grosse Pointe Park",2,1,0,1,0,0,0,2,0,0,1,1,"11,160"
+"Michigan","Cities","Grosse Pointe Woods",1,1,0,0,0,0,0,1,0,1,0,0,"15,699"
+"Michigan","Cities","Hampton Township",1,1,0,0,0,0,0,1,0,0,0,1,"9,401"
+"Michigan","Cities","Hamtramck",5,3,2,0,0,0,0,5,2,2,1,0,"21,929"
+"Michigan","Cities","Harper Woods",1,1,0,0,0,0,0,1,0,1,0,0,"13,764"
+"Michigan","Cities","Hart",1,1,0,0,0,0,0,1,0,0,1,0,"2,093"
+"Michigan","Cities","Hastings",1,1,0,0,0,0,0,1,0,1,0,0,"7,274"
+"Michigan","Cities","Highland Park",7,5,1,1,0,0,0,7,1,0,3,3,"10,810"
+"Michigan","Cities","Houghton",2,2,0,0,0,0,0,2,1,0,0,1,"8,020"
+"Michigan","Cities","Huntington Woods",1,0,1,0,0,0,0,1,1,0,0,0,"6,360"
+"Michigan","Cities","Huron Township",1,1,0,0,0,0,0,1,0,0,1,0,"15,622"
+"Michigan","Cities","Independence Township",2,2,0,0,0,0,0,2,1,0,0,1,"36,689"
+"Michigan","Cities","Inkster",6,3,2,1,0,0,0,6,2,1,2,1,"24,548"
+"Michigan","Cities","Ishpeming",2,2,0,0,0,0,0,2,1,0,0,1,"6,485"
+"Michigan","Cities","Kalamazoo",1,1,0,0,0,0,0,1,0,1,0,0,"76,389"
+"Michigan","Cities","Lansing",2,1,1,0,0,0,0,2,2,0,0,0,"115,199"
+"Michigan","Cities","Lapeer",2,1,0,1,0,0,0,2,1,0,1,0,"8,782"
+"Michigan","Cities","Lawton",2,2,0,0,0,0,0,2,0,1,0,1,"1,860"
+"Michigan","Cities","Leslie",1,1,0,0,0,0,0,1,0,1,0,0,"1,869"
+"Michigan","Cities","Lincoln Park",1,1,0,0,0,0,0,1,0,1,0,0,"36,808"
+"Michigan","Cities","Lincoln Township",2,2,0,0,0,0,0,2,0,0,0,2,"14,500"
+"Michigan","Cities","Livonia",4,3,1,0,0,0,0,4,0,0,3,1,"94,226"
+"Michigan","Cities","Ludington",3,3,0,0,0,0,0,3,0,2,1,0,"8,054"
+"Michigan","Cities","Mackinac Island",1,0,0,1,0,0,0,1,0,1,0,0,479
+"Michigan","Cities","Marysville",1,0,0,1,0,0,0,1,0,1,0,0,"9,722"
+"Michigan","Cities","Mason",1,1,0,0,0,0,0,1,0,1,0,0,"8,461"
+"Michigan","Cities","Melvindale",2,2,0,0,0,0,0,2,0,1,1,0,"10,348"
+"Michigan","Cities","Meridian Township",6,4,1,1,0,0,0,6,2,0,0,4,"42,700"
+"Michigan","Cities","Monroe",2,2,0,0,0,0,0,2,0,1,1,0,"19,971"
+"Michigan","Cities","Montrose Township",2,0,1,1,0,0,0,2,0,2,0,0,"7,524"
+"Michigan","Cities","Mount Pleasant",1,1,0,0,0,0,0,1,0,1,0,0,"26,069"
+"Michigan","Cities","Muskegon",2,0,1,1,0,0,0,2,0,0,0,2,"38,442"
+"Michigan","Cities","Muskegon Township",1,0,0,1,0,0,0,1,0,0,0,1,"17,791"
+"Michigan","Cities","Niles",2,1,1,0,0,0,0,2,0,0,2,0,"11,282"
+"Michigan","Cities","Norton Shores",3,3,0,0,0,0,0,3,0,1,1,1,"24,256"
+"Michigan","Cities","Ontwa Township-Edwardsburg",1,0,0,1,0,0,0,1,0,0,1,0,"6,481"
+"Michigan","Cities","Owosso",1,1,0,0,0,0,0,1,0,0,1,0,"14,605"
+"Michigan","Cities","Oxford Township",1,1,0,0,0,0,0,1,1,0,0,0,"18,164"
+"Michigan","Cities","Pittsfield Township",3,1,1,1,0,0,0,3,0,0,2,1,"38,704"
+"Michigan","Cities","Plymouth",1,0,0,1,0,0,0,1,0,0,1,0,"8,865"
+"Michigan","Cities","Plymouth Township",1,0,0,1,0,0,0,1,0,0,0,1,"26,870"
+"Michigan","Cities","Pontiac",2,2,0,0,0,0,0,2,1,0,1,0,"60,003"
+"Michigan","Cities","Portage",1,1,0,0,0,0,0,1,0,0,1,0,"48,550"
+"Michigan","Cities","Port Huron",1,0,0,1,0,0,0,1,0,0,1,0,"29,182"
+"Michigan","Cities","Redford Township",2,1,1,0,0,0,0,2,0,1,1,0,"47,218"
+"Michigan","Cities","Richland",1,1,0,0,0,0,0,1,0,1,0,0,793
+"Michigan","Cities","River Rouge",1,1,0,0,0,0,0,1,0,0,0,1,"7,480"
+"Michigan","Cities","Rochester Hills",2,2,0,0,0,0,0,2,1,0,1,0,"73,913"
+"Michigan","Cities","Romulus",4,4,0,0,0,0,0,4,0,2,1,1,"23,315"
+"Michigan","Cities","Roseville",3,3,0,0,0,0,0,3,1,1,1,0,"47,704"
+"Michigan","Cities","Royal Oak",1,1,0,0,0,0,0,1,1,0,0,0,"59,367"
+"Michigan","Cities","Saginaw",5,3,1,1,0,0,0,5,2,2,0,1,"48,942"
+"Michigan","Cities","Saginaw Township",2,2,0,0,0,0,0,2,0,1,1,0,"39,421"
+"Michigan","Cities","Saline",1,1,0,0,0,0,0,1,0,0,1,0,"9,158"
+"Michigan","Cities","Sault Ste. Marie",2,0,0,2,0,0,0,2,2,0,0,0,"13,763"
+"Michigan","Cities","Shelby Township",4,3,0,1,0,0,0,4,0,1,1,2,"78,427"
+"Michigan","Cities","Southfield",3,1,1,1,0,0,0,3,1,1,0,1,"73,438"
+"Michigan","Cities","Southgate",4,3,0,1,0,0,0,4,1,2,1,0,"29,158"
+"Michigan","Cities","South Lyon",2,2,0,0,0,0,0,2,0,1,1,0,"11,801"
+"Michigan","Cities","St. Charles",2,1,1,0,0,0,0,2,0,0,2,0,"1,940"
+"Michigan","Cities","St. Joseph Township",1,1,0,0,0,0,0,1,0,1,0,0,"9,850"
+"Michigan","Cities","Sturgis",1,1,0,0,0,0,0,1,0,1,0,0,"10,876"
+"Michigan","Cities","Taylor",3,3,0,0,0,0,0,3,0,1,1,1,"61,290"
+"Michigan","Cities","Tittabawassee Township",1,1,0,0,0,0,0,1,0,0,1,0,"9,782"
+"Michigan","Cities","Traverse City",7,4,3,0,0,0,0,7,0,2,2,3,"15,330"
+"Michigan","Cities","Troy",7,7,0,0,0,0,0,7,0,1,3,3,"83,743"
+"Michigan","Cities","Van Buren Township",4,2,0,2,0,0,0,4,0,0,2,2,"28,090"
+"Michigan","Cities","Warren",10,7,1,0,2,0,0,10,2,2,2,4,"135,620"
+"Michigan","Cities","Waterford Township",1,1,0,0,0,0,0,1,1,0,0,0,"73,308"
+"Michigan","Cities","West Bloomfield Township",9,5,4,0,0,0,0,9,1,2,4,2,"66,123"
+"Michigan","Cities","Wyoming",1,0,1,0,0,0,0,1,1,0,0,0,"75,917"
+"Michigan","Universities and Colleges","Eastern Michigan University",6,4,2,0,0,0,0,6,0,0,2,4,"21,824"
+"Michigan","Universities and Colleges","Grand Valley State University",1,0,0,1,0,0,0,1,0,0,1,0,"25,325"
+"Michigan","Universities and Colleges","Michigan State University",4,2,1,1,0,0,0,4,0,0,1,3,"50,538"
+"Michigan","Universities and Colleges","Mott Community College",1,1,0,0,0,0,0,1,0,0,1,0,"8,617"
+"Michigan","Universities and Colleges","Schoolcraft College",1,1,0,0,0,0,0,1,0,0,1,0,"11,687"
+"Michigan","Universities and Colleges","University of Michigan:Ann Arbor",8,6,1,1,0,0,0,8,2,2,1,3,"43,651"
+"Michigan","Universities and Colleges","University of Michigan:Flint",1,1,0,0,0,0,0,1,0,0,0,1,"8,470"
+"Michigan","Universities and Colleges","Western Michigan University",1,1,0,0,0,0,0,1,0,0,1,0,"23,529"
+"Michigan","Metropolitan Counties","Barry",2,2,0,0,0,0,0,2,0,2,0,0,
+"Michigan","Metropolitan Counties","Calhoun",2,1,0,1,0,0,0,2,0,0,2,0,
+"Michigan","Metropolitan Counties","Eaton",1,1,0,0,0,0,0,1,0,0,1,0,
+"Michigan","Metropolitan Counties","Genesee",1,1,0,0,0,0,0,1,0,0,0,1,
+"Michigan","Metropolitan Counties","Ingham",2,2,0,0,0,0,0,2,0,2,0,0,
+"Michigan","Metropolitan Counties","Jackson",3,3,0,0,0,0,0,3,0,0,3,0,
+"Michigan","Metropolitan Counties","Kent",2,1,0,1,0,0,0,2,1,1,0,0,
+"Michigan","Metropolitan Counties","Lapeer",3,2,0,1,0,0,0,3,2,0,0,1,
+"Michigan","Metropolitan Counties","Livingston",2,0,0,0,1,1,0,2,1,0,0,1,
+"Michigan","Metropolitan Counties","Macomb",1,1,0,0,0,0,0,1,0,1,0,0,
+"Michigan","Metropolitan Counties","Monroe",3,3,0,0,0,0,0,3,0,1,1,1,
+"Michigan","Metropolitan Counties","Montcalm",2,1,0,1,0,0,0,2,1,0,1,0,
+"Michigan","Metropolitan Counties","Muskegon",1,1,0,0,0,0,0,1,0,0,1,0,
+"Michigan","Metropolitan Counties","Oakland",2,0,0,2,0,0,0,2,1,0,1,0,
+"Michigan","Metropolitan Counties","Saginaw",2,2,0,0,0,0,0,2,1,1,0,0,
+"Michigan","Metropolitan Counties","St. Clair",1,0,0,1,0,0,0,1,0,0,0,1,
+"Michigan","Metropolitan Counties","Van Buren",2,1,0,1,0,0,0,2,0,0,0,2,
+"Michigan","Metropolitan Counties","Washtenaw",2,2,0,0,0,0,0,2,0,0,1,1,
+"Michigan","Nonmetropolitan Counties","Benzie",1,1,0,0,0,0,0,1,1,0,0,0,
+"Michigan","Nonmetropolitan Counties","Clare",1,1,0,0,0,0,0,1,0,0,1,0,
+"Michigan","Nonmetropolitan Counties","Emmet",1,1,0,0,0,0,0,1,0,1,0,0,
+"Michigan","Nonmetropolitan Counties","Gratiot",2,2,0,0,0,0,0,2,0,1,0,1,
+"Michigan","Nonmetropolitan Counties","Hillsdale",1,1,0,0,0,0,0,1,0,1,0,0,
+"Michigan","Nonmetropolitan Counties","Huron",1,1,0,0,0,0,0,1,0,0,0,1,
+"Michigan","Nonmetropolitan Counties","Ionia",1,1,0,0,0,0,0,1,0,0,1,0,
+"Michigan","Nonmetropolitan Counties","Luce",1,0,0,0,1,0,0,1,0,0,1,0,
+"Michigan","Nonmetropolitan Counties","Marquette",1,1,0,0,0,0,0,1,0,1,0,0,
+"Michigan","Nonmetropolitan Counties","Mason",1,1,0,0,0,0,0,1,0,0,0,1,
+"Michigan","Nonmetropolitan Counties","Mecosta",2,2,0,0,0,0,0,2,0,1,1,0,
+"Michigan","Nonmetropolitan Counties","Menominee",3,3,0,0,0,0,0,3,1,2,0,0,
+"Michigan","Nonmetropolitan Counties","Oceana",2,1,0,1,0,0,0,2,1,1,0,0,
+"Michigan","Nonmetropolitan Counties","Sanilac",1,1,0,0,0,0,0,1,0,0,1,0,
+"Michigan","Nonmetropolitan Counties","Tuscola",4,1,1,1,0,1,0,4,0,0,2,2,
+"Michigan","State Police Agencies","State Police:Ingham County",2,2,0,0,0,0,0,2,0,0,0,2,
+"Michigan","State Police Agencies","State Police:Isabella County",5,3,0,2,0,0,0,5,1,1,2,1,
+"Michigan","State Police Agencies","State Police:Jackson County",1,1,0,0,0,0,0,1,0,0,0,1,
+"Michigan","State Police Agencies","State Police:Kent County",3,3,0,0,0,0,0,3,0,0,1,2,
+"Michigan","State Police Agencies","State Police:Livingston County",2,0,1,0,0,1,0,2,0,0,0,2,
+"Michigan","State Police Agencies","State Police:Mecosta County",1,1,0,0,0,0,0,1,0,1,0,0,
+"Michigan","State Police Agencies","State Police:Muskegon County",1,0,0,0,0,1,0,1,1,0,0,0,
+"Michigan","State Police Agencies","State Police:Oceana County",4,4,0,0,0,0,0,4,0,2,1,1,
+"Michigan","Other Agencies","Gerald R. Ford International Airport",1,1,0,0,0,0,0,1,0,0,1,0,
+"Minnesota","Cities","Blaine",2,2,0,0,0,0,0,2,1,0,0,1,"63,115"
+"Minnesota","Cities","Bloomington",1,1,0,0,0,0,0,1,0,0,0,1,"87,134"
+"Minnesota","Cities","Brooklyn Center",1,1,0,0,0,0,0,1,1,0,0,0,"30,893"
+"Minnesota","Cities","Brooklyn Park",10,8,1,1,0,0,0,10,4,2,2,2,"79,800"
+"Minnesota","Cities","Cottage Grove",2,2,0,0,0,0,0,2,1,1,0,0,"36,164"
+"Minnesota","Cities","Crystal",2,2,0,0,0,0,0,2,1,0,1,0,"23,102"
+"Minnesota","Cities","Eagan",2,2,0,0,0,0,0,2,0,0,0,2,"66,698"
+"Minnesota","Cities","Inver Grove Heights",8,7,0,1,0,0,0,7,1,1,3,2,"35,049"
+"Minnesota","Cities","Little Falls",1,1,0,0,0,0,0,1,0,0,1,0,"8,611"
+"Minnesota","Cities","Mankato",5,3,0,2,0,0,0,5,0,0,2,3,"41,300"
+"Minnesota","Cities","Maplewood",2,2,0,0,0,0,0,2,1,0,0,1,"41,071"
+"Minnesota","Cities","Minneapolis",38,20,13,5,0,0,0,38,5,16,11,6,"416,751"
+"Minnesota","Cities","Minnetonka",2,0,2,0,0,0,0,2,1,1,0,0,"52,055"
+"Minnesota","Cities","Moorhead",1,0,0,1,0,0,0,1,1,0,0,0,"42,507"
+"Minnesota","Cities","New Hope",1,1,0,0,0,0,0,1,0,1,0,0,"21,168"
+"Minnesota","Cities","Oakdale",2,1,1,0,0,0,0,1,0,1,0,0,"28,211"
+"Minnesota","Cities","Orono",1,0,1,0,0,0,0,1,0,1,0,0,"19,799"
+"Minnesota","Cities","Plymouth",6,4,1,1,0,0,0,6,2,1,2,1,"76,996"
+"Minnesota","Cities","Roseville",3,1,1,1,0,0,0,2,0,1,1,0,"35,954"
+"Minnesota","Cities","Sauk Centre",1,0,1,0,0,0,0,1,0,1,0,0,"4,367"
+"Minnesota","Cities","Savage",1,0,1,0,0,0,0,1,0,1,0,0,"31,118"
+"Minnesota","Cities","South St. Paul",1,1,0,0,0,0,0,1,0,0,1,0,"20,452"
+"Minnesota","Cities","Spring Lake Park",1,1,0,0,0,0,0,1,0,0,0,1,"6,484"
+"Minnesota","Cities","St. Cloud",5,3,1,1,0,0,0,5,2,2,1,,"67,341"
+"Minnesota","Cities","St. Louis Park",5,2,3,0,0,0,0,5,0,0,1,4,"48,770"
+"Minnesota","Cities","St. Paul",9,5,2,2,0,0,0,9,3,1,3,2,"303,920"
+"Minnesota","Cities","Wayzata",1,1,0,0,0,0,0,1,0,0,1,0,"6,627"
+"Minnesota","Universities and Colleges","University of Minnesota, Twin Cities",1,0,1,0,0,0,0,1,0,0,0,1,"50,678"
+"Minnesota","Metropolitan Counties","Carver",1,1,0,0,0,0,0,1,0,0,1,0,
+"Minnesota","Metropolitan Counties","Mille Lacs",1,1,0,0,0,0,0,1,1,0,0,0,
+"Minnesota","Metropolitan Counties","Ramsey",2,2,0,0,0,0,0,2,0,0,0,2,
+"Minnesota","Metropolitan Counties","Wright",1,1,0,0,0,0,0,1,0,1,0,0,
+"Minnesota","Nonmetropolitan Counties","Crow Wing",1,1,0,0,0,0,0,1,1,0,0,0,
+"Minnesota","Other Agencies","Minneapolis-St. Paul International Airport",1,0,1,0,0,0,0,1,0,1,,0,
+"Mississippi","Cities","Biloxi",1,0,0,1,0,0,0,1,1,0,0,0,"45,952"
+"Mississippi","Cities","Olive Branch",4,3,1,0,0,0,0,4,1,0,0,3,"36,513"
+"Mississippi","Metropolitan Counties","DeSoto",1,0,0,1,0,0,0,1,1,0,0,0,
+"Mississippi","Nonmetropolitan Counties","Stone",1,1,0,0,0,0,0,1,,,,1,
+"Missouri","Cities","Battlefield",1,1,0,0,0,0,0,1,0,0,1,0,"6,083"
+"Missouri","Cities","Blue Springs",1,1,0,0,0,0,0,1,0,1,0,0,"54,445"
+"Missouri","Cities","Bolivar",1,0,1,0,0,0,0,1,0,1,0,0,"10,790"
+"Missouri","Cities","Branson",1,1,0,0,0,0,0,1,1,0,0,0,"11,593"
+"Missouri","Cities","Bridgeton",1,0,0,1,0,0,0,1,0,0,0,1,"11,835"
+"Missouri","Cities","Cameron",1,1,0,0,0,0,0,1,0,0,1,0,"9,817"
+"Missouri","Cities","Chesterfield",2,1,1,0,0,0,0,2,2,0,0,0,"47,939"
+"Missouri","Cities","Clayton",1,1,0,0,0,0,0,1,1,0,0,0,"15,873"
+"Missouri","Cities","Columbia",7,5,0,2,0,0,0,7,0,1,5,1,"121,143"
+"Missouri","Cities","Gladstone",1,1,0,0,0,0,0,1,0,0,1,0,"27,138"
+"Missouri","Cities","Independence",2,1,0,1,0,0,0,2,1,1,0,0,"117,335"
+"Missouri","Cities","Kansas City",43,33,6,4,0,0,0,43,7,7,16,13,"478,364"
+"Missouri","Cities","Lee's Summit",2,1,0,0,0,1,0,2,0,1,1,0,"95,821"
+"Missouri","Cities","Marionville",1,1,0,0,0,0,0,1,0,1,0,0,"2,181"
+"Missouri","Cities","North Kansas City",1,1,0,0,0,0,0,1,0,0,0,1,"4,387"
+"Missouri","Cities","Rolla",2,2,0,0,0,0,0,2,2,0,0,0,"20,093"
+"Missouri","Cities","St. Charles",1,1,0,0,0,0,0,1,0,0,1,0,"69,364"
+"Missouri","Cities","St. Joseph",1,0,0,1,0,0,0,1,0,1,0,0,"76,577"
+"Missouri","Cities","St. Louis",9,8,1,0,0,0,0,9,,3,3,3,"314,507"
+"Missouri","Cities","St. Peters",4,1,2,1,0,0,0,3,0,1,2,0,"57,835"
+"Missouri","Cities","University City",1,1,0,0,0,0,0,1,1,0,0,,"35,002"
+"Missouri","Universities and Colleges","University of Missouri:Kansas City",2,2,0,0,0,0,0,2,0,0,0,2,"16,685"
+"Missouri","Universities and Colleges","University of Missouri:St. Louis",1,0,1,0,0,0,0,1,0,0,1,0,"16,738"
+"Missouri","Metropolitan Counties","St. Louis County Police Department",2,1,1,0,0,0,0,2,2,0,0,0,
+"Montana","Cities","Billings",4,2,1,1,0,0,0,4,3,0,0,1,"111,447"
+"Montana","Cities","Columbia Falls",1,0,0,0,0,1,0,1,1,0,0,0,"5,175"
+"Montana","Cities","Conrad",1,1,0,0,0,0,0,1,0,1,0,0,"2,594"
+"Montana","Cities","Havre",1,1,0,0,0,0,0,1,0,0,0,1,"9,896"
+"Montana","Cities","Helena",3,0,3,0,0,0,0,3,1,2,0,0,"31,052"
+"Montana","Cities","Whitefish",1,0,0,1,0,0,0,1,0,0,1,0,"7,226"
+"Montana","Nonmetropolitan Counties","Big Horn",4,2,0,2,0,0,0,4,2,1,0,1,
+"Montana","Nonmetropolitan Counties","Broadwater",1,1,0,0,0,0,0,1,0,0,1,0,
+"Montana","Nonmetropolitan Counties","Lewis and Clark",3,3,0,0,0,0,0,3,0,0,3,0,
+"Montana","Nonmetropolitan Counties","Richland",1,0,1,0,0,0,0,1,0,0,1,0,
+"Nebraska","Cities","Crete",2,2,0,0,0,0,0,2,2,0,0,0,"7,047"
+"Nebraska","Cities","Grand Island",2,2,0,0,0,0,0,2,1,1,0,0,"51,980"
+"Nebraska","Cities","Kearney",1,1,0,0,0,0,0,1,0,1,0,0,"33,471"
+"Nebraska","Cities","Lincoln",19,13,3,2,0,1,0,19,6,6,4,3,"281,138"
+"Nebraska","Cities","Norfolk",1,1,0,0,0,0,0,1,0,1,0,0,"24,389"
+"Nebraska","Cities","Omaha",5,4,1,0,0,0,0,5,3,0,2,0,"446,163"
+"Nebraska","Cities","Papillion",1,0,0,1,0,0,0,1,0,0,1,0,"19,576"
+"Nevada","Cities","Henderson",11,9,1,1,0,0,0,11,2,4,3,2,"291,584"
+"Nevada","Cities","Las Vegas Metropolitan Police Department",26,19,1,5,0,0,1,25,3,10,2,10,"1,592,178"
+"Nevada","Cities","North Las Vegas",4,3,1,0,0,0,0,4,0,1,3,0,"238,554"
+"Nevada","Cities","Reno",1,0,1,0,0,0,0,1,0,0,0,1,"244,554"
+"New Hampshire","Cities","Belmont",1,1,0,0,0,0,0,1,1,0,0,0,"7,315"
+"New Hampshire","Cities","Boscawen",1,0,0,1,0,0,0,1,0,1,0,0,"3,950"
+"New Hampshire","Cities","Bow",1,1,0,0,0,0,0,1,0,0,1,0,"7,779"
+"New Hampshire","Cities","Brookline",1,0,1,0,0,0,0,1,0,1,0,0,"5,256"
+"New Hampshire","Cities","Claremont",1,1,0,0,0,0,0,1,0,1,0,0,"12,913"
+"New Hampshire","Cities","Concord",2,1,0,1,0,0,0,2,0,1,1,0,"42,610"
+"New Hampshire","Cities","Derry",1,1,0,0,0,0,0,1,0,0,0,1,"33,249"
+"New Hampshire","Cities","Dover",1,0,0,0,1,0,0,1,1,0,0,0,"31,054"
+"New Hampshire","Cities","Durham",1,0,1,0,0,0,0,1,0,0,0,1,"17,078"
+"New Hampshire","Cities","Exeter",3,2,1,0,0,0,0,3,1,1,1,0,"14,635"
+"New Hampshire","Cities","Farmington",3,2,0,1,0,0,0,3,0,0,3,0,"6,841"
+"New Hampshire","Cities","Hillsborough",1,1,0,0,0,0,0,1,0,0,0,1,"5,974"
+"New Hampshire","Cities","Keene",3,1,2,0,0,0,0,3,0,0,1,2,"23,244"
+"New Hampshire","Cities","Laconia",3,1,1,0,1,0,0,3,0,2,0,1,"16,300"
+"New Hampshire","Cities","Manchester",1,0,0,1,0,0,0,1,0,0,0,1,"110,353"
+"New Hampshire","Cities","Pembroke",1,1,0,0,0,0,0,1,1,0,0,0,"7,118"
+"New Hampshire","Cities","Sandown",1,1,0,0,0,0,0,1,0,0,0,1,"6,348"
+"New Hampshire","Cities","Troy",1,1,0,0,0,0,0,1,0,0,1,0,"2,075"
+"New Hampshire","Universities and Colleges","University of New Hampshire",1,0,0,1,0,0,0,1,1,0,0,0,"15,351"
+"New Jersey","Cities","Aberdeen Township",2,1,1,0,0,0,0,2,,0,1,1,"18,562"
+"New Jersey","Cities","Allendale",1,0,1,0,0,0,0,1,0,1,0,0,"6,849"
+"New Jersey","Cities","Atlantic City",1,1,0,0,0,0,0,1,0,0,1,0,"39,202"
+"New Jersey","Cities","Bergenfield",1,0,1,0,0,0,0,1,0,1,0,0,"27,646"
+"New Jersey","Cities","Blairstown Township",2,1,1,0,0,0,0,2,0,2,0,0,"5,791"
+"New Jersey","Cities","Bloomfield",1,1,0,0,0,0,0,1,0,1,0,0,"48,215"
+"New Jersey","Cities","Brick Township",2,0,1,1,0,0,0,2,,1,1,0,"74,818"
+"New Jersey","Cities","Cinnaminson Township",1,1,0,0,0,0,0,1,0,1,0,0,"16,871"
+"New Jersey","Cities","Colts Neck Township",1,0,0,1,0,0,0,1,,0,1,0,"10,018"
+"New Jersey","Cities","Cresskill",1,0,1,0,0,0,0,1,0,1,0,0,"8,815"
+"New Jersey","Cities","Dunellen",1,0,1,0,0,0,0,1,,0,0,1,"7,434"
+"New Jersey","Cities","East Brunswick Township",9,6,2,1,0,0,0,9,,6,2,1,"49,016"
+"New Jersey","Cities","East Hanover Township",1,1,0,0,0,0,0,1,,0,0,1,"11,233"
+"New Jersey","Cities","East Orange",1,1,0,0,0,0,0,1,1,0,0,0,"64,787"
+"New Jersey","Cities","East Rutherford",1,0,1,0,0,0,0,1,0,1,0,0,"9,166"
+"New Jersey","Cities","East Windsor Township",2,2,0,0,0,0,0,2,,1,0,1,"27,537"
+"New Jersey","Cities","Edgewater",1,0,1,0,0,0,0,1,0,0,0,1,"12,079"
+"New Jersey","Cities","Edison Township",3,2,1,0,0,0,0,3,,2,0,1,"102,679"
+"New Jersey","Cities","Evesham Township",6,4,1,1,0,0,0,6,2,1,1,2,"45,581"
+"New Jersey","Cities","Ewing Township",1,0,1,0,0,0,0,1,,0,1,0,"36,435"
+"New Jersey","Cities","Florence Township",1,0,0,1,0,0,0,1,0,1,0,0,"12,805"
+"New Jersey","Cities","Fort Lee",3,1,1,1,0,0,0,3,1,0,1,1,"36,739"
+"New Jersey","Cities","Freehold Borough",2,2,0,0,0,0,0,2,,0,0,2,"11,941"
+"New Jersey","Cities","Freehold Township",2,2,0,0,0,0,0,2,,1,1,0,"35,736"
+"New Jersey","Cities","Galloway Township",1,0,1,0,0,0,0,1,0,0,1,0,"37,280"
+"New Jersey","Cities","Glassboro",3,1,1,1,0,0,0,3,,1,0,2,"19,245"
+"New Jersey","Cities","Hackensack",5,2,2,1,0,0,0,5,2,2,0,1,"44,968"
+"New Jersey","Cities","Hamilton Township, Mercer County",2,0,2,0,0,0,0,2,,2,0,0,"88,665"
+"New Jersey","Cities","Hammonton",1,0,1,0,0,0,0,1,0,0,1,0,"14,585"
+"New Jersey","Cities","Hanover Township",1,1,0,0,0,0,0,1,,0,0,1,"14,468"
+"New Jersey","Cities","Harrison Township",2,0,1,1,0,0,0,2,,1,0,1,"13,023"
+"New Jersey","Cities","Highland Park",3,2,1,0,0,0,0,3,,3,0,0,"14,346"
+"New Jersey","Cities","Highlands",1,1,0,0,0,0,0,1,,0,1,0,"4,838"
+"New Jersey","Cities","Hillsborough Township",1,1,0,0,0,0,0,1,,0,0,1,"40,037"
+"New Jersey","Cities","Hoboken",3,2,0,1,0,0,0,3,,0,1,2,"54,095"
+"New Jersey","Cities","Holmdel Township",3,0,3,0,0,0,0,3,,1,0,2,"16,651"
+"New Jersey","Cities","Hopewell Township",1,0,1,0,0,0,0,1,,0,0,1,"18,570"
+"New Jersey","Cities","Howell Township",11,4,6,1,0,0,0,11,,3,7,1,"52,306"
+"New Jersey","Cities","Jackson Township",2,1,1,0,0,0,0,2,,2,0,0,"56,563"
+"New Jersey","Cities","Jersey City",4,3,1,0,0,0,0,4,,0,1,3,"266,179"
+"New Jersey","Cities","Keansburg",5,5,0,0,0,0,0,5,,1,2,2,"9,828"
+"New Jersey","Cities","Lacey Township",1,0,1,0,0,0,0,1,,0,1,0,"28,540"
+"New Jersey","Cities","Lakewood Township",17,3,14,0,0,0,0,17,2,6,7,2,"100,269"
+"New Jersey","Cities","Lindenwold",1,0,1,0,0,0,0,1,0,0,1,0,"17,340"
+"New Jersey","Cities","Linwood",1,0,1,0,0,0,0,1,0,0,1,0,"6,950"
+"New Jersey","Cities","Little Falls Township",3,2,0,1,0,0,0,3,,0,0,3,"14,478"
+"New Jersey","Cities","Livingston Township",2,1,1,0,0,0,0,2,1,0,0,1,"29,788"
+"New Jersey","Cities","Lodi",1,0,1,0,0,0,0,1,0,1,0,0,"24,841"
+"New Jersey","Cities","Long Branch",3,2,1,0,0,0,0,3,,0,0,3,"30,959"
+"New Jersey","Cities","Madison",1,0,1,0,0,0,0,1,,1,0,0,"16,098"
+"New Jersey","Cities","Magnolia",2,1,1,0,0,0,0,2,0,1,1,0,"4,267"
+"New Jersey","Cities","Manalapan Township",4,0,3,1,0,0,0,4,,1,0,3,"40,407"
+"New Jersey","Cities","Manasquan",1,1,0,0,0,0,0,1,,0,0,1,"5,798"
+"New Jersey","Cities","Manchester Township",1,1,0,0,0,0,0,1,,0,0,1,"43,525"
+"New Jersey","Cities","Medford Township",3,2,1,0,0,0,0,3,0,0,3,,"23,481"
+"New Jersey","Cities","Metuchen",1,0,1,0,0,0,0,1,,0,0,1,"13,879"
+"New Jersey","Cities","Middletown Township",1,1,0,0,0,0,0,1,,0,0,1,"65,919"
+"New Jersey","Cities","Monmouth Beach",2,1,0,0,1,0,0,2,,2,0,0,"3,233"
+"New Jersey","Cities","Montclair",6,2,2,2,0,0,0,6,2,0,0,4,"38,108"
+"New Jersey","Cities","Montville Township",1,1,0,0,0,0,0,1,,1,0,0,"21,801"
+"New Jersey","Cities","Moonachie",1,1,0,0,0,0,0,1,0,0,0,1,"2,790"
+"New Jersey","Cities","Moorestown Township",1,0,1,0,0,0,0,1,0,0,1,0,"20,530"
+"New Jersey","Cities","Mount Arlington",1,1,0,0,0,0,0,1,,0,1,0,"5,324"
+"New Jersey","Cities","Mount Laurel Township",2,0,2,0,0,0,0,2,0,0,1,1,"41,828"
+"New Jersey","Cities","Mount Olive Township",1,1,0,0,0,0,0,1,,1,0,0,"29,095"
+"New Jersey","Cities","Neptune Township",12,8,0,4,0,0,0,12,,3,7,2,"27,505"
+"New Jersey","Cities","Newark",3,0,2,1,0,0,0,3,2,0,0,1,"281,450"
+"New Jersey","Cities","New Brunswick",9,5,2,2,0,0,0,9,,1,5,3,"57,158"
+"New Jersey","Cities","New Providence",1,0,1,0,0,0,0,1,0,1,0,0,"12,461"
+"New Jersey","Cities","Newton",1,0,1,0,0,0,0,1,,0,0,1,"7,950"
+"New Jersey","Cities","North Brunswick Township",1,0,1,0,0,0,0,1,,1,0,0,"42,777"
+"New Jersey","Cities","Northfield",2,1,1,0,0,0,0,2,0,0,2,0,"8,502"
+"New Jersey","Cities","North Haledon",1,1,0,0,0,0,0,1,,1,0,0,"8,529"
+"New Jersey","Cities","Nutley Township",1,1,0,0,0,0,0,1,0,0,0,1,"28,673"
+"New Jersey","Cities","Ocean Township, Monmouth County",9,3,3,3,0,0,0,9,,1,5,3,"27,070"
+"New Jersey","Cities","Paramus",1,0,1,0,0,0,0,1,0,1,0,0,"26,958"
+"New Jersey","Cities","Passaic",1,1,0,0,0,0,0,1,,0,1,0,"70,972"
+"New Jersey","Cities","Pemberton Township",3,3,0,0,0,0,0,3,0,1,1,1,"27,739"
+"New Jersey","Cities","Pequannock Township",1,1,0,0,0,0,0,1,,1,0,0,"15,425"
+"New Jersey","Cities","Piscataway Township",1,0,1,0,0,0,0,1,,0,1,0,"58,181"
+"New Jersey","Cities","Plainsboro Township",1,0,1,0,0,0,0,1,,0,0,1,"23,621"
+"New Jersey","Cities","Point Pleasant Beach",1,0,1,0,0,0,0,1,,0,1,0,"4,519"
+"New Jersey","Cities","Pompton Lakes",1,1,0,0,0,0,0,1,,0,1,0,"11,164"
+"New Jersey","Cities","Princeton",4,1,2,1,0,0,0,4,,2,2,0,"29,660"
+"New Jersey","Cities","Randolph Township",2,0,2,0,0,0,0,2,,2,0,0,"25,877"
+"New Jersey","Cities","Raritan Township",1,0,0,1,0,0,0,1,,0,1,0,"22,011"
+"New Jersey","Cities","Readington Township",1,1,0,0,0,0,0,1,,1,0,0,"15,893"
+"New Jersey","Cities","Robbinsville Township",1,0,1,0,0,0,0,1,,0,0,1,"14,209"
+"New Jersey","Cities","Rockaway Township",1,0,1,0,0,0,0,1,,0,0,1,"24,655"
+"New Jersey","Cities","Saddle Brook Township",1,0,1,0,0,0,0,1,1,0,0,0,"14,108"
+"New Jersey","Cities","Scotch Plains Township",1,1,0,0,0,0,0,1,0,0,1,0,"24,144"
+"New Jersey","Cities","Sea Isle City",1,1,0,0,0,0,0,1,0,0,1,0,"2,080"
+"New Jersey","Cities","Secaucus",4,2,1,1,0,0,0,4,,0,3,1,"19,528"
+"New Jersey","Cities","Somerville",1,0,0,1,0,0,0,1,,0,1,0,"12,198"
+"New Jersey","Cities","South Brunswick Township",15,3,11,1,0,0,0,15,,4,5,6,"45,862"
+"New Jersey","Cities","South Orange",3,2,0,1,0,0,0,3,1,0,0,2,"16,332"
+"New Jersey","Cities","South River",1,0,1,0,0,0,0,1,,1,0,0,"16,391"
+"New Jersey","Cities","Spotswood",1,1,0,0,0,0,0,1,,1,0,0,"8,477"
+"New Jersey","Cities","Toms River Township",2,0,2,0,0,0,0,2,,0,2,0,"90,504"
+"New Jersey","Cities","Trenton",1,1,0,0,0,0,0,1,,0,1,0,"83,644"
+"New Jersey","Cities","Union Township",1,0,1,0,0,0,0,1,0,0,0,1,"58,109"
+"New Jersey","Cities","Vineland",4,2,2,0,0,0,0,4,0,0,0,4,"60,823"
+"New Jersey","Cities","Voorhees Township",2,2,0,0,0,0,0,2,1,0,0,1,"29,235"
+"New Jersey","Cities","Washington",1,1,0,0,0,0,0,1,0,0,0,1,"6,508"
+"New Jersey","Cities","Washington Township, Gloucester County",2,1,0,1,0,0,0,2,,0,2,0,"47,477"
+"New Jersey","Cities","Washington Township, Warren County",1,1,0,0,0,0,0,1,0,0,0,1,"6,430"
+"New Jersey","Cities","West Deptford Township",1,1,0,0,0,0,0,1,,1,0,0,"21,257"
+"New Jersey","Cities","West Long Branch",3,1,1,1,0,0,0,3,,2,0,1,"7,975"
+"New Jersey","Cities","Winslow Township",1,1,0,0,0,0,0,1,0,0,0,1,"38,724"
+"New Jersey","Cities","Woodbridge Township",1,0,1,0,0,0,0,1,,0,1,0,"102,124"
+"New Jersey","Cities","Woodbury",11,11,0,0,0,0,0,11,,6,5,,"9,937"
+"New Jersey","Cities","Woolwich Township",1,1,0,0,0,0,0,1,,0,0,1,"12,675"
+"New Jersey","State Police Agencies","State Police:Burlington County",2,1,0,1,0,0,0,2,1,0,1,0,
+"New Jersey","State Police Agencies","State Police:Cumberland County",1,1,0,0,0,0,0,1,0,0,1,0,
+"New Jersey","State Police Agencies","State Police:Salem County",1,1,0,0,0,0,0,1,,1,0,0,
+"New Jersey","State Police Agencies","State Police:Sussex County",3,3,0,0,0,0,0,3,3,0,0,0,
+"New Jersey","State Police Agencies","State Police:Warren County ",1,1,0,0,0,0,0,1,0,0,1,0,
+"New Mexico","Cities","Albuquerque",25,7,9,9,0,0,0,25,2,2,11,10,"561,560"
+"New Mexico","Cities","Los Lunas",1,1,0,0,0,0,0,1,,1,,,"15,398"
+"New York","Cities","Albany",1,1,0,0,0,0,0,1,0,1,0,0,"98,617"
+"New York","Cities","Amherst Town",2,2,0,0,0,0,0,2,0,2,0,0,"120,436"
+"New York","Cities","Auburn",1,0,1,0,0,0,0,1,0,0,1,,"26,854"
+"New York","Cities","Bedford Town",1,0,1,0,0,0,0,1,0,0,1,0,"18,063"
+"New York","Cities","Binghamton",1,1,0,0,0,0,0,1,0,0,1,0,"45,780"
+"New York","Cities","Brighton Town",1,1,0,0,0,0,0,1,0,1,0,0,"36,889"
+"New York","Cities","Buffalo",7,5,0,1,0,0,1,7,1,1,4,1,"257,446"
+"New York","Cities","Cheektowaga Town",1,1,0,0,0,0,0,1,0,0,0,1,"78,100"
+"New York","Cities","Clarkstown Town",3,1,2,0,0,0,0,3,0,0,3,0,"82,171"
+"New York","Cities","Colonie Town",1,0,1,0,0,0,0,1,0,0,1,0,"80,075"
+"New York","Cities","Cooperstown Village",1,1,0,0,0,0,0,1,0,0,1,0,"1,780"
+"New York","Cities","Crawford Town",1,1,0,0,0,0,0,1,0,0,0,1,"9,202"
+"New York","Cities","Dobbs Ferry Village",1,0,1,0,0,0,0,1,0,1,0,0,"11,180"
+"New York","Cities","Elmira",1,1,0,0,0,0,0,1,0,1,0,0,"27,995"
+"New York","Cities","Glen Cove",1,0,0,1,0,0,0,1,0,1,0,0,"27,480"
+"New York","Cities","Hamburg Town",1,1,0,0,0,0,0,1,1,0,0,0,"46,028"
+"New York","Cities","Lake Placid Village",1,1,0,0,0,0,0,1,0,1,0,0,"2,453"
+"New York","Cities","Larchmont Village",2,0,2,0,0,0,0,2,0,1,0,1,"6,186"
+"New York","Cities","Middletown",1,0,1,0,0,0,0,1,0,1,0,0,"27,752"
+"New York","Cities","Monroe Village",3,0,3,0,0,0,0,3,1,1,1,0,"8,680"
+"New York","Cities","New Rochelle",5,1,4,0,0,0,0,5,1,0,0,4,"80,389"
+"New York","Cities","New York",361,74,183,79,1,5,19,361,66,85,85,125,"8,566,917"
+"New York","Cities","Niagara Falls",1,0,0,1,0,0,0,1,0,0,1,0,"48,675"
+"New York","Cities","North Tonawanda",2,2,0,0,0,0,0,2,0,0,2,0,"30,634"
+"New York","Cities","Norwich",1,1,0,0,0,0,0,1,0,0,0,1,"6,929"
+"New York","Cities","Peekskill",1,0,0,1,0,0,0,1,1,0,0,0,"24,129"
+"New York","Cities","Ramapo Town",3,1,1,1,0,0,0,3,1,1,1,0,"92,620"
+"New York","Cities","Rochester",2,1,0,1,0,0,0,2,0,1,0,1,"209,643"
+"New York","Cities","Saratoga Springs",1,0,1,0,0,0,0,1,0,0,0,1,"28,005"
+"New York","Cities","Schenectady",1,0,1,0,0,0,0,1,0,0,0,1,"65,138"
+"New York","Cities","Southampton Town",1,1,0,0,0,0,0,1,1,0,0,0,"51,191"
+"New York","Cities","Spring Valley Village",1,0,1,0,0,0,0,1,0,0,1,0,"32,844"
+"New York","Cities","Utica",1,0,0,1,0,0,0,1,0,1,0,0,"60,879"
+"New York","Cities","Wellsville Village",1,1,0,0,0,0,0,1,0,0,0,1,"4,506"
+"New York","Cities","Yonkers",5,2,2,1,0,0,0,5,0,1,1,3,"202,075"
+"New York","Universities and Colleges","Cornell University",2,0,0,2,0,0,0,2,0,1,1,0,"21,904"
+"New York","Universities and Colleges","State University of New York:Binghamton",2,1,0,1,0,0,0,2,0,1,1,0,"16,913"
+"New York","Universities and Colleges","State University of New York:Buffalo",7,1,3,0,0,0,3,7,3,3,0,1,"29,796"
+"New York","Universities and Colleges","State University of New York:Downstate Medical Center",1,0,0,1,0,0,0,1,0,0,1,0,"1,858"
+"New York","Universities and Colleges","State University of New York Agricultural and Technical College, Morrisville",6,4,2,0,0,0,0,6,0,0,6,0,"2,940"
+"New York","Universities and Colleges","State University of New York College:Brockport",1,1,0,0,0,0,0,1,0,0,1,0,"8,161"
+"New York","Universities and Colleges","State University of New York College:Buffalo",2,1,1,0,0,0,0,2,1,0,0,1,"10,330"
+"New York","Universities and Colleges","State University of New York College:Geneseo",3,2,1,0,0,0,0,3,0,0,0,3,"5,699"
+"New York","Universities and Colleges","State University of New York College:New Paltz",3,3,0,0,0,0,0,3,0,0,0,3,"7,751"
+"New York","Universities and Colleges","State University of New York College:Plattsburgh",2,1,1,0,0,0,0,2,1,0,0,1,"5,718"
+"New York","Universities and Colleges","State University of New York College:Potsdam",1,1,0,0,0,0,0,1,0,0,0,1,"3,904"
+"New York","Universities and Colleges","State University of New York College:Purchase",2,0,2,0,0,0,0,2,1,1,0,0,"4,169"
+"New York","Metropolitan Counties","Albany",1,1,0,0,0,0,0,1,0,0,0,1,
+"New York","Metropolitan Counties","Monroe",2,1,1,0,0,0,0,2,2,0,0,0,
+"New York","Metropolitan Counties","Nassau",52,7,45,0,0,0,0,52,8,10,9,25,
+"New York","Metropolitan Counties","Oswego",1,1,0,0,0,0,0,1,0,0,0,1,
+"New York","Metropolitan Counties","Saratoga",1,0,1,0,0,0,0,1,0,1,0,0,
+"New York","Metropolitan Counties","Schoharie",1,0,1,0,0,0,0,1,1,0,0,0,
+"New York","Metropolitan Counties","Suffolk County Police Department",42,7,30,4,0,0,1,42,10,12,8,12,
+"New York","Metropolitan Counties","Westchester Public Safety",1,0,1,0,0,0,0,1,0,0,1,0,
+"New York","Nonmetropolitan Counties","Chenango",1,1,0,0,0,0,0,1,0,1,0,,
+"New York","State Police Agencies","State Police: Albany County",3,1,1,1,0,0,0,3,0,0,0,3,
+"New York","State Police Agencies","State Police:Chemung County",1,0,1,0,0,0,0,1,1,0,0,0,
+"New York","State Police Agencies","State Police: Dutchess County",1,0,1,0,0,0,0,1,0,0,,1,
+"New York","State Police Agencies","State Police:Franklin County",1,0,0,1,0,0,0,1,0,0,1,0,
+"New York","State Police Agencies","State Police:Jefferson County",2,1,0,1,0,0,0,2,0,1,0,1,
+"New York","State Police Agencies","State Police:Montgomery County",1,1,0,0,0,0,0,1,0,0,0,1,
+"New York","State Police Agencies","State Police:New York County",3,2,1,0,0,0,0,3,0,0,0,3,
+"New York","State Police Agencies","State Police:Niagara County",1,0,0,1,0,0,0,1,0,0,0,1,
+"New York","State Police Agencies","State Police:Orange County",1,0,1,0,0,0,0,1,1,0,0,0,
+"New York","State Police Agencies","State Police:Oswego County",1,1,0,0,0,0,0,1,1,0,0,0,
+"New York","State Police Agencies","State Police:Rockland County",1,1,0,0,0,0,0,1,0,1,0,0,
+"New York","State Police Agencies","State Police:Schoharie County",1,1,0,0,0,0,0,1,0,1,0,0,
+"New York","State Police Agencies","State Police:Wayne County",1,1,0,0,0,0,0,1,0,1,0,0,
+"New York","State Police Agencies","State Police:Westchester County",1,1,0,0,0,0,0,1,0,0,0,1,
+"New York","Other Agencies","New York City Metropolitan Transportation Authority",22,11,11,0,0,0,0,22,3,2,2,15,
+"New York","Other Agencies","State Park, Finger Lakes Region",1,0,1,0,0,0,0,1,0,0,1,0,
+"North Carolina","Cities","Apex",3,3,0,0,0,0,0,3,0,1,1,1,"47,324"
+"North Carolina","Cities","Asheville",3,1,0,2,0,0,0,3,1,0,2,0,"89,546"
+"North Carolina","Cities","Boone",1,0,0,1,0,0,0,1,0,1,0,0,"18,374"
+"North Carolina","Cities","Charlotte-Mecklenburg",27,16,3,8,0,0,0,27,6,11,5,5,"896,379"
+"North Carolina","Cities","Concord",1,0,1,0,0,0,0,1,0,0,1,0,"89,446"
+"North Carolina","Cities","Durham",3,2,1,0,0,0,0,3,0,1,1,1,"263,716"
+"North Carolina","Cities","Fayetteville",7,7,0,0,0,0,0,7,0,1,4,2,"202,200"
+"North Carolina","Cities","Gastonia",3,3,0,0,0,0,0,3,0,0,2,1,"75,118"
+"North Carolina","Cities","Greensboro",6,1,4,1,0,0,0,6,0,1,4,1,"288,618"
+"North Carolina","Cities","Greenville",6,1,0,4,0,0,1,6,2,2,1,1,"91,766"
+"North Carolina","Cities","Hickory",1,1,0,0,0,0,0,1,0,0,0,1,"40,437"
+"North Carolina","Cities","High Point",5,5,0,0,0,0,0,5,1,1,0,3,"111,435"
+"North Carolina","Cities","Huntersville",1,1,0,0,0,0,0,1,1,0,0,0,"53,932"
+"North Carolina","Cities","Jacksonville",1,0,0,1,0,0,0,1,0,0,1,0,"66,686"
+"North Carolina","Cities","Littleton",1,1,0,0,0,0,0,1,0,1,0,0,641
+"North Carolina","Cities","Morganton",4,4,0,0,0,0,0,4,0,0,1,3,"16,656"
+"North Carolina","Cities","Raleigh",28,15,7,6,0,0,0,28,8,6,9,5,"460,593"
+"North Carolina","Cities","Roanoke Rapids2",4,4,0,0,0,0,0,4,1,1,2,0,"15,273"
+"North Carolina","Cities","Rockingham",1,1,0,0,0,0,0,1,0,0,0,1,"9,155"
+"North Carolina","Cities","Rocky Mount",1,1,0,0,0,0,0,1,0,0,1,0,"55,431"
+"North Carolina","Cities","Salisbury",3,3,0,0,0,0,0,3,0,1,0,2,"34,121"
+"North Carolina","Cities","Siler City",1,1,0,0,0,0,0,1,0,0,0,1,"8,498"
+"North Carolina","Cities","Wilmington",5,4,1,0,0,0,0,5,2,1,1,1,"117,852"
+"North Carolina","Cities","Wilson",1,0,0,1,0,0,0,1,0,0,1,0,"49,734"
+"North Carolina","Universities and Colleges","Duke University",1,0,1,0,0,0,0,1,0,0,0,1,"15,984"
+"North Carolina","Universities and Colleges","East Carolina University",1,1,0,0,0,0,0,1,1,0,0,0,"28,289"
+"North Carolina","Universities and Colleges","North Carolina Central University",2,0,0,1,0,0,1,2,0,0,1,1,"8,011"
+"North Carolina","Universities and Colleges","North Carolina School of the Arts",2,2,0,0,0,0,0,2,1,1,0,0,970
+"North Carolina","Universities and Colleges","University of North Carolina, Greensboro",2,1,0,1,0,0,0,2,0,1,0,1,"19,393"
+"North Carolina","Metropolitan Counties","Forsyth",6,6,0,0,0,0,0,6,1,3,1,1,
+"North Carolina","Metropolitan Counties","Franklin",4,4,0,0,0,0,0,4,2,1,0,1,
+"North Carolina","Metropolitan Counties","Gaston County Police Department",1,1,0,0,0,0,0,1,0,0,1,0,
+"North Carolina","Metropolitan Counties","Iredell",2,2,0,0,0,0,0,2,1,0,0,1,
+"North Carolina","Metropolitan Counties","New Hanover",1,1,0,0,0,0,0,1,0,0,0,1,
+"North Carolina","Metropolitan Counties","Randolph",1,0,1,0,0,0,0,1,0,0,1,0,
+"North Carolina","Metropolitan Counties","Yadkin",2,1,1,0,0,0,0,2,1,0,0,1,
+"North Carolina","Nonmetropolitan Counties","Jackson",2,1,1,0,0,0,0,1,0,0,0,1,
+"North Carolina","Nonmetropolitan Counties","Moore",1,0,0,0,0,1,0,1,1,0,0,0,
+"North Carolina","Nonmetropolitan Counties","Sampson",2,2,0,0,0,0,0,2,0,0,0,2,
+"North Carolina","Nonmetropolitan Counties","Surry",1,1,0,0,0,0,0,1,0,0,0,1,
+"North Carolina","Other Agencies","University of North Carolina Hospitals",1,1,0,0,0,0,0,1,0,0,1,0,
+"North Dakota","Cities","Bismarck",2,2,0,0,0,0,0,2,0,0,0,2,"73,248"
+"North Dakota","Cities","Grand Forks",1,0,1,0,0,0,0,1,0,0,1,0,"57,853"
+"North Dakota","Cities","Watford City",2,2,0,0,0,0,0,2,0,0,1,1,"8,819"
+"North Dakota","Cities","Williston",1,1,0,0,0,0,0,1,0,0,1,0,"29,929"
+"North Dakota","Universities and Colleges","University of North Dakota",1,1,0,0,0,0,0,1,0,0,1,0,"14,951"
+"North Dakota","Nonmetropolitan Counties","Hettinger",1,1,0,0,0,0,0,1,0,0,0,1,
+"Ohio","Cities","Akron",4,3,0,1,0,0,0,4,1,2,1,0,"197,257"
+"Ohio","Cities","Albany",1,0,0,1,0,0,0,1,0,0,0,1,918
+"Ohio","Cities","Athens",1,1,0,0,0,0,0,1,0,0,1,0,"25,203"
+"Ohio","Cities","Aurora",3,2,0,1,0,0,0,3,0,1,1,1,"15,897"
+"Ohio","Cities","Barberton",1,1,0,0,0,0,0,1,0,0,0,1,"26,172"
+"Ohio","Cities","Beaver Township",1,0,0,1,0,0,0,1,0,1,0,0,"6,492"
+"Ohio","Cities","Bellbrook",2,0,1,0,1,0,0,2,2,0,0,0,"7,074"
+"Ohio","Cities","Bellefontaine",2,1,0,1,0,0,0,2,0,1,1,0,"13,073"
+"Ohio","Cities","Bexley",1,0,1,0,0,0,0,1,0,0,1,0,"13,775"
+"Ohio","Cities","Blue Ash",4,1,1,1,0,1,0,4,3,0,0,1,"12,169"
+"Ohio","Cities","Boardman",1,1,0,0,0,0,0,1,0,1,0,0,"39,692"
+"Ohio","Cities","Canton",1,1,0,0,0,0,0,1,0,1,0,0,"71,652"
+"Ohio","Cities","Chillicothe",1,1,0,0,0,0,0,1,0,0,1,0,"21,692"
+"Ohio","Cities","Cincinnati",42,32,2,8,0,0,0,42,7,10,10,15,"298,880"
+"Ohio","Cities","Circleville",1,1,0,0,0,0,0,1,0,0,1,0,"13,930"
+"Ohio","Cities","Cleveland",8,8,0,0,0,0,0,8,2,5,1,0,"386,227"
+"Ohio","Cities","Colerain Township",4,4,0,0,0,0,0,4,3,1,0,0,"58,907"
+"Ohio","Cities","Columbus",151,123,10,18,0,0,0,151,42,29,49,31,"862,515"
+"Ohio","Cities","Dayton",5,5,0,0,0,0,0,5,0,4,0,1,"140,260"
+"Ohio","Cities","Defiance",1,1,0,0,0,0,0,1,0,0,0,1,"16,697"
+"Ohio","Cities","Delhi Township",3,3,0,0,0,0,0,3,1,1,1,0,"29,573"
+"Ohio","Cities","East Palestine",2,2,0,0,0,0,0,2,0,1,1,0,"4,548"
+"Ohio","Cities","Elyria",3,2,0,1,0,0,0,3,1,2,0,0,"53,633"
+"Ohio","Cities","Fairborn",2,1,0,1,0,0,0,2,1,0,0,1,"33,587"
+"Ohio","Cities","Fairview Park",1,1,0,0,0,0,0,1,0,0,0,1,"16,318"
+"Ohio","Cities","Findlay",1,0,1,0,0,0,0,1,1,0,,,"41,156"
+"Ohio","Cities","Gahanna",3,2,1,0,0,0,0,3,1,2,0,0,"34,859"
+"Ohio","Cities","Garfield Heights",1,0,0,1,0,0,0,1,1,,,0,"27,938"
+"Ohio","Cities","Green Township",1,0,0,1,0,0,0,1,0,0,0,1,"58,764"
+"Ohio","Cities","Greenville",1,1,0,0,0,0,0,1,0,1,0,0,"12,962"
+"Ohio","Cities","Grove City",5,5,0,0,0,0,0,5,1,2,1,1,"40,161"
+"Ohio","Cities","Hamilton",9,9,0,0,0,0,0,9,1,3,3,2,"62,423"
+"Ohio","Cities","Heath",1,1,0,0,0,0,0,1,0,0,1,0,"10,528"
+"Ohio","Cities","Hilliard",3,2,0,1,0,0,0,3,0,2,1,0,"34,832"
+"Ohio","Cities","Huber Heights",5,3,0,1,1,0,0,5,1,1,2,1,"38,180"
+"Ohio","Cities","Independence",1,1,0,0,0,0,0,1,0,0,0,1,"7,132"
+"Ohio","Cities","Jackson Township, Stark County",3,2,0,1,0,0,0,3,2,0,1,0,"40,780"
+"Ohio","Cities","Lockland",1,1,0,0,0,0,0,1,1,0,0,0,"3,422"
+"Ohio","Cities","Lyndhurst",3,1,1,1,0,0,0,3,0,1,1,1,"13,624"
+"Ohio","Cities","Mansfield",3,1,2,0,0,0,0,3,2,1,0,0,"46,656"
+"Ohio","Cities","Marietta",1,1,0,0,0,0,0,1,0,1,0,,"13,867"
+"Ohio","Cities","Massillon",3,3,0,0,0,0,0,3,1,2,0,0,"32,268"
+"Ohio","Cities","Maumee",1,0,1,0,0,0,0,1,0,0,1,0,"13,875"
+"Ohio","Cities","Mayfield Heights",1,1,0,0,0,0,0,1,0,1,0,0,"18,770"
+"Ohio","Cities","Medina Township",1,1,0,0,0,0,0,1,1,0,0,0,"9,015"
+"Ohio","Cities","Miamisburg",1,0,1,0,0,0,0,1,0,1,0,0,"20,000"
+"Ohio","Cities","Miami Township, Montgomery County",1,1,0,0,0,0,0,1,0,0,0,1,"29,140"
+"Ohio","Cities","Monroe",1,1,0,0,0,0,0,1,0,1,0,0,"15,933"
+"Ohio","Cities","Montgomery",1,1,0,0,0,0,0,1,1,0,0,0,"10,558"
+"Ohio","Cities","Montpelier",1,1,0,0,0,0,0,1,1,0,0,0,"3,980"
+"Ohio","Cities","Montville Township",1,1,0,0,0,0,0,1,0,1,0,0,"11,815"
+"Ohio","Cities","Moraine",3,3,0,0,0,0,0,3,1,0,1,1,"6,385"
+"Ohio","Cities","Mount Healthy",1,1,0,0,0,0,0,1,0,0,1,0,"6,028"
+"Ohio","Cities","Napoleon",4,2,0,2,0,0,0,4,2,0,1,1,"8,566"
+"Ohio","Cities","New Franklin",1,1,0,0,0,0,0,1,0,1,0,0,"14,285"
+"Ohio","Cities","Newton Falls",1,1,0,0,0,0,0,1,0,0,1,0,"4,628"
+"Ohio","Cities","North College Hill",1,0,0,1,0,0,0,1,0,0,1,0,"9,320"
+"Ohio","Cities","Oberlin",1,0,1,0,0,0,0,1,0,0,0,1,"8,342"
+"Ohio","Cities","Parma",3,1,2,0,0,0,0,3,1,1,0,1,"79,576"
+"Ohio","Cities","Portsmouth",1,1,0,0,0,0,0,1,0,1,0,,"20,442"
+"Ohio","Cities","Powell",1,1,0,0,0,0,0,1,0,1,0,0,"13,273"
+"Ohio","Cities","Reynoldsburg",1,1,0,0,0,0,0,1,0,0,1,0,"37,406"
+"Ohio","Cities","Salem",4,0,0,0,4,0,0,4,1,0,3,0,"11,943"
+"Ohio","Cities","Shelby",2,1,0,1,0,0,0,2,0,1,1,0,"9,012"
+"Ohio","Cities","Sidney",3,2,0,1,0,0,0,3,0,1,2,0,"20,797"
+"Ohio","Cities","South Euclid",1,1,0,0,0,0,0,1,0,1,0,0,"21,686"
+"Ohio","Cities","Springfield Township, Hamilton County",1,0,0,1,0,0,0,1,0,1,0,0,"36,527"
+"Ohio","Cities","Springfield Township, Summit County",2,1,0,1,0,0,0,2,0,1,0,1,"17,813"
+"Ohio","Cities","Steubenville",1,1,0,0,0,0,0,1,,0,1,0,"18,137"
+"Ohio","Cities","Streetsboro",1,0,0,0,1,0,0,1,0,0,0,1,"16,364"
+"Ohio","Cities","Toledo",35,31,0,4,0,0,0,35,3,3,17,12,"278,366"
+"Ohio","Cities","Troy",2,0,0,2,0,0,0,2,2,0,0,0,"25,745"
+"Ohio","Cities","Upper Arlington",1,1,0,0,0,0,0,1,1,0,0,0,"35,150"
+"Ohio","Cities","Upper Sandusky",1,1,0,0,0,0,0,1,0,0,1,0,"6,515"
+"Ohio","Cities","Urbana",9,9,0,0,0,0,0,9,0,0,0,9,"11,482"
+"Ohio","Cities","Vienna Township",1,1,0,0,0,0,0,1,0,0,0,1,"3,817"
+"Ohio","Cities","Wadsworth",1,1,0,0,0,0,0,1,0,0,1,0,"21,910"
+"Ohio","Cities","Wapakoneta",3,2,1,0,0,0,0,3,0,1,1,1,"9,815"
+"Ohio","Cities","Warren",1,1,0,0,0,0,0,1,0,0,0,1,"40,005"
+"Ohio","Cities","West Chester Township",1,1,0,0,0,0,0,1,0,1,0,0,"61,080"
+"Ohio","Cities","West Jefferson",1,0,0,0,1,0,0,1,0,0,1,0,"4,291"
+"Ohio","Cities","Wilmington",2,1,1,0,0,0,0,2,0,1,1,0,"12,443"
+"Ohio","Cities","Wooster",1,1,0,0,0,0,0,1,1,0,0,0,"26,883"
+"Ohio","Cities","Xenia",1,1,0,0,0,0,0,1,1,0,0,0,"26,037"
+"Ohio","Cities","Yellow Springs",2,1,1,0,0,0,0,2,1,1,0,0,"3,857"
+"Ohio","Cities","Youngstown",3,2,0,1,0,0,0,3,0,1,2,0,"64,181"
+"Ohio","Cities","Zanesville",3,1,0,2,0,0,0,3,1,0,1,1,"25,494"
+"Ohio","Universities and Colleges","Capital University",1,0,0,1,0,0,0,1,0,0,0,1,"3,465"
+"Ohio","Universities and Colleges","Kent State University",1,1,0,0,0,0,0,1,,,1,,"30,067"
+"Ohio","Universities and Colleges","Ohio State University, Columbus",2,2,0,0,0,0,0,2,0,0,0,2,"58,663"
+"Ohio","Universities and Colleges","Otterbein University",1,1,0,0,0,0,0,1,0,1,0,0,"2,808"
+"Ohio","Universities and Colleges","University of Akron",1,1,0,0,0,0,0,1,0,0,1,0,"23,101"
+"Ohio","Metropolitan Counties","Butler",2,1,1,0,0,0,0,2,1,0,1,0,
+"Ohio","Metropolitan Counties","Clark",2,0,1,1,0,0,0,2,0,2,0,0,
+"Ohio","Metropolitan Counties","Clermont",1,0,1,0,0,0,0,1,0,1,0,0,
+"Ohio","Metropolitan Counties","Delaware",1,1,0,0,0,0,0,1,0,0,1,0,
+"Ohio","Metropolitan Counties","Geauga",1,1,0,0,0,0,0,1,0,0,0,1,
+"Ohio","Metropolitan Counties","Greene",7,6,1,0,0,0,0,7,2,1,2,2,
+"Ohio","Metropolitan Counties","Lawrence",1,1,0,0,0,0,0,1,0,0,1,0,
+"Ohio","Metropolitan Counties","Lorain",1,0,0,0,0,0,1,1,0,0,1,0,
+"Ohio","Metropolitan Counties","Montgomery",2,1,0,1,0,0,0,2,0,0,2,0,
+"Ohio","Metropolitan Counties","Summit",1,1,0,0,0,0,0,1,0,0,1,0,
+"Ohio","Metropolitan Counties","Trumbull",2,1,0,0,1,0,0,2,1,0,1,0,
+"Ohio","Metropolitan Counties","Warren",1,0,0,1,0,0,0,1,1,0,0,0,
+"Ohio","Nonmetropolitan Counties","Ashland",1,1,0,0,0,0,0,1,0,1,0,0,
+"Ohio","Nonmetropolitan Counties","Ashtabula",1,1,0,0,0,0,0,1,0,0,1,0,
+"Ohio","Nonmetropolitan Counties","Champaign",1,1,0,0,0,0,0,1,0,0,0,1,
+"Ohio","Nonmetropolitan Counties","Fayette",1,0,1,0,0,0,0,1,0,1,0,0,
+"Ohio","Nonmetropolitan Counties","Gallia",1,1,0,0,0,0,0,1,0,0,1,0,
+"Ohio","Nonmetropolitan Counties","Highland",1,1,0,0,0,0,0,1,1,0,0,0,
+"Ohio","Nonmetropolitan Counties","Mercer",1,0,1,0,0,0,0,1,0,1,0,0,
+"Ohio","Nonmetropolitan Counties","Pike",1,1,0,0,0,0,0,1,0,1,0,0,
+"Ohio","Nonmetropolitan Counties","Ross",1,1,0,0,0,0,0,1,0,1,0,0,
+"Ohio","Other Agencies","Cleveland Metropolitan Park District",3,2,1,0,0,0,0,3,1,1,1,0,
+"Ohio","Other Agencies","Ohio Department of Natural Resources",1,1,0,0,0,0,0,1,0,0,1,0,
+"Oklahoma","Cities","Anadarko",1,1,0,0,0,0,0,1,0,0,1,0,"6,702"
+"Oklahoma","Cities","Blanchard",1,0,1,0,0,0,0,1,0,1,0,0,"8,461"
+"Oklahoma","Cities","Collinsville",2,2,0,0,0,0,0,2,0,1,0,1,"6,678"
+"Oklahoma","Cities","Cushing",2,1,1,0,0,0,0,2,0,0,0,2,"7,874"
+"Oklahoma","Cities","Heavener",1,0,0,1,0,0,0,1,1,0,0,0,"3,321"
+"Oklahoma","Cities","Norman",2,1,0,1,0,0,0,2,1,0,1,0,"122,143"
+"Oklahoma","Cities","Nowata",1,0,1,0,0,0,0,1,0,0,0,1,"3,747"
+"Oklahoma","Cities","Oklahoma City",3,3,0,0,0,0,0,3,1,0,0,2,"641,681"
+"Oklahoma","Cities","Perry",1,0,0,1,0,0,0,1,1,0,0,0,"5,091"
+"Oklahoma","Cities","Tulsa",1,0,1,0,0,0,0,1,0,1,0,0,"405,748"
+"Oklahoma","Cities","Union City",1,1,0,0,0,0,0,1,0,0,0,1,"2,004"
+"Oklahoma","Cities","Woodward",1,0,0,1,0,0,0,1,0,0,0,1,"13,223"
+"Oklahoma","Metropolitan Counties","Lincoln",1,1,0,0,0,0,0,1,0,0,1,0,
+"Oklahoma","Metropolitan Counties","Okmulgee",1,1,0,0,0,0,0,1,0,1,0,0,
+"Oklahoma","Metropolitan Counties","Wagoner",5,4,1,0,0,0,0,5,1,0,3,1,
+"Oklahoma","Nonmetropolitan Counties","Craig",1,0,0,0,1,0,0,1,0,0,1,0,
+"Oklahoma","Nonmetropolitan Counties","Delaware",3,2,0,0,1,0,0,3,0,1,2,0,
+"Oklahoma","Nonmetropolitan Counties","Garvin",1,1,0,0,0,0,0,1,1,0,0,0,
+"Oklahoma","Nonmetropolitan Counties","Kingfisher",1,1,0,0,0,0,0,1,1,0,0,0,
+"Oklahoma","Nonmetropolitan Counties","Payne",1,0,0,0,1,0,0,1,0,0,0,1,
+"Oklahoma","Nonmetropolitan Counties","Seminole",1,0,0,1,0,0,0,1,1,0,0,0,
+"Oklahoma","Nonmetropolitan Counties","Woodward",1,1,0,0,0,0,0,1,0,0,1,0,
+"Oregon","Cities","Ashland",2,1,0,1,0,0,0,2,1,0,0,1,"21,017"
+"Oregon","Cities","Beaverton",2,2,0,0,0,0,0,2,0,0,0,2,"97,907"
+"Oregon","Cities","Coos Bay",1,0,1,0,0,0,0,1,0,0,1,0,"16,224"
+"Oregon","Cities","Cornelius",1,1,0,0,0,0,0,1,0,0,0,1,"12,402"
+"Oregon","Cities","Corvallis",2,1,1,0,0,0,0,2,1,1,0,0,"56,061"
+"Oregon","Cities","Eugene",38,27,5,4,1,0,1,38,2,12,11,13,"164,883"
+"Oregon","Cities","Gervais",1,0,0,1,0,0,0,1,1,0,0,0,"2,663"
+"Oregon","Cities","Gresham",6,4,1,1,0,0,0,6,2,1,1,2,"111,491"
+"Oregon","Cities","Hood River",1,0,1,0,0,0,0,1,1,0,,,"7,719"
+"Oregon","Cities","Lincoln City",3,0,3,0,0,0,0,3,0,0,0,3,"8,588"
+"Oregon","Cities","Medford",1,0,0,1,0,0,0,1,0,1,0,0,"80,794"
+"Oregon","Cities","Newberg-Dundee",1,1,0,0,0,0,0,1,0,1,0,0,"26,105"
+"Oregon","Cities","Oregon City",2,2,0,0,0,0,0,2,1,1,0,0,"36,485"
+"Oregon","Cities","Portland",10,5,3,2,0,0,0,10,2,2,4,2,"642,129"
+"Oregon","Cities","Salem",8,4,2,2,0,0,0,8,3,1,2,2,"166,508"
+"Oregon","Cities","Springfield",7,6,1,0,0,0,0,7,2,1,2,2,"61,164"
+"Oregon","Cities","Talent",1,1,0,0,0,0,0,1,0,1,0,0,"6,483"
+"Oregon","Cities","Tigard",3,2,1,0,0,0,0,3,0,1,0,2,"51,885"
+"Oregon","Cities","Tualatin",1,0,0,1,0,0,0,1,0,1,0,0,"27,370"
+"Oregon","Metropolitan Counties","Jackson",1,0,1,0,0,0,0,1,0,0,1,0,
+"Oregon","Metropolitan Counties","Lane",1,1,0,0,0,0,0,1,0,1,0,0,
+"Oregon","Metropolitan Counties","Washington",1,0,0,1,0,0,0,1,0,0,0,1,
+"Oregon","Nonmetropolitan Counties","Crook",2,1,0,1,0,0,0,2,2,0,0,0,
+"Oregon","Nonmetropolitan Counties","Hood River",1,0,1,0,0,0,0,1,1,0,0,0,
+"Oregon","Nonmetropolitan Counties","Jefferson",1,0,0,1,0,0,0,1,0,0,1,0,
+"Oregon","Nonmetropolitan Counties","Morrow",2,1,1,0,0,0,0,2,0,0,2,0,
+"Oregon","Nonmetropolitan Counties","Umatilla",3,0,1,1,1,0,0,3,0,0,2,1,
+"Oregon","Nonmetropolitan Counties","Union",1,1,0,0,0,0,0,1,0,1,0,0,
+"Pennsylvania","Cities","Abington Township, Montgomery County",2,1,1,0,0,0,0,2,0,2,0,0,"55,623"
+"Pennsylvania","Cities","Camp Hill",1,1,0,0,0,0,0,1,0,0,1,0,"7,929"
+"Pennsylvania","Cities","Carlisle",1,0,0,1,0,0,0,1,0,1,0,0,"19,225"
+"Pennsylvania","Cities","Ferguson Township",1,1,0,0,0,0,0,1,0,1,0,0,"19,222"
+"Pennsylvania","Cities","Hamburg",1,1,0,0,0,0,0,1,0,0,0,1,"4,420"
+"Pennsylvania","Cities","Johnstown",1,1,0,0,0,0,0,1,1,0,0,0,"21,227"
+"Pennsylvania","Cities","Lancaster",1,1,0,0,0,0,0,1,0,1,0,0,"59,340"
+"Pennsylvania","Cities","Mechanicsburg",2,2,0,0,0,0,0,2,0,0,0,2,"9,003"
+"Pennsylvania","Cities","Philadelphia",18,7,4,7,0,0,0,18,3,3,2,10,"1,570,826"
+"Pennsylvania","Cities","Pittsburgh",14,11,2,1,0,0,0,14,2,2,6,4,"302,443"
+"Pennsylvania","Cities","Reading",1,1,0,0,0,0,0,1,1,0,0,0,"87,834"
+"Pennsylvania","Cities","Scranton",2,1,1,0,0,0,0,2,0,1,1,0,"77,332"
+"Pennsylvania","Cities","State College",3,2,0,0,1,0,0,3,2,,1,0,"58,119"
+"Pennsylvania","Cities","Washington Township, Franklin County",1,1,0,0,0,0,0,1,1,0,0,0,"14,631"
+"Pennsylvania","Cities","Whitemarsh Township",1,1,0,0,0,0,0,1,0,0,1,0,"17,721"
+"Pennsylvania","Universities and Colleges","Pennsylvania State University, University Park",6,4,0,2,0,0,0,6,5,0,0,1,"47,307"
+"Pennsylvania","Metropolitan Counties","Allegheny",1,1,0,0,0,0,0,1,0,1,0,0,
+"Pennsylvania","State Police Agencies","State Police: Delaware County",1,1,0,0,0,0,0,1,0,0,0,1,
+"Pennsylvania","State Police Agencies","State Police: Monroe County",1,0,1,0,0,0,0,1,1,0,0,0,
+"Pennsylvania","State Police Agencies","State Police: Skippack",2,2,0,0,0,0,0,2,0,0,0,2,
+"Rhode Island","Cities","Cranston",1,0,1,0,0,0,0,1,0,1,0,0,"81,162"
+"Rhode Island","Cities","Pawtucket",2,1,1,0,0,0,0,2,0,1,0,1,"71,640"
+"Rhode Island","Cities","Portsmouth",1,0,1,0,0,0,0,1,0,0,1,0,"17,362"
+"Rhode Island","Cities","Providence",1,0,0,1,0,0,0,1,0,1,0,0,"179,340"
+"Rhode Island","Cities","South Kingstown",1,0,1,0,0,0,0,1,0,0,1,0,"30,872"
+"Rhode Island","Cities","Tiverton",1,1,0,0,0,0,0,1,0,0,0,1,"15,768"
+"Rhode Island","Universities and Colleges","Brown University",2,0,1,1,0,0,0,2,1,1,0,0,"9,458"
+"Rhode Island","Universities and Colleges","University of Rhode Island",1,0,1,0,0,0,0,1,1,0,0,0,"16,613"
+"Rhode Island","State Police Agencies","State Police: Chepachet",1,0,0,0,1,0,0,1,1,0,0,0,
+"Rhode Island","State Police Agencies","State Police: Lincoln",1,0,0,1,0,0,0,1,0,1,0,0,
+"South Carolina","Cities","Andrews",1,1,0,0,0,0,0,1,0,0,0,1,"2,894"
+"South Carolina","Cities","Blackville",1,0,1,0,0,0,0,1,1,0,0,0,"2,273"
+"South Carolina","Cities","Chester",1,1,0,0,0,0,0,1,0,0,1,0,"5,462"
+"South Carolina","Cities","Cottageville",1,1,0,0,0,0,0,1,0,0,1,0,733
+"South Carolina","Cities","Florence",1,0,0,1,0,0,0,1,0,1,0,0,"38,382"
+"South Carolina","Cities","Folly Beach",2,2,0,0,0,0,0,2,0,1,1,0,"2,806"
+"South Carolina","Cities","Greer",1,1,0,0,0,0,0,1,0,1,0,0,"28,927"
+"South Carolina","Cities","Moncks Corner",1,1,0,0,0,0,0,1,0,1,0,0,"10,298"
+"South Carolina","Cities","North Myrtle Beach",1,1,0,0,0,0,0,1,0,0,0,1,"15,945"
+"South Carolina","Cities","Pageland",1,1,0,0,0,0,0,1,0,1,0,0,"2,745"
+"South Carolina","Cities","Simpsonville",1,1,0,0,0,0,0,1,0,1,0,0,"21,223"
+"South Carolina","Universities and Colleges","Clemson University",1,1,0,0,0,0,0,1,0,0,0,1,"22,698"
+"South Carolina","Universities and Colleges","Coastal Carolina University",1,0,0,0,1,0,0,1,0,0,0,1,"10,263"
+"South Carolina","Universities and Colleges","Trident Technical College",1,1,0,0,0,0,0,1,0,0,0,1,"15,043"
+"South Carolina","Metropolitan Counties","Anderson",1,1,0,0,0,0,0,1,0,1,0,0,
+"South Carolina","Metropolitan Counties","Darlington",1,0,0,1,0,0,0,1,0,1,0,0,
+"South Carolina","Metropolitan Counties","Greenville",1,1,0,0,0,0,0,1,0,0,1,0,
+"South Carolina","Metropolitan Counties","Horry County Police Department",2,2,0,0,0,0,0,2,0,2,0,0,
+"South Carolina","Metropolitan Counties","Sumter",1,0,0,1,0,0,0,1,0,1,0,0,
+"South Carolina","Nonmetropolitan Counties","Abbeville",1,1,0,0,0,0,0,1,1,0,0,0,
+"South Carolina","Nonmetropolitan Counties","Georgetown",1,1,0,0,0,0,0,1,1,0,0,0,
+"South Dakota","Cities","Aberdeen",1,0,0,0,0,0,1,1,0,0,0,1,"28,498"
+"South Dakota","Cities","Brandon",1,0,1,0,0,0,0,1,0,1,0,0,"10,042"
+"South Dakota","Cities","Brookings",1,0,0,0,1,0,0,1,0,1,0,0,"23,971"
+"South Dakota","Cities","Chamberlain",1,0,0,1,0,0,0,1,0,1,0,0,"2,383"
+"South Dakota","Cities","Madison",1,0,0,1,0,0,0,1,0,0,1,0,"7,411"
+"South Dakota","Cities","Rapid City",3,2,0,0,1,0,0,3,0,1,1,1,"74,573"
+"South Dakota","Cities","Sioux Falls",4,2,1,1,0,0,0,4,0,2,0,2,"175,152"
+"South Dakota","Metropolitan Counties","Meade",1,1,0,0,0,0,0,1,0,0,1,0,
+"South Dakota","Metropolitan Counties","Minnehaha",2,1,0,1,0,0,0,2,0,1,1,0,
+"South Dakota","Metropolitan Counties","Union",1,0,0,0,1,0,0,1,1,0,0,0,
+"South Dakota","Nonmetropolitan Counties","Hamlin",1,0,0,1,0,0,0,1,0,1,0,0,
+"South Dakota","Nonmetropolitan Counties","Jerauld",1,0,0,0,0,0,1,1,1,0,0,0,
+"Tennessee","Cities","Alcoa",6,4,0,2,0,0,0,6,0,0,1,5,"9,503"
+"Tennessee","Cities","Alexandria",2,2,0,0,0,0,0,2,0,0,2,0,978
+"Tennessee","Cities","Bristol",1,1,0,0,0,0,0,1,0,0,1,0,"26,656"
+"Tennessee","Cities","Chattanooga",3,1,2,0,0,0,0,3,1,1,0,1,"177,801"
+"Tennessee","Cities","Clarksville",1,1,0,0,0,0,0,1,0,0,0,1,"152,526"
+"Tennessee","Cities","Cleveland",4,4,0,0,0,0,0,4,1,0,2,1,"44,423"
+"Tennessee","Cities","Coopertown",1,0,0,1,0,0,0,1,1,0,0,0,"4,426"
+"Tennessee","Cities","Covington",2,0,1,0,1,0,0,2,0,1,1,0,"9,039"
+"Tennessee","Cities","Cowan",1,0,0,0,1,0,0,1,0,1,0,0,"1,698"
+"Tennessee","Cities","Dyersburg",1,1,0,0,0,0,0,1,0,0,0,1,"16,711"
+"Tennessee","Cities","East Ridge",1,1,0,0,0,0,0,1,0,0,1,0,"21,311"
+"Tennessee","Cities","Franklin",1,0,1,0,0,0,0,1,0,0,1,0,"74,771"
+"Tennessee","Cities","Gallaway",2,2,0,0,0,0,0,2,2,0,0,0,654
+"Tennessee","Cities","Greenbrier",1,1,0,0,0,0,0,1,1,0,0,0,"6,807"
+"Tennessee","Cities","Hendersonville",1,1,0,0,0,0,0,1,0,0,1,0,"56,965"
+"Tennessee","Cities","Humboldt",1,1,0,0,0,0,0,1,0,0,1,0,"8,287"
+"Tennessee","Cities","Jackson",3,2,1,0,0,0,0,3,1,0,2,0,"66,990"
+"Tennessee","Cities","Jamestown",7,7,0,0,0,0,0,7,7,0,0,0,"1,945"
+"Tennessee","Cities","Jasper",1,0,0,1,0,0,0,1,0,0,1,0,"3,323"
+"Tennessee","Cities","Johnson City",2,0,0,1,1,0,0,2,1,0,0,1,"66,511"
+"Tennessee","Cities","Kingsport",1,1,0,0,0,0,0,1,0,0,0,1,"53,059"
+"Tennessee","Cities","Knoxville",1,0,1,0,0,0,0,1,0,1,0,0,"186,583"
+"Tennessee","Cities","Lebanon",3,2,1,0,0,0,0,3,2,0,0,1,"31,125"
+"Tennessee","Cities","Lenoir City",1,1,0,0,0,0,0,1,0,0,0,1,"9,175"
+"Tennessee","Cities","Livingston",1,1,0,0,0,0,0,1,0,0,1,0,"4,073"
+"Tennessee","Cities","Memphis",9,1,1,7,0,0,0,9,3,3,2,1,"656,434"
+"Tennessee","Cities","Milan",1,1,0,0,0,0,0,1,0,1,0,0,"7,803"
+"Tennessee","Cities","Millington",1,1,0,0,0,0,0,1,0,1,0,0,"11,002"
+"Tennessee","Cities","Morristown",1,1,0,0,0,0,0,1,1,0,0,0,"29,576"
+"Tennessee","Cities","Murfreesboro2",3,2,0,1,0,0,0,3,0,1,1,1,"129,730"
+"Tennessee","Cities","Nashville Metropolitan",12,5,2,5,0,0,0,12,3,4,5,0,"668,685"
+"Tennessee","Cities","Newport",1,1,0,0,0,0,0,1,0,0,1,0,"6,812"
+"Tennessee","Cities","Oak Ridge",1,0,0,1,0,0,0,1,0,1,0,0,"29,296"
+"Tennessee","Cities","Pigeon Forge",3,2,1,0,0,0,0,3,1,2,0,0,"6,230"
+"Tennessee","Cities","Portland",1,0,1,0,0,0,0,1,0,0,1,0,"12,502"
+"Tennessee","Cities","Spring Hill",2,2,0,0,0,0,0,2,1,0,0,1,"37,599"
+"Tennessee","Cities","White House",1,0,0,1,0,0,0,1,1,0,0,0,"11,419"
+"Tennessee","Universities and Colleges","Pellissippi State Community College",1,0,1,0,0,0,0,1,0,0,0,1,"10,325"
+"Tennessee","Universities and Colleges","Tennessee Technological University",2,2,0,0,0,0,0,2,0,0,2,0,"10,900"
+"Tennessee","Universities and Colleges","University of Tennessee, Knoxville",1,0,0,1,0,0,0,1,0,0,1,0,"27,845"
+"Tennessee","Universities and Colleges","University of the South",1,1,0,0,0,0,0,1,1,0,0,0,"1,797"
+"Tennessee","Metropolitan Counties","Anderson",1,1,0,0,0,0,0,1,0,0,1,0,
+"Tennessee","Metropolitan Counties","Bradley",3,2,0,1,0,0,0,3,1,0,1,1,
+"Tennessee","Metropolitan Counties","Dickson",2,2,0,0,0,0,0,2,0,2,0,0,
+"Tennessee","Metropolitan Counties","Hamblen",1,1,0,0,0,0,0,1,0,0,0,1,
+"Tennessee","Metropolitan Counties","Hamilton",8,2,4,1,1,0,0,8,3,2,0,3,
+"Tennessee","Metropolitan Counties","Knox",1,1,0,0,0,0,0,1,0,0,1,0,
+"Tennessee","Metropolitan Counties","Montgomery",1,1,0,0,0,0,0,1,0,0,0,1,
+"Tennessee","Metropolitan Counties","Roane",1,0,0,1,0,0,0,1,0,0,1,0,
+"Tennessee","Metropolitan Counties","Rutherford",1,1,0,0,0,0,0,1,0,0,0,1,
+"Tennessee","Metropolitan Counties","Shelby",18,16,0,0,2,0,0,18,6,5,2,5,
+"Tennessee","Metropolitan Counties","Sullivan",2,1,0,1,0,0,0,2,0,2,0,0,
+"Tennessee","Nonmetropolitan Counties","Lawrence",1,0,1,0,0,0,0,1,0,0,0,1,
+"Tennessee","Nonmetropolitan Counties","Sevier",1,1,0,0,0,0,0,1,1,0,0,0,
+"Tennessee","Other Agencies","Department of Safety",11,11,0,0,0,0,0,11,1,1,7,2,
+"Texas","Cities","Arlington",5,4,1,0,0,0,0,5,0,2,2,1,"392,666"
+"Texas","Cities","Austin",19,10,2,6,0,0,1,19,7,6,4,2,"956,911"
+"Texas","Cities","Beaumont",4,4,0,0,0,0,0,4,3,0,0,1,"118,283"
+"Texas","Cities","Bedford",6,1,0,0,0,0,5,6,0,0,0,6,"49,803"
+"Texas","Cities","Borger",1,1,0,0,0,0,0,1,0,0,1,0,"12,894"
+"Texas","Cities","Burleson",1,1,0,0,0,0,0,1,0,1,0,0,"45,116"
+"Texas","Cities","Cedar Hill",1,1,0,0,0,0,0,1,0,0,1,0,"49,215"
+"Texas","Cities","Cedar Park",2,1,0,1,0,0,0,2,0,2,0,0,"69,051"
+"Texas","Cities","Center",1,0,0,0,0,1,0,1,0,0,0,1,"5,218"
+"Texas","Cities","College Station",1,0,1,0,0,0,0,1,0,0,1,0,"110,785"
+"Texas","Cities","Converse",1,0,0,0,1,0,0,1,0,1,0,0,"22,782"
+"Texas","Cities","Dallas",11,7,2,2,0,0,0,11,1,5,4,1,"1,320,939"
+"Texas","Cities","Denison",1,0,0,1,0,0,0,1,0,1,0,0,"23,237"
+"Texas","Cities","Denton",3,2,0,1,0,0,0,3,1,1,1,0,"134,054"
+"Texas","Cities","El Paso",1,0,0,1,0,0,0,1,0,0,0,1,"687,193"
+"Texas","Cities","Fort Worth",20,11,3,5,1,0,0,20,7,5,3,5,"851,849"
+"Texas","Cities","Frankston",1,1,0,0,0,0,0,1,0,1,0,0,"1,163"
+"Texas","Cities","Galveston",6,5,0,1,0,0,0,6,1,1,3,1,"50,667"
+"Texas","Cities","Gilmer",1,1,0,0,0,0,0,1,0,1,0,0,"5,246"
+"Texas","Cities","Grand Prairie",1,1,0,0,0,0,0,1,0,1,0,0,"190,270"
+"Texas","Cities","Hedwig Village",1,0,1,0,0,0,0,1,0,1,0,0,"2,724"
+"Texas","Cities","Houston",8,3,1,2,0,0,2,8,1,1,3,3,"2,334,348"
+"Texas","Cities","League City",1,1,0,0,0,0,0,1,0,1,0,0,"101,436"
+"Texas","Cities","Levelland",2,2,0,0,0,0,0,2,0,0,1,1,"13,997"
+"Texas","Cities","Lewisville",2,2,0,0,0,0,0,2,1,0,0,1,"105,762"
+"Texas","Cities","Livingston",1,1,0,0,0,0,0,1,1,0,0,0,"5,140"
+"Texas","Cities","Longview",3,2,0,0,1,0,0,3,0,0,1,2,"82,632"
+"Texas","Cities","McKinney",7,5,0,2,0,0,0,7,0,3,2,2,"169,689"
+"Texas","Cities","Odessa",3,2,1,0,0,0,0,3,1,0,1,1,"123,209"
+"Texas","Cities","Plano",1,1,0,0,0,0,0,1,0,0,1,0,"288,242"
+"Texas","Cities","Pleasanton",1,1,0,0,0,0,0,1,0,0,1,0,"10,013"
+"Texas","Cities","Reno",1,0,1,0,0,0,0,1,0,0,1,0,"3,302"
+"Texas","Cities","Rockwall",1,1,0,0,0,0,0,1,0,1,0,0,"43,542"
+"Texas","Cities","Round Rock",2,0,1,1,0,0,0,2,0,1,1,0,"119,308"
+"Texas","Cities","San Angelo",1,0,0,1,0,0,0,1,0,0,0,1,"101,870"
+"Texas","Cities","San Antonio",9,6,2,1,0,0,0,9,2,1,4,2,"1,498,642"
+"Texas","Cities","San Marcos",1,0,0,1,0,0,0,1,0,0,0,1,"64,380"
+"Texas","Cities","Seabrook",1,1,0,0,0,0,0,1,0,1,0,0,"14,091"
+"Texas","Cities","Sealy",1,1,0,0,0,0,0,1,0,1,0,0,"6,469"
+"Texas","Cities","Sugar Land",1,1,0,0,0,0,0,1,0,0,0,1,"90,088"
+"Texas","Cities","Teague",1,1,0,0,0,0,0,1,0,0,1,0,"3,575"
+"Texas","Cities","Temple",1,1,0,0,0,0,0,1,0,0,0,1,"73,411"
+"Texas","Cities","Texas City",2,2,0,0,0,0,0,2,0,0,0,2,"48,095"
+"Texas","Cities","Tomball",1,1,0,0,0,0,0,1,0,0,0,1,"11,700"
+"Texas","Cities","Tyler",4,2,0,1,1,0,0,4,1,3,0,0,"105,044"
+"Texas","Cities","Weslaco",2,1,0,1,0,0,0,2,0,2,0,0,"39,987"
+"Texas","Cities","Wichita Falls",2,1,1,0,0,0,0,2,0,1,0,1,"104,685"
+"Texas","Cities","Willis",1,1,0,0,0,0,0,1,0,0,1,0,"6,401"
+"Texas","Universities and Colleges","Amarillo College",1,1,0,0,0,0,0,1,1,0,0,0,"9,936"
+"Texas","Universities and Colleges","Baylor University, Waco",1,1,0,0,0,0,0,1,0,0,0,1,"16,787"
+"Texas","Universities and Colleges","Southwestern University",2,0,0,2,0,0,0,2,0,0,0,2,"1,515"
+"Texas","Universities and Colleges","Texas State Technical College, West Texas3",1,0,0,1,0,0,0,1,1,0,0,0,
+"Texas","Universities and Colleges","Texas Tech University, Lubbock",1,1,0,0,0,0,0,1,0,0,0,1,"35,859"
+"Texas","Universities and Colleges","Tyler Junior College",1,0,1,0,0,0,0,1,0,1,0,0,"10,934"
+"Texas","Universities and Colleges","University of Texas, Dallas",2,0,2,0,0,0,0,2,2,0,0,0,"24,554"
+"Texas","Metropolitan Counties","Bexar",1,1,0,0,0,0,0,1,1,0,0,0,
+"Texas","Metropolitan Counties","Lubbock",1,1,0,0,0,0,0,1,0,0,0,1,
+"Texas","Metropolitan Counties","Parker",2,0,0,1,1,0,0,2,0,1,1,0,
+"Texas","Metropolitan Counties","Travis",7,3,2,2,0,0,0,7,1,4,1,1,
+"Texas","Metropolitan Counties","Williamson",3,2,1,0,0,0,0,3,1,1,0,1,
+"Texas","Nonmetropolitan Counties","Brewster",1,0,0,1,0,0,0,1,1,0,0,0,
+"Texas","Nonmetropolitan Counties","San Jacinto",1,1,0,0,0,0,0,1,1,0,0,0,
+"Texas","Nonmetropolitan Counties","Zavala",1,1,0,0,0,0,0,1,0,0,1,0,
+"Texas","Other Agencies","Dallas-Fort Worth International Airport",1,0,0,1,0,0,0,1,0,0,1,0,
+"Texas","Other Agencies","Hospital District, Dallas County",1,1,0,0,0,0,0,1,0,0,1,0,
+"Texas","Other Agencies","Independent School District, El Paso",1,0,0,1,0,0,0,1,0,0,0,1,
+"Utah","Cities","Bountiful",3,3,0,0,0,0,0,3,0,0,0,3,"44,003"
+"Utah","Cities","Centerville",1,1,0,0,0,0,0,1,0,0,1,0,"17,204"
+"Utah","Cities","Draper",1,0,1,0,0,0,0,1,0,1,0,0,"47,696"
+"Utah","Cities","Farmington",1,0,1,0,0,0,0,1,0,1,0,0,"23,505"
+"Utah","Cities","Grantsville",2,2,0,0,0,0,0,2,0,2,0,0,"10,253"
+"Utah","Cities","Helper",1,1,0,0,0,0,0,1,1,0,0,0,"2,094"
+"Utah","Cities","Hurricane",1,1,0,0,0,0,0,1,0,0,1,0,"15,869"
+"Utah","Cities","Layton",1,1,0,0,0,0,0,1,0,0,1,0,"75,482"
+"Utah","Cities","Lindon",1,1,0,0,0,0,0,1,0,0,0,1,"10,958"
+"Utah","Cities","Moab",1,1,0,0,0,0,0,1,0,0,1,0,"5,262"
+"Utah","Cities","North Ogden",2,2,0,0,0,0,0,2,0,1,1,0,"18,654"
+"Utah","Cities","Ogden2",8,3,0,4,1,0,0,8,1,1,3,3,"85,930"
+"Utah","Cities","Payson",2,1,0,1,0,0,0,2,1,1,0,0,"19,738"
+"Utah","Cities","Pleasant View",1,1,0,0,0,0,0,1,0,1,0,0,"9,548"
+"Utah","Cities","Roosevelt",1,0,0,1,0,0,0,1,0,0,0,1,"7,179"
+"Utah","Cities","Salt Lake City",1,1,0,0,0,0,0,1,0,0,1,0,"193,918"
+"Utah","Cities","Santa Clara/Ivins",1,0,1,0,0,0,0,1,0,0,0,1,"15,107"
+"Utah","Cities","Saratoga Springs",2,0,2,0,0,0,0,2,0,2,0,0,"27,211"
+"Utah","Cities","South Jordan",1,1,0,0,0,0,0,1,0,1,0,0,"70,226"
+"Utah","Cities","South Ogden",1,1,0,0,0,0,0,1,0,1,0,0,"17,026"
+"Utah","Cities","South Salt Lake",1,1,0,0,0,0,0,1,0,0,1,0,"25,022"
+"Utah","Cities","St. George",2,2,0,0,0,0,0,2,0,0,0,2,"81,755"
+"Utah","Cities","Tooele",3,2,0,1,0,0,0,3,1,2,0,0,"33,448"
+"Utah","Cities","West Jordan",2,2,0,0,0,0,0,2,0,0,2,0,"113,595"
+"Utah","Cities","West Valley",4,3,1,0,0,0,0,4,3,0,0,1,"137,558"
+"Utah","Universities and Colleges","Brigham Young University",2,2,0,0,0,0,0,2,0,0,1,1,"33,469"
+"Utah","Universities and Colleges","Utah State University, Logan",1,0,0,1,0,0,0,1,0,0,0,1,"28,622"
+"Utah","Metropolitan Counties","Salt Lake County Unified Police Department",1,0,1,0,0,0,0,1,1,0,0,0,
+"Utah","Metropolitan Counties","Utah",1,1,0,0,0,0,0,1,0,0,1,0,
+"Utah","Metropolitan Counties","Washington",1,0,1,0,0,0,0,1,0,0,1,0,
+"Utah","State Police Agencies","Utah Highway Patrol",10,10,0,0,0,0,0,10,3,3,1,3,
+"Utah","Other Agencies","Utah Transit Authority",5,3,0,1,1,0,0,5,2,0,2,1,
+"Vermont","Cities","Barre",1,1,0,0,0,0,0,1,0,0,1,0,"8,687"
+"Vermont","Cities","Barre Town",1,1,0,0,0,0,0,1,0,1,0,0,"7,791"
+"Vermont","Cities","Brandon",1,1,0,0,0,0,0,1,1,0,0,0,"3,801"
+"Vermont","Cities","Burlington",5,2,1,2,0,0,0,5,2,0,1,2,"42,454"
+"Vermont","Cities","Chester",1,0,0,0,1,0,0,1,0,1,0,0,"3,069"
+"Vermont","Cities","Colchester",1,1,0,0,0,0,0,1,0,1,0,0,"17,437"
+"Vermont","Cities","Middlebury",1,0,1,0,0,0,0,1,0,0,0,1,"8,570"
+"Vermont","Cities","Milton",2,1,0,1,0,0,0,2,0,1,1,0,"10,921"
+"Vermont","Cities","Rutland",1,0,1,0,0,0,0,1,0,0,0,1,"15,698"
+"Vermont","Cities","Springfield",1,1,0,0,0,0,0,1,0,0,0,1,"9,132"
+"Vermont","Cities","St. Albans",2,2,0,0,0,0,0,2,0,2,0,0,"6,799"
+"Vermont","Cities","St. Johnsbury",4,4,0,0,0,0,0,4,0,3,0,1,"7,414"
+"Vermont","Cities","Williston",1,1,0,0,0,0,0,1,0,0,0,1,"9,556"
+"Vermont","Universities and Colleges","University of Vermont",2,0,2,0,0,0,0,2,0,0,2,0,"12,815"
+"Vermont","Nonmetropolitan Counties","Lamoille",1,1,0,0,0,0,0,1,1,0,0,0,
+"Virginia","Cities","Alexandria",2,0,0,2,0,0,0,2,0,1,1,0,"155,319"
+"Virginia","Cities","Chesapeake",4,2,1,0,1,0,0,4,2,1,1,0,"236,570"
+"Virginia","Cities","Clifton Forge",1,1,0,0,0,0,0,1,1,0,0,0,"3,713"
+"Virginia","Cities","Covington",1,0,1,0,0,0,0,1,0,0,1,0,"5,570"
+"Virginia","Cities","Front Royal",3,1,0,2,0,0,0,3,1,0,1,1,"15,193"
+"Virginia","Cities","Hampton",1,1,0,0,0,0,0,1,0,1,0,0,"135,504"
+"Virginia","Cities","Harrisonburg",4,3,1,0,0,0,0,4,1,0,3,0,"52,972"
+"Virginia","Cities","Herndon",1,0,1,0,0,0,0,1,0,0,1,0,"24,806"
+"Virginia","Cities","Manassas",1,1,0,0,0,0,0,1,0,0,1,0,"42,267"
+"Virginia","Cities","Newport News",4,3,0,1,0,0,0,4,0,1,2,1,"181,676"
+"Virginia","Cities","Norfolk",1,0,1,0,0,0,0,1,0,0,1,0,"245,734"
+"Virginia","Cities","Portsmouth",3,3,0,0,0,0,0,3,0,1,1,1,"95,813"
+"Virginia","Cities","Purcellville",1,1,0,0,0,0,0,1,0,0,1,0,"9,547"
+"Virginia","Cities","Radford",1,1,0,0,0,0,0,1,0,0,0,1,"17,504"
+"Virginia","Cities","Richmond",1,0,1,0,0,0,0,1,1,0,0,0,"222,430"
+"Virginia","Cities","Rocky Mount",1,1,0,0,0,0,0,1,1,0,0,0,"4,803"
+"Virginia","Cities","Virginia Beach",5,2,0,3,0,0,0,5,0,0,3,2,"453,017"
+"Virginia","Cities","Waynesboro",1,1,0,0,0,0,0,1,1,0,0,0,"21,464"
+"Virginia","Cities","Williamsburg",1,1,0,0,0,0,0,1,0,0,0,1,"15,256"
+"Virginia","Cities","Woodstock",1,1,0,0,0,0,0,1,0,1,0,0,"5,277"
+"Virginia","Universities and Colleges","College of William and Mary",1,0,0,1,0,0,0,1,1,0,0,0,"8,484"
+"Virginia","Universities and Colleges","Emory and Henry College",1,1,0,0,0,0,0,1,0,1,0,0,"1,117"
+"Virginia","Universities and Colleges","George Mason University",1,0,1,0,0,0,0,1,1,0,0,0,"33,929"
+"Virginia","Universities and Colleges","Hampton University",1,1,0,0,0,0,0,1,0,0,1,,"4,269"
+"Virginia","Universities and Colleges","Old Dominion University",2,2,0,0,0,0,0,2,2,0,0,0,"24,672"
+"Virginia","Universities and Colleges","Radford University",1,1,0,0,0,0,0,1,1,0,0,0,"9,743"
+"Virginia","Universities and Colleges","University of Virginia",1,0,0,1,0,0,0,1,0,0,0,1,"23,883"
+"Virginia","Universities and Colleges","Virginia Commonwealth University",2,1,0,1,0,0,0,2,0,0,0,2,"30,918"
+"Virginia","Metropolitan Counties","Albemarle County Police Department",4,3,0,1,0,0,0,4,1,2,1,0,
+"Virginia","Metropolitan Counties","Amelia",1,1,0,0,0,0,0,1,0,0,1,0,
+"Virginia","Metropolitan Counties","Arlington County Police Department",3,2,1,0,0,0,0,3,0,0,1,2,
+"Virginia","Metropolitan Counties","Fairfax County Police Department",24,14,6,4,0,0,0,24,7,7,3,7,
+"Virginia","Metropolitan Counties","Franklin",1,0,1,0,0,0,0,1,0,0,0,1,
+"Virginia","Metropolitan Counties","Frederick",1,1,0,0,0,0,0,1,0,0,0,1,
+"Virginia","Metropolitan Counties","Hanover",1,1,0,0,0,0,0,1,0,0,0,1,
+"Virginia","Metropolitan Counties","Henrico County Police Department",1,0,1,0,0,0,0,1,1,0,0,0,
+"Virginia","Metropolitan Counties","Loudoun",8,5,1,2,0,0,0,8,0,0,1,7,
+"Virginia","Metropolitan Counties","Mathews",1,1,0,0,0,0,0,1,0,0,1,0,
+"Virginia","Metropolitan Counties","Montgomery",1,0,1,0,0,0,0,1,1,0,0,0,
+"Virginia","Metropolitan Counties","Powhatan",1,1,0,0,0,0,0,1,0,0,1,0,
+"Virginia","Metropolitan Counties","Prince William County Police Department",6,5,1,0,0,0,0,6,1,0,2,3,
+"Virginia","Metropolitan Counties","Spotsylvania",1,1,0,0,0,0,0,1,0,0,0,1,
+"Virginia","Metropolitan Counties","Stafford",4,4,0,0,0,0,0,4,0,2,0,2,
+"Virginia","Metropolitan Counties","Washington",2,2,0,0,0,0,0,2,0,1,1,0,
+"Virginia","Metropolitan Counties","York",1,1,0,0,0,0,0,1,0,0,0,1,
+"Virginia","Nonmetropolitan Counties","Accomack",2,0,0,0,2,0,0,2,0,0,2,0,
+"Virginia","Nonmetropolitan Counties","Grayson",1,1,0,0,0,0,0,1,0,0,0,1,
+"Virginia","Nonmetropolitan Counties","Louisa",2,1,0,1,0,0,0,2,0,1,1,0,
+"Virginia","Nonmetropolitan Counties","Shenandoah",1,1,0,0,0,0,0,1,0,1,0,0,
+"Virginia","State Police Agencies","State Police:Chesapeake",1,1,0,0,0,0,0,1,0,0,1,0,
+"Virginia","State Police Agencies","State Police:Fairfax County",2,0,1,1,0,0,0,2,0,1,0,1,
+"Virginia","State Police Agencies","State Police:Goochland County",1,0,0,1,0,0,0,1,0,0,0,1,
+"Virginia","State Police Agencies","State Police:Newport News",1,1,0,0,0,0,0,1,0,0,0,1,
+"Virginia","State Police Agencies","State Police:Rockingham County",1,0,0,1,0,0,0,1,0,0,1,0,
+"Virginia","State Police Agencies","State Police:Surry County",1,0,1,0,0,0,0,1,0,0,0,1,
+"Washington","Cities","Aberdeen",2,1,0,1,0,0,0,2,2,0,0,0,"16,155"
+"Washington","Cities","Algona",1,1,0,0,0,0,0,1,0,0,1,0,"3,166"
+"Washington","Cities","Arlington",1,1,0,0,0,0,0,1,0,0,0,1,"19,142"
+"Washington","Cities","Auburn",5,4,1,0,0,0,0,5,1,2,1,1,"78,400"
+"Washington","Cities","Bainbridge Island",1,0,0,1,0,0,0,1,0,0,1,0,"23,998"
+"Washington","Cities","Battle Ground",1,1,0,0,0,0,0,1,0,0,0,1,"19,734"
+"Washington","Cities","Bellevue",18,2,13,3,0,0,0,18,6,5,3,4,"142,238"
+"Washington","Cities","Bellingham",8,7,0,1,0,0,0,8,3,0,1,4,"86,005"
+"Washington","Cities","Bothell",1,1,0,0,0,0,0,1,0,0,0,1,"43,828"
+"Washington","Cities","Brier",1,1,0,0,0,0,0,1,1,0,0,0,"6,753"
+"Washington","Cities","Centralia",5,4,1,0,0,0,0,5,1,0,4,0,"16,785"
+"Washington","Cities","Darrington",1,1,0,0,0,0,0,1,1,0,0,0,"1,381"
+"Washington","Cities","Des Moines",1,1,0,0,0,0,0,1,0,0,0,1,"31,523"
+"Washington","Cities","Edmonds",5,4,1,0,0,0,0,5,0,0,3,2,"41,705"
+"Washington","Cities","Enumclaw",1,1,0,0,0,0,0,1,0,0,1,0,"11,709"
+"Washington","Cities","Everett",5,4,1,0,0,0,0,5,2,0,0,3,"108,988"
+"Washington","Cities","Federal Way",2,2,0,0,0,0,0,2,1,0,0,1,"96,338"
+"Washington","Cities","Forks",2,1,0,0,0,1,0,2,0,1,1,0,"3,787"
+"Washington","Cities","Granite Falls",1,0,0,1,0,0,0,1,0,0,1,0,"3,516"
+"Washington","Cities","Kent",16,8,3,5,0,0,0,16,3,5,5,3,"128,604"
+"Washington","Cities","Kettle Falls",1,1,0,0,0,0,0,1,0,0,1,0,"1,596"
+"Washington","Cities","Kirkland",1,1,0,0,0,0,0,1,0,1,0,0,"88,627"
+"Washington","Cities","Lake Forest Park",1,0,1,0,0,0,0,1,0,0,0,1,"13,369"
+"Washington","Cities","Lake Stevens",2,2,0,0,0,0,0,2,0,1,1,0,"31,440"
+"Washington","Cities","Lakewood",3,2,0,1,0,0,0,3,0,0,1,2,"60,153"
+"Washington","Cities","Longview",7,5,2,0,0,0,0,6,2,1,1,2,"36,854"
+"Washington","Cities","Lynnwood",2,2,0,0,0,0,0,2,0,0,1,1,"37,217"
+"Washington","Cities","Marysville",4,2,1,0,0,0,1,4,2,0,1,1,"68,172"
+"Washington","Cities","Mill Creek",1,0,0,1,0,0,0,1,0,0,0,1,"20,419"
+"Washington","Cities","Milton",1,1,0,0,0,0,0,1,0,1,0,0,"7,785"
+"Washington","Cities","Mountlake Terrace",1,1,0,0,0,0,0,1,0,0,1,0,"21,212"
+"Washington","Cities","Mount Vernon",1,0,0,0,0,0,1,1,0,1,0,0,"34,521"
+"Washington","Cities","Mukilteo",1,0,1,0,0,0,0,1,0,1,0,0,"21,416"
+"Washington","Cities","Oak Harbor",3,2,0,0,1,0,0,3,0,2,1,0,"22,795"
+"Washington","Cities","Olympia",1,1,0,0,0,0,0,1,0,0,1,0,"50,972"
+"Washington","Cities","Orting",3,3,0,0,0,0,0,3,0,1,2,0,"7,594"
+"Washington","Cities","Pasco",1,1,0,0,0,0,0,1,0,1,0,0,"71,077"
+"Washington","Cities","Port Angeles",5,4,0,1,0,0,0,5,0,2,2,1,"19,525"
+"Washington","Cities","Port Townsend",1,0,1,0,0,0,0,1,0,0,0,1,"9,378"
+"Washington","Cities","Pullman",2,0,1,1,0,0,0,2,1,0,1,0,"33,456"
+"Washington","Cities","Puyallup",3,2,1,0,0,0,0,3,1,2,0,0,"40,167"
+"Washington","Cities","Redmond",7,2,5,0,0,0,0,6,0,1,0,5,"61,893"
+"Washington","Cities","Renton",8,5,1,2,0,0,0,8,0,4,2,2,"101,908"
+"Washington","Cities","Richland",2,2,0,0,0,0,0,2,0,0,1,1,"55,475"
+"Washington","Cities","Sammamish",7,5,1,0,0,1,0,7,0,0,6,1,"53,387"
+"Washington","Cities","Seattle",118,64,12,33,0,0,9,118,30,27,33,28,"700,313"
+"Washington","Cities","Snohomish",1,1,0,0,0,0,0,1,0,0,1,0,"9,773"
+"Washington","Cities","Spokane",8,6,1,1,0,0,0,8,1,2,,5,"214,028"
+"Washington","Cities","Spokane Valley",10,8,1,1,0,0,0,10,2,1,1,6,"95,923"
+"Washington","Cities","Stanwood",1,1,0,0,0,0,0,1,0,0,0,1,"6,888"
+"Washington","Cities","Tacoma",9,4,0,5,0,0,0,9,2,2,3,2,"209,914"
+"Washington","Cities","Tenino",1,1,0,0,0,0,0,1,0,0,1,0,"1,761"
+"Washington","Cities","Tukwila",1,1,0,0,0,0,0,1,1,0,0,0,"20,195"
+"Washington","Cities","Vancouver",4,4,0,0,0,0,0,4,0,4,0,0,"174,912"
+"Washington","Cities","Walla Walla",7,6,0,0,1,0,0,7,4,2,0,1,"32,326"
+"Washington","Cities","White Salmon",2,2,0,0,0,0,0,2,1,1,0,0,"2,364"
+"Washington","Cities","Woodinville",1,0,1,0,0,0,0,1,0,0,1,0,"11,953"
+"Washington","Cities","Yakima",5,3,1,1,0,0,0,5,0,2,1,2,"94,111"
+"Washington","Universities and Colleges","Eastern Washington University",1,0,0,1,0,0,0,1,1,0,0,0,"12,361"
+"Washington","Universities and Colleges","Evergreen State College",2,0,0,1,0,0,1,2,1,1,0,0,"4,190"
+"Washington","Universities and Colleges","University of Washington",4,1,1,1,0,1,0,4,0,2,1,1,"45,408"
+"Washington","Universities and Colleges","Washington State University, Pullman",1,1,0,0,0,0,0,1,1,0,0,0,"29,686"
+"Washington","Universities and Colleges","Western Washington University",2,1,0,1,0,0,0,2,0,0,0,2,"15,332"
+"Washington","Metropolitan Counties","Clark",1,1,0,0,0,0,0,1,0,0,0,1,
+"Washington","Metropolitan Counties","Cowlitz",5,2,1,2,0,0,0,5,1,0,3,1,
+"Washington","Metropolitan Counties","King",14,11,2,1,0,0,0,14,2,4,4,4,
+"Washington","Metropolitan Counties","Pierce",11,10,0,1,0,0,0,11,3,2,0,6,
+"Washington","Metropolitan Counties","Skagit",1,0,0,0,0,0,1,1,0,1,0,0,
+"Washington","Metropolitan Counties","Snohomish",6,4,2,0,0,0,0,6,2,2,1,1,
+"Washington","Metropolitan Counties","Spokane",1,1,0,0,0,0,0,1,0,0,0,1,
+"Washington","Metropolitan Counties","Walla Walla",1,0,1,0,0,0,0,1,0,0,1,0,
+"Washington","Metropolitan Counties","Whatcom",13,8,2,3,0,0,0,13,5,3,3,2,
+"Washington","Metropolitan Counties","Yakima",4,4,0,0,0,0,0,4,0,1,1,2,
+"Washington","Nonmetropolitan Counties","Grays Harbor",1,1,0,0,0,0,0,1,1,0,0,0,
+"Washington","Nonmetropolitan Counties","Island",1,1,0,0,0,0,0,1,0,0,0,1,
+"Washington","Nonmetropolitan Counties","Lewis",1,1,0,0,0,0,0,1,0,0,1,0,
+"Washington","Nonmetropolitan Counties","Mason",1,0,1,0,0,0,0,1,0,0,1,0,
+"Washington","Nonmetropolitan Counties","San Juan",1,0,0,0,0,0,1,1,0,0,0,1,
+"Washington","Tribal Agencies","Lummi Tribal",1,1,0,0,0,0,0,1,0,0,0,1,
+"Washington","Other Agencies","Port of Seattle",1,1,0,0,0,0,0,1,1,0,0,0,
+"West Virginia","Cities","Beckley",1,1,0,0,0,0,0,1,0,0,1,0,"16,940"
+"West Virginia","Cities","Buckhannon",1,1,0,0,0,0,0,1,0,0,0,1,"5,662"
+"West Virginia","Cities","Charleston",15,10,1,4,0,0,0,15,4,5,4,2,"49,429"
+"West Virginia","Cities","Fairmont",1,0,0,0,1,0,0,1,1,0,0,0,"18,733"
+"West Virginia","Cities","Fayetteville",2,2,0,0,0,0,0,2,1,1,0,0,"2,885"
+"West Virginia","Cities","Huntington",2,0,0,1,1,0,0,2,1,1,0,0,"48,540"
+"West Virginia","Cities","Moundsville",1,1,0,0,0,0,0,1,1,0,0,0,"8,644"
+"West Virginia","Cities","Oak Hill",2,2,0,0,0,0,0,2,0,1,1,0,"8,104"
+"West Virginia","Cities","Parkersburg",1,0,0,1,0,0,0,1,1,0,0,0,"30,913"
+"West Virginia","Cities","Philippi",1,1,0,0,0,0,0,1,0,0,1,0,"3,320"
+"West Virginia","Cities","Ranson",1,1,0,0,0,0,0,1,0,1,0,,"5,053"
+"West Virginia","Cities","Wheeling",1,1,0,0,0,0,0,1,0,1,0,0,"27,486"
+"West Virginia","Metropolitan Counties","Berkeley",1,1,0,0,0,0,0,1,0,0,1,0,
+"West Virginia","Metropolitan Counties","Brooke",1,1,0,0,0,0,0,1,0,0,0,1,
+"West Virginia","Metropolitan Counties","Cabell",1,1,0,0,0,0,0,1,0,0,0,1,
+"West Virginia","Metropolitan Counties","Hancock",2,2,0,0,0,0,0,2,1,1,0,0,
+"West Virginia","Metropolitan Counties","Jefferson",1,1,0,0,0,0,0,1,0,0,0,1,
+"West Virginia","Metropolitan Counties","Kanawha",3,1,0,1,1,0,0,3,1,1,1,0,
+"West Virginia","Nonmetropolitan Counties","Mason",3,3,0,0,0,0,0,3,0,0,2,1,
+"Wisconsin","Cities","Appleton",1,1,0,0,0,0,0,1,1,0,0,0,"74,439"
+"Wisconsin","Cities","Cross Plains",1,0,0,1,0,0,0,1,1,0,0,0,"4,072"
+"Wisconsin","Cities","Fox Valley Metro",1,1,0,0,0,0,0,1,0,0,1,0,"21,515"
+"Wisconsin","Cities","Green Bay",1,1,0,0,0,0,0,1,1,0,0,0,"105,452"
+"Wisconsin","Cities","Hudson",1,0,0,1,0,0,0,1,0,0,0,1,"13,740"
+"Wisconsin","Cities","Janesville",1,1,0,0,0,0,0,1,0,1,0,0,"64,234"
+"Wisconsin","Cities","La Crosse",1,1,0,0,0,0,0,1,0,1,0,0,"52,498"
+"Wisconsin","Cities","Madison",15,8,7,0,0,0,0,15,0,8,2,5,"252,136"
+"Wisconsin","Cities","Manitowoc",1,1,0,0,0,0,0,1,0,1,0,0,"32,877"
+"Wisconsin","Cities","Milwaukee",2,0,0,1,0,0,1,2,0,1,1,0,"600,193"
+"Wisconsin","Cities","New Richmond",1,1,0,0,0,0,0,1,0,0,1,0,"8,913"
+"Wisconsin","Cities","Onalaska",1,1,0,0,0,0,0,1,0,1,0,0,"18,600"
+"Wisconsin","Cities","Osceola",1,1,0,0,0,0,0,1,0,0,0,1,"2,502"
+"Wisconsin","Cities","Stoughton",1,1,0,0,0,0,0,1,0,0,0,1,"13,148"
+"Wisconsin","Metropolitan Counties","Fond du Lac",2,2,0,0,0,0,0,2,1,0,0,1,
+"Wisconsin","Metropolitan Counties","Outagamie",1,1,0,0,0,0,0,1,0,0,1,0,
+"Wisconsin","Metropolitan Counties","St. Croix",1,0,1,0,0,0,0,1,0,0,0,1,
+"Wisconsin","Nonmetropolitan Counties","Rusk",1,1,0,0,0,0,0,1,0,0,1,0,
+"Wyoming","Cities","Gillette",3,3,0,0,0,0,0,3,0,2,0,1,"33,218"
