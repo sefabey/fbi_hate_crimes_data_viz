@@ -1,0 +1,1777 @@
+State,Agency_Type,Agency_name,Total_incidents_bias_motivation,Bias_Motivation_Race_Ethnicity_Ancestry,Bias_Motivation_Religion,Bias_Motivation_Sexual_orientation,Bias_Motivation_Disability,Bias_Motivation_Gender,Bias_Motivation_Gender_Identity,Total_incidents_Q1_to_Q4,No_of_incidents_Q1,No_of_incidents_Q2,No_of_incidents_Q3,No_of_incidents_Q4,Population,agency_with_state,lon,lat
+Alabama,Cities,Birmingham,9,7,1,1,0,0,0,9,3,2,2,2,212549,"Birmingham, Alabama",NA,NA
+Alabama,Cities,Florence,1,1,0,0,0,0,0,1,0,0,1,0,40160,"Florence, Alabama",-87.677251,34.79981
+Alabama,Cities,Foley,1,1,0,0,0,0,0,1,0,1,0,0,17639,"Foley, Alabama",NA,NA
+Alabama,Cities,Hoover,3,3,0,0,0,0,0,3,1,0,1,1,85601,"Hoover, Alabama",NA,NA
+Alaska,Cities,Anchorage,4,4,0,0,0,0,0,4,1,0,2,1,299097,"Anchorage, Alaska",NA,NA
+Alaska,Cities,Juneau,6,6,0,0,0,0,0,6,1,1,3,1,32964,"Juneau, Alaska",NA,NA
+Alaska,Cities,Wasilla,1,1,0,0,0,0,0,1,1,0,0,0,9585,"Wasilla, Alaska",NA,NA
+Arizona,Cities,Apache Junction,2,2,0,0,0,0,0,2,1,0,1,0,38506,"Apache Junction, Arizona",NA,NA
+Arizona,Cities,Chandler,4,2,2,0,0,0,0,4,1,0,1,2,265922,"Chandler, Arizona",-111.8412502,33.3061605
+Arizona,Cities,Gilbert,1,1,0,0,0,0,0,1,1,0,0,0,255899,"Gilbert, Arizona",NA,NA
+Arizona,Cities,Glendale,1,1,0,0,0,0,0,1,0,1,0,0,242938,"Glendale, Arizona",NA,NA
+Arizona,Cities,Mesa,5,3,0,2,0,0,0,5,3,0,0,2,478277,"Mesa, Arizona",-111.8314724,33.4151843
+Arizona,Cities,Phoenix,175,90,40,44,1,0,0,174,34,39,45,56,1586611,"Phoenix, Arizona",-112.0740373,33.4483771
+Arizona,Cities,Prescott Valley,2,1,0,1,0,0,0,2,1,1,NA,NA,42900,"Prescott Valley, Arizona",NA,NA
+Arizona,Cities,Sahuarita,1,1,0,0,0,0,0,1,0,0,0,1,25792,"Sahuarita, Arizona",NA,NA
+Arizona,Cities,Scottsdale,4,1,3,0,0,0,0,4,0,NA,2,2,240885,"Scottsdale, Arizona",NA,NA
+Arizona,Cities,St. Johns,1,0,0,1,0,0,0,1,1,0,0,0,3482,"St. Johns, Arizona",NA,NA
+Arizona,Cities,Tempe,1,0,0,1,0,0,0,1,1,0,0,0,178654,"Tempe, Arizona",-111.9400054,33.4255104
+Arizona,Cities,Tucson,5,1,2,2,0,0,0,5,2,1,1,1,533663,"Tucson, Arizona",-110.9747108,32.2226066
+Arizona,Cities,Williams,1,0,0,1,0,0,0,1,0,1,0,0,3140,"Williams, Arizona",NA,NA
+Arizona,Cities,Yuma,4,2,1,1,0,0,0,4,1,1,2,0,94696,"Yuma, Arizona",NA,NA
+Arizona,Universities and Colleges,"Arizona State University, Main Campus",1,1,0,0,0,0,0,1,0,0,0,1,90906,"Arizona State University, Main Campus, Arizona",-112.0731218,33.4535385
+Arizona,Universities and Colleges,University of Arizona,2,0,2,0,0,0,0,2,0,2,NA,NA,42595,"University of Arizona, Arizona",NA,NA
+Arizona,Metropolitan Counties,Maricopa,3,3,0,0,0,0,0,3,NA,0,3,0,NA,"Maricopa, Arizona",NA,NA
+Arizona,Metropolitan Counties,Pima,1,1,0,0,0,0,0,1,0,1,0,NA,NA,"Pima, Arizona",NA,NA
+Arkansas,Cities,Fort Smith,4,3,1,0,0,0,0,4,2,0,0,2,88573,"Fort Smith, Arkansas",-94.39854749999999,35.3859242
+Arkansas,Cities,Jacksonville,2,2,0,0,0,0,0,2,0,0,0,2,28684,"Jacksonville, Arkansas",-92.1101458,34.8662005
+Arkansas,Cities,Little Rock,1,0,0,0,0,0,1,1,0,1,0,0,198800,"Little Rock, Arkansas",-92.28959479999999,34.7464809
+Arkansas,Metropolitan Counties,Sebastian,3,3,0,0,0,0,0,3,0,1,0,2,NA,"Sebastian, Arkansas",-94.315422,35.2260397
+Arkansas,Nonmetropolitan Counties,Sevier,2,2,0,0,0,0,0,2,0,0,2,0,NA,"Sevier, Arkansas",-94.27436279999999,34.0346222
+California,Cities,Adelanto,2,1,0,1,0,0,0,2,0,1,1,0,33479,"Adelanto, California",-117.409215,34.5827699
+California,Cities,Alameda,3,3,0,0,0,0,0,3,0,1,0,2,79597,"Alameda, California",-122.2416355,37.7652065
+California,Cities,Alhambra,1,1,0,0,0,0,0,1,0,0,0,1,86035,"Alhambra, California",-118.1270146,34.095287
+California,Cities,Anaheim,1,1,0,0,0,0,0,1,1,0,0,0,353504,"Anaheim, California",-117.9143012,33.8365932
+California,Cities,Antioch,2,2,0,0,0,0,0,2,0,0,2,0,112090,"Antioch, California",-121.805789,38.0049214
+California,Cities,Arcata,2,2,0,0,0,0,0,2,0,0,1,1,17913,"Arcata, California",-124.0828396,40.8665166
+California,Cities,Azusa,2,2,0,0,0,0,0,2,2,0,0,0,50393,"Azusa, California",-117.9075627,34.1336186
+California,Cities,Bakersfield,8,8,0,0,0,0,0,8,0,3,2,3,378788,"Bakersfield, California",-119.0187125,35.3732921
+California,Cities,Baldwin Park,1,0,0,1,0,0,0,1,1,0,0,0,77400,"Baldwin Park, California",NA,NA
+California,Cities,Bellflower,1,0,0,1,0,0,0,1,1,0,0,0,78806,"Bellflower, California",-118.1170117,33.8816818
+California,Cities,Berkeley,13,9,2,2,0,0,0,13,5,3,2,3,122651,"Berkeley, California",-122.272747,37.8715926
+California,Cities,Beverly Hills,1,1,0,0,0,0,0,1,0,0,1,0,35018,"Beverly Hills, California",NA,NA
+California,Cities,Brea,1,0,0,1,0,0,0,1,0,1,0,0,42465,"Brea, California",-117.9002918,33.916475
+California,Cities,Buena Park,3,2,1,0,0,0,0,3,0,0,2,1,83768,"Buena Park, California",-117.9981387,33.8674044
+California,Cities,Burbank,1,1,0,0,0,0,0,1,0,0,1,0,105720,"Burbank, California",-118.3089661,34.1808392
+California,Cities,Calabasas,3,3,0,0,0,0,0,3,1,0,2,0,24492,"Calabasas, California",-118.6614809,34.1367208
+California,Cities,Camarillo,1,1,0,0,0,0,0,1,0,1,0,0,68072,"Camarillo, California",NA,NA
+California,Cities,Campbell,1,0,1,0,0,0,0,1,0,1,0,0,41457,"Campbell, California",-121.9499568,37.2871651
+California,Cities,Capitola,1,1,0,0,0,0,0,1,0,0,0,1,10241,"Capitola, California",NA,NA
+California,Cities,Central Marin,2,2,0,0,0,0,0,2,0,1,1,0,35265,"Central Marin, California",-122.5300763,37.9385128
+California,Cities,Cerritos,1,0,0,1,0,0,0,1,0,0,1,0,50159,"Cerritos, California",-118.0647871,33.8583483
+California,Cities,Chico,3,3,0,0,0,0,0,3,0,1,0,2,91122,"Chico, California",-121.8374777,39.7284944
+California,Cities,Chino,3,2,0,1,0,0,0,3,0,1,1,1,87081,"Chino, California",NA,NA
+California,Cities,Chino Hills,1,1,0,0,0,0,0,1,1,0,0,0,78990,"Chino Hills, California",-117.7325848,33.9898188
+California,Cities,Chula Vista,5,1,2,2,0,0,0,5,1,1,3,0,270175,"Chula Vista, California",NA,NA
+California,Cities,Citrus Heights,2,1,0,1,0,0,0,2,1,0,0,1,87811,"Citrus Heights, California",-121.2810611,38.7071247
+California,Cities,Claremont,9,7,1,1,0,0,0,9,1,0,1,7,36553,"Claremont, California",NA,NA
+California,Cities,Clayton,2,0,0,2,0,0,0,2,0,2,0,0,12057,"Clayton, California",NA,NA
+California,Cities,Clearlake,1,1,0,0,0,0,0,1,0,0,0,1,15165,"Clearlake, California",NA,NA
+California,Cities,Clovis,1,1,0,0,0,0,0,1,0,0,1,0,105865,"Clovis, California",NA,NA
+California,Cities,Coalinga,1,0,0,1,0,0,0,1,1,0,0,0,16282,"Coalinga, California",-120.3601496,36.139678
+California,Cities,Compton,1,0,0,0,0,0,1,1,0,0,1,0,98861,"Compton, California",NA,NA
+California,Cities,Concord,3,1,0,2,0,0,0,3,1,0,0,2,129903,"Concord, California",NA,NA
+California,Cities,Culver City,1,0,0,1,0,0,0,1,0,1,0,0,39880,"Culver City, California",NA,NA
+California,Cities,Cupertino,3,2,1,0,0,0,0,3,0,0,3,0,60948,"Cupertino, California",NA,NA
+California,Cities,Danville,1,0,1,0,0,0,0,1,1,0,0,0,44897,"Danville, California",-121.9999606,37.8215929
+California,Cities,Davis,8,5,1,1,0,0,1,8,2,0,1,5,68087,"Davis, California",NA,NA
+California,Cities,Desert Hot Springs,1,0,0,1,0,0,0,1,0,1,0,0,28573,"Desert Hot Springs, California",NA,NA
+California,Cities,Downey,1,1,0,0,0,0,0,1,0,1,0,0,114704,"Downey, California",NA,NA
+California,Cities,East Palo Alto,1,0,0,1,0,0,0,1,0,0,0,1,29957,"East Palo Alto, California",NA,NA
+California,Cities,Eastvale,1,0,1,0,0,0,0,1,0,1,0,0,60115,"Eastvale, California",NA,NA
+California,Cities,Elk Grove,1,1,0,0,0,0,0,1,1,0,0,0,169742,"Elk Grove, California",-121.3716178,38.4087993
+California,Cities,El Segundo,2,2,0,0,0,0,0,2,1,0,1,0,17113,"El Segundo, California",-118.4164652,33.9191799
+California,Cities,Encinitas,1,1,0,0,0,0,0,1,0,0,0,1,63597,"Encinitas, California",NA,NA
+California,Cities,Escondido,1,1,0,0,0,0,0,1,0,1,0,0,152897,"Escondido, California",-117.086421,33.1192068
+California,Cities,Fairfield,3,1,1,1,0,0,0,3,2,0,1,0,114521,"Fairfield, California",-122.0399663,38.24935809999999
+California,Cities,Farmersville,1,0,1,0,0,0,0,1,0,0,1,0,10812,"Farmersville, California",NA,NA
+California,Cities,Folsom,1,0,1,0,0,0,0,1,0,1,0,0,77245,"Folsom, California",-121.1760583,38.6779591
+California,Cities,Fort Bragg,3,1,1,1,0,0,0,3,0,2,1,0,7292,"Fort Bragg, California",NA,NA
+California,Cities,Fremont,1,1,0,0,0,0,0,1,1,0,0,0,235881,"Fremont, California",-121.9885719,37.5482697
+California,Cities,Fresno,13,7,3,3,0,0,0,13,3,3,4,3,524796,"Fresno, California",-119.7871247,36.7377981
+California,Cities,Fullerton,2,1,0,1,0,0,0,2,1,0,0,1,141968,"Fullerton, California",-117.9242123,33.8703645
+California,Cities,Garden Grove,2,1,1,0,0,0,0,2,1,0,0,1,176230,"Garden Grove, California",-117.9379952,33.7742692
+California,Cities,Glendale,2,1,1,0,0,0,0,2,0,1,0,1,202903,"Glendale, California",-118.255075,34.1425078
+California,Cities,Hanford,1,0,1,0,0,0,0,1,0,1,0,0,55973,"Hanford, California",-119.6456844,36.3274502
+California,Cities,Hawaiian Gardens,1,0,0,0,0,0,1,1,0,1,0,0,14654,"Hawaiian Gardens, California",-118.0728424,33.8314045
+California,Cities,Hawthorne,1,0,1,0,0,0,0,1,0,0,0,1,89299,"Hawthorne, California",NA,NA
+California,Cities,Hayward,2,1,1,0,0,0,0,2,0,0,1,1,161122,"Hayward, California",-122.0807964,37.6688205
+California,Cities,Highland,1,1,0,0,0,0,0,1,0,0,1,0,55184,"Highland, California",NA,NA
+California,Cities,Hollister,1,0,0,1,0,0,0,1,0,0,1,0,37953,"Hollister, California",-121.4016021,36.8524545
+California,Cities,Huntington Beach,6,3,3,0,0,0,0,6,1,1,3,1,204071,"Huntington Beach, California",-117.9988026,33.6594835
+California,Cities,Huntington Park,1,0,0,1,0,0,0,1,1,0,0,0,59692,"Huntington Park, California",-118.2250725,33.9816812
+California,Cities,Irvine,2,2,0,0,0,0,0,2,1,0,0,1,266663,"Irvine, California",-117.8265049,33.6845673
+California,Cities,Jurupa Valley,1,1,0,0,0,0,0,1,0,1,0,0,101316,"Jurupa Valley, California",-117.4854802,33.9971974
+California,Cities,Kingsburg,1,1,0,0,0,0,0,1,1,0,0,0,11905,"Kingsburg, California",-119.5540175,36.5138398
+California,Cities,Laguna Beach,1,1,0,0,0,0,0,1,0,0,0,1,23486,"Laguna Beach, California",-117.7853568,33.5427189
+California,Cities,La Habra,1,1,0,0,0,0,0,1,0,1,0,0,62483,"La Habra, California",-117.946137,33.9318591
+California,Cities,Lake Elsinore,2,1,0,1,0,0,0,2,1,1,0,0,63907,"Lake Elsinore, California",-117.3272615,33.6680772
+California,Cities,Lakewood,4,3,0,1,0,0,0,4,2,0,1,1,81921,"Lakewood, California",NA,NA
+California,Cities,La Mesa,3,2,1,0,0,0,0,3,0,0,1,2,60681,"La Mesa, California",-117.0230839,32.7678287
+California,Cities,La Mirada,2,0,2,0,0,0,0,2,0,2,0,0,49715,"La Mirada, California",-118.0120086,33.9172357
+California,Cities,Lancaster,8,5,0,2,0,0,1,8,1,4,1,2,161963,"Lancaster, California",-118.1541632,34.6867846
+California,Cities,La Puente,1,0,0,1,0,0,0,1,1,0,0,0,40928,"La Puente, California",NA,NA
+California,Cities,Loma Linda,1,1,0,0,0,0,0,1,0,1,0,0,24190,"Loma Linda, California",NA,NA
+California,Cities,Long Beach,8,2,2,3,0,0,1,8,2,0,3,3,476476,"Long Beach, California",NA,NA
+California,Cities,Los Angeles,227,112,43,58,0,1,13,227,55,56,52,64,4007905,"Los Angeles, California",-118.2436849,34.0522342
+California,Cities,Malibu,2,2,0,0,0,0,0,2,1,0,0,1,13030,"Malibu, California",-118.7797571,34.0259216
+California,Cities,Mammoth Lakes,1,1,0,0,0,0,0,1,0,1,0,0,7891,"Mammoth Lakes, California",NA,NA
+California,Cities,Manteca,5,5,0,0,0,0,0,5,1,1,3,0,77104,"Manteca, California",-121.2160526,37.7974273
+California,Cities,Merced,2,0,0,1,0,0,1,2,0,0,1,1,83106,"Merced, California",-120.4829677,37.3021632
+California,Cities,Modesto,11,6,4,1,0,0,0,11,2,4,2,3,212880,"Modesto, California",-120.9968782,37.63909719999999
+California,Cities,Montclair,2,1,1,0,0,0,0,2,0,1,0,1,39085,"Montclair, California",NA,NA
+California,Cities,Monterey,1,1,0,0,0,0,0,1,0,0,0,1,28506,"Monterey, California",NA,NA
+California,Cities,Mountain View,1,0,1,0,0,0,0,1,1,0,0,0,81726,"Mountain View, California",NA,NA
+California,Cities,Murrieta,1,0,0,0,0,1,0,1,0,0,0,1,111043,"Murrieta, California",-117.2139232,33.5539143
+California,Cities,Napa,1,0,0,1,0,0,0,1,0,0,0,1,81115,"Napa, California",NA,NA
+California,Cities,National City,1,1,0,0,0,0,0,1,1,0,0,0,61550,"National City, California",NA,NA
+California,Cities,Newark,1,1,0,0,0,0,0,1,0,1,0,0,45893,"Newark, California",NA,NA
+California,Cities,Norco,2,2,0,0,0,0,0,2,1,0,0,1,26132,"Norco, California",NA,NA
+California,Cities,Norwalk,1,1,0,0,0,0,0,1,0,0,1,0,107453,"Norwalk, California",NA,NA
+California,Cities,Novato,2,1,1,0,0,0,0,2,0,0,0,2,56263,"Novato, California",NA,NA
+California,Cities,Oakland,9,3,3,3,0,0,0,9,3,2,2,2,424998,"Oakland, California",-122.2711137,37.8043637
+California,Cities,Oceanside,7,2,2,3,0,0,0,7,1,3,1,2,177340,"Oceanside, California",NA,NA
+California,Cities,Orange,1,1,0,0,0,0,0,1,0,1,0,0,141841,"Orange, California",-117.8531007,33.7879139
+California,Cities,Oxnard,6,4,1,1,0,0,0,6,2,1,1,2,209048,"Oxnard, California",-119.1770516,34.1975048
+California,Cities,Pacific Grove,1,1,0,0,0,0,0,1,0,1,0,0,15795,"Pacific Grove, California",NA,NA
+California,Cities,Palmdale,8,6,2,0,0,0,0,8,5,0,2,1,159441,"Palmdale, California",NA,NA
+California,Cities,Palm Springs,3,3,0,0,0,0,0,3,1,2,0,0,47909,"Palm Springs, California",-116.5452921,33.8302961
+California,Cities,Palo Alto,4,3,1,0,0,0,0,4,1,2,1,0,67317,"Palo Alto, California",NA,NA
+California,Cities,Paradise,1,1,0,0,0,0,0,1,0,1,0,0,26532,"Paradise, California",NA,NA
+California,Cities,Parlier,1,0,0,1,0,0,0,1,0,1,0,0,15262,"Parlier, California",-119.5270734,36.6116174
+California,Cities,Pasadena,2,1,1,0,0,0,0,2,1,0,1,0,143288,"Pasadena, California",-118.1445155,34.1477849
+California,Cities,Perris,1,0,1,0,0,0,0,1,0,0,0,1,76260,"Perris, California",NA,NA
+California,Cities,Petaluma,1,1,0,0,0,0,0,1,1,0,0,0,60933,"Petaluma, California",-122.6366524,38.232417
+California,Cities,Placentia,1,1,0,0,0,0,0,1,0,1,0,0,52800,"Placentia, California",-117.8627548,33.8710729
+California,Cities,Pomona,5,2,1,2,0,0,0,5,2,1,2,0,154109,"Pomona, California",-117.7499909,34.055103
+California,Cities,Poway,1,0,0,1,0,0,0,1,0,0,0,1,50606,"Poway, California",-117.0358646,32.9628232
+California,Cities,Rancho Cucamonga,4,4,0,0,0,0,0,4,0,2,1,1,177089,"Rancho Cucamonga, California",-117.5931084,34.10639889999999
+California,Cities,Rancho Palos Verdes,1,1,0,0,0,0,0,1,0,0,1,0,42947,"Rancho Palos Verdes, California",NA,NA
+California,Cities,Redding,10,7,1,2,0,0,0,10,0,1,7,2,91918,"Redding, California",-122.3916754,40.5865396
+California,Cities,Redlands,6,4,0,2,0,0,0,6,1,2,3,0,71485,"Redlands, California",-117.1825381,34.0555693
+California,Cities,Redwood City,4,2,0,2,0,0,0,4,0,0,1,3,87046,"Redwood City, California",-122.2363548,37.48521520000001
+California,Cities,Rialto,1,1,0,0,0,0,0,1,0,0,0,1,103893,"Rialto, California",-117.3703235,34.1064001
+California,Cities,Richmond,4,4,0,0,0,0,0,4,0,1,1,2,110868,"Richmond, California",-122.3477486,37.9357576
+California,Cities,Ridgecrest,1,1,0,0,0,0,0,1,0,1,0,0,29003,"Ridgecrest, California",-117.6708966,35.6224561
+California,Cities,Riverside,8,5,1,2,0,0,0,8,2,2,2,2,325896,"Riverside, California",-117.3754942,33.9806005
+California,Cities,Roseville,11,7,4,0,0,0,0,11,0,1,4,6,132566,"Roseville, California",-121.2880059,38.7521235
+California,Cities,Sacramento,6,2,0,4,0,0,0,6,4,1,1,0,495471,"Sacramento, California",-121.4943996,38.5815719
+California,Cities,Salinas,1,0,1,0,0,0,0,1,0,1,0,0,158729,"Salinas, California",-121.6555013,36.6777372
+California,Cities,San Bernardino2,7,6,0,1,0,0,0,6,0,1,4,1,217303,"San Bernardino2, California",-117.2897652,34.1083449
+California,Cities,San Bruno,2,2,0,0,0,0,0,2,0,0,1,1,43613,"San Bruno, California",-122.4110835,37.6304904
+California,Cities,San Diego,35,16,7,12,0,0,0,35,7,10,6,12,1413414,"San Diego, California",-117.1610838,32.715738
+California,Cities,San Fernando,2,0,1,1,0,0,0,2,1,0,0,1,25194,"San Fernando, California",-118.4389719,34.2819461
+California,Cities,San Francisco2,37,11,7,14,0,1,4,36,9,12,10,5,871155,"San Francisco2, California",-122.4194155,37.7749295
+California,Cities,San Jose,19,10,7,2,0,0,0,19,5,1,4,9,1041844,"San Jose, California",-121.8863286,37.3382082
+California,Cities,San Leandro,22,15,3,3,1,0,0,22,4,5,5,8,91870,"San Leandro, California",NA,NA
+California,Cities,San Luis Obispo,2,2,0,0,0,0,0,2,2,0,0,0,47774,"San Luis Obispo, California",-120.6596156,35.2827524
+California,Cities,San Marcos,2,1,1,0,0,0,0,2,1,0,0,1,94840,"San Marcos, California",-117.1661449,33.1433723
+California,Cities,San Mateo,2,0,1,1,0,0,0,2,0,1,0,1,104802,"San Mateo, California",-122.3255254,37.5629917
+California,Cities,San Rafael,1,1,0,0,0,0,0,1,0,0,0,1,59435,"San Rafael, California",-122.5310874,37.9735346
+California,Cities,San Ramon,4,4,0,0,0,0,0,4,0,0,0,4,76901,"San Ramon, California",NA,NA
+California,Cities,Santa Ana,6,2,3,1,0,0,0,6,3,2,0,1,337419,"Santa Ana, California",NA,NA
+California,Cities,Santa Clarita,10,6,4,0,0,0,0,10,3,1,2,4,219611,"Santa Clarita, California",-118.542586,34.3916641
+California,Cities,Santa Cruz,12,7,3,2,0,0,0,12,4,1,2,5,64969,"Santa Cruz, California",NA,NA
+California,Cities,Santa Monica,3,1,1,1,0,0,0,3,0,2,1,0,93921,"Santa Monica, California",-118.4911912,34.0194543
+California,Cities,Santa Rosa,1,0,0,1,0,0,0,1,1,0,0,0,176383,"Santa Rosa, California",-122.7140548,38.440429
+California,Cities,Santee,1,0,1,0,0,0,0,1,0,0,0,1,58651,"Santee, California",NA,NA
+California,Cities,Sebastopol,1,1,0,0,0,0,0,1,0,1,0,0,7734,"Sebastopol, California",NA,NA
+California,Cities,Simi Valley,2,1,1,0,0,0,0,2,0,1,0,1,127252,"Simi Valley, California",NA,NA
+California,Cities,Solvang,1,0,0,1,0,0,0,1,0,0,1,0,5844,"Solvang, California",-120.1376481,34.5958201
+California,Cities,Sonoma,1,1,0,0,0,0,0,1,1,0,0,0,11113,"Sonoma, California",NA,NA
+California,Cities,Sonora,1,1,0,0,0,0,0,1,0,0,0,1,4802,"Sonora, California",NA,NA
+California,Cities,South Gate,2,0,1,1,0,0,0,2,0,0,1,1,96791,"South Gate, California",-118.2120161,33.954737
+California,Cities,South San Francisco,4,0,4,0,0,0,0,4,0,0,0,4,67995,"South San Francisco, California",NA,NA
+California,Cities,Stockton,3,2,0,0,1,0,0,3,0,0,2,1,308348,"Stockton, California",NA,NA
+California,Cities,Suisun City,1,1,0,0,0,0,0,1,0,1,0,0,29768,"Suisun City, California",NA,NA
+California,Cities,Sunnyvale,1,0,1,0,0,0,0,1,0,0,1,0,154108,"Sunnyvale, California",NA,NA
+California,Cities,Thousand Oaks,1,0,1,0,0,0,0,1,0,1,0,0,129853,"Thousand Oaks, California",NA,NA
+California,Cities,Torrance,1,0,1,0,0,0,0,1,0,0,1,0,149078,"Torrance, California",NA,NA
+California,Cities,Turlock,3,3,0,0,0,0,0,3,3,0,0,0,73031,"Turlock, California",-120.8465941,37.4946568
+California,Cities,Twentynine Palms,1,1,0,0,0,0,0,1,0,0,0,1,26213,"Twentynine Palms, California",-116.0541689,34.1355582
+California,Cities,Ukiah,1,0,0,1,0,0,0,1,0,1,0,0,15897,"Ukiah, California",NA,NA
+California,Cities,Union City,1,0,0,1,0,0,0,1,0,1,0,0,75501,"Union City, California",-122.0438298,37.5933918
+California,Cities,Vacaville,1,1,0,0,0,0,0,1,1,0,0,0,97671,"Vacaville, California",NA,NA
+California,Cities,Vallejo,2,2,0,0,0,0,0,2,0,0,1,1,122293,"Vallejo, California",NA,NA
+California,Cities,Ventura,3,2,0,1,0,0,0,3,0,1,1,1,110228,"Ventura, California",-119.2945199,34.2804923
+California,Cities,Victorville,2,1,0,1,0,0,0,2,0,1,0,1,123438,"Victorville, California",-117.2927641,34.5362184
+California,Cities,Walnut Creek,3,1,1,1,0,0,0,3,0,1,1,1,69860,"Walnut Creek, California",-122.0651819,37.9100783
+California,Cities,Watsonville,1,0,1,0,0,0,0,1,1,0,0,0,54110,"Watsonville, California",NA,NA
+California,Cities,West Covina,1,1,0,0,0,0,0,1,1,0,0,0,108950,"West Covina, California",-117.9389526,34.0686208
+California,Cities,West Hollywood,7,2,0,5,0,0,0,7,0,2,2,3,36594,"West Hollywood, California",-118.3617443,34.0900091
+California,Cities,Westminster,4,3,0,1,0,0,0,4,3,0,1,0,92582,"Westminster, California",-117.9897058,33.7591757
+California,Cities,Wildomar,1,1,0,0,0,0,0,1,0,0,0,1,36310,"Wildomar, California",-117.2800372,33.5989126
+California,Cities,Windsor,2,2,0,0,0,0,0,2,1,0,0,1,27594,"Windsor, California",-122.8163802,38.5471327
+California,Universities and Colleges,"California State Polytechnic University, San Luis Obispo",1,1,0,0,0,0,0,1,1,0,0,0,20944,"California State Polytechnic University, San Luis Obispo, California",-120.6624942,35.3050053
+California,Universities and Colleges,California State University: Dominguez Hills,4,4,0,0,0,0,0,4,2,0,0,2,14635,"California State University: Dominguez Hills, California",-118.2552809,33.8633706
+California,Universities and Colleges,California State University: Fullerton,1,0,0,1,0,0,0,1,0,1,0,0,38948,"California State University: Fullerton, California",-117.8869261,33.8829226
+California,Universities and Colleges,California State University: Long Beach,2,2,0,0,0,0,0,2,0,0,2,0,37446,"California State University: Long Beach, California",NA,NA
+California,Universities and Colleges,California State University: San Jose,5,5,0,0,0,0,0,5,0,0,1,4,32773,"California State University: San Jose, California",NA,NA
+California,Universities and Colleges,California State University: Stanislaus,1,0,0,1,0,0,0,1,1,0,0,0,9282,"California State University: Stanislaus, California",-120.8562309,37.5251853
+California,Universities and Colleges,Foothill-De Anza College,2,0,0,1,0,0,1,2,1,1,0,0,37960,"Foothill-De Anza College, California",-122.1271421,37.3620489
+California,Universities and Colleges,Humboldt State University,3,1,1,1,0,0,0,3,0,2,1,0,8790,"Humboldt State University, California",-124.077821,40.8752748
+California,Universities and Colleges,Riverside Community College,1,0,1,0,0,0,0,1,0,0,0,1,37594,"Riverside Community College, California",-117.3808994,33.9714889
+California,Universities and Colleges,San Diego State University,3,3,0,0,0,0,0,3,1,1,0,1,34254,"San Diego State University, California",NA,NA
+California,Universities and Colleges,University of California: Berkeley,4,1,2,1,0,0,0,4,1,1,0,2,38189,"University of California: Berkeley, California",NA,NA
+California,Universities and Colleges,University of California: Davis,1,1,0,0,0,0,0,1,1,0,0,0,35186,"University of California: Davis, California",-121.7617125,38.5382322
+California,Universities and Colleges,University of California: Los Angeles,4,2,1,1,0,0,0,4,2,0,1,1,41908,"University of California: Los Angeles, California",-118.4451811,34.068921
+California,Universities and Colleges,University of California: Riverside,1,0,1,0,0,0,0,1,1,0,0,0,21385,"University of California: Riverside, California",-117.3280644,33.9737055
+California,Universities and Colleges,University of California: San Diego,3,2,0,1,0,0,0,3,0,2,0,1,32906,"University of California: San Diego, California",-117.2340135,32.8800604
+California,Universities and Colleges,University of California: San Francisco,1,0,1,0,0,0,0,1,0,0,0,1,3107,"University of California: San Francisco, California",NA,NA
+California,Universities and Colleges,University of California: Santa Cruz,1,0,0,1,0,0,0,1,0,0,0,1,17868,"University of California: Santa Cruz, California",-122.0582771,36.9915847
+California,Universities and Colleges,Ventura County Community College District,1,0,0,1,0,0,0,1,0,0,0,1,34022,"Ventura County Community College District, California",-119.070912,34.2079642
+California,Metropolitan Counties,Butte,1,0,0,1,0,0,0,1,0,0,1,0,NA,"Butte, California",-121.5370003,39.6253952
+California,Metropolitan Counties,El Dorado,1,0,1,0,0,0,0,1,1,0,0,0,NA,"El Dorado, California",NA,NA
+California,Metropolitan Counties,Fresno,1,0,0,1,0,0,0,1,0,1,0,0,NA,"Fresno, California",-119.7871247,36.7377981
+California,Metropolitan Counties,Los Angeles,26,17,3,6,0,0,0,26,5,4,6,11,NA,"Los Angeles, California",NA,NA
+California,Metropolitan Counties,Orange,2,2,0,0,0,0,0,2,2,0,0,0,NA,"Orange, California",NA,NA
+California,Metropolitan Counties,Riverside,5,3,0,1,0,0,1,5,0,1,3,1,NA,"Riverside, California",-117.3754942,33.9806005
+California,Metropolitan Counties,Sacramento,10,8,1,1,0,0,0,10,5,3,1,1,NA,"Sacramento, California",-121.4943996,38.5815719
+California,Metropolitan Counties,San Bernardino,7,3,2,1,0,0,1,7,4,3,0,0,NA,"San Bernardino, California",-117.2897652,34.1083449
+California,Metropolitan Counties,San Diego,18,13,1,4,0,0,0,18,1,7,8,2,NA,"San Diego, California",NA,NA
+California,Metropolitan Counties,San Mateo,3,1,1,1,0,0,0,3,1,1,1,0,NA,"San Mateo, California",-122.3255254,37.5629917
+California,Metropolitan Counties,Santa Barbara,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Santa Barbara, California",-119.6981901,34.4208305
+California,Metropolitan Counties,Santa Clara,2,2,0,0,0,0,0,2,1,0,1,0,NA,"Santa Clara, California",NA,NA
+California,Metropolitan Counties,Shasta,2,2,0,0,0,0,0,2,1,1,0,0,NA,"Shasta, California",NA,NA
+California,Metropolitan Counties,Solano,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Solano, California",-121.9017954,38.3104969
+California,Metropolitan Counties,Sonoma,4,1,0,3,0,0,0,4,0,1,3,0,NA,"Sonoma, California",NA,NA
+California,Metropolitan Counties,Sutter,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Sutter, California",-121.7527482,39.1598915
+California,Metropolitan Counties,Ventura,2,2,0,0,0,0,0,2,0,1,1,0,NA,"Ventura, California",NA,NA
+California,Metropolitan Counties,Yuba,2,1,0,1,0,0,0,2,0,0,0,2,NA,"Yuba, California",NA,NA
+California,Nonmetropolitan Counties,Amador,1,0,1,0,0,0,0,1,0,0,1,0,NA,"Amador, California",NA,NA
+California,Nonmetropolitan Counties,Humboldt,1,0,1,0,0,0,0,1,0,0,0,1,NA,"Humboldt, California",NA,NA
+California,Nonmetropolitan Counties,Lake,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Lake, California",-122.8084496,39.08396440000001
+California,Nonmetropolitan Counties,Mendocino,2,2,0,0,0,0,0,2,1,0,0,1,NA,"Mendocino, California",NA,NA
+California,Nonmetropolitan Counties,Tuolumne,1,0,1,0,0,0,0,1,0,0,1,0,NA,"Tuolumne, California",NA,NA
+California,Other Agencies,California State Fair,1,1,0,0,0,0,0,1,0,0,1,0,NA,"California State Fair, California",NA,NA
+California,Other Agencies,"East Bay Regional Parks, Alameda County",1,0,1,0,0,0,0,1,0,0,0,1,NA,"East Bay Regional Parks, Alameda County, California",NA,NA
+California,Other Agencies,Fontana Unified School District,1,0,0,1,0,0,0,1,0,0,0,1,NA,"Fontana Unified School District, California",NA,NA
+California,Other Agencies,Los Angeles Transportation Services Bureau2,15,10,0,4,0,0,1,15,7,2,3,3,NA,"Los Angeles Transportation Services Bureau2, California",NA,NA
+California,Other Agencies,Port of San Diego Harbor,3,2,1,0,0,0,0,3,2,0,1,0,NA,"Port of San Diego Harbor, California",-117.1772172,32.7353163
+California,Other Agencies,San Francisco Bay Area Rapid Transit:  Alameda County,2,2,0,0,0,0,0,2,1,0,0,1,NA,"San Francisco Bay Area Rapid Transit:  Alameda County, California",-122.263705,37.8087498
+California,Other Agencies,San Francisco Bay Area Rapid Transit:  Contra Costa County,2,2,0,0,0,0,0,2,1,0,0,1,NA,"San Francisco Bay Area Rapid Transit:  Contra Costa County, California",NA,NA
+California,Other Agencies,Santa Clara Transit District,2,1,0,1,0,0,0,2,0,0,1,1,NA,"Santa Clara Transit District, California",-121.8551293,37.306233400000004
+Colorado,Cities,Aspen,1,0,1,0,0,0,0,1,0,0,0,1,6926,"Aspen, Colorado",NA,NA
+Colorado,Cities,Aurora,18,15,0,3,0,0,0,18,1,3,6,8,366477,"Aurora, Colorado",NA,NA
+Colorado,Cities,Boulder,4,2,1,1,0,0,0,4,1,1,2,0,109189,"Boulder, Colorado",-105.2705456,40.0149856
+Colorado,Cities,Breckenridge,1,0,0,1,0,0,0,1,0,0,1,0,4971,"Breckenridge, Colorado",NA,NA
+Colorado,Cities,Carbondale,1,1,0,0,0,0,0,1,0,1,0,0,6728,"Carbondale, Colorado",NA,NA
+Colorado,Cities,Centennial,2,2,0,0,0,0,0,2,0,0,2,0,111479,"Centennial, Colorado",-104.8771726,39.5807452
+Colorado,Cities,Colorado Springs,6,1,1,4,0,0,0,6,0,2,1,3,464113,"Colorado Springs, Colorado",-104.8213634,38.8338816
+Colorado,Cities,Delta,1,0,0,1,0,0,0,1,1,0,0,0,8778,"Delta, Colorado",NA,NA
+Colorado,Cities,Denver,19,10,3,6,0,0,0,19,4,2,1,12,699259,"Denver, Colorado",-104.990251,39.7392358
+Colorado,Cities,Dillon,1,0,1,0,0,0,0,1,0,0,0,1,972,"Dillon, Colorado",NA,NA
+Colorado,Cities,Erie,1,1,0,0,0,0,0,1,0,0,1,0,22115,"Erie, Colorado",-105.0499817,40.0502623
+Colorado,Cities,Florence,1,1,0,0,0,0,0,1,0,0,1,0,3861,"Florence, Colorado",-105.1185988,38.3902777
+Colorado,Cities,Fort Collins,2,2,0,0,0,0,0,2,2,0,0,0,164670,"Fort Collins, Colorado",-105.084423,40.5852602
+Colorado,Cities,Fort Lupton,1,1,0,0,0,0,0,1,0,1,0,0,7903,"Fort Lupton, Colorado",-104.8130275,40.0847055
+Colorado,Cities,Fountain,1,0,0,1,0,0,0,1,0,0,0,1,28115,"Fountain, Colorado",-104.7008056,38.682219
+Colorado,Cities,Golden,1,1,0,0,0,0,0,1,0,0,1,0,20616,"Golden, Colorado",-105.2210997,39.755543
+Colorado,Cities,Grand Junction,3,3,0,0,0,0,0,3,0,0,3,0,60628,"Grand Junction, Colorado",NA,NA
+Colorado,Cities,Longmont,3,3,0,0,0,0,0,3,0,0,1,2,93268,"Longmont, Colorado",-105.1019275,40.1672068
+Colorado,Cities,Loveland,1,1,0,0,0,0,0,1,0,0,1,0,76936,"Loveland, Colorado",-105.0749801,40.3977612
+Colorado,Cities,Nederland,1,1,0,0,0,0,0,1,0,0,1,0,1534,"Nederland, Colorado",NA,NA
+Colorado,Cities,Pueblo,1,1,0,0,0,0,0,1,0,0,0,1,109927,"Pueblo, Colorado",-104.6091409,38.2544472
+Colorado,Cities,Sterling,1,1,0,0,0,0,0,1,0,0,0,1,14087,"Sterling, Colorado",-103.207709,40.6255415
+Colorado,Universities and Colleges,Auraria Higher Education Center,1,0,0,1,0,0,0,1,0,1,0,0,NA,"Auraria Higher Education Center, Colorado",NA,NA
+Colorado,Universities and Colleges,"University of Colorado, Boulder",6,2,3,1,0,0,0,6,2,0,2,2,33056,"University of Colorado, Boulder, Colorado",-105.2659417,40.00758099999999
+Colorado,Universities and Colleges,University of Northern Colorado,1,0,0,1,0,0,0,1,0,0,1,0,12216,"University of Northern Colorado, Colorado",-104.6961077,40.4055236
+Colorado,Metropolitan Counties,Adams,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Adams, Colorado",-104.1930918,39.8398269
+Colorado,Metropolitan Counties,Arapahoe,5,2,1,2,0,0,0,5,0,3,1,1,NA,"Arapahoe, Colorado",NA,NA
+Colorado,Metropolitan Counties,Boulder,2,1,1,0,0,0,0,2,0,0,0,2,NA,"Boulder, Colorado",-105.2705456,40.0149856
+Colorado,Metropolitan Counties,Douglas,2,2,0,0,0,0,0,2,0,0,1,1,NA,"Douglas, Colorado",NA,NA
+Colorado,Metropolitan Counties,El Paso,1,1,0,0,0,0,0,1,1,0,0,0,NA,"El Paso, Colorado",-104.4723301,38.9108325
+Colorado,Metropolitan Counties,Larimer,13,6,6,1,0,0,0,8,0,2,1,5,NA,"Larimer, Colorado",-105.5943388,40.6955572
+Colorado,Metropolitan Counties,Mesa,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Mesa, Colorado",-108.1388881,39.1662458
+Colorado,Metropolitan Counties,Teller,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Teller, Colorado",NA,NA
+Colorado,Nonmetropolitan Counties,Custer,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Custer, Colorado",NA,NA
+Colorado,Nonmetropolitan Counties,Garfield,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Garfield, Colorado",-107.763621,39.6584775
+Colorado,Nonmetropolitan Counties,San Juan,1,1,0,0,0,0,0,1,0,0,1,0,NA,"San Juan, Colorado",-107.71625,37.7573704
+Colorado,Nonmetropolitan Counties,Summit,1,0,1,0,0,0,0,1,0,0,0,1,NA,"Summit, Colorado",-106.0640179,39.5911871
+Connecticut,Cities,Bloomfield,2,0,1,1,0,0,0,2,1,1,0,0,20801,"Bloomfield, Connecticut",-72.73009449999999,41.826488
+Connecticut,Cities,Bridgeport,6,5,1,0,0,0,0,6,0,4,2,0,148180,"Bridgeport, Connecticut",NA,NA
+Connecticut,Cities,Bristol,2,0,0,2,0,0,0,2,0,0,1,1,60445,"Bristol, Connecticut",NA,NA
+Connecticut,Cities,Clinton,1,1,0,0,0,0,0,1,0,0,1,0,13008,"Clinton, Connecticut",NA,NA
+Connecticut,Cities,Danbury,9,3,5,1,0,0,0,9,1,1,1,6,85335,"Danbury, Connecticut",-73.4540111,41.394817
+Connecticut,Cities,Darien,1,0,1,0,0,0,0,1,0,0,1,0,21995,"Darien, Connecticut",NA,NA
+Connecticut,Cities,Greenwich,1,0,1,0,0,0,0,1,0,0,1,0,62970,"Greenwich, Connecticut",NA,NA
+Connecticut,Cities,Groton,1,1,0,0,0,0,0,1,0,0,0,1,9189,"Groton, Connecticut",-72.0790717,41.3497456
+Connecticut,Cities,Groton Town,1,1,0,0,0,0,0,1,0,0,1,0,29910,"Groton Town, Connecticut",NA,NA
+Connecticut,Cities,Guilford,1,1,0,0,0,0,0,1,1,0,0,0,22343,"Guilford, Connecticut",-72.674364,41.288906
+Connecticut,Cities,Hartford,6,5,0,1,0,0,0,6,2,2,1,1,123736,"Hartford, Connecticut",NA,NA
+Connecticut,Cities,Ledyard,1,0,0,1,0,0,0,1,0,0,0,1,15021,"Ledyard, Connecticut",NA,NA
+Connecticut,Cities,Madison,1,0,1,0,0,0,0,1,0,0,0,1,18212,"Madison, Connecticut",NA,NA
+Connecticut,Cities,Manchester,7,6,0,1,0,0,0,7,1,2,1,3,57957,"Manchester, Connecticut",NA,NA
+Connecticut,Cities,Middletown,2,1,1,0,0,0,0,2,0,2,0,0,46580,"Middletown, Connecticut",NA,NA
+Connecticut,Cities,Naugatuck,1,1,0,0,0,0,0,1,0,1,0,0,31469,"Naugatuck, Connecticut",-73.0506972,41.485921
+Connecticut,Cities,New Haven,9,4,3,2,0,0,0,9,5,1,0,3,130425,"New Haven, Connecticut",NA,NA
+Connecticut,Cities,Newington,2,1,0,1,0,0,0,2,1,0,0,1,30610,"Newington, Connecticut",NA,NA
+Connecticut,Cities,New London,2,0,2,0,0,0,0,2,2,0,0,0,27092,"New London, Connecticut",NA,NA
+Connecticut,Cities,Norwalk,7,5,2,0,0,0,0,7,1,5,0,1,88989,"Norwalk, Connecticut",NA,NA
+Connecticut,Cities,Norwich,1,1,0,0,0,0,0,1,1,0,0,0,39771,"Norwich, Connecticut",NA,NA
+Connecticut,Cities,Old Saybrook,1,1,0,0,0,0,0,1,0,0,0,1,10145,"Old Saybrook, Connecticut",NA,NA
+Connecticut,Cities,Ridgefield,1,0,1,0,0,0,0,1,0,0,0,1,25358,"Ridgefield, Connecticut",NA,NA
+Connecticut,Cities,Rocky Hill,1,0,1,0,0,0,0,1,0,0,0,1,20085,"Rocky Hill, Connecticut",-72.66557569999999,41.6572525
+Connecticut,Cities,Shelton,1,0,1,0,0,0,0,1,0,0,0,1,41638,"Shelton, Connecticut",-73.0931641,41.3164856
+Connecticut,Cities,Southington,1,1,0,0,0,0,0,1,0,1,0,0,43948,"Southington, Connecticut",-72.8776013,41.5964869
+Connecticut,Cities,Stamford,8,5,1,2,0,0,0,8,4,2,1,1,130116,"Stamford, Connecticut",-73.5387341,41.0534302
+Connecticut,Cities,Stratford,1,1,0,0,0,0,0,1,0,1,0,0,52841,"Stratford, Connecticut",-73.1331651,41.18454149999999
+Connecticut,Cities,Torrington,3,1,2,0,0,0,0,3,0,1,1,1,34626,"Torrington, Connecticut",-73.1211715,41.8003049
+Connecticut,Cities,Trumbull,1,1,0,0,0,0,0,1,1,0,0,0,36741,"Trumbull, Connecticut",-73.2006639,41.2428563
+Connecticut,Cities,Vernon,1,1,0,0,0,0,0,1,0,0,0,1,28915,"Vernon, Connecticut",NA,NA
+Connecticut,Cities,Wallingford,1,1,0,0,0,0,0,1,0,0,1,0,44840,"Wallingford, Connecticut",-72.8230736,41.4570108
+Connecticut,Cities,Waterbury,6,6,0,0,0,0,0,6,2,3,0,1,108491,"Waterbury, Connecticut",-73.0514965,41.5581525
+Connecticut,Cities,Waterford,1,0,1,0,0,0,0,1,0,0,1,0,19236,"Waterford, Connecticut",NA,NA
+Connecticut,Cities,West Hartford,2,1,1,0,0,0,0,2,0,0,0,2,62979,"West Hartford, Connecticut",-72.7420151,41.7620842
+Connecticut,Cities,Westport,2,2,0,0,0,0,0,2,0,2,0,0,28198,"Westport, Connecticut",-73.3579049,41.1414717
+Connecticut,Cities,Wethersfield,1,1,0,0,0,0,0,1,1,0,0,0,26306,"Wethersfield, Connecticut",-72.6596244,41.7063537
+Connecticut,Cities,Willimantic,1,1,0,0,0,0,0,1,0,0,1,0,17766,"Willimantic, Connecticut",-72.2081338,41.7106543
+Connecticut,Cities,Woodbridge,1,0,1,0,0,0,0,1,0,0,1,0,8864,"Woodbridge, Connecticut",NA,NA
+Connecticut,Universities and Colleges,Southern Connecticut State University,2,0,1,1,0,0,0,2,1,0,1,0,10473,"Southern Connecticut State University, Connecticut",-72.947462,41.332566
+Connecticut,State Police Agencies,Connecticut State Police,5,2,2,1,0,0,0,5,0,1,3,1,NA,"Connecticut State Police, Connecticut",-73.2175245,41.7363092
+Connecticut,Tribal Agencies,Mashantucket Pequot Tribal,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Mashantucket Pequot Tribal, Connecticut",-71.97866259999999,41.4615182
+Delaware,Cities,Camden,1,1,0,0,0,0,0,1,0,0,0,1,3512,"Camden, Delaware",-75.5418687,39.1134458
+Delaware,Cities,Newark,1,1,0,0,0,0,0,1,0,0,0,1,34297,"Newark, Delaware",-75.74965720000002,39.6837226
+Delaware,Cities,Rehoboth Beach,1,1,0,0,0,0,0,1,1,0,0,0,1485,"Rehoboth Beach, Delaware",NA,NA
+Delaware,Cities,Smyrna,1,0,1,0,0,0,0,1,0,1,0,0,11573,"Smyrna, Delaware",-75.6046494,39.2998339
+Delaware,Metropolitan Counties,New Castle County Police Department,4,3,1,0,0,0,0,4,1,0,2,1,NA,"New Castle County Police Department, Delaware",-75.5669746,39.7095194
+Delaware,State Police Agencies,State Police: Kent County,1,1,0,0,0,0,0,1,0,0,1,0,NA,"State Police: Kent County, Delaware",-75.4977147,39.0913347
+Delaware,State Police Agencies,State Police: New Castle County,4,2,1,1,0,0,0,4,1,2,0,1,NA,"State Police: New Castle County, Delaware",-75.7283427,39.6058318
+Delaware,Other Agencies,Park Rangers,2,2,0,0,0,0,0,2,0,0,0,2,NA,"Park Rangers, Delaware",-75.57296230000001,39.8059928
+District of Columbia,Cities,Washington,104,26,18,40,1,0,19,104,20,35,25,24,681170,"Washington, District of Columbia",NA,NA
+District of Columbia,Other Agencies,Metro Transit Police,11,7,0,2,1,0,1,11,0,4,3,4,NA,"Metro Transit Police, District of Columbia",-77.0194691,38.89784580000001
+Florida,Cities,Arcadia,1,1,0,0,0,0,0,1,NA,NA,1,NA,7893,"Arcadia, Florida",NA,NA
+Florida,Cities,Cape Coral,1,1,0,0,0,0,0,1,NA,NA,NA,1,179631,"Cape Coral, Florida",NA,NA
+Florida,Cities,Casselberry,1,0,1,0,0,0,0,1,NA,NA,1,NA,27220,"Casselberry, Florida",NA,NA
+Florida,Cities,Cocoa,1,0,0,1,0,0,0,1,1,NA,NA,NA,17825,"Cocoa, Florida",-80.7419984,28.3861159
+Florida,Cities,Coral Gables,1,1,0,0,0,0,0,1,1,NA,NA,NA,51980,"Coral Gables, Florida",-80.2683838,25.72149
+Florida,Cities,Davie,5,3,1,1,0,0,0,5,2,3,NA,NA,102692,"Davie, Florida",NA,NA
+Florida,Cities,Fort Myers,3,2,0,1,0,0,0,3,1,NA,1,1,76579,"Fort Myers, Florida",-81.8723084,26.640628
+Florida,Cities,Gainesville,4,4,0,0,0,0,0,4,1,NA,NA,3,131242,"Gainesville, Florida",NA,NA
+Florida,Cities,Homestead,2,1,0,1,0,0,0,2,2,NA,NA,NA,67700,"Homestead, Florida",NA,NA
+Florida,Cities,Largo,2,1,0,1,0,0,0,2,NA,1,NA,1,81402,"Largo, Florida",NA,NA
+Florida,Cities,Miami Beach,17,0,4,12,1,0,0,17,6,4,4,3,93165,"Miami Beach, Florida",NA,NA
+Florida,Cities,New Port Richey,2,2,0,0,0,0,0,2,NA,2,NA,NA,16038,"New Port Richey, Florida",NA,NA
+Florida,Cities,North Miami,1,0,0,1,0,0,0,1,NA,1,NA,NA,62974,"North Miami, Florida",NA,NA
+Florida,Cities,North Miami Beach,2,0,2,0,0,0,0,2,NA,2,NA,NA,44442,"North Miami Beach, Florida",NA,NA
+Florida,Cities,Oakland Park,1,0,0,1,0,0,0,1,NA,1,NA,NA,44903,"Oakland Park, Florida",NA,NA
+Florida,Cities,Orlando,5,3,1,1,0,0,0,5,NA,2,1,2,277719,"Orlando, Florida",-81.3792365,28.5383355
+Florida,Cities,Palm Bay,4,3,1,0,0,0,0,4,NA,2,1,1,108823,"Palm Bay, Florida",NA,NA
+Florida,Cities,Pinellas Park,1,1,0,0,0,0,0,1,NA,NA,1,NA,52113,"Pinellas Park, Florida",-82.6995443,27.8428025
+Florida,Cities,Southwest Ranches,2,1,1,0,0,0,0,2,1,NA,1,NA,7953,"Southwest Ranches, Florida",NA,NA
+Florida,Cities,Sunrise,1,0,1,0,0,0,0,1,NA,1,NA,NA,94400,"Sunrise, Florida",NA,NA
+Florida,Cities,Tamarac,1,0,0,1,0,0,0,1,1,NA,NA,NA,65516,"Tamarac, Florida",NA,NA
+Florida,Cities,Tampa,3,2,0,1,0,0,0,3,NA,NA,2,1,375904,"Tampa, Florida",NA,NA
+Florida,Cities,Temple Terrace,1,0,0,1,0,0,0,1,NA,NA,NA,1,25972,"Temple Terrace, Florida",NA,NA
+Florida,Cities,Titusville,1,0,1,0,0,0,0,1,1,NA,NA,NA,45723,"Titusville, Florida",-80.8075537,28.6122187
+Florida,Cities,West Palm Beach,1,0,1,0,0,0,0,1,NA,NA,1,NA,108074,"West Palm Beach, Florida",NA,NA
+Florida,Cities,West Park,1,1,0,0,0,0,0,1,1,NA,NA,NA,15285,"West Park, Florida",-80.19893619999999,25.984536
+Florida,Universities and Colleges,University of Florida,1,1,0,0,0,0,0,1,NA,NA,1,NA,50645,"University of Florida, Florida",-82.3549302,29.6436325
+Florida,Metropolitan Counties,Brevard,3,1,0,2,0,0,0,3,NA,1,1,1,NA,"Brevard, Florida",NA,NA
+Florida,Metropolitan Counties,Charlotte,1,1,0,0,0,0,0,1,1,NA,NA,NA,NA,"Charlotte, Florida",NA,NA
+Florida,Metropolitan Counties,Clay,2,2,0,0,0,0,0,2,1,NA,NA,1,NA,"Clay, Florida",NA,NA
+Florida,Metropolitan Counties,Escambia,2,2,0,0,0,0,0,2,1,1,NA,NA,NA,"Escambia, Florida",-87.3413599,30.6389408
+Florida,Metropolitan Counties,Hillsborough,1,1,0,0,0,0,0,1,NA,NA,1,NA,NA,"Hillsborough, Florida",-82.3017728,27.9903597
+Florida,Metropolitan Counties,Lake,1,1,0,0,0,0,0,1,1,NA,NA,NA,NA,"Lake, Florida",-81.77870209999999,28.702847
+Florida,Metropolitan Counties,Lee,2,1,0,1,0,0,0,2,2,NA,NA,NA,NA,"Lee, Florida",-83.30042159999999,30.4196584
+Florida,Metropolitan Counties,Miami-Dade,1,0,1,0,0,0,0,1,NA,1,NA,NA,NA,"Miami-Dade, Florida",-80.6326916,25.5516034
+Florida,Metropolitan Counties,Orange,3,0,1,1,0,0,1,3,2,NA,NA,1,NA,"Orange, Florida",-81.2518833,28.4844995
+Florida,Metropolitan Counties,Osceola,1,1,0,0,0,0,0,1,1,NA,NA,NA,NA,"Osceola, Florida",-81.0754657,28.1019838
+Florida,Metropolitan Counties,Palm Beach,1,0,1,0,0,0,0,1,NA,NA,NA,1,NA,"Palm Beach, Florida",NA,NA
+Florida,Metropolitan Counties,Pasco,1,0,0,1,0,0,0,1,NA,NA,NA,1,NA,"Pasco, Florida",-82.4319405,28.3232418
+Florida,Metropolitan Counties,Pinellas,2,1,0,1,0,0,0,2,NA,2,NA,NA,NA,"Pinellas, Florida",-82.7778579,27.876394
+Florida,Metropolitan Counties,Seminole,1,0,1,0,0,0,0,1,NA,1,NA,NA,NA,"Seminole, Florida",-82.79121339999999,27.8397466
+Florida,Metropolitan Counties,St. Johns,1,0,0,1,0,0,0,1,NA,NA,1,NA,NA,"St. Johns, Florida",-81.5471201,30.0820653
+Florida,Metropolitan Counties,St. Lucie,1,0,1,0,0,0,0,1,NA,NA,1,NA,NA,"St. Lucie, Florida",-80.54384499999999,27.3225563
+Florida,Metropolitan Counties,Volusia,6,4,0,2,0,0,0,6,NA,2,1,3,NA,"Volusia, Florida",-81.0754657,29.0279842
+Georgia,Cities,Atlanta,5,0,0,5,0,0,0,5,1,4,0,0,472579,"Atlanta, Georgia",-84.3879824,33.7489954
+Georgia,Cities,Conyers,1,1,0,0,0,0,0,1,0,0,0,1,16004,"Conyers, Georgia",NA,NA
+Georgia,Universities and Colleges,University of Georgia,1,1,0,0,0,0,0,1,1,0,0,0,36130,"University of Georgia, Georgia",-83.37768,33.94459
+Georgia,Metropolitan Counties,Cobb County Police Department,25,19,2,4,0,0,0,25,6,7,12,0,NA,"Cobb County Police Department, Georgia",-84.54828669999999,33.957702
+Georgia,Metropolitan Counties,Fulton County Police Department,1,0,0,1,0,0,0,1,0,1,0,0,NA,"Fulton County Police Department, Georgia",-84.391697,33.7515542
+Georgia,Metropolitan Counties,Gwinnett County Police Department,6,4,0,2,0,0,0,6,2,1,3,0,NA,"Gwinnett County Police Department, Georgia",-84.1122156,33.9638543
+Idaho,Cities,Blackfoot,1,0,0,1,0,0,0,1,0,0,1,0,11700,"Blackfoot, Idaho",-112.3449773,43.19047090000001
+Idaho,Cities,Boise,3,0,2,1,0,0,0,3,1,1,1,0,220749,"Boise, Idaho",NA,NA
+Idaho,Cities,Chubbuck,1,1,0,0,0,0,0,1,0,0,0,1,14515,"Chubbuck, Idaho",-112.4660912,42.9207477
+Idaho,Cities,Coeur d'Alene,5,3,2,0,0,0,0,5,0,3,1,1,50155,"Coeur d'Alene, Idaho",-116.7812225,47.6734632
+Idaho,Cities,Meridian,2,1,1,0,0,0,0,2,0,0,0,2,94113,"Meridian, Idaho",-116.3915131,43.6121087
+Idaho,Cities,Moscow,1,0,0,1,0,0,0,1,0,0,0,1,25307,"Moscow, Idaho",-117.000165,46.73238749999999
+Idaho,Cities,Mountain Home,1,1,0,0,0,0,0,1,0,0,0,1,13627,"Mountain Home, Idaho",NA,NA
+Idaho,Cities,Nampa,2,2,0,0,0,0,0,2,0,1,1,0,91520,"Nampa, Idaho",-116.55978,43.5788175
+Idaho,Cities,Payette,1,0,1,0,0,0,0,1,0,0,1,0,7360,"Payette, Idaho",-116.9337711,44.0782195
+Idaho,Cities,Pocatello,3,3,0,0,0,0,0,3,1,2,0,0,54462,"Pocatello, Idaho",-112.4506191,42.8621042
+Idaho,Cities,Twin Falls,2,2,0,0,0,0,0,2,0,2,0,0,48083,"Twin Falls, Idaho",-114.4700518,42.5558381
+Idaho,Metropolitan Counties,Ada,1,0,1,0,0,0,0,1,1,0,0,0,NA,"Ada, Idaho",NA,NA
+Idaho,Metropolitan Counties,Canyon,3,2,0,1,0,0,0,3,0,2,1,0,NA,"Canyon, Idaho",-116.6865435,43.67795810000001
+Idaho,Nonmetropolitan Counties,Benewah,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Benewah, Idaho",-116.6499425,47.2437836
+Illinois,Cities,Algonquin,2,2,0,0,0,0,0,2,0,1,1,0,30673,"Algonquin, Illinois",NA,NA
+Illinois,Cities,Aurora,3,3,0,0,0,0,0,3,0,1,0,2,201159,"Aurora, Illinois",NA,NA
+Illinois,Cities,Berwyn,3,3,0,0,0,0,0,3,0,0,1,2,56305,"Berwyn, Illinois",-87.7936685,41.85058739999999
+Illinois,Cities,Bradley,3,3,0,0,0,0,0,3,NA,1,1,1,15561,"Bradley, Illinois",NA,NA
+Illinois,Cities,Braidwood,1,1,0,0,0,0,0,1,0,0,1,0,6160,"Braidwood, Illinois",NA,NA
+Illinois,Cities,Centralia,1,1,0,0,0,0,0,1,0,0,0,1,12580,"Centralia, Illinois",-89.1316944,38.5285169
+Illinois,Cities,Champaign,2,1,0,1,0,0,0,2,0,0,1,1,87071,"Champaign, Illinois",NA,NA
+Illinois,Cities,Charleston,1,1,0,0,0,0,0,1,0,0,1,0,21067,"Charleston, Illinois",NA,NA
+Illinois,Cities,Chicago,51,26,9,14,0,0,2,51,5,19,10,17,2725153,"Chicago, Illinois",NA,NA
+Illinois,Cities,Collinsville,1,1,0,0,0,0,0,1,0,0,0,1,24599,"Collinsville, Illinois",NA,NA
+Illinois,Cities,Crete,1,0,0,1,0,0,0,1,0,0,0,1,8171,"Crete, Illinois",NA,NA
+Illinois,Cities,Crystal Lake,1,1,0,0,0,0,0,1,1,0,0,0,40374,"Crystal Lake, Illinois",NA,NA
+Illinois,Cities,De Kalb,1,1,0,0,0,0,0,1,0,0,1,0,43034,"De Kalb, Illinois",NA,NA
+Illinois,Cities,Downers Grove,1,1,0,0,0,0,0,1,0,0,1,0,49894,"Downers Grove, Illinois",NA,NA
+Illinois,Cities,Effingham,2,1,1,0,0,0,0,2,0,0,0,2,12660,"Effingham, Illinois",-88.5433829,39.1200418
+Illinois,Cities,Elk Grove Village,1,1,0,0,0,0,0,1,0,1,0,0,33255,"Elk Grove Village, Illinois",-87.9703461,42.0039178
+Illinois,Cities,Flossmoor,1,1,0,0,0,0,0,1,0,0,1,0,9479,"Flossmoor, Illinois",-87.6847684,41.5428123
+Illinois,Cities,Glenwood,1,1,0,0,0,0,0,1,0,0,1,0,8996,"Glenwood, Illinois",NA,NA
+Illinois,Cities,Grayslake,1,1,0,0,0,0,0,1,1,0,0,0,20916,"Grayslake, Illinois",-88.04174599999999,42.34446639999999
+Illinois,Cities,Homewood,1,1,0,0,0,0,0,1,1,0,0,0,19379,"Homewood, Illinois",NA,NA
+Illinois,Cities,Joliet,2,1,0,1,0,0,0,2,0,0,1,1,147886,"Joliet, Illinois",NA,NA
+Illinois,Cities,Mokena,1,1,0,0,0,0,0,1,0,0,0,1,20156,"Mokena, Illinois",-87.8892189,41.5261437
+Illinois,Cities,Monmouth,1,1,0,0,0,0,0,1,0,1,0,0,9261,"Monmouth, Illinois",-90.64735759999999,40.9114271
+Illinois,Cities,Morrison,1,0,0,1,0,0,0,1,0,1,0,0,4137,"Morrison, Illinois",-89.9651186,41.80975100000001
+Illinois,Cities,New Lenox,1,1,0,0,0,0,0,1,0,0,0,1,26085,"New Lenox, Illinois",NA,NA
+Illinois,Cities,Normal,3,3,0,0,0,0,0,3,NA,0,2,1,54727,"Normal, Illinois",-88.9906312,40.5142026
+Illinois,Cities,Oak Lawn,1,1,0,0,0,0,0,1,1,0,0,0,56791,"Oak Lawn, Illinois",-87.7479528,41.719978
+Illinois,Cities,Pekin,1,1,0,0,0,0,0,1,0,0,0,1,33052,"Pekin, Illinois",-89.640658,40.5675388
+Illinois,Cities,Peoria,1,1,0,0,0,0,0,1,1,0,0,0,115099,"Peoria, Illinois",-89.5889864,40.6936488
+Illinois,Cities,Plainfield,2,1,1,0,0,0,0,2,0,0,0,2,43063,"Plainfield, Illinois",-88.2120315,41.632223
+Illinois,Cities,Robinson,1,1,0,0,0,0,0,1,0,0,1,0,7616,"Robinson, Illinois",-87.7391935,39.0053201
+Illinois,Cities,Rockford,5,3,0,2,0,0,0,5,1,2,1,1,147363,"Rockford, Illinois",-89.0939952,42.2711311
+Illinois,Cities,Salem,1,1,0,0,0,0,0,1,0,1,0,0,7249,"Salem, Illinois",-88.9456158,38.6269929
+Illinois,Cities,Springfield,2,2,0,0,0,0,0,2,0,1,1,0,116563,"Springfield, Illinois",-89.6501481,39.78172130000001
+Illinois,Cities,Urbana,1,0,1,0,0,0,0,1,0,0,0,1,42461,"Urbana, Illinois",-88.2072697,40.1105875
+Illinois,Cities,West Chicago,1,1,0,0,0,0,0,1,0,0,1,0,27490,"West Chicago, Illinois",NA,NA
+Illinois,Cities,Wheeling,1,0,0,0,0,0,1,1,1,0,0,0,38158,"Wheeling, Illinois",-87.9289591,42.1391927
+Illinois,Cities,Woodstock,1,1,0,0,0,0,0,1,0,0,0,1,25259,"Woodstock, Illinois",-88.44870209999999,42.3147436
+Illinois,Universities and Colleges,"Southern Illinois University, Carbondale",1,1,0,0,0,0,0,1,0,0,1,0,17292,"Southern Illinois University, Carbondale, Illinois",-89.22491339999999,37.7090577
+Illinois,Metropolitan Counties,Champaign,2,0,1,0,0,1,0,2,0,1,1,0,NA,"Champaign, Illinois",-88.2433829,40.1164204
+Illinois,Metropolitan Counties,Sangamon,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Sangamon, Illinois",-89.62516459999999,39.7337353
+Illinois,Metropolitan Counties,Will,1,0,0,1,0,0,0,1,0,1,0,0,NA,"Will, Illinois",-88.0900762,41.5054724
+Indiana,Cities,Anderson,1,0,0,1,0,0,0,1,NA,1,NA,NA,55134,"Anderson, Indiana",NA,NA
+Indiana,Cities,Bloomington,9,7,0,2,0,0,0,9,3,1,1,4,84772,"Bloomington, Indiana",-86.52638569999999,39.165325
+Indiana,Cities,Fort Wayne,4,2,0,2,0,0,0,4,1,1,1,1,261642,"Fort Wayne, Indiana",-85.1393513,41.079273
+Indiana,Cities,Indianapolis,28,20,3,5,0,0,0,28,5,11,8,4,866351,"Indianapolis, Indiana",-86.158068,39.768403
+Indiana,Cities,La Porte,2,2,0,0,0,0,0,2,NA,2,NA,NA,21891,"La Porte, Indiana",-86.7227195,41.611143
+Indiana,Cities,Muncie,1,1,0,0,0,0,0,1,0,0,1,0,70065,"Muncie, Indiana",-85.3863599,40.1933767
+Indiana,Cities,Munster,1,0,1,0,0,0,0,1,1,NA,NA,NA,22865,"Munster, Indiana",-87.5125412,41.5644798
+Indiana,Cities,Plainfield,1,0,1,0,0,0,0,1,1,0,0,NA,31198,"Plainfield, Indiana",-86.39943869999999,39.70421229999999
+Indiana,Cities,South Bend,10,10,0,0,0,0,0,10,3,2,5,0,101621,"South Bend, Indiana",NA,NA
+Indiana,Cities,Westville,1,0,0,1,0,0,0,1,NA,NA,1,NA,5641,"Westville, Indiana",NA,NA
+Indiana,Universities and Colleges,Ball State University,1,1,0,0,0,0,0,1,NA,NA,NA,1,21196,"Ball State University, Indiana",NA,NA
+Indiana,Universities and Colleges,"Indiana University, Indianapolis",1,1,0,0,0,0,0,1,NA,1,NA,NA,30105,"Indiana University, Indianapolis, Indiana",NA,NA
+Indiana,Universities and Colleges,Purdue University,3,1,0,2,0,0,0,3,1,1,0,1,40472,"Purdue University, Indiana",NA,NA
+Indiana,Metropolitan Counties,Brown,1,0,0,1,0,0,0,1,NA,NA,NA,1,NA,"Brown, Indiana",NA,NA
+Indiana,Metropolitan Counties,Porter,1,1,0,0,0,0,0,1,NA,NA,1,NA,NA,"Porter, Indiana",NA,NA
+Indiana,Nonmetropolitan Counties,Dubois,1,0,0,0,0,1,0,1,1,NA,NA,NA,NA,"Dubois, Indiana",NA,NA
+Indiana,State Police Agencies,Indiana State Police,3,3,0,0,0,0,0,3,NA,NA,2,1,NA,"Indiana State Police, Indiana",NA,NA
+Indiana,State Police Agencies,State Police: Daviess County,1,0,1,0,0,0,0,1,0,0,0,1,NA,"State Police: Daviess County, Indiana",NA,NA
+Indiana,State Police Agencies,State Police: Marion County,2,1,1,0,0,0,0,2,0,1,0,1,NA,"State Police: Marion County, Indiana",NA,NA
+Indiana,State Police Agencies,State Police: Monroe County,2,0,2,0,0,0,0,2,2,0,0,0,NA,"State Police: Monroe County, Indiana",NA,NA
+Indiana,State Police Agencies,State Police: Putnam County,1,1,0,0,0,0,0,1,0,0,1,0,NA,"State Police: Putnam County, Indiana",NA,NA
+Indiana,State Police Agencies,State Police: Scott County,1,1,0,0,0,0,0,1,0,1,0,0,NA,"State Police: Scott County, Indiana",NA,NA
+Indiana,State Police Agencies,State Police: Vanderburgh County,1,0,1,0,0,0,0,1,0,0,1,0,NA,"State Police: Vanderburgh County, Indiana",NA,NA
+Indiana,State Police Agencies,State Police: Washington County,1,0,1,0,0,0,0,1,0,1,0,0,NA,"State Police: Washington County, Indiana",NA,NA
+Iowa,Cities,Boone,1,1,0,0,0,0,0,1,0,0,1,0,12702,"Boone, Iowa",NA,NA
+Iowa,Cities,Clinton,1,0,1,0,0,0,0,1,0,0,0,1,25906,"Clinton, Iowa",NA,NA
+Iowa,Cities,Des Moines,3,2,1,0,0,0,0,3,0,1,1,1,211501,"Des Moines, Iowa",NA,NA
+Iowa,Cities,Dubuque,1,1,0,0,0,0,0,1,0,1,0,0,59026,"Dubuque, Iowa",NA,NA
+Iowa,Cities,Iowa City,3,3,0,0,0,0,0,3,1,0,0,2,75527,"Iowa City, Iowa",NA,NA
+Iowa,Cities,Newton,1,1,0,0,0,0,0,1,0,0,1,0,15102,"Newton, Iowa",NA,NA
+Iowa,Cities,North Liberty,1,1,0,0,0,0,0,1,0,0,1,0,16458,"North Liberty, Iowa",NA,NA
+Iowa,Cities,Oskaloosa,1,1,0,0,0,0,0,1,0,0,1,0,11626,"Oskaloosa, Iowa",NA,NA
+Iowa,Cities,West Des Moines,1,0,0,1,0,0,0,1,0,0,0,1,65631,"West Des Moines, Iowa",NA,NA
+Iowa,Universities and Colleges,Iowa State University,1,1,0,0,0,0,0,1,0,0,0,1,35714,"Iowa State University, Iowa",NA,NA
+Iowa,Universities and Colleges,University of Iowa,2,2,0,0,0,0,0,2,0,0,0,2,30844,"University of Iowa, Iowa",NA,NA
+Iowa,Metropolitan Counties,Linn,1,0,0,1,0,0,0,1,0,1,0,0,NA,"Linn, Iowa",NA,NA
+Kansas,Cities,Andover,1,1,0,0,0,0,0,1,0,0,0,1,12937,"Andover, Kansas",NA,NA
+Kansas,Cities,Chanute,1,1,0,0,0,0,0,1,0,1,0,0,9279,"Chanute, Kansas",NA,NA
+Kansas,Cities,Coffeyville,1,0,0,0,1,0,0,1,0,0,1,0,9555,"Coffeyville, Kansas",NA,NA
+Kansas,Cities,Dodge City,3,2,0,0,1,0,0,3,1,1,1,0,27997,"Dodge City, Kansas",NA,NA
+Kansas,Cities,Edwardsville,1,1,0,0,0,0,0,1,0,1,0,0,4377,"Edwardsville, Kansas",NA,NA
+Kansas,Cities,El Dorado,2,1,1,0,0,0,0,2,2,0,0,0,12913,"El Dorado, Kansas",NA,NA
+Kansas,Cities,Elwood,1,1,0,0,0,0,0,1,0,0,1,0,1181,"Elwood, Kansas",NA,NA
+Kansas,Cities,Garden City,1,0,0,1,0,0,0,1,0,0,0,1,27038,"Garden City, Kansas",NA,NA
+Kansas,Cities,Hays,1,1,0,0,0,0,0,1,1,0,0,0,21206,"Hays, Kansas",NA,NA
+Kansas,Cities,Hiawatha,1,1,0,0,0,0,0,1,0,1,0,0,3080,"Hiawatha, Kansas",NA,NA
+Kansas,Cities,Hutchinson,1,0,0,1,0,0,0,1,0,0,1,0,41439,"Hutchinson, Kansas",NA,NA
+Kansas,Cities,Independence,1,1,0,0,0,0,0,1,0,0,1,0,8860,"Independence, Kansas",NA,NA
+Kansas,Cities,Lenexa,1,1,0,0,0,0,0,1,0,0,0,1,53376,"Lenexa, Kansas",NA,NA
+Kansas,Cities,Newton,2,2,0,0,0,0,0,2,0,0,1,1,19226,"Newton, Kansas",NA,NA
+Kansas,Cities,Oakley,1,1,0,0,0,0,0,1,0,1,0,0,2104,"Oakley, Kansas",NA,NA
+Kansas,Cities,Ottawa,1,1,0,0,0,0,0,1,0,0,0,1,12334,"Ottawa, Kansas",NA,NA
+Kansas,Cities,Overland Park,4,2,2,0,0,0,0,4,2,0,1,1,189104,"Overland Park, Kansas",NA,NA
+Kansas,Cities,Pittsburg,1,1,0,0,0,0,0,1,0,0,1,0,20439,"Pittsburg, Kansas",NA,NA
+Kansas,Cities,Pratt,1,1,0,0,0,0,0,1,0,1,0,0,6854,"Pratt, Kansas",NA,NA
+Kansas,Cities,Salina,3,3,0,0,0,0,0,3,0,0,1,2,47805,"Salina, Kansas",NA,NA
+Kansas,Cities,Wichita,7,5,0,2,0,0,0,7,1,1,3,2,391399,"Wichita, Kansas",NA,NA
+Kansas,Universities and Colleges,"University of Kansas, Medical Center3",1,1,0,0,0,0,0,1,0,1,0,0,NA,"University of Kansas, Medical Center3, Kansas",NA,NA
+Kansas,Universities and Colleges,Washburn University,1,1,0,0,0,0,0,1,0,0,0,1,6615,"Washburn University, Kansas",NA,NA
+Kansas,Universities and Colleges,Wichita State University,1,1,0,0,0,0,0,1,0,0,1,0,14240,"Wichita State University, Kansas",NA,NA
+Kansas,Metropolitan Counties,Linn,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Linn, Kansas",NA,NA
+Kansas,Metropolitan Counties,Riley County Police Department,4,2,1,1,0,0,0,4,2,1,1,0,NA,"Riley County Police Department, Kansas",NA,NA
+Kansas,Metropolitan Counties,Shawnee,2,1,1,0,0,0,0,2,0,1,0,1,NA,"Shawnee, Kansas",NA,NA
+Kansas,Metropolitan Counties,Wabaunsee,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Wabaunsee, Kansas",NA,NA
+Kansas,Nonmetropolitan Counties,Greeley,1,0,0,0,1,0,0,1,0,0,1,0,NA,"Greeley, Kansas",NA,NA
+Kansas,Nonmetropolitan Counties,Reno,1,1,0,0,0,0,0,1,1,0,0,NA,NA,"Reno, Kansas",NA,NA
+Kentucky,Cities,Alexandria,1,1,0,0,0,0,0,1,0,1,0,0,9112,"Alexandria, Kentucky",NA,NA
+Kentucky,Cities,Ashland,1,0,1,0,0,0,0,1,1,0,0,0,20987,"Ashland, Kentucky",NA,NA
+Kentucky,Cities,Audubon Park,1,1,0,0,0,0,0,1,1,0,0,0,1515,"Audubon Park, Kentucky",NA,NA
+Kentucky,Cities,Bellevue,2,1,0,1,0,0,0,2,0,0,0,2,5879,"Bellevue, Kentucky",NA,NA
+Kentucky,Cities,Benton,2,0,1,1,0,0,0,2,0,0,0,2,4346,"Benton, Kentucky",NA,NA
+Kentucky,Cities,Berea,3,2,1,0,0,0,0,3,1,0,1,1,15135,"Berea, Kentucky",NA,NA
+Kentucky,Cities,Bowling Green,11,6,2,3,0,0,0,11,1,3,4,3,64561,"Bowling Green, Kentucky",NA,NA
+Kentucky,Cities,Cave City,1,1,0,0,0,0,0,1,0,1,0,0,2411,"Cave City, Kentucky",NA,NA
+Kentucky,Cities,Cloverport,1,1,0,0,0,0,0,1,0,0,1,0,1157,"Cloverport, Kentucky",NA,NA
+Kentucky,Cities,Covington,10,4,3,3,0,0,0,10,2,3,3,2,41094,"Covington, Kentucky",NA,NA
+Kentucky,Cities,Cynthiana,1,1,0,0,0,0,0,1,1,0,0,0,6421,"Cynthiana, Kentucky",NA,NA
+Kentucky,Cities,Elizabethtown,1,0,0,1,0,0,0,1,0,0,0,1,29821,"Elizabethtown, Kentucky",NA,NA
+Kentucky,Cities,Elkton,1,0,1,0,0,0,0,1,1,0,0,0,2181,"Elkton, Kentucky",NA,NA
+Kentucky,Cities,Elsmere,3,2,0,1,0,0,0,3,1,1,0,1,8563,"Elsmere, Kentucky",NA,NA
+Kentucky,Cities,Fort Mitchell,1,0,0,1,0,0,0,1,0,0,1,0,8334,"Fort Mitchell, Kentucky",NA,NA
+Kentucky,Cities,Frankfort,3,2,1,0,0,0,0,3,0,1,1,1,27926,"Frankfort, Kentucky",NA,NA
+Kentucky,Cities,Franklin,2,2,0,0,0,0,0,2,0,0,1,1,8852,"Franklin, Kentucky",NA,NA
+Kentucky,Cities,Georgetown,3,3,0,0,0,0,0,3,1,1,1,0,33007,"Georgetown, Kentucky",NA,NA
+Kentucky,Cities,Glasgow,2,1,0,1,0,0,0,2,0,1,1,0,14560,"Glasgow, Kentucky",NA,NA
+Kentucky,Cities,Henderson,2,2,0,0,0,0,0,2,1,0,0,1,28904,"Henderson, Kentucky",NA,NA
+Kentucky,Cities,Highland Heights,1,0,1,0,0,0,0,1,0,0,0,1,7216,"Highland Heights, Kentucky",NA,NA
+Kentucky,Cities,Hopkinsville,5,5,0,0,0,0,0,5,3,1,0,1,32222,"Hopkinsville, Kentucky",NA,NA
+Kentucky,Cities,Lakeside Park-Crestview Hills,1,0,0,1,0,0,0,1,0,0,0,1,6159,"Lakeside Park-Crestview Hills, Kentucky",NA,NA
+Kentucky,Cities,Lancaster,1,1,0,0,0,0,0,1,1,0,0,0,3873,"Lancaster, Kentucky",NA,NA
+Kentucky,Cities,Lexington,41,26,9,4,1,1,0,41,7,9,14,11,317853,"Lexington, Kentucky",NA,NA
+Kentucky,Cities,Louisville Metro,11,5,3,1,0,0,2,11,2,1,3,5,683825,"Louisville Metro, Kentucky",NA,NA
+Kentucky,Cities,Loyall,1,1,0,0,0,0,0,1,0,0,0,1,648,"Loyall, Kentucky",NA,NA
+Kentucky,Cities,Madisonville,4,2,2,0,0,0,0,4,4,0,0,0,19467,"Madisonville, Kentucky",NA,NA
+Kentucky,Cities,Mayfield,2,2,0,0,0,0,0,2,1,0,1,0,10086,"Mayfield, Kentucky",NA,NA
+Kentucky,Cities,Mount Washington,3,3,0,0,0,0,0,3,1,0,0,2,14162,"Mount Washington, Kentucky",NA,NA
+Kentucky,Cities,Murray,2,1,1,0,0,0,0,2,1,1,0,0,19182,"Murray, Kentucky",NA,NA
+Kentucky,Cities,Nicholasville,6,5,1,0,0,0,0,6,2,0,3,1,30093,"Nicholasville, Kentucky",NA,NA
+Kentucky,Cities,Owensboro,4,4,0,0,0,0,0,4,1,0,0,3,59359,"Owensboro, Kentucky",NA,NA
+Kentucky,Cities,Paducah,3,2,1,0,0,0,0,3,0,1,1,1,24836,"Paducah, Kentucky",NA,NA
+Kentucky,Cities,Paris,1,0,1,0,0,0,0,1,0,0,1,0,9883,"Paris, Kentucky",NA,NA
+Kentucky,Cities,Radcliff,4,3,0,0,0,0,1,4,1,0,2,1,22346,"Radcliff, Kentucky",NA,NA
+Kentucky,Cities,Richmond,1,1,0,0,0,0,0,1,0,0,0,1,33965,"Richmond, Kentucky",NA,NA
+Kentucky,Cities,Shelbyville,2,2,0,0,0,0,0,2,1,1,0,0,15488,"Shelbyville, Kentucky",NA,NA
+Kentucky,Cities,Shively,1,0,0,1,0,0,0,1,0,1,0,0,15800,"Shively, Kentucky",NA,NA
+Kentucky,Cities,Stanton,1,0,1,0,0,0,0,1,0,0,1,0,2651,"Stanton, Kentucky",NA,NA
+Kentucky,Cities,St. Matthews,3,3,0,0,0,0,0,3,0,0,2,1,18127,"St. Matthews, Kentucky",NA,NA
+Kentucky,Cities,Versailles,1,1,0,0,0,0,0,1,0,1,0,0,25923,"Versailles, Kentucky",NA,NA
+Kentucky,Cities,Winchester,3,3,0,0,0,0,0,3,1,0,2,0,18461,"Winchester, Kentucky",NA,NA
+Kentucky,Universities and Colleges,Eastern Kentucky University,1,1,0,0,0,0,0,1,0,1,0,0,16844,"Eastern Kentucky University, Kentucky",NA,NA
+Kentucky,Universities and Colleges,Murray State University,1,0,1,0,0,0,0,1,0,0,0,1,10998,"Murray State University, Kentucky",NA,NA
+Kentucky,Universities and Colleges,University of Kentucky,1,1,0,0,0,0,0,1,0,0,0,1,29727,"University of Kentucky, Kentucky",NA,NA
+Kentucky,Universities and Colleges,University of Louisville,2,0,0,2,0,0,0,2,1,1,0,0,21294,"University of Louisville, Kentucky",NA,NA
+Kentucky,Universities and Colleges,Western Kentucky University,1,1,0,0,0,0,0,1,0,0,1,0,20063,"Western Kentucky University, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Boone,2,1,0,1,0,0,0,2,0,1,1,0,NA,"Boone, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Boyd,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Boyd, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Bracken,1,0,0,0,1,0,0,1,0,0,0,1,NA,"Bracken, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Bullitt,4,4,0,0,0,0,0,4,0,2,2,0,NA,"Bullitt, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Campbell County Police Department,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Campbell County Police Department, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Christian,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Christian, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Daviess,2,1,1,0,0,0,0,2,0,0,0,2,NA,"Daviess, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Hardin,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Hardin, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Jefferson,1,0,1,0,0,0,0,1,1,0,0,0,NA,"Jefferson, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Kenton,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Kenton, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Oldham County Police Department,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Oldham County Police Department, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Pendleton,1,0,1,0,0,0,0,1,0,0,0,1,NA,"Pendleton, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Shelby,2,1,1,0,0,0,0,2,1,0,1,0,NA,"Shelby, Kentucky",NA,NA
+Kentucky,Metropolitan Counties,Spencer,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Spencer, Kentucky",NA,NA
+Kentucky,Nonmetropolitan Counties,Anderson,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Anderson, Kentucky",NA,NA
+Kentucky,Nonmetropolitan Counties,Franklin,2,1,1,0,0,0,0,2,0,1,1,0,NA,"Franklin, Kentucky",NA,NA
+Kentucky,Nonmetropolitan Counties,Letcher,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Letcher, Kentucky",NA,NA
+Kentucky,Nonmetropolitan Counties,Mason,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Mason, Kentucky",NA,NA
+Kentucky,Nonmetropolitan Counties,McCracken,1,1,0,0,0,0,0,1,1,0,0,0,NA,"McCracken, Kentucky",NA,NA
+Kentucky,Nonmetropolitan Counties,McCreary,1,1,0,0,0,0,0,1,0,1,0,0,NA,"McCreary, Kentucky",NA,NA
+Kentucky,Nonmetropolitan Counties,Muhlenberg County Police Department,2,2,0,0,0,0,0,2,2,0,0,0,NA,"Muhlenberg County Police Department, Kentucky",NA,NA
+Kentucky,Nonmetropolitan Counties,Nelson,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Nelson, Kentucky",NA,NA
+Kentucky,Nonmetropolitan Counties,Wolfe,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Wolfe, Kentucky",NA,NA
+Kentucky,State Police Agencies,State Police:Bowling Green,4,1,3,0,0,0,0,4,0,0,2,2,NA,"State Police:Bowling Green, Kentucky",NA,NA
+Kentucky,State Police Agencies,State Police:Harlan,1,0,1,0,0,0,0,1,0,1,0,0,NA,"State Police:Harlan, Kentucky",NA,NA
+Kentucky,State Police Agencies,State Police:Hazard,2,2,0,0,0,0,0,2,0,0,1,1,NA,"State Police:Hazard, Kentucky",NA,NA
+Kentucky,State Police Agencies,State Police:Henderson,2,1,1,0,0,0,0,2,0,0,2,0,NA,"State Police:Henderson, Kentucky",NA,NA
+Kentucky,State Police Agencies,State Police:Mayfield,1,1,0,0,0,0,0,1,0,0,1,0,NA,"State Police:Mayfield, Kentucky",NA,NA
+Kentucky,State Police Agencies,State Police:Richmond,1,0,1,0,0,0,0,1,1,0,0,0,NA,"State Police:Richmond, Kentucky",NA,NA
+Kentucky,Other Agencies,Fayette County Schools,2,2,0,0,0,0,0,2,1,0,0,1,NA,"Fayette County Schools, Kentucky",NA,NA
+Kentucky,Other Agencies,Jefferson County School District,2,1,1,0,0,0,0,2,1,0,1,0,NA,"Jefferson County School District, Kentucky",NA,NA
+Louisiana,Cities,Baton Rouge,3,2,0,1,0,0,0,3,0,0,1,2,228389,"Baton Rouge, Louisiana",NA,NA
+Louisiana,Cities,New Orleans2,6,3,2,1,0,0,0,5,3,1,0,1,397208,"New Orleans2, Louisiana",NA,NA
+Louisiana,Cities,Thibodaux,1,1,0,0,0,0,0,1,0,0,1,0,14588,"Thibodaux, Louisiana",NA,NA
+Louisiana,Cities,Westlake,1,1,0,0,0,0,0,1,1,0,0,0,4626,"Westlake, Louisiana",NA,NA
+Louisiana,Metropolitan Counties,Bossier,2,1,0,1,0,0,0,2,1,0,1,0,NA,"Bossier, Louisiana",NA,NA
+Louisiana,Metropolitan Counties,Caddo,1,0,1,0,0,0,0,1,0,0,0,1,NA,"Caddo, Louisiana",NA,NA
+Louisiana,Metropolitan Counties,St. Charles,6,6,0,0,0,0,0,6,0,0,6,NA,NA,"St. Charles, Louisiana",NA,NA
+Louisiana,Metropolitan Counties,St. John the Baptist,5,4,0,1,0,0,0,5,0,3,2,0,NA,"St. John the Baptist, Louisiana",NA,NA
+Louisiana,Nonmetropolitan Counties,Avoyelles,1,1,0,0,0,0,0,1,NA,NA,1,NA,NA,"Avoyelles, Louisiana",NA,NA
+Louisiana,Nonmetropolitan Counties,Madison,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Madison, Louisiana",NA,NA
+Maine,Cities,Augusta,2,0,1,1,0,0,0,2,1,0,1,0,18347,"Augusta, Maine",NA,NA
+Maine,Cities,Biddeford,1,0,1,0,0,0,0,1,0,0,1,0,21285,"Biddeford, Maine",NA,NA
+Maine,Cities,Farmington,1,0,0,1,0,0,0,1,0,0,1,0,7401,"Farmington, Maine",NA,NA
+Maine,Cities,Lewiston,2,2,0,0,0,0,0,2,0,1,1,0,36126,"Lewiston, Maine",NA,NA
+Maine,Cities,Lincoln,1,1,0,0,0,0,0,1,0,0,0,1,5020,"Lincoln, Maine",NA,NA
+Maine,Cities,Old Orchard Beach,1,1,0,0,0,0,0,1,0,0,0,1,8807,"Old Orchard Beach, Maine",NA,NA
+Maine,Cities,Portland,11,6,3,2,0,0,0,11,2,3,6,0,67041,"Portland, Maine",NA,NA
+Maine,Cities,Saco,6,4,2,0,0,0,0,6,1,2,1,2,19197,"Saco, Maine",NA,NA
+Maine,Cities,Sanford,2,1,0,1,0,0,0,2,0,1,0,1,20914,"Sanford, Maine",NA,NA
+Maine,Cities,Scarborough,1,0,1,0,0,0,0,1,0,1,0,0,19851,"Scarborough, Maine",NA,NA
+Maine,Cities,South Portland,3,0,2,1,0,0,0,3,0,1,1,1,25674,"South Portland, Maine",NA,NA
+Maine,Cities,Waterville,1,1,0,0,0,0,0,1,0,0,0,1,16370,"Waterville, Maine",NA,NA
+Maine,Universities and Colleges,University of Southern Maine,7,4,1,2,0,0,0,7,2,0,3,2,7739,"University of Southern Maine, Maine",NA,NA
+Maine,State Police Agencies,"State Police, Kennebec County",1,1,0,0,0,0,0,1,1,0,0,0,NA,"State Police, Kennebec County, Maine",NA,NA
+Maryland,Cities,Baltimore,3,1,0,2,0,0,0,3,0,1,2,0,618385,"Baltimore, Maryland",NA,NA
+Maryland,Cities,Laurel,2,1,0,1,0,0,0,2,0,2,0,0,26424,"Laurel, Maryland",NA,NA
+Maryland,Universities and Colleges,"University of Maryland, College Park",1,1,0,0,0,0,0,1,0,0,0,1,38140,"University of Maryland, College Park, Maryland",NA,NA
+Maryland,Metropolitan Counties,Anne Arundel County Police Department,16,10,5,1,0,0,0,16,2,1,3,10,NA,"Anne Arundel County Police Department, Maryland",NA,NA
+Maryland,Metropolitan Counties,Baltimore County Police Department,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Baltimore County Police Department, Maryland",NA,NA
+Maryland,Metropolitan Counties,Harford,4,4,0,0,0,0,0,4,1,1,0,2,NA,"Harford, Maryland",NA,NA
+Maryland,Metropolitan Counties,Howard County Police Department,1,1,0,0,0,0,0,1,0,NA,0,1,NA,"Howard County Police Department, Maryland",NA,NA
+Maryland,Metropolitan Counties,Montgomery County Police Department,7,4,1,2,0,0,0,7,2,NA,3,2,NA,"Montgomery County Police Department, Maryland",NA,NA
+Maryland,State Police Agencies,"State Police, Anne Arundel County",1,0,1,0,0,0,0,1,0,0,0,1,NA,"State Police, Anne Arundel County, Maryland",NA,NA
+Maryland,Other Agencies,"National Capitol Park Police, Montgomery County",1,1,0,0,0,0,0,1,0,1,0,0,NA,"National Capitol Park Police, Montgomery County, Maryland",NA,NA
+Massachusetts,Cities,Acton,3,2,0,0,0,0,1,3,1,2,0,0,23770,"Acton, Massachusetts",NA,NA
+Massachusetts,Cities,Andover,3,2,1,0,0,0,0,3,1,2,0,0,35558,"Andover, Massachusetts",NA,NA
+Massachusetts,Cities,Arlington,11,9,1,0,1,0,0,10,2,4,3,1,45004,"Arlington, Massachusetts",NA,NA
+Massachusetts,Cities,Barnstable,4,0,0,3,1,0,0,4,1,0,3,0,43974,"Barnstable, Massachusetts",NA,NA
+Massachusetts,Cities,Belmont,1,1,0,0,0,0,0,1,0,0,0,1,25637,"Belmont, Massachusetts",NA,NA
+Massachusetts,Cities,Beverly,3,2,1,0,0,0,0,3,1,1,1,0,41303,"Beverly, Massachusetts",NA,NA
+Massachusetts,Cities,Billerica,2,1,1,0,0,0,0,2,1,0,0,1,42965,"Billerica, Massachusetts",NA,NA
+Massachusetts,Cities,Boston,129,75,16,28,1,0,9,120,29,34,27,30,673880,"Boston, Massachusetts",NA,NA
+Massachusetts,Cities,Boxford,1,0,1,0,0,0,0,1,0,0,0,1,8271,"Boxford, Massachusetts",NA,NA
+Massachusetts,Cities,Braintree,9,6,1,1,0,1,0,7,3,1,2,1,37673,"Braintree, Massachusetts",NA,NA
+Massachusetts,Cities,Cambridge,26,16,6,4,0,0,0,25,5,7,3,10,111030,"Cambridge, Massachusetts",NA,NA
+Massachusetts,Cities,Chelmsford,1,0,0,0,0,1,0,1,0,1,0,0,35251,"Chelmsford, Massachusetts",NA,NA
+Massachusetts,Cities,Chelsea,1,0,1,0,0,0,0,1,0,0,1,0,40096,"Chelsea, Massachusetts",NA,NA
+Massachusetts,Cities,Chicopee,1,1,0,0,0,0,0,1,1,0,0,0,56887,"Chicopee, Massachusetts",NA,NA
+Massachusetts,Cities,Cohasset,1,1,0,0,0,0,0,1,0,0,0,1,8538,"Cohasset, Massachusetts",NA,NA
+Massachusetts,Cities,Danvers,3,0,3,0,0,0,0,3,0,0,1,2,27997,"Danvers, Massachusetts",NA,NA
+Massachusetts,Cities,Dartmouth,1,1,0,0,0,0,0,1,0,0,1,0,34630,"Dartmouth, Massachusetts",NA,NA
+Massachusetts,Cities,Dennis,2,2,0,0,0,0,0,2,0,0,1,1,13905,"Dennis, Massachusetts",NA,NA
+Massachusetts,Cities,Dudley,1,0,1,0,0,0,0,1,0,0,0,1,11558,"Dudley, Massachusetts",NA,NA
+Massachusetts,Cities,Everett,8,7,1,0,0,0,0,8,1,0,4,3,46754,"Everett, Massachusetts",NA,NA
+Massachusetts,Cities,Fitchburg,1,0,1,0,0,0,0,1,0,0,0,1,40391,"Fitchburg, Massachusetts",NA,NA
+Massachusetts,Cities,Framingham,3,3,0,0,0,0,0,3,1,1,1,0,71422,"Framingham, Massachusetts",NA,NA
+Massachusetts,Cities,Freetown,1,1,0,0,0,0,0,1,0,0,1,0,9199,"Freetown, Massachusetts",NA,NA
+Massachusetts,Cities,Greenfield,1,0,0,0,0,1,0,1,0,0,1,0,17456,"Greenfield, Massachusetts",NA,NA
+Massachusetts,Cities,Haverhill,6,3,1,2,0,0,0,5,0,1,1,3,62851,"Haverhill, Massachusetts",NA,NA
+Massachusetts,Cities,Holliston,1,0,0,1,0,0,0,1,0,1,0,0,14656,"Holliston, Massachusetts",NA,NA
+Massachusetts,Cities,Hopkinton,3,0,2,1,0,0,0,3,1,2,0,0,16960,"Hopkinton, Massachusetts",NA,NA
+Massachusetts,Cities,Lancaster,1,0,0,1,0,0,0,1,1,0,0,0,8150,"Lancaster, Massachusetts",NA,NA
+Massachusetts,Cities,Lawrence,1,0,0,1,0,0,0,1,0,0,0,1,80622,"Lawrence, Massachusetts",NA,NA
+Massachusetts,Cities,Lenox,1,0,0,1,0,0,0,1,0,0,1,0,4971,"Lenox, Massachusetts",NA,NA
+Massachusetts,Cities,Lexington,2,1,1,0,0,0,0,2,0,0,2,0,33643,"Lexington, Massachusetts",NA,NA
+Massachusetts,Cities,Lowell,2,0,1,1,0,0,0,2,1,0,0,1,111027,"Lowell, Massachusetts",NA,NA
+Massachusetts,Cities,Lynn,8,5,0,2,0,0,1,7,2,1,3,1,92443,"Lynn, Massachusetts",NA,NA
+Massachusetts,Cities,Malden,3,1,0,2,0,0,0,3,0,0,2,1,61102,"Malden, Massachusetts",NA,NA
+Massachusetts,Cities,Manchester-by-the-Sea,1,0,0,0,1,0,0,1,0,0,1,0,5387,"Manchester-by-the-Sea, Massachusetts",NA,NA
+Massachusetts,Cities,Mansfield,1,1,0,0,0,0,0,1,0,0,0,1,23681,"Mansfield, Massachusetts",NA,NA
+Massachusetts,Cities,Mattapoisett,1,1,0,0,0,0,0,1,0,1,0,0,6282,"Mattapoisett, Massachusetts",NA,NA
+Massachusetts,Cities,Medford,3,3,0,0,0,0,0,3,0,0,1,2,57367,"Medford, Massachusetts",NA,NA
+Massachusetts,Cities,Methuen,3,2,1,0,0,0,0,2,0,0,2,0,49912,"Methuen, Massachusetts",NA,NA
+Massachusetts,Cities,Milford,1,1,0,0,0,0,0,1,0,0,0,1,28606,"Milford, Massachusetts",NA,NA
+Massachusetts,Cities,Millbury,1,0,1,0,0,0,0,1,1,0,0,0,13532,"Millbury, Massachusetts",NA,NA
+Massachusetts,Cities,Milton,2,1,0,1,0,0,0,2,0,0,2,0,27317,"Milton, Massachusetts",NA,NA
+Massachusetts,Cities,Nahant,2,1,0,1,0,0,0,2,1,1,0,0,3484,"Nahant, Massachusetts",NA,NA
+Massachusetts,Cities,Newburyport,1,1,0,0,0,0,0,1,0,1,0,0,18011,"Newburyport, Massachusetts",NA,NA
+Massachusetts,Cities,Newton,24,7,16,0,0,0,1,21,8,6,4,3,89116,"Newton, Massachusetts",NA,NA
+Massachusetts,Cities,Northampton,4,2,1,1,0,0,0,4,1,0,2,1,28521,"Northampton, Massachusetts",NA,NA
+Massachusetts,Cities,Pepperell,1,0,1,0,0,0,0,1,0,0,1,0,12242,"Pepperell, Massachusetts",NA,NA
+Massachusetts,Cities,Pittsfield,1,1,0,0,0,0,0,1,0,0,0,1,43031,"Pittsfield, Massachusetts",NA,NA
+Massachusetts,Cities,Provincetown,1,0,0,1,0,0,0,1,0,1,0,0,2959,"Provincetown, Massachusetts",NA,NA
+Massachusetts,Cities,Quincy,5,3,0,1,0,1,0,5,1,1,2,1,93437,"Quincy, Massachusetts",NA,NA
+Massachusetts,Cities,Randolph,3,3,0,0,0,0,0,3,0,1,2,0,33807,"Randolph, Massachusetts",NA,NA
+Massachusetts,Cities,Salem,5,1,1,3,0,0,0,5,0,2,3,0,42888,"Salem, Massachusetts",NA,NA
+Massachusetts,Cities,Saugus,1,1,0,0,0,0,0,1,1,0,0,0,28131,"Saugus, Massachusetts",NA,NA
+Massachusetts,Cities,Sharon,1,0,0,0,0,1,0,1,0,0,0,1,18200,"Sharon, Massachusetts",NA,NA
+Massachusetts,Cities,Shelburne,1,0,0,0,1,0,0,1,0,0,0,1,1839,"Shelburne, Massachusetts",NA,NA
+Massachusetts,Cities,Somerville,11,6,3,1,1,0,0,11,2,2,2,5,80899,"Somerville, Massachusetts",NA,NA
+Massachusetts,Cities,Southbridge,1,1,0,0,0,0,0,1,0,0,1,0,16819,"Southbridge, Massachusetts",NA,NA
+Massachusetts,Cities,Springfield,10,7,0,3,0,0,0,10,3,1,4,2,154102,"Springfield, Massachusetts",NA,NA
+Massachusetts,Cities,Stoughton,1,0,1,0,0,0,0,1,0,0,1,0,28583,"Stoughton, Massachusetts",NA,NA
+Massachusetts,Cities,Sturbridge,1,0,0,0,1,0,0,1,0,1,0,0,9520,"Sturbridge, Massachusetts",NA,NA
+Massachusetts,Cities,Sudbury,1,0,1,0,0,0,0,1,0,0,0,1,19035,"Sudbury, Massachusetts",NA,NA
+Massachusetts,Cities,Swampscott,3,0,3,0,0,0,0,3,0,2,0,1,14551,"Swampscott, Massachusetts",NA,NA
+Massachusetts,Cities,Taunton,5,3,0,1,0,1,0,5,2,1,2,0,56720,"Taunton, Massachusetts",NA,NA
+Massachusetts,Cities,Topsfield,1,1,0,0,0,0,0,1,1,0,0,0,6590,"Topsfield, Massachusetts",NA,NA
+Massachusetts,Cities,Waltham,6,1,0,1,1,0,3,6,2,1,1,2,63613,"Waltham, Massachusetts",NA,NA
+Massachusetts,Cities,Watertown,4,0,2,2,0,0,0,3,0,0,2,1,34655,"Watertown, Massachusetts",NA,NA
+Massachusetts,Cities,Westfield,1,0,0,1,0,0,0,1,0,1,0,0,41700,"Westfield, Massachusetts",NA,NA
+Massachusetts,Cities,West Tisbury,1,0,0,0,0,1,0,1,0,0,1,0,2927,"West Tisbury, Massachusetts",NA,NA
+Massachusetts,Cities,Williamstown,1,1,0,0,0,0,0,1,0,0,1,0,7591,"Williamstown, Massachusetts",NA,NA
+Massachusetts,Cities,Worcester,6,5,0,0,0,0,1,6,0,1,2,3,184595,"Worcester, Massachusetts",NA,NA
+Massachusetts,Universities and Colleges,Boston University,21,5,11,4,0,1,0,19,3,3,9,4,32158,"Boston University, Massachusetts",NA,NA
+Massachusetts,Universities and Colleges,Brandeis University,1,0,1,0,0,0,0,1,0,0,0,1,5752,"Brandeis University, Massachusetts",NA,NA
+Massachusetts,Universities and Colleges,Bridgewater State University,1,0,0,1,0,0,0,1,1,0,0,0,11089,"Bridgewater State University, Massachusetts",NA,NA
+Massachusetts,Universities and Colleges,Bristol Community College,1,1,0,0,0,0,0,1,0,0,0,1,8761,"Bristol Community College, Massachusetts",NA,NA
+Massachusetts,Universities and Colleges,Clark University,3,0,3,0,0,0,0,3,2,0,0,1,3485,"Clark University, Massachusetts",NA,NA
+Massachusetts,Universities and Colleges,Hampshire College,1,1,0,0,0,0,0,1,0,0,0,1,1410,"Hampshire College, Massachusetts",NA,NA
+Massachusetts,Universities and Colleges,Massachusetts Institute of Technology,1,0,1,0,0,0,0,1,1,0,0,0,11331,"Massachusetts Institute of Technology, Massachusetts",NA,NA
+Massachusetts,Universities and Colleges,Northeastern University,1,0,1,0,0,0,0,1,NA,1,NA,NA,19940,"Northeastern University, Massachusetts",NA,NA
+Massachusetts,Universities and Colleges,Salem State University,3,0,0,3,0,0,0,3,2,1,0,0,9215,"Salem State University, Massachusetts",NA,NA
+Massachusetts,Universities and Colleges,"Tufts University, Suffolk",1,0,1,0,0,0,0,1,0,1,0,0,NA,"Tufts University, Suffolk, Massachusetts",NA,NA
+Massachusetts,Universities and Colleges,University of Massachusetts:Amherst,12,6,4,2,0,0,0,11,6,4,1,0,29269,"University of Massachusetts:Amherst, Massachusetts",NA,NA
+Massachusetts,Universities and Colleges,"University of Massachusetts:Medical Center, Worcester",1,1,0,0,0,0,0,1,0,0,0,1,1079,"University of Massachusetts:Medical Center, Worcester, Massachusetts",NA,NA
+Massachusetts,Other Agencies,Massachusetts Bay Transportation Authority:Middlesex County,1,1,0,0,0,0,0,1,0,0,1,NA,NA,"Massachusetts Bay Transportation Authority:Middlesex County, Massachusetts",NA,NA
+Massachusetts,Other Agencies,Massachusetts Bay Transportation Authority:Suffolk County,5,3,1,1,0,0,0,5,1,1,1,2,NA,"Massachusetts Bay Transportation Authority:Suffolk County, Massachusetts",NA,NA
+Michigan,Cities,Albion,3,2,1,0,0,0,0,3,0,0,0,3,8155,"Albion, Michigan",NA,NA
+Michigan,Cities,Allegan,1,0,0,1,0,0,0,1,0,1,0,0,5086,"Allegan, Michigan",NA,NA
+Michigan,Cities,Ann Arbor,1,0,1,0,0,0,0,1,0,0,0,1,117688,"Ann Arbor, Michigan",NA,NA
+Michigan,Cities,Auburn Hills,1,1,0,0,0,0,0,1,0,1,0,0,22933,"Auburn Hills, Michigan",NA,NA
+Michigan,Cities,Battle Creek,3,3,0,0,0,0,0,3,0,1,1,1,60904,"Battle Creek, Michigan",NA,NA
+Michigan,Cities,Belleville,1,1,0,0,0,0,0,1,0,0,0,1,3860,"Belleville, Michigan",NA,NA
+Michigan,Cities,Benton Harbor,1,1,0,0,0,0,0,1,1,0,0,0,9963,"Benton Harbor, Michigan",NA,NA
+Michigan,Cities,Benton Township,2,2,0,0,0,0,0,2,0,0,2,0,14413,"Benton Township, Michigan",NA,NA
+Michigan,Cities,Berkley,1,1,0,0,0,0,0,1,0,0,1,0,15328,"Berkley, Michigan",NA,NA
+Michigan,Cities,Big Rapids,1,1,0,0,0,0,0,1,0,0,0,1,10389,"Big Rapids, Michigan",NA,NA
+Michigan,Cities,Birmingham,1,0,1,0,0,0,0,1,0,1,0,0,21012,"Birmingham, Michigan",NA,NA
+Michigan,Cities,Blackman Township,3,3,0,0,0,0,0,3,0,0,2,1,37522,"Blackman Township, Michigan",NA,NA
+Michigan,Cities,Bloomfield Hills,2,1,1,0,0,0,0,2,0,1,0,1,4031,"Bloomfield Hills, Michigan",NA,NA
+Michigan,Cities,Bloomfield Township,2,1,1,0,0,0,0,2,0,0,0,2,42313,"Bloomfield Township, Michigan",NA,NA
+Michigan,Cities,Buena Vista Township,2,2,0,0,0,0,0,2,0,1,1,0,8158,"Buena Vista Township, Michigan",NA,NA
+Michigan,Cities,Burton,1,1,0,0,0,0,0,1,0,0,1,0,28563,"Burton, Michigan",NA,NA
+Michigan,Cities,Cadillac,1,1,0,0,0,0,0,1,0,0,0,1,10372,"Cadillac, Michigan",NA,NA
+Michigan,Cities,Caro,1,1,0,0,0,0,0,1,0,0,0,1,4074,"Caro, Michigan",NA,NA
+Michigan,Cities,Chesterfield Township,1,1,0,0,0,0,0,1,1,0,0,0,44963,"Chesterfield Township, Michigan",NA,NA
+Michigan,Cities,Clawson,2,2,0,0,0,0,0,2,0,0,1,1,12053,"Clawson, Michigan",NA,NA
+Michigan,Cities,Clinton Township,1,1,0,0,0,0,0,1,1,0,0,0,100514,"Clinton Township, Michigan",NA,NA
+Michigan,Cities,Clio,1,1,0,0,0,0,0,1,0,0,1,0,2516,"Clio, Michigan",NA,NA
+Michigan,Cities,Coldwater,1,1,0,0,0,0,0,1,0,1,0,0,10827,"Coldwater, Michigan",NA,NA
+Michigan,Cities,Commerce Township,1,1,0,0,0,0,0,1,0,0,1,0,38218,"Commerce Township, Michigan",NA,NA
+Michigan,Cities,Dearborn,14,7,4,3,0,0,0,14,3,5,5,1,94646,"Dearborn, Michigan",NA,NA
+Michigan,Cities,Dearborn Heights,2,1,1,0,0,0,0,2,0,0,1,1,55852,"Dearborn Heights, Michigan",NA,NA
+Michigan,Cities,Detroit,32,16,1,13,2,0,0,32,6,6,7,13,669673,"Detroit, Michigan",NA,NA
+Michigan,Cities,East Lansing,3,2,1,0,0,0,0,3,2,0,0,1,48451,"East Lansing, Michigan",NA,NA
+Michigan,Cities,Eastpointe,3,3,0,0,0,0,0,3,0,1,0,2,32701,"Eastpointe, Michigan",NA,NA
+Michigan,Cities,Eaton Rapids,1,1,0,0,0,0,0,1,0,0,1,0,5226,"Eaton Rapids, Michigan",NA,NA
+Michigan,Cities,Escanaba,2,1,0,0,0,1,0,2,0,0,2,0,12278,"Escanaba, Michigan",NA,NA
+Michigan,Cities,Evart,1,1,0,0,0,0,0,1,0,0,1,0,1853,"Evart, Michigan",NA,NA
+Michigan,Cities,Farmington,1,0,0,1,0,0,0,1,0,0,1,0,10553,"Farmington, Michigan",NA,NA
+Michigan,Cities,Ferndale,2,2,0,0,0,0,0,2,0,1,0,1,20232,"Ferndale, Michigan",NA,NA
+Michigan,Cities,Flint,16,14,1,1,0,0,0,16,1,4,8,3,97548,"Flint, Michigan",NA,NA
+Michigan,Cities,Flushing,1,0,0,1,0,0,0,1,0,1,0,0,8028,"Flushing, Michigan",NA,NA
+Michigan,Cities,Forsyth Township,1,1,0,0,0,0,0,1,1,0,0,0,6196,"Forsyth Township, Michigan",NA,NA
+Michigan,Cities,Fruitport Township,1,1,0,0,0,0,0,1,0,0,1,0,13879,"Fruitport Township, Michigan",NA,NA
+Michigan,Cities,Galesburg,2,2,0,0,0,0,0,2,0,1,0,1,2050,"Galesburg, Michigan",NA,NA
+Michigan,Cities,Garden City,3,2,1,0,0,0,0,3,0,0,1,2,26781,"Garden City, Michigan",NA,NA
+Michigan,Cities,Gaylord,1,1,0,0,0,0,0,1,0,0,1,0,3662,"Gaylord, Michigan",NA,NA
+Michigan,Cities,Genesee Township,1,0,0,1,0,0,0,1,1,0,0,0,20393,"Genesee Township, Michigan",NA,NA
+Michigan,Cities,Grand Rapids,2,2,0,0,0,0,0,2,0,1,0,1,196538,"Grand Rapids, Michigan",NA,NA
+Michigan,Cities,Grandville,1,0,1,0,0,0,0,1,0,1,0,0,16070,"Grandville, Michigan",NA,NA
+Michigan,Cities,Grant,3,3,0,0,0,0,0,3,0,2,0,1,880,"Grant, Michigan",NA,NA
+Michigan,Cities,Grosse Pointe Park,2,1,0,1,0,0,0,2,0,0,1,1,11160,"Grosse Pointe Park, Michigan",NA,NA
+Michigan,Cities,Grosse Pointe Woods,1,1,0,0,0,0,0,1,0,1,0,0,15699,"Grosse Pointe Woods, Michigan",NA,NA
+Michigan,Cities,Hampton Township,1,1,0,0,0,0,0,1,0,0,0,1,9401,"Hampton Township, Michigan",NA,NA
+Michigan,Cities,Hamtramck,5,3,2,0,0,0,0,5,2,2,1,0,21929,"Hamtramck, Michigan",NA,NA
+Michigan,Cities,Harper Woods,1,1,0,0,0,0,0,1,0,1,0,0,13764,"Harper Woods, Michigan",NA,NA
+Michigan,Cities,Hart,1,1,0,0,0,0,0,1,0,0,1,0,2093,"Hart, Michigan",NA,NA
+Michigan,Cities,Hastings,1,1,0,0,0,0,0,1,0,1,0,0,7274,"Hastings, Michigan",NA,NA
+Michigan,Cities,Highland Park,7,5,1,1,0,0,0,7,1,0,3,3,10810,"Highland Park, Michigan",NA,NA
+Michigan,Cities,Houghton,2,2,0,0,0,0,0,2,1,0,0,1,8020,"Houghton, Michigan",NA,NA
+Michigan,Cities,Huntington Woods,1,0,1,0,0,0,0,1,1,0,0,0,6360,"Huntington Woods, Michigan",NA,NA
+Michigan,Cities,Huron Township,1,1,0,0,0,0,0,1,0,0,1,0,15622,"Huron Township, Michigan",NA,NA
+Michigan,Cities,Independence Township,2,2,0,0,0,0,0,2,1,0,0,1,36689,"Independence Township, Michigan",NA,NA
+Michigan,Cities,Inkster,6,3,2,1,0,0,0,6,2,1,2,1,24548,"Inkster, Michigan",NA,NA
+Michigan,Cities,Ishpeming,2,2,0,0,0,0,0,2,1,0,0,1,6485,"Ishpeming, Michigan",NA,NA
+Michigan,Cities,Kalamazoo,1,1,0,0,0,0,0,1,0,1,0,0,76389,"Kalamazoo, Michigan",NA,NA
+Michigan,Cities,Lansing,2,1,1,0,0,0,0,2,2,0,0,0,115199,"Lansing, Michigan",NA,NA
+Michigan,Cities,Lapeer,2,1,0,1,0,0,0,2,1,0,1,0,8782,"Lapeer, Michigan",NA,NA
+Michigan,Cities,Lawton,2,2,0,0,0,0,0,2,0,1,0,1,1860,"Lawton, Michigan",NA,NA
+Michigan,Cities,Leslie,1,1,0,0,0,0,0,1,0,1,0,0,1869,"Leslie, Michigan",NA,NA
+Michigan,Cities,Lincoln Park,1,1,0,0,0,0,0,1,0,1,0,0,36808,"Lincoln Park, Michigan",NA,NA
+Michigan,Cities,Lincoln Township,2,2,0,0,0,0,0,2,0,0,0,2,14500,"Lincoln Township, Michigan",NA,NA
+Michigan,Cities,Livonia,4,3,1,0,0,0,0,4,0,0,3,1,94226,"Livonia, Michigan",NA,NA
+Michigan,Cities,Ludington,3,3,0,0,0,0,0,3,0,2,1,0,8054,"Ludington, Michigan",NA,NA
+Michigan,Cities,Mackinac Island,1,0,0,1,0,0,0,1,0,1,0,0,479,"Mackinac Island, Michigan",NA,NA
+Michigan,Cities,Marysville,1,0,0,1,0,0,0,1,0,1,0,0,9722,"Marysville, Michigan",NA,NA
+Michigan,Cities,Mason,1,1,0,0,0,0,0,1,0,1,0,0,8461,"Mason, Michigan",NA,NA
+Michigan,Cities,Melvindale,2,2,0,0,0,0,0,2,0,1,1,0,10348,"Melvindale, Michigan",NA,NA
+Michigan,Cities,Meridian Township,6,4,1,1,0,0,0,6,2,0,0,4,42700,"Meridian Township, Michigan",NA,NA
+Michigan,Cities,Monroe,2,2,0,0,0,0,0,2,0,1,1,0,19971,"Monroe, Michigan",NA,NA
+Michigan,Cities,Montrose Township,2,0,1,1,0,0,0,2,0,2,0,0,7524,"Montrose Township, Michigan",NA,NA
+Michigan,Cities,Mount Pleasant,1,1,0,0,0,0,0,1,0,1,0,0,26069,"Mount Pleasant, Michigan",NA,NA
+Michigan,Cities,Muskegon,2,0,1,1,0,0,0,2,0,0,0,2,38442,"Muskegon, Michigan",NA,NA
+Michigan,Cities,Muskegon Township,1,0,0,1,0,0,0,1,0,0,0,1,17791,"Muskegon Township, Michigan",NA,NA
+Michigan,Cities,Niles,2,1,1,0,0,0,0,2,0,0,2,0,11282,"Niles, Michigan",NA,NA
+Michigan,Cities,Norton Shores,3,3,0,0,0,0,0,3,0,1,1,1,24256,"Norton Shores, Michigan",NA,NA
+Michigan,Cities,Ontwa Township-Edwardsburg,1,0,0,1,0,0,0,1,0,0,1,0,6481,"Ontwa Township-Edwardsburg, Michigan",NA,NA
+Michigan,Cities,Owosso,1,1,0,0,0,0,0,1,0,0,1,0,14605,"Owosso, Michigan",NA,NA
+Michigan,Cities,Oxford Township,1,1,0,0,0,0,0,1,1,0,0,0,18164,"Oxford Township, Michigan",NA,NA
+Michigan,Cities,Pittsfield Township,3,1,1,1,0,0,0,3,0,0,2,1,38704,"Pittsfield Township, Michigan",NA,NA
+Michigan,Cities,Plymouth,1,0,0,1,0,0,0,1,0,0,1,0,8865,"Plymouth, Michigan",NA,NA
+Michigan,Cities,Plymouth Township,1,0,0,1,0,0,0,1,0,0,0,1,26870,"Plymouth Township, Michigan",NA,NA
+Michigan,Cities,Pontiac,2,2,0,0,0,0,0,2,1,0,1,0,60003,"Pontiac, Michigan",NA,NA
+Michigan,Cities,Portage,1,1,0,0,0,0,0,1,0,0,1,0,48550,"Portage, Michigan",NA,NA
+Michigan,Cities,Port Huron,1,0,0,1,0,0,0,1,0,0,1,0,29182,"Port Huron, Michigan",NA,NA
+Michigan,Cities,Redford Township,2,1,1,0,0,0,0,2,0,1,1,0,47218,"Redford Township, Michigan",NA,NA
+Michigan,Cities,Richland,1,1,0,0,0,0,0,1,0,1,0,0,793,"Richland, Michigan",NA,NA
+Michigan,Cities,River Rouge,1,1,0,0,0,0,0,1,0,0,0,1,7480,"River Rouge, Michigan",NA,NA
+Michigan,Cities,Rochester Hills,2,2,0,0,0,0,0,2,1,0,1,0,73913,"Rochester Hills, Michigan",NA,NA
+Michigan,Cities,Romulus,4,4,0,0,0,0,0,4,0,2,1,1,23315,"Romulus, Michigan",NA,NA
+Michigan,Cities,Roseville,3,3,0,0,0,0,0,3,1,1,1,0,47704,"Roseville, Michigan",NA,NA
+Michigan,Cities,Royal Oak,1,1,0,0,0,0,0,1,1,0,0,0,59367,"Royal Oak, Michigan",NA,NA
+Michigan,Cities,Saginaw,5,3,1,1,0,0,0,5,2,2,0,1,48942,"Saginaw, Michigan",NA,NA
+Michigan,Cities,Saginaw Township,2,2,0,0,0,0,0,2,0,1,1,0,39421,"Saginaw Township, Michigan",NA,NA
+Michigan,Cities,Saline,1,1,0,0,0,0,0,1,0,0,1,0,9158,"Saline, Michigan",NA,NA
+Michigan,Cities,Sault Ste. Marie,2,0,0,2,0,0,0,2,2,0,0,0,13763,"Sault Ste. Marie, Michigan",NA,NA
+Michigan,Cities,Shelby Township,4,3,0,1,0,0,0,4,0,1,1,2,78427,"Shelby Township, Michigan",NA,NA
+Michigan,Cities,Southfield,3,1,1,1,0,0,0,3,1,1,0,1,73438,"Southfield, Michigan",NA,NA
+Michigan,Cities,Southgate,4,3,0,1,0,0,0,4,1,2,1,0,29158,"Southgate, Michigan",NA,NA
+Michigan,Cities,South Lyon,2,2,0,0,0,0,0,2,0,1,1,0,11801,"South Lyon, Michigan",NA,NA
+Michigan,Cities,St. Charles,2,1,1,0,0,0,0,2,0,0,2,0,1940,"St. Charles, Michigan",NA,NA
+Michigan,Cities,St. Joseph Township,1,1,0,0,0,0,0,1,0,1,0,0,9850,"St. Joseph Township, Michigan",NA,NA
+Michigan,Cities,Sturgis,1,1,0,0,0,0,0,1,0,1,0,0,10876,"Sturgis, Michigan",NA,NA
+Michigan,Cities,Taylor,3,3,0,0,0,0,0,3,0,1,1,1,61290,"Taylor, Michigan",NA,NA
+Michigan,Cities,Tittabawassee Township,1,1,0,0,0,0,0,1,0,0,1,0,9782,"Tittabawassee Township, Michigan",NA,NA
+Michigan,Cities,Traverse City,7,4,3,0,0,0,0,7,0,2,2,3,15330,"Traverse City, Michigan",NA,NA
+Michigan,Cities,Troy,7,7,0,0,0,0,0,7,0,1,3,3,83743,"Troy, Michigan",NA,NA
+Michigan,Cities,Van Buren Township,4,2,0,2,0,0,0,4,0,0,2,2,28090,"Van Buren Township, Michigan",NA,NA
+Michigan,Cities,Warren,10,7,1,0,2,0,0,10,2,2,2,4,135620,"Warren, Michigan",NA,NA
+Michigan,Cities,Waterford Township,1,1,0,0,0,0,0,1,1,0,0,0,73308,"Waterford Township, Michigan",NA,NA
+Michigan,Cities,West Bloomfield Township,9,5,4,0,0,0,0,9,1,2,4,2,66123,"West Bloomfield Township, Michigan",NA,NA
+Michigan,Cities,Wyoming,1,0,1,0,0,0,0,1,1,0,0,0,75917,"Wyoming, Michigan",NA,NA
+Michigan,Universities and Colleges,Eastern Michigan University,6,4,2,0,0,0,0,6,0,0,2,4,21824,"Eastern Michigan University, Michigan",NA,NA
+Michigan,Universities and Colleges,Grand Valley State University,1,0,0,1,0,0,0,1,0,0,1,0,25325,"Grand Valley State University, Michigan",NA,NA
+Michigan,Universities and Colleges,Michigan State University,4,2,1,1,0,0,0,4,0,0,1,3,50538,"Michigan State University, Michigan",NA,NA
+Michigan,Universities and Colleges,Mott Community College,1,1,0,0,0,0,0,1,0,0,1,0,8617,"Mott Community College, Michigan",NA,NA
+Michigan,Universities and Colleges,Schoolcraft College,1,1,0,0,0,0,0,1,0,0,1,0,11687,"Schoolcraft College, Michigan",NA,NA
+Michigan,Universities and Colleges,University of Michigan:Ann Arbor,8,6,1,1,0,0,0,8,2,2,1,3,43651,"University of Michigan:Ann Arbor, Michigan",NA,NA
+Michigan,Universities and Colleges,University of Michigan:Flint,1,1,0,0,0,0,0,1,0,0,0,1,8470,"University of Michigan:Flint, Michigan",NA,NA
+Michigan,Universities and Colleges,Western Michigan University,1,1,0,0,0,0,0,1,0,0,1,0,23529,"Western Michigan University, Michigan",NA,NA
+Michigan,Metropolitan Counties,Barry,2,2,0,0,0,0,0,2,0,2,0,0,NA,"Barry, Michigan",NA,NA
+Michigan,Metropolitan Counties,Calhoun,2,1,0,1,0,0,0,2,0,0,2,0,NA,"Calhoun, Michigan",NA,NA
+Michigan,Metropolitan Counties,Eaton,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Eaton, Michigan",NA,NA
+Michigan,Metropolitan Counties,Genesee,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Genesee, Michigan",NA,NA
+Michigan,Metropolitan Counties,Ingham,2,2,0,0,0,0,0,2,0,2,0,0,NA,"Ingham, Michigan",NA,NA
+Michigan,Metropolitan Counties,Jackson,3,3,0,0,0,0,0,3,0,0,3,0,NA,"Jackson, Michigan",NA,NA
+Michigan,Metropolitan Counties,Kent,2,1,0,1,0,0,0,2,1,1,0,0,NA,"Kent, Michigan",NA,NA
+Michigan,Metropolitan Counties,Lapeer,3,2,0,1,0,0,0,3,2,0,0,1,NA,"Lapeer, Michigan",NA,NA
+Michigan,Metropolitan Counties,Livingston,2,0,0,0,1,1,0,2,1,0,0,1,NA,"Livingston, Michigan",NA,NA
+Michigan,Metropolitan Counties,Macomb,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Macomb, Michigan",NA,NA
+Michigan,Metropolitan Counties,Monroe,3,3,0,0,0,0,0,3,0,1,1,1,NA,"Monroe, Michigan",NA,NA
+Michigan,Metropolitan Counties,Montcalm,2,1,0,1,0,0,0,2,1,0,1,0,NA,"Montcalm, Michigan",NA,NA
+Michigan,Metropolitan Counties,Muskegon,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Muskegon, Michigan",NA,NA
+Michigan,Metropolitan Counties,Oakland,2,0,0,2,0,0,0,2,1,0,1,0,NA,"Oakland, Michigan",NA,NA
+Michigan,Metropolitan Counties,Saginaw,2,2,0,0,0,0,0,2,1,1,0,0,NA,"Saginaw, Michigan",NA,NA
+Michigan,Metropolitan Counties,St. Clair,1,0,0,1,0,0,0,1,0,0,0,1,NA,"St. Clair, Michigan",NA,NA
+Michigan,Metropolitan Counties,Van Buren,2,1,0,1,0,0,0,2,0,0,0,2,NA,"Van Buren, Michigan",NA,NA
+Michigan,Metropolitan Counties,Washtenaw,2,2,0,0,0,0,0,2,0,0,1,1,NA,"Washtenaw, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Benzie,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Benzie, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Clare,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Clare, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Emmet,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Emmet, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Gratiot,2,2,0,0,0,0,0,2,0,1,0,1,NA,"Gratiot, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Hillsdale,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Hillsdale, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Huron,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Huron, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Ionia,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Ionia, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Luce,1,0,0,0,1,0,0,1,0,0,1,0,NA,"Luce, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Marquette,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Marquette, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Mason,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Mason, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Mecosta,2,2,0,0,0,0,0,2,0,1,1,0,NA,"Mecosta, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Menominee,3,3,0,0,0,0,0,3,1,2,0,0,NA,"Menominee, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Oceana,2,1,0,1,0,0,0,2,1,1,0,0,NA,"Oceana, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Sanilac,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Sanilac, Michigan",NA,NA
+Michigan,Nonmetropolitan Counties,Tuscola,4,1,1,1,0,1,0,4,0,0,2,2,NA,"Tuscola, Michigan",NA,NA
+Michigan,State Police Agencies,State Police:Ingham County,2,2,0,0,0,0,0,2,0,0,0,2,NA,"State Police:Ingham County, Michigan",NA,NA
+Michigan,State Police Agencies,State Police:Isabella County,5,3,0,2,0,0,0,5,1,1,2,1,NA,"State Police:Isabella County, Michigan",NA,NA
+Michigan,State Police Agencies,State Police:Jackson County,1,1,0,0,0,0,0,1,0,0,0,1,NA,"State Police:Jackson County, Michigan",NA,NA
+Michigan,State Police Agencies,State Police:Kent County,3,3,0,0,0,0,0,3,0,0,1,2,NA,"State Police:Kent County, Michigan",NA,NA
+Michigan,State Police Agencies,State Police:Livingston County,2,0,1,0,0,1,0,2,0,0,0,2,NA,"State Police:Livingston County, Michigan",NA,NA
+Michigan,State Police Agencies,State Police:Mecosta County,1,1,0,0,0,0,0,1,0,1,0,0,NA,"State Police:Mecosta County, Michigan",NA,NA
+Michigan,State Police Agencies,State Police:Muskegon County,1,0,0,0,0,1,0,1,1,0,0,0,NA,"State Police:Muskegon County, Michigan",NA,NA
+Michigan,State Police Agencies,State Police:Oceana County,4,4,0,0,0,0,0,4,0,2,1,1,NA,"State Police:Oceana County, Michigan",NA,NA
+Michigan,Other Agencies,Gerald R. Ford International Airport,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Gerald R. Ford International Airport, Michigan",NA,NA
+Minnesota,Cities,Blaine,2,2,0,0,0,0,0,2,1,0,0,1,63115,"Blaine, Minnesota",NA,NA
+Minnesota,Cities,Bloomington,1,1,0,0,0,0,0,1,0,0,0,1,87134,"Bloomington, Minnesota",NA,NA
+Minnesota,Cities,Brooklyn Center,1,1,0,0,0,0,0,1,1,0,0,0,30893,"Brooklyn Center, Minnesota",NA,NA
+Minnesota,Cities,Brooklyn Park,10,8,1,1,0,0,0,10,4,2,2,2,79800,"Brooklyn Park, Minnesota",NA,NA
+Minnesota,Cities,Cottage Grove,2,2,0,0,0,0,0,2,1,1,0,0,36164,"Cottage Grove, Minnesota",NA,NA
+Minnesota,Cities,Crystal,2,2,0,0,0,0,0,2,1,0,1,0,23102,"Crystal, Minnesota",NA,NA
+Minnesota,Cities,Eagan,2,2,0,0,0,0,0,2,0,0,0,2,66698,"Eagan, Minnesota",NA,NA
+Minnesota,Cities,Inver Grove Heights,8,7,0,1,0,0,0,7,1,1,3,2,35049,"Inver Grove Heights, Minnesota",NA,NA
+Minnesota,Cities,Little Falls,1,1,0,0,0,0,0,1,0,0,1,0,8611,"Little Falls, Minnesota",NA,NA
+Minnesota,Cities,Mankato,5,3,0,2,0,0,0,5,0,0,2,3,41300,"Mankato, Minnesota",NA,NA
+Minnesota,Cities,Maplewood,2,2,0,0,0,0,0,2,1,0,0,1,41071,"Maplewood, Minnesota",NA,NA
+Minnesota,Cities,Minneapolis,38,20,13,5,0,0,0,38,5,16,11,6,416751,"Minneapolis, Minnesota",NA,NA
+Minnesota,Cities,Minnetonka,2,0,2,0,0,0,0,2,1,1,0,0,52055,"Minnetonka, Minnesota",NA,NA
+Minnesota,Cities,Moorhead,1,0,0,1,0,0,0,1,1,0,0,0,42507,"Moorhead, Minnesota",NA,NA
+Minnesota,Cities,New Hope,1,1,0,0,0,0,0,1,0,1,0,0,21168,"New Hope, Minnesota",NA,NA
+Minnesota,Cities,Oakdale,2,1,1,0,0,0,0,1,0,1,0,0,28211,"Oakdale, Minnesota",NA,NA
+Minnesota,Cities,Orono,1,0,1,0,0,0,0,1,0,1,0,0,19799,"Orono, Minnesota",NA,NA
+Minnesota,Cities,Plymouth,6,4,1,1,0,0,0,6,2,1,2,1,76996,"Plymouth, Minnesota",NA,NA
+Minnesota,Cities,Roseville,3,1,1,1,0,0,0,2,0,1,1,0,35954,"Roseville, Minnesota",NA,NA
+Minnesota,Cities,Sauk Centre,1,0,1,0,0,0,0,1,0,1,0,0,4367,"Sauk Centre, Minnesota",NA,NA
+Minnesota,Cities,Savage,1,0,1,0,0,0,0,1,0,1,0,0,31118,"Savage, Minnesota",NA,NA
+Minnesota,Cities,South St. Paul,1,1,0,0,0,0,0,1,0,0,1,0,20452,"South St. Paul, Minnesota",NA,NA
+Minnesota,Cities,Spring Lake Park,1,1,0,0,0,0,0,1,0,0,0,1,6484,"Spring Lake Park, Minnesota",NA,NA
+Minnesota,Cities,St. Cloud,5,3,1,1,0,0,0,5,2,2,1,NA,67341,"St. Cloud, Minnesota",NA,NA
+Minnesota,Cities,St. Louis Park,5,2,3,0,0,0,0,5,0,0,1,4,48770,"St. Louis Park, Minnesota",NA,NA
+Minnesota,Cities,St. Paul,9,5,2,2,0,0,0,9,3,1,3,2,303920,"St. Paul, Minnesota",NA,NA
+Minnesota,Cities,Wayzata,1,1,0,0,0,0,0,1,0,0,1,0,6627,"Wayzata, Minnesota",NA,NA
+Minnesota,Universities and Colleges,"University of Minnesota, Twin Cities",1,0,1,0,0,0,0,1,0,0,0,1,50678,"University of Minnesota, Twin Cities, Minnesota",NA,NA
+Minnesota,Metropolitan Counties,Carver,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Carver, Minnesota",NA,NA
+Minnesota,Metropolitan Counties,Mille Lacs,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Mille Lacs, Minnesota",NA,NA
+Minnesota,Metropolitan Counties,Ramsey,2,2,0,0,0,0,0,2,0,0,0,2,NA,"Ramsey, Minnesota",NA,NA
+Minnesota,Metropolitan Counties,Wright,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Wright, Minnesota",NA,NA
+Minnesota,Nonmetropolitan Counties,Crow Wing,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Crow Wing, Minnesota",NA,NA
+Minnesota,Other Agencies,Minneapolis-St. Paul International Airport,1,0,1,0,0,0,0,1,0,1,NA,0,NA,"Minneapolis-St. Paul International Airport, Minnesota",NA,NA
+Mississippi,Cities,Biloxi,1,0,0,1,0,0,0,1,1,0,0,0,45952,"Biloxi, Mississippi",NA,NA
+Mississippi,Cities,Olive Branch,4,3,1,0,0,0,0,4,1,0,0,3,36513,"Olive Branch, Mississippi",NA,NA
+Mississippi,Metropolitan Counties,DeSoto,1,0,0,1,0,0,0,1,1,0,0,0,NA,"DeSoto, Mississippi",NA,NA
+Mississippi,Nonmetropolitan Counties,Stone,1,1,0,0,0,0,0,1,NA,NA,NA,1,NA,"Stone, Mississippi",NA,NA
+Missouri,Cities,Battlefield,1,1,0,0,0,0,0,1,0,0,1,0,6083,"Battlefield, Missouri",NA,NA
+Missouri,Cities,Blue Springs,1,1,0,0,0,0,0,1,0,1,0,0,54445,"Blue Springs, Missouri",NA,NA
+Missouri,Cities,Bolivar,1,0,1,0,0,0,0,1,0,1,0,0,10790,"Bolivar, Missouri",NA,NA
+Missouri,Cities,Branson,1,1,0,0,0,0,0,1,1,0,0,0,11593,"Branson, Missouri",NA,NA
+Missouri,Cities,Bridgeton,1,0,0,1,0,0,0,1,0,0,0,1,11835,"Bridgeton, Missouri",NA,NA
+Missouri,Cities,Cameron,1,1,0,0,0,0,0,1,0,0,1,0,9817,"Cameron, Missouri",NA,NA
+Missouri,Cities,Chesterfield,2,1,1,0,0,0,0,2,2,0,0,0,47939,"Chesterfield, Missouri",NA,NA
+Missouri,Cities,Clayton,1,1,0,0,0,0,0,1,1,0,0,0,15873,"Clayton, Missouri",NA,NA
+Missouri,Cities,Columbia,7,5,0,2,0,0,0,7,0,1,5,1,121143,"Columbia, Missouri",NA,NA
+Missouri,Cities,Gladstone,1,1,0,0,0,0,0,1,0,0,1,0,27138,"Gladstone, Missouri",NA,NA
+Missouri,Cities,Independence,2,1,0,1,0,0,0,2,1,1,0,0,117335,"Independence, Missouri",NA,NA
+Missouri,Cities,Kansas City,43,33,6,4,0,0,0,43,7,7,16,13,478364,"Kansas City, Missouri",NA,NA
+Missouri,Cities,Lee's Summit,2,1,0,0,0,1,0,2,0,1,1,0,95821,"Lee's Summit, Missouri",NA,NA
+Missouri,Cities,Marionville,1,1,0,0,0,0,0,1,0,1,0,0,2181,"Marionville, Missouri",NA,NA
+Missouri,Cities,North Kansas City,1,1,0,0,0,0,0,1,0,0,0,1,4387,"North Kansas City, Missouri",NA,NA
+Missouri,Cities,Rolla,2,2,0,0,0,0,0,2,2,0,0,0,20093,"Rolla, Missouri",NA,NA
+Missouri,Cities,St. Charles,1,1,0,0,0,0,0,1,0,0,1,0,69364,"St. Charles, Missouri",NA,NA
+Missouri,Cities,St. Joseph,1,0,0,1,0,0,0,1,0,1,0,0,76577,"St. Joseph, Missouri",NA,NA
+Missouri,Cities,St. Louis,9,8,1,0,0,0,0,9,NA,3,3,3,314507,"St. Louis, Missouri",NA,NA
+Missouri,Cities,St. Peters,4,1,2,1,0,0,0,3,0,1,2,0,57835,"St. Peters, Missouri",NA,NA
+Missouri,Cities,University City,1,1,0,0,0,0,0,1,1,0,0,NA,35002,"University City, Missouri",NA,NA
+Missouri,Universities and Colleges,University of Missouri:Kansas City,2,2,0,0,0,0,0,2,0,0,0,2,16685,"University of Missouri:Kansas City, Missouri",NA,NA
+Missouri,Universities and Colleges,University of Missouri:St. Louis,1,0,1,0,0,0,0,1,0,0,1,0,16738,"University of Missouri:St. Louis, Missouri",NA,NA
+Missouri,Metropolitan Counties,St. Louis County Police Department,2,1,1,0,0,0,0,2,2,0,0,0,NA,"St. Louis County Police Department, Missouri",NA,NA
+Montana,Cities,Billings,4,2,1,1,0,0,0,4,3,0,0,1,111447,"Billings, Montana",NA,NA
+Montana,Cities,Columbia Falls,1,0,0,0,0,1,0,1,1,0,0,0,5175,"Columbia Falls, Montana",NA,NA
+Montana,Cities,Conrad,1,1,0,0,0,0,0,1,0,1,0,0,2594,"Conrad, Montana",NA,NA
+Montana,Cities,Havre,1,1,0,0,0,0,0,1,0,0,0,1,9896,"Havre, Montana",NA,NA
+Montana,Cities,Helena,3,0,3,0,0,0,0,3,1,2,0,0,31052,"Helena, Montana",NA,NA
+Montana,Cities,Whitefish,1,0,0,1,0,0,0,1,0,0,1,0,7226,"Whitefish, Montana",NA,NA
+Montana,Nonmetropolitan Counties,Big Horn,4,2,0,2,0,0,0,4,2,1,0,1,NA,"Big Horn, Montana",NA,NA
+Montana,Nonmetropolitan Counties,Broadwater,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Broadwater, Montana",NA,NA
+Montana,Nonmetropolitan Counties,Lewis and Clark,3,3,0,0,0,0,0,3,0,0,3,0,NA,"Lewis and Clark, Montana",NA,NA
+Montana,Nonmetropolitan Counties,Richland,1,0,1,0,0,0,0,1,0,0,1,0,NA,"Richland, Montana",NA,NA
+Nebraska,Cities,Crete,2,2,0,0,0,0,0,2,2,0,0,0,7047,"Crete, Nebraska",NA,NA
+Nebraska,Cities,Grand Island,2,2,0,0,0,0,0,2,1,1,0,0,51980,"Grand Island, Nebraska",NA,NA
+Nebraska,Cities,Kearney,1,1,0,0,0,0,0,1,0,1,0,0,33471,"Kearney, Nebraska",NA,NA
+Nebraska,Cities,Lincoln,19,13,3,2,0,1,0,19,6,6,4,3,281138,"Lincoln, Nebraska",NA,NA
+Nebraska,Cities,Norfolk,1,1,0,0,0,0,0,1,0,1,0,0,24389,"Norfolk, Nebraska",NA,NA
+Nebraska,Cities,Omaha,5,4,1,0,0,0,0,5,3,0,2,0,446163,"Omaha, Nebraska",NA,NA
+Nebraska,Cities,Papillion,1,0,0,1,0,0,0,1,0,0,1,0,19576,"Papillion, Nebraska",NA,NA
+Nevada,Cities,Henderson,11,9,1,1,0,0,0,11,2,4,3,2,291584,"Henderson, Nevada",NA,NA
+Nevada,Cities,Las Vegas Metropolitan Police Department,26,19,1,5,0,0,1,25,3,10,2,10,1592178,"Las Vegas Metropolitan Police Department, Nevada",NA,NA
+Nevada,Cities,North Las Vegas,4,3,1,0,0,0,0,4,0,1,3,0,238554,"North Las Vegas, Nevada",NA,NA
+Nevada,Cities,Reno,1,0,1,0,0,0,0,1,0,0,0,1,244554,"Reno, Nevada",NA,NA
+New Hampshire,Cities,Belmont,1,1,0,0,0,0,0,1,1,0,0,0,7315,"Belmont, New Hampshire",NA,NA
+New Hampshire,Cities,Boscawen,1,0,0,1,0,0,0,1,0,1,0,0,3950,"Boscawen, New Hampshire",NA,NA
+New Hampshire,Cities,Bow,1,1,0,0,0,0,0,1,0,0,1,0,7779,"Bow, New Hampshire",NA,NA
+New Hampshire,Cities,Brookline,1,0,1,0,0,0,0,1,0,1,0,0,5256,"Brookline, New Hampshire",NA,NA
+New Hampshire,Cities,Claremont,1,1,0,0,0,0,0,1,0,1,0,0,12913,"Claremont, New Hampshire",NA,NA
+New Hampshire,Cities,Concord,2,1,0,1,0,0,0,2,0,1,1,0,42610,"Concord, New Hampshire",NA,NA
+New Hampshire,Cities,Derry,1,1,0,0,0,0,0,1,0,0,0,1,33249,"Derry, New Hampshire",NA,NA
+New Hampshire,Cities,Dover,1,0,0,0,1,0,0,1,1,0,0,0,31054,"Dover, New Hampshire",NA,NA
+New Hampshire,Cities,Durham,1,0,1,0,0,0,0,1,0,0,0,1,17078,"Durham, New Hampshire",NA,NA
+New Hampshire,Cities,Exeter,3,2,1,0,0,0,0,3,1,1,1,0,14635,"Exeter, New Hampshire",NA,NA
+New Hampshire,Cities,Farmington,3,2,0,1,0,0,0,3,0,0,3,0,6841,"Farmington, New Hampshire",NA,NA
+New Hampshire,Cities,Hillsborough,1,1,0,0,0,0,0,1,0,0,0,1,5974,"Hillsborough, New Hampshire",NA,NA
+New Hampshire,Cities,Keene,3,1,2,0,0,0,0,3,0,0,1,2,23244,"Keene, New Hampshire",NA,NA
+New Hampshire,Cities,Laconia,3,1,1,0,1,0,0,3,0,2,0,1,16300,"Laconia, New Hampshire",NA,NA
+New Hampshire,Cities,Manchester,1,0,0,1,0,0,0,1,0,0,0,1,110353,"Manchester, New Hampshire",NA,NA
+New Hampshire,Cities,Pembroke,1,1,0,0,0,0,0,1,1,0,0,0,7118,"Pembroke, New Hampshire",NA,NA
+New Hampshire,Cities,Sandown,1,1,0,0,0,0,0,1,0,0,0,1,6348,"Sandown, New Hampshire",NA,NA
+New Hampshire,Cities,Troy,1,1,0,0,0,0,0,1,0,0,1,0,2075,"Troy, New Hampshire",NA,NA
+New Hampshire,Universities and Colleges,University of New Hampshire,1,0,0,1,0,0,0,1,1,0,0,0,15351,"University of New Hampshire, New Hampshire",NA,NA
+New Jersey,Cities,Aberdeen Township,2,1,1,0,0,0,0,2,NA,0,1,1,18562,"Aberdeen Township, New Jersey",NA,NA
+New Jersey,Cities,Allendale,1,0,1,0,0,0,0,1,0,1,0,0,6849,"Allendale, New Jersey",NA,NA
+New Jersey,Cities,Atlantic City,1,1,0,0,0,0,0,1,0,0,1,0,39202,"Atlantic City, New Jersey",NA,NA
+New Jersey,Cities,Bergenfield,1,0,1,0,0,0,0,1,0,1,0,0,27646,"Bergenfield, New Jersey",NA,NA
+New Jersey,Cities,Blairstown Township,2,1,1,0,0,0,0,2,0,2,0,0,5791,"Blairstown Township, New Jersey",NA,NA
+New Jersey,Cities,Bloomfield,1,1,0,0,0,0,0,1,0,1,0,0,48215,"Bloomfield, New Jersey",NA,NA
+New Jersey,Cities,Brick Township,2,0,1,1,0,0,0,2,NA,1,1,0,74818,"Brick Township, New Jersey",NA,NA
+New Jersey,Cities,Cinnaminson Township,1,1,0,0,0,0,0,1,0,1,0,0,16871,"Cinnaminson Township, New Jersey",NA,NA
+New Jersey,Cities,Colts Neck Township,1,0,0,1,0,0,0,1,NA,0,1,0,10018,"Colts Neck Township, New Jersey",NA,NA
+New Jersey,Cities,Cresskill,1,0,1,0,0,0,0,1,0,1,0,0,8815,"Cresskill, New Jersey",NA,NA
+New Jersey,Cities,Dunellen,1,0,1,0,0,0,0,1,NA,0,0,1,7434,"Dunellen, New Jersey",NA,NA
+New Jersey,Cities,East Brunswick Township,9,6,2,1,0,0,0,9,NA,6,2,1,49016,"East Brunswick Township, New Jersey",NA,NA
+New Jersey,Cities,East Hanover Township,1,1,0,0,0,0,0,1,NA,0,0,1,11233,"East Hanover Township, New Jersey",NA,NA
+New Jersey,Cities,East Orange,1,1,0,0,0,0,0,1,1,0,0,0,64787,"East Orange, New Jersey",NA,NA
+New Jersey,Cities,East Rutherford,1,0,1,0,0,0,0,1,0,1,0,0,9166,"East Rutherford, New Jersey",NA,NA
+New Jersey,Cities,East Windsor Township,2,2,0,0,0,0,0,2,NA,1,0,1,27537,"East Windsor Township, New Jersey",NA,NA
+New Jersey,Cities,Edgewater,1,0,1,0,0,0,0,1,0,0,0,1,12079,"Edgewater, New Jersey",NA,NA
+New Jersey,Cities,Edison Township,3,2,1,0,0,0,0,3,NA,2,0,1,102679,"Edison Township, New Jersey",NA,NA
+New Jersey,Cities,Evesham Township,6,4,1,1,0,0,0,6,2,1,1,2,45581,"Evesham Township, New Jersey",NA,NA
+New Jersey,Cities,Ewing Township,1,0,1,0,0,0,0,1,NA,0,1,0,36435,"Ewing Township, New Jersey",NA,NA
+New Jersey,Cities,Florence Township,1,0,0,1,0,0,0,1,0,1,0,0,12805,"Florence Township, New Jersey",NA,NA
+New Jersey,Cities,Fort Lee,3,1,1,1,0,0,0,3,1,0,1,1,36739,"Fort Lee, New Jersey",NA,NA
+New Jersey,Cities,Freehold Borough,2,2,0,0,0,0,0,2,NA,0,0,2,11941,"Freehold Borough, New Jersey",NA,NA
+New Jersey,Cities,Freehold Township,2,2,0,0,0,0,0,2,NA,1,1,0,35736,"Freehold Township, New Jersey",NA,NA
+New Jersey,Cities,Galloway Township,1,0,1,0,0,0,0,1,0,0,1,0,37280,"Galloway Township, New Jersey",NA,NA
+New Jersey,Cities,Glassboro,3,1,1,1,0,0,0,3,NA,1,0,2,19245,"Glassboro, New Jersey",NA,NA
+New Jersey,Cities,Hackensack,5,2,2,1,0,0,0,5,2,2,0,1,44968,"Hackensack, New Jersey",NA,NA
+New Jersey,Cities,"Hamilton Township, Mercer County",2,0,2,0,0,0,0,2,NA,2,0,0,88665,"Hamilton Township, Mercer County, New Jersey",NA,NA
+New Jersey,Cities,Hammonton,1,0,1,0,0,0,0,1,0,0,1,0,14585,"Hammonton, New Jersey",NA,NA
+New Jersey,Cities,Hanover Township,1,1,0,0,0,0,0,1,NA,0,0,1,14468,"Hanover Township, New Jersey",NA,NA
+New Jersey,Cities,Harrison Township,2,0,1,1,0,0,0,2,NA,1,0,1,13023,"Harrison Township, New Jersey",NA,NA
+New Jersey,Cities,Highland Park,3,2,1,0,0,0,0,3,NA,3,0,0,14346,"Highland Park, New Jersey",NA,NA
+New Jersey,Cities,Highlands,1,1,0,0,0,0,0,1,NA,0,1,0,4838,"Highlands, New Jersey",NA,NA
+New Jersey,Cities,Hillsborough Township,1,1,0,0,0,0,0,1,NA,0,0,1,40037,"Hillsborough Township, New Jersey",NA,NA
+New Jersey,Cities,Hoboken,3,2,0,1,0,0,0,3,NA,0,1,2,54095,"Hoboken, New Jersey",NA,NA
+New Jersey,Cities,Holmdel Township,3,0,3,0,0,0,0,3,NA,1,0,2,16651,"Holmdel Township, New Jersey",NA,NA
+New Jersey,Cities,Hopewell Township,1,0,1,0,0,0,0,1,NA,0,0,1,18570,"Hopewell Township, New Jersey",NA,NA
+New Jersey,Cities,Howell Township,11,4,6,1,0,0,0,11,NA,3,7,1,52306,"Howell Township, New Jersey",NA,NA
+New Jersey,Cities,Jackson Township,2,1,1,0,0,0,0,2,NA,2,0,0,56563,"Jackson Township, New Jersey",NA,NA
+New Jersey,Cities,Jersey City,4,3,1,0,0,0,0,4,NA,0,1,3,266179,"Jersey City, New Jersey",NA,NA
+New Jersey,Cities,Keansburg,5,5,0,0,0,0,0,5,NA,1,2,2,9828,"Keansburg, New Jersey",NA,NA
+New Jersey,Cities,Lacey Township,1,0,1,0,0,0,0,1,NA,0,1,0,28540,"Lacey Township, New Jersey",NA,NA
+New Jersey,Cities,Lakewood Township,17,3,14,0,0,0,0,17,2,6,7,2,100269,"Lakewood Township, New Jersey",NA,NA
+New Jersey,Cities,Lindenwold,1,0,1,0,0,0,0,1,0,0,1,0,17340,"Lindenwold, New Jersey",NA,NA
+New Jersey,Cities,Linwood,1,0,1,0,0,0,0,1,0,0,1,0,6950,"Linwood, New Jersey",NA,NA
+New Jersey,Cities,Little Falls Township,3,2,0,1,0,0,0,3,NA,0,0,3,14478,"Little Falls Township, New Jersey",NA,NA
+New Jersey,Cities,Livingston Township,2,1,1,0,0,0,0,2,1,0,0,1,29788,"Livingston Township, New Jersey",NA,NA
+New Jersey,Cities,Lodi,1,0,1,0,0,0,0,1,0,1,0,0,24841,"Lodi, New Jersey",NA,NA
+New Jersey,Cities,Long Branch,3,2,1,0,0,0,0,3,NA,0,0,3,30959,"Long Branch, New Jersey",NA,NA
+New Jersey,Cities,Madison,1,0,1,0,0,0,0,1,NA,1,0,0,16098,"Madison, New Jersey",NA,NA
+New Jersey,Cities,Magnolia,2,1,1,0,0,0,0,2,0,1,1,0,4267,"Magnolia, New Jersey",NA,NA
+New Jersey,Cities,Manalapan Township,4,0,3,1,0,0,0,4,NA,1,0,3,40407,"Manalapan Township, New Jersey",NA,NA
+New Jersey,Cities,Manasquan,1,1,0,0,0,0,0,1,NA,0,0,1,5798,"Manasquan, New Jersey",NA,NA
+New Jersey,Cities,Manchester Township,1,1,0,0,0,0,0,1,NA,0,0,1,43525,"Manchester Township, New Jersey",NA,NA
+New Jersey,Cities,Medford Township,3,2,1,0,0,0,0,3,0,0,3,NA,23481,"Medford Township, New Jersey",NA,NA
+New Jersey,Cities,Metuchen,1,0,1,0,0,0,0,1,NA,0,0,1,13879,"Metuchen, New Jersey",NA,NA
+New Jersey,Cities,Middletown Township,1,1,0,0,0,0,0,1,NA,0,0,1,65919,"Middletown Township, New Jersey",NA,NA
+New Jersey,Cities,Monmouth Beach,2,1,0,0,1,0,0,2,NA,2,0,0,3233,"Monmouth Beach, New Jersey",NA,NA
+New Jersey,Cities,Montclair,6,2,2,2,0,0,0,6,2,0,0,4,38108,"Montclair, New Jersey",NA,NA
+New Jersey,Cities,Montville Township,1,1,0,0,0,0,0,1,NA,1,0,0,21801,"Montville Township, New Jersey",NA,NA
+New Jersey,Cities,Moonachie,1,1,0,0,0,0,0,1,0,0,0,1,2790,"Moonachie, New Jersey",NA,NA
+New Jersey,Cities,Moorestown Township,1,0,1,0,0,0,0,1,0,0,1,0,20530,"Moorestown Township, New Jersey",NA,NA
+New Jersey,Cities,Mount Arlington,1,1,0,0,0,0,0,1,NA,0,1,0,5324,"Mount Arlington, New Jersey",NA,NA
+New Jersey,Cities,Mount Laurel Township,2,0,2,0,0,0,0,2,0,0,1,1,41828,"Mount Laurel Township, New Jersey",NA,NA
+New Jersey,Cities,Mount Olive Township,1,1,0,0,0,0,0,1,NA,1,0,0,29095,"Mount Olive Township, New Jersey",NA,NA
+New Jersey,Cities,Neptune Township,12,8,0,4,0,0,0,12,NA,3,7,2,27505,"Neptune Township, New Jersey",NA,NA
+New Jersey,Cities,Newark,3,0,2,1,0,0,0,3,2,0,0,1,281450,"Newark, New Jersey",NA,NA
+New Jersey,Cities,New Brunswick,9,5,2,2,0,0,0,9,NA,1,5,3,57158,"New Brunswick, New Jersey",NA,NA
+New Jersey,Cities,New Providence,1,0,1,0,0,0,0,1,0,1,0,0,12461,"New Providence, New Jersey",NA,NA
+New Jersey,Cities,Newton,1,0,1,0,0,0,0,1,NA,0,0,1,7950,"Newton, New Jersey",NA,NA
+New Jersey,Cities,North Brunswick Township,1,0,1,0,0,0,0,1,NA,1,0,0,42777,"North Brunswick Township, New Jersey",NA,NA
+New Jersey,Cities,Northfield,2,1,1,0,0,0,0,2,0,0,2,0,8502,"Northfield, New Jersey",NA,NA
+New Jersey,Cities,North Haledon,1,1,0,0,0,0,0,1,NA,1,0,0,8529,"North Haledon, New Jersey",NA,NA
+New Jersey,Cities,Nutley Township,1,1,0,0,0,0,0,1,0,0,0,1,28673,"Nutley Township, New Jersey",NA,NA
+New Jersey,Cities,"Ocean Township, Monmouth County",9,3,3,3,0,0,0,9,NA,1,5,3,27070,"Ocean Township, Monmouth County, New Jersey",NA,NA
+New Jersey,Cities,Paramus,1,0,1,0,0,0,0,1,0,1,0,0,26958,"Paramus, New Jersey",NA,NA
+New Jersey,Cities,Passaic,1,1,0,0,0,0,0,1,NA,0,1,0,70972,"Passaic, New Jersey",NA,NA
+New Jersey,Cities,Pemberton Township,3,3,0,0,0,0,0,3,0,1,1,1,27739,"Pemberton Township, New Jersey",NA,NA
+New Jersey,Cities,Pequannock Township,1,1,0,0,0,0,0,1,NA,1,0,0,15425,"Pequannock Township, New Jersey",NA,NA
+New Jersey,Cities,Piscataway Township,1,0,1,0,0,0,0,1,NA,0,1,0,58181,"Piscataway Township, New Jersey",NA,NA
+New Jersey,Cities,Plainsboro Township,1,0,1,0,0,0,0,1,NA,0,0,1,23621,"Plainsboro Township, New Jersey",NA,NA
+New Jersey,Cities,Point Pleasant Beach,1,0,1,0,0,0,0,1,NA,0,1,0,4519,"Point Pleasant Beach, New Jersey",NA,NA
+New Jersey,Cities,Pompton Lakes,1,1,0,0,0,0,0,1,NA,0,1,0,11164,"Pompton Lakes, New Jersey",NA,NA
+New Jersey,Cities,Princeton,4,1,2,1,0,0,0,4,NA,2,2,0,29660,"Princeton, New Jersey",NA,NA
+New Jersey,Cities,Randolph Township,2,0,2,0,0,0,0,2,NA,2,0,0,25877,"Randolph Township, New Jersey",NA,NA
+New Jersey,Cities,Raritan Township,1,0,0,1,0,0,0,1,NA,0,1,0,22011,"Raritan Township, New Jersey",NA,NA
+New Jersey,Cities,Readington Township,1,1,0,0,0,0,0,1,NA,1,0,0,15893,"Readington Township, New Jersey",NA,NA
+New Jersey,Cities,Robbinsville Township,1,0,1,0,0,0,0,1,NA,0,0,1,14209,"Robbinsville Township, New Jersey",NA,NA
+New Jersey,Cities,Rockaway Township,1,0,1,0,0,0,0,1,NA,0,0,1,24655,"Rockaway Township, New Jersey",NA,NA
+New Jersey,Cities,Saddle Brook Township,1,0,1,0,0,0,0,1,1,0,0,0,14108,"Saddle Brook Township, New Jersey",NA,NA
+New Jersey,Cities,Scotch Plains Township,1,1,0,0,0,0,0,1,0,0,1,0,24144,"Scotch Plains Township, New Jersey",NA,NA
+New Jersey,Cities,Sea Isle City,1,1,0,0,0,0,0,1,0,0,1,0,2080,"Sea Isle City, New Jersey",NA,NA
+New Jersey,Cities,Secaucus,4,2,1,1,0,0,0,4,NA,0,3,1,19528,"Secaucus, New Jersey",NA,NA
+New Jersey,Cities,Somerville,1,0,0,1,0,0,0,1,NA,0,1,0,12198,"Somerville, New Jersey",NA,NA
+New Jersey,Cities,South Brunswick Township,15,3,11,1,0,0,0,15,NA,4,5,6,45862,"South Brunswick Township, New Jersey",NA,NA
+New Jersey,Cities,South Orange,3,2,0,1,0,0,0,3,1,0,0,2,16332,"South Orange, New Jersey",NA,NA
+New Jersey,Cities,South River,1,0,1,0,0,0,0,1,NA,1,0,0,16391,"South River, New Jersey",NA,NA
+New Jersey,Cities,Spotswood,1,1,0,0,0,0,0,1,NA,1,0,0,8477,"Spotswood, New Jersey",NA,NA
+New Jersey,Cities,Toms River Township,2,0,2,0,0,0,0,2,NA,0,2,0,90504,"Toms River Township, New Jersey",NA,NA
+New Jersey,Cities,Trenton,1,1,0,0,0,0,0,1,NA,0,1,0,83644,"Trenton, New Jersey",NA,NA
+New Jersey,Cities,Union Township,1,0,1,0,0,0,0,1,0,0,0,1,58109,"Union Township, New Jersey",NA,NA
+New Jersey,Cities,Vineland,4,2,2,0,0,0,0,4,0,0,0,4,60823,"Vineland, New Jersey",NA,NA
+New Jersey,Cities,Voorhees Township,2,2,0,0,0,0,0,2,1,0,0,1,29235,"Voorhees Township, New Jersey",NA,NA
+New Jersey,Cities,Washington,1,1,0,0,0,0,0,1,0,0,0,1,6508,"Washington, New Jersey",NA,NA
+New Jersey,Cities,"Washington Township, Gloucester County",2,1,0,1,0,0,0,2,NA,0,2,0,47477,"Washington Township, Gloucester County, New Jersey",NA,NA
+New Jersey,Cities,"Washington Township, Warren County",1,1,0,0,0,0,0,1,0,0,0,1,6430,"Washington Township, Warren County, New Jersey",NA,NA
+New Jersey,Cities,West Deptford Township,1,1,0,0,0,0,0,1,NA,1,0,0,21257,"West Deptford Township, New Jersey",NA,NA
+New Jersey,Cities,West Long Branch,3,1,1,1,0,0,0,3,NA,2,0,1,7975,"West Long Branch, New Jersey",NA,NA
+New Jersey,Cities,Winslow Township,1,1,0,0,0,0,0,1,0,0,0,1,38724,"Winslow Township, New Jersey",NA,NA
+New Jersey,Cities,Woodbridge Township,1,0,1,0,0,0,0,1,NA,0,1,0,102124,"Woodbridge Township, New Jersey",NA,NA
+New Jersey,Cities,Woodbury,11,11,0,0,0,0,0,11,NA,6,5,NA,9937,"Woodbury, New Jersey",NA,NA
+New Jersey,Cities,Woolwich Township,1,1,0,0,0,0,0,1,NA,0,0,1,12675,"Woolwich Township, New Jersey",NA,NA
+New Jersey,State Police Agencies,State Police:Burlington County,2,1,0,1,0,0,0,2,1,0,1,0,NA,"State Police:Burlington County, New Jersey",NA,NA
+New Jersey,State Police Agencies,State Police:Cumberland County,1,1,0,0,0,0,0,1,0,0,1,0,NA,"State Police:Cumberland County, New Jersey",NA,NA
+New Jersey,State Police Agencies,State Police:Salem County,1,1,0,0,0,0,0,1,NA,1,0,0,NA,"State Police:Salem County, New Jersey",NA,NA
+New Jersey,State Police Agencies,State Police:Sussex County,3,3,0,0,0,0,0,3,3,0,0,0,NA,"State Police:Sussex County, New Jersey",NA,NA
+New Jersey,State Police Agencies,State Police:Warren County,1,1,0,0,0,0,0,1,0,0,1,0,NA,"State Police:Warren County, New Jersey",NA,NA
+New Mexico,Cities,Albuquerque,25,7,9,9,0,0,0,25,2,2,11,10,561560,"Albuquerque, New Mexico",NA,NA
+New Mexico,Cities,Los Lunas,1,1,0,0,0,0,0,1,NA,1,NA,NA,15398,"Los Lunas, New Mexico",NA,NA
+New York,Cities,Albany,1,1,0,0,0,0,0,1,0,1,0,0,98617,"Albany, New York",NA,NA
+New York,Cities,Amherst Town,2,2,0,0,0,0,0,2,0,2,0,0,120436,"Amherst Town, New York",NA,NA
+New York,Cities,Auburn,1,0,1,0,0,0,0,1,0,0,1,NA,26854,"Auburn, New York",NA,NA
+New York,Cities,Bedford Town,1,0,1,0,0,0,0,1,0,0,1,0,18063,"Bedford Town, New York",NA,NA
+New York,Cities,Binghamton,1,1,0,0,0,0,0,1,0,0,1,0,45780,"Binghamton, New York",NA,NA
+New York,Cities,Brighton Town,1,1,0,0,0,0,0,1,0,1,0,0,36889,"Brighton Town, New York",NA,NA
+New York,Cities,Buffalo,7,5,0,1,0,0,1,7,1,1,4,1,257446,"Buffalo, New York",NA,NA
+New York,Cities,Cheektowaga Town,1,1,0,0,0,0,0,1,0,0,0,1,78100,"Cheektowaga Town, New York",NA,NA
+New York,Cities,Clarkstown Town,3,1,2,0,0,0,0,3,0,0,3,0,82171,"Clarkstown Town, New York",NA,NA
+New York,Cities,Colonie Town,1,0,1,0,0,0,0,1,0,0,1,0,80075,"Colonie Town, New York",NA,NA
+New York,Cities,Cooperstown Village,1,1,0,0,0,0,0,1,0,0,1,0,1780,"Cooperstown Village, New York",NA,NA
+New York,Cities,Crawford Town,1,1,0,0,0,0,0,1,0,0,0,1,9202,"Crawford Town, New York",NA,NA
+New York,Cities,Dobbs Ferry Village,1,0,1,0,0,0,0,1,0,1,0,0,11180,"Dobbs Ferry Village, New York",NA,NA
+New York,Cities,Elmira,1,1,0,0,0,0,0,1,0,1,0,0,27995,"Elmira, New York",NA,NA
+New York,Cities,Glen Cove,1,0,0,1,0,0,0,1,0,1,0,0,27480,"Glen Cove, New York",NA,NA
+New York,Cities,Hamburg Town,1,1,0,0,0,0,0,1,1,0,0,0,46028,"Hamburg Town, New York",NA,NA
+New York,Cities,Lake Placid Village,1,1,0,0,0,0,0,1,0,1,0,0,2453,"Lake Placid Village, New York",NA,NA
+New York,Cities,Larchmont Village,2,0,2,0,0,0,0,2,0,1,0,1,6186,"Larchmont Village, New York",NA,NA
+New York,Cities,Middletown,1,0,1,0,0,0,0,1,0,1,0,0,27752,"Middletown, New York",NA,NA
+New York,Cities,Monroe Village,3,0,3,0,0,0,0,3,1,1,1,0,8680,"Monroe Village, New York",NA,NA
+New York,Cities,New Rochelle,5,1,4,0,0,0,0,5,1,0,0,4,80389,"New Rochelle, New York",NA,NA
+New York,Cities,New York,361,74,183,79,1,5,19,361,66,85,85,125,8566917,"New York, New York",NA,NA
+New York,Cities,Niagara Falls,1,0,0,1,0,0,0,1,0,0,1,0,48675,"Niagara Falls, New York",NA,NA
+New York,Cities,North Tonawanda,2,2,0,0,0,0,0,2,0,0,2,0,30634,"North Tonawanda, New York",NA,NA
+New York,Cities,Norwich,1,1,0,0,0,0,0,1,0,0,0,1,6929,"Norwich, New York",NA,NA
+New York,Cities,Peekskill,1,0,0,1,0,0,0,1,1,0,0,0,24129,"Peekskill, New York",NA,NA
+New York,Cities,Ramapo Town,3,1,1,1,0,0,0,3,1,1,1,0,92620,"Ramapo Town, New York",NA,NA
+New York,Cities,Rochester,2,1,0,1,0,0,0,2,0,1,0,1,209643,"Rochester, New York",NA,NA
+New York,Cities,Saratoga Springs,1,0,1,0,0,0,0,1,0,0,0,1,28005,"Saratoga Springs, New York",NA,NA
+New York,Cities,Schenectady,1,0,1,0,0,0,0,1,0,0,0,1,65138,"Schenectady, New York",NA,NA
+New York,Cities,Southampton Town,1,1,0,0,0,0,0,1,1,0,0,0,51191,"Southampton Town, New York",NA,NA
+New York,Cities,Spring Valley Village,1,0,1,0,0,0,0,1,0,0,1,0,32844,"Spring Valley Village, New York",NA,NA
+New York,Cities,Utica,1,0,0,1,0,0,0,1,0,1,0,0,60879,"Utica, New York",NA,NA
+New York,Cities,Wellsville Village,1,1,0,0,0,0,0,1,0,0,0,1,4506,"Wellsville Village, New York",NA,NA
+New York,Cities,Yonkers,5,2,2,1,0,0,0,5,0,1,1,3,202075,"Yonkers, New York",NA,NA
+New York,Universities and Colleges,Cornell University,2,0,0,2,0,0,0,2,0,1,1,0,21904,"Cornell University, New York",NA,NA
+New York,Universities and Colleges,State University of New York:Binghamton,2,1,0,1,0,0,0,2,0,1,1,0,16913,"State University of New York:Binghamton, New York",NA,NA
+New York,Universities and Colleges,State University of New York:Buffalo,7,1,3,0,0,0,3,7,3,3,0,1,29796,"State University of New York:Buffalo, New York",NA,NA
+New York,Universities and Colleges,State University of New York:Downstate Medical Center,1,0,0,1,0,0,0,1,0,0,1,0,1858,"State University of New York:Downstate Medical Center, New York",NA,NA
+New York,Universities and Colleges,"State University of New York Agricultural and Technical College, Morrisville",6,4,2,0,0,0,0,6,0,0,6,0,2940,"State University of New York Agricultural and Technical College, Morrisville, New York",NA,NA
+New York,Universities and Colleges,State University of New York College:Brockport,1,1,0,0,0,0,0,1,0,0,1,0,8161,"State University of New York College:Brockport, New York",NA,NA
+New York,Universities and Colleges,State University of New York College:Buffalo,2,1,1,0,0,0,0,2,1,0,0,1,10330,"State University of New York College:Buffalo, New York",NA,NA
+New York,Universities and Colleges,State University of New York College:Geneseo,3,2,1,0,0,0,0,3,0,0,0,3,5699,"State University of New York College:Geneseo, New York",NA,NA
+New York,Universities and Colleges,State University of New York College:New Paltz,3,3,0,0,0,0,0,3,0,0,0,3,7751,"State University of New York College:New Paltz, New York",NA,NA
+New York,Universities and Colleges,State University of New York College:Plattsburgh,2,1,1,0,0,0,0,2,1,0,0,1,5718,"State University of New York College:Plattsburgh, New York",NA,NA
+New York,Universities and Colleges,State University of New York College:Potsdam,1,1,0,0,0,0,0,1,0,0,0,1,3904,"State University of New York College:Potsdam, New York",NA,NA
+New York,Universities and Colleges,State University of New York College:Purchase,2,0,2,0,0,0,0,2,1,1,0,0,4169,"State University of New York College:Purchase, New York",NA,NA
+New York,Metropolitan Counties,Albany,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Albany, New York",NA,NA
+New York,Metropolitan Counties,Monroe,2,1,1,0,0,0,0,2,2,0,0,0,NA,"Monroe, New York",NA,NA
+New York,Metropolitan Counties,Nassau,52,7,45,0,0,0,0,52,8,10,9,25,NA,"Nassau, New York",NA,NA
+New York,Metropolitan Counties,Oswego,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Oswego, New York",NA,NA
+New York,Metropolitan Counties,Saratoga,1,0,1,0,0,0,0,1,0,1,0,0,NA,"Saratoga, New York",NA,NA
+New York,Metropolitan Counties,Schoharie,1,0,1,0,0,0,0,1,1,0,0,0,NA,"Schoharie, New York",NA,NA
+New York,Metropolitan Counties,Suffolk County Police Department,42,7,30,4,0,0,1,42,10,12,8,12,NA,"Suffolk County Police Department, New York",NA,NA
+New York,Metropolitan Counties,Westchester Public Safety,1,0,1,0,0,0,0,1,0,0,1,0,NA,"Westchester Public Safety, New York",NA,NA
+New York,Nonmetropolitan Counties,Chenango,1,1,0,0,0,0,0,1,0,1,0,NA,NA,"Chenango, New York",NA,NA
+New York,State Police Agencies,State Police: Albany County,3,1,1,1,0,0,0,3,0,0,0,3,NA,"State Police: Albany County, New York",NA,NA
+New York,State Police Agencies,State Police:Chemung County,1,0,1,0,0,0,0,1,1,0,0,0,NA,"State Police:Chemung County, New York",NA,NA
+New York,State Police Agencies,State Police: Dutchess County,1,0,1,0,0,0,0,1,0,0,NA,1,NA,"State Police: Dutchess County, New York",NA,NA
+New York,State Police Agencies,State Police:Franklin County,1,0,0,1,0,0,0,1,0,0,1,0,NA,"State Police:Franklin County, New York",NA,NA
+New York,State Police Agencies,State Police:Jefferson County,2,1,0,1,0,0,0,2,0,1,0,1,NA,"State Police:Jefferson County, New York",NA,NA
+New York,State Police Agencies,State Police:Montgomery County,1,1,0,0,0,0,0,1,0,0,0,1,NA,"State Police:Montgomery County, New York",NA,NA
+New York,State Police Agencies,State Police:New York County,3,2,1,0,0,0,0,3,0,0,0,3,NA,"State Police:New York County, New York",NA,NA
+New York,State Police Agencies,State Police:Niagara County,1,0,0,1,0,0,0,1,0,0,0,1,NA,"State Police:Niagara County, New York",NA,NA
+New York,State Police Agencies,State Police:Orange County,1,0,1,0,0,0,0,1,1,0,0,0,NA,"State Police:Orange County, New York",NA,NA
+New York,State Police Agencies,State Police:Oswego County,1,1,0,0,0,0,0,1,1,0,0,0,NA,"State Police:Oswego County, New York",NA,NA
+New York,State Police Agencies,State Police:Rockland County,1,1,0,0,0,0,0,1,0,1,0,0,NA,"State Police:Rockland County, New York",NA,NA
+New York,State Police Agencies,State Police:Schoharie County,1,1,0,0,0,0,0,1,0,1,0,0,NA,"State Police:Schoharie County, New York",NA,NA
+New York,State Police Agencies,State Police:Wayne County,1,1,0,0,0,0,0,1,0,1,0,0,NA,"State Police:Wayne County, New York",NA,NA
+New York,State Police Agencies,State Police:Westchester County,1,1,0,0,0,0,0,1,0,0,0,1,NA,"State Police:Westchester County, New York",NA,NA
+New York,Other Agencies,New York City Metropolitan Transportation Authority,22,11,11,0,0,0,0,22,3,2,2,15,NA,"New York City Metropolitan Transportation Authority, New York",NA,NA
+New York,Other Agencies,"State Park, Finger Lakes Region",1,0,1,0,0,0,0,1,0,0,1,0,NA,"State Park, Finger Lakes Region, New York",NA,NA
+North Carolina,Cities,Apex,3,3,0,0,0,0,0,3,0,1,1,1,47324,"Apex, North Carolina",NA,NA
+North Carolina,Cities,Asheville,3,1,0,2,0,0,0,3,1,0,2,0,89546,"Asheville, North Carolina",NA,NA
+North Carolina,Cities,Boone,1,0,0,1,0,0,0,1,0,1,0,0,18374,"Boone, North Carolina",NA,NA
+North Carolina,Cities,Charlotte-Mecklenburg,27,16,3,8,0,0,0,27,6,11,5,5,896379,"Charlotte-Mecklenburg, North Carolina",NA,NA
+North Carolina,Cities,Concord,1,0,1,0,0,0,0,1,0,0,1,0,89446,"Concord, North Carolina",NA,NA
+North Carolina,Cities,Durham,3,2,1,0,0,0,0,3,0,1,1,1,263716,"Durham, North Carolina",NA,NA
+North Carolina,Cities,Fayetteville,7,7,0,0,0,0,0,7,0,1,4,2,202200,"Fayetteville, North Carolina",NA,NA
+North Carolina,Cities,Gastonia,3,3,0,0,0,0,0,3,0,0,2,1,75118,"Gastonia, North Carolina",NA,NA
+North Carolina,Cities,Greensboro,6,1,4,1,0,0,0,6,0,1,4,1,288618,"Greensboro, North Carolina",NA,NA
+North Carolina,Cities,Greenville,6,1,0,4,0,0,1,6,2,2,1,1,91766,"Greenville, North Carolina",NA,NA
+North Carolina,Cities,Hickory,1,1,0,0,0,0,0,1,0,0,0,1,40437,"Hickory, North Carolina",NA,NA
+North Carolina,Cities,High Point,5,5,0,0,0,0,0,5,1,1,0,3,111435,"High Point, North Carolina",NA,NA
+North Carolina,Cities,Huntersville,1,1,0,0,0,0,0,1,1,0,0,0,53932,"Huntersville, North Carolina",NA,NA
+North Carolina,Cities,Jacksonville,1,0,0,1,0,0,0,1,0,0,1,0,66686,"Jacksonville, North Carolina",NA,NA
+North Carolina,Cities,Littleton,1,1,0,0,0,0,0,1,0,1,0,0,641,"Littleton, North Carolina",NA,NA
+North Carolina,Cities,Morganton,4,4,0,0,0,0,0,4,0,0,1,3,16656,"Morganton, North Carolina",NA,NA
+North Carolina,Cities,Raleigh,28,15,7,6,0,0,0,28,8,6,9,5,460593,"Raleigh, North Carolina",NA,NA
+North Carolina,Cities,Roanoke Rapids2,4,4,0,0,0,0,0,4,1,1,2,0,15273,"Roanoke Rapids2, North Carolina",NA,NA
+North Carolina,Cities,Rockingham,1,1,0,0,0,0,0,1,0,0,0,1,9155,"Rockingham, North Carolina",NA,NA
+North Carolina,Cities,Rocky Mount,1,1,0,0,0,0,0,1,0,0,1,0,55431,"Rocky Mount, North Carolina",NA,NA
+North Carolina,Cities,Salisbury,3,3,0,0,0,0,0,3,0,1,0,2,34121,"Salisbury, North Carolina",NA,NA
+North Carolina,Cities,Siler City,1,1,0,0,0,0,0,1,0,0,0,1,8498,"Siler City, North Carolina",NA,NA
+North Carolina,Cities,Wilmington,5,4,1,0,0,0,0,5,2,1,1,1,117852,"Wilmington, North Carolina",NA,NA
+North Carolina,Cities,Wilson,1,0,0,1,0,0,0,1,0,0,1,0,49734,"Wilson, North Carolina",NA,NA
+North Carolina,Universities and Colleges,Duke University,1,0,1,0,0,0,0,1,0,0,0,1,15984,"Duke University, North Carolina",NA,NA
+North Carolina,Universities and Colleges,East Carolina University,1,1,0,0,0,0,0,1,1,0,0,0,28289,"East Carolina University, North Carolina",NA,NA
+North Carolina,Universities and Colleges,North Carolina Central University,2,0,0,1,0,0,1,2,0,0,1,1,8011,"North Carolina Central University, North Carolina",NA,NA
+North Carolina,Universities and Colleges,North Carolina School of the Arts,2,2,0,0,0,0,0,2,1,1,0,0,970,"North Carolina School of the Arts, North Carolina",NA,NA
+North Carolina,Universities and Colleges,"University of North Carolina, Greensboro",2,1,0,1,0,0,0,2,0,1,0,1,19393,"University of North Carolina, Greensboro, North Carolina",NA,NA
+North Carolina,Metropolitan Counties,Forsyth,6,6,0,0,0,0,0,6,1,3,1,1,NA,"Forsyth, North Carolina",NA,NA
+North Carolina,Metropolitan Counties,Franklin,4,4,0,0,0,0,0,4,2,1,0,1,NA,"Franklin, North Carolina",NA,NA
+North Carolina,Metropolitan Counties,Gaston County Police Department,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Gaston County Police Department, North Carolina",NA,NA
+North Carolina,Metropolitan Counties,Iredell,2,2,0,0,0,0,0,2,1,0,0,1,NA,"Iredell, North Carolina",NA,NA
+North Carolina,Metropolitan Counties,New Hanover,1,1,0,0,0,0,0,1,0,0,0,1,NA,"New Hanover, North Carolina",NA,NA
+North Carolina,Metropolitan Counties,Randolph,1,0,1,0,0,0,0,1,0,0,1,0,NA,"Randolph, North Carolina",NA,NA
+North Carolina,Metropolitan Counties,Yadkin,2,1,1,0,0,0,0,2,1,0,0,1,NA,"Yadkin, North Carolina",NA,NA
+North Carolina,Nonmetropolitan Counties,Jackson,2,1,1,0,0,0,0,1,0,0,0,1,NA,"Jackson, North Carolina",NA,NA
+North Carolina,Nonmetropolitan Counties,Moore,1,0,0,0,0,1,0,1,1,0,0,0,NA,"Moore, North Carolina",NA,NA
+North Carolina,Nonmetropolitan Counties,Sampson,2,2,0,0,0,0,0,2,0,0,0,2,NA,"Sampson, North Carolina",NA,NA
+North Carolina,Nonmetropolitan Counties,Surry,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Surry, North Carolina",NA,NA
+North Carolina,Other Agencies,University of North Carolina Hospitals,1,1,0,0,0,0,0,1,0,0,1,0,NA,"University of North Carolina Hospitals, North Carolina",NA,NA
+North Dakota,Cities,Bismarck,2,2,0,0,0,0,0,2,0,0,0,2,73248,"Bismarck, North Dakota",NA,NA
+North Dakota,Cities,Grand Forks,1,0,1,0,0,0,0,1,0,0,1,0,57853,"Grand Forks, North Dakota",NA,NA
+North Dakota,Cities,Watford City,2,2,0,0,0,0,0,2,0,0,1,1,8819,"Watford City, North Dakota",NA,NA
+North Dakota,Cities,Williston,1,1,0,0,0,0,0,1,0,0,1,0,29929,"Williston, North Dakota",NA,NA
+North Dakota,Universities and Colleges,University of North Dakota,1,1,0,0,0,0,0,1,0,0,1,0,14951,"University of North Dakota, North Dakota",NA,NA
+North Dakota,Nonmetropolitan Counties,Hettinger,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Hettinger, North Dakota",NA,NA
+Ohio,Cities,Akron,4,3,0,1,0,0,0,4,1,2,1,0,197257,"Akron, Ohio",NA,NA
+Ohio,Cities,Albany,1,0,0,1,0,0,0,1,0,0,0,1,918,"Albany, Ohio",NA,NA
+Ohio,Cities,Athens,1,1,0,0,0,0,0,1,0,0,1,0,25203,"Athens, Ohio",NA,NA
+Ohio,Cities,Aurora,3,2,0,1,0,0,0,3,0,1,1,1,15897,"Aurora, Ohio",NA,NA
+Ohio,Cities,Barberton,1,1,0,0,0,0,0,1,0,0,0,1,26172,"Barberton, Ohio",NA,NA
+Ohio,Cities,Beaver Township,1,0,0,1,0,0,0,1,0,1,0,0,6492,"Beaver Township, Ohio",NA,NA
+Ohio,Cities,Bellbrook,2,0,1,0,1,0,0,2,2,0,0,0,7074,"Bellbrook, Ohio",NA,NA
+Ohio,Cities,Bellefontaine,2,1,0,1,0,0,0,2,0,1,1,0,13073,"Bellefontaine, Ohio",NA,NA
+Ohio,Cities,Bexley,1,0,1,0,0,0,0,1,0,0,1,0,13775,"Bexley, Ohio",NA,NA
+Ohio,Cities,Blue Ash,4,1,1,1,0,1,0,4,3,0,0,1,12169,"Blue Ash, Ohio",NA,NA
+Ohio,Cities,Boardman,1,1,0,0,0,0,0,1,0,1,0,0,39692,"Boardman, Ohio",NA,NA
+Ohio,Cities,Canton,1,1,0,0,0,0,0,1,0,1,0,0,71652,"Canton, Ohio",NA,NA
+Ohio,Cities,Chillicothe,1,1,0,0,0,0,0,1,0,0,1,0,21692,"Chillicothe, Ohio",NA,NA
+Ohio,Cities,Cincinnati,42,32,2,8,0,0,0,42,7,10,10,15,298880,"Cincinnati, Ohio",NA,NA
+Ohio,Cities,Circleville,1,1,0,0,0,0,0,1,0,0,1,0,13930,"Circleville, Ohio",NA,NA
+Ohio,Cities,Cleveland,8,8,0,0,0,0,0,8,2,5,1,0,386227,"Cleveland, Ohio",NA,NA
+Ohio,Cities,Colerain Township,4,4,0,0,0,0,0,4,3,1,0,0,58907,"Colerain Township, Ohio",NA,NA
+Ohio,Cities,Columbus,151,123,10,18,0,0,0,151,42,29,49,31,862515,"Columbus, Ohio",NA,NA
+Ohio,Cities,Dayton,5,5,0,0,0,0,0,5,0,4,0,1,140260,"Dayton, Ohio",NA,NA
+Ohio,Cities,Defiance,1,1,0,0,0,0,0,1,0,0,0,1,16697,"Defiance, Ohio",NA,NA
+Ohio,Cities,Delhi Township,3,3,0,0,0,0,0,3,1,1,1,0,29573,"Delhi Township, Ohio",NA,NA
+Ohio,Cities,East Palestine,2,2,0,0,0,0,0,2,0,1,1,0,4548,"East Palestine, Ohio",NA,NA
+Ohio,Cities,Elyria,3,2,0,1,0,0,0,3,1,2,0,0,53633,"Elyria, Ohio",NA,NA
+Ohio,Cities,Fairborn,2,1,0,1,0,0,0,2,1,0,0,1,33587,"Fairborn, Ohio",NA,NA
+Ohio,Cities,Fairview Park,1,1,0,0,0,0,0,1,0,0,0,1,16318,"Fairview Park, Ohio",NA,NA
+Ohio,Cities,Findlay,1,0,1,0,0,0,0,1,1,0,NA,NA,41156,"Findlay, Ohio",NA,NA
+Ohio,Cities,Gahanna,3,2,1,0,0,0,0,3,1,2,0,0,34859,"Gahanna, Ohio",NA,NA
+Ohio,Cities,Garfield Heights,1,0,0,1,0,0,0,1,1,NA,NA,0,27938,"Garfield Heights, Ohio",NA,NA
+Ohio,Cities,Green Township,1,0,0,1,0,0,0,1,0,0,0,1,58764,"Green Township, Ohio",NA,NA
+Ohio,Cities,Greenville,1,1,0,0,0,0,0,1,0,1,0,0,12962,"Greenville, Ohio",NA,NA
+Ohio,Cities,Grove City,5,5,0,0,0,0,0,5,1,2,1,1,40161,"Grove City, Ohio",NA,NA
+Ohio,Cities,Hamilton,9,9,0,0,0,0,0,9,1,3,3,2,62423,"Hamilton, Ohio",NA,NA
+Ohio,Cities,Heath,1,1,0,0,0,0,0,1,0,0,1,0,10528,"Heath, Ohio",NA,NA
+Ohio,Cities,Hilliard,3,2,0,1,0,0,0,3,0,2,1,0,34832,"Hilliard, Ohio",NA,NA
+Ohio,Cities,Huber Heights,5,3,0,1,1,0,0,5,1,1,2,1,38180,"Huber Heights, Ohio",NA,NA
+Ohio,Cities,Independence,1,1,0,0,0,0,0,1,0,0,0,1,7132,"Independence, Ohio",NA,NA
+Ohio,Cities,"Jackson Township, Stark County",3,2,0,1,0,0,0,3,2,0,1,0,40780,"Jackson Township, Stark County, Ohio",NA,NA
+Ohio,Cities,Lockland,1,1,0,0,0,0,0,1,1,0,0,0,3422,"Lockland, Ohio",NA,NA
+Ohio,Cities,Lyndhurst,3,1,1,1,0,0,0,3,0,1,1,1,13624,"Lyndhurst, Ohio",NA,NA
+Ohio,Cities,Mansfield,3,1,2,0,0,0,0,3,2,1,0,0,46656,"Mansfield, Ohio",NA,NA
+Ohio,Cities,Marietta,1,1,0,0,0,0,0,1,0,1,0,NA,13867,"Marietta, Ohio",NA,NA
+Ohio,Cities,Massillon,3,3,0,0,0,0,0,3,1,2,0,0,32268,"Massillon, Ohio",NA,NA
+Ohio,Cities,Maumee,1,0,1,0,0,0,0,1,0,0,1,0,13875,"Maumee, Ohio",NA,NA
+Ohio,Cities,Mayfield Heights,1,1,0,0,0,0,0,1,0,1,0,0,18770,"Mayfield Heights, Ohio",NA,NA
+Ohio,Cities,Medina Township,1,1,0,0,0,0,0,1,1,0,0,0,9015,"Medina Township, Ohio",NA,NA
+Ohio,Cities,Miamisburg,1,0,1,0,0,0,0,1,0,1,0,0,2e4,"Miamisburg, Ohio",NA,NA
+Ohio,Cities,"Miami Township, Montgomery County",1,1,0,0,0,0,0,1,0,0,0,1,29140,"Miami Township, Montgomery County, Ohio",NA,NA
+Ohio,Cities,Monroe,1,1,0,0,0,0,0,1,0,1,0,0,15933,"Monroe, Ohio",NA,NA
+Ohio,Cities,Montgomery,1,1,0,0,0,0,0,1,1,0,0,0,10558,"Montgomery, Ohio",NA,NA
+Ohio,Cities,Montpelier,1,1,0,0,0,0,0,1,1,0,0,0,3980,"Montpelier, Ohio",NA,NA
+Ohio,Cities,Montville Township,1,1,0,0,0,0,0,1,0,1,0,0,11815,"Montville Township, Ohio",NA,NA
+Ohio,Cities,Moraine,3,3,0,0,0,0,0,3,1,0,1,1,6385,"Moraine, Ohio",NA,NA
+Ohio,Cities,Mount Healthy,1,1,0,0,0,0,0,1,0,0,1,0,6028,"Mount Healthy, Ohio",NA,NA
+Ohio,Cities,Napoleon,4,2,0,2,0,0,0,4,2,0,1,1,8566,"Napoleon, Ohio",NA,NA
+Ohio,Cities,New Franklin,1,1,0,0,0,0,0,1,0,1,0,0,14285,"New Franklin, Ohio",NA,NA
+Ohio,Cities,Newton Falls,1,1,0,0,0,0,0,1,0,0,1,0,4628,"Newton Falls, Ohio",NA,NA
+Ohio,Cities,North College Hill,1,0,0,1,0,0,0,1,0,0,1,0,9320,"North College Hill, Ohio",NA,NA
+Ohio,Cities,Oberlin,1,0,1,0,0,0,0,1,0,0,0,1,8342,"Oberlin, Ohio",NA,NA
+Ohio,Cities,Parma,3,1,2,0,0,0,0,3,1,1,0,1,79576,"Parma, Ohio",NA,NA
+Ohio,Cities,Portsmouth,1,1,0,0,0,0,0,1,0,1,0,NA,20442,"Portsmouth, Ohio",NA,NA
+Ohio,Cities,Powell,1,1,0,0,0,0,0,1,0,1,0,0,13273,"Powell, Ohio",NA,NA
+Ohio,Cities,Reynoldsburg,1,1,0,0,0,0,0,1,0,0,1,0,37406,"Reynoldsburg, Ohio",NA,NA
+Ohio,Cities,Salem,4,0,0,0,4,0,0,4,1,0,3,0,11943,"Salem, Ohio",NA,NA
+Ohio,Cities,Shelby,2,1,0,1,0,0,0,2,0,1,1,0,9012,"Shelby, Ohio",NA,NA
+Ohio,Cities,Sidney,3,2,0,1,0,0,0,3,0,1,2,0,20797,"Sidney, Ohio",NA,NA
+Ohio,Cities,South Euclid,1,1,0,0,0,0,0,1,0,1,0,0,21686,"South Euclid, Ohio",NA,NA
+Ohio,Cities,"Springfield Township, Hamilton County",1,0,0,1,0,0,0,1,0,1,0,0,36527,"Springfield Township, Hamilton County, Ohio",NA,NA
+Ohio,Cities,"Springfield Township, Summit County",2,1,0,1,0,0,0,2,0,1,0,1,17813,"Springfield Township, Summit County, Ohio",NA,NA
+Ohio,Cities,Steubenville,1,1,0,0,0,0,0,1,NA,0,1,0,18137,"Steubenville, Ohio",NA,NA
+Ohio,Cities,Streetsboro,1,0,0,0,1,0,0,1,0,0,0,1,16364,"Streetsboro, Ohio",NA,NA
+Ohio,Cities,Toledo,35,31,0,4,0,0,0,35,3,3,17,12,278366,"Toledo, Ohio",NA,NA
+Ohio,Cities,Troy,2,0,0,2,0,0,0,2,2,0,0,0,25745,"Troy, Ohio",NA,NA
+Ohio,Cities,Upper Arlington,1,1,0,0,0,0,0,1,1,0,0,0,35150,"Upper Arlington, Ohio",NA,NA
+Ohio,Cities,Upper Sandusky,1,1,0,0,0,0,0,1,0,0,1,0,6515,"Upper Sandusky, Ohio",NA,NA
+Ohio,Cities,Urbana,9,9,0,0,0,0,0,9,0,0,0,9,11482,"Urbana, Ohio",NA,NA
+Ohio,Cities,Vienna Township,1,1,0,0,0,0,0,1,0,0,0,1,3817,"Vienna Township, Ohio",NA,NA
+Ohio,Cities,Wadsworth,1,1,0,0,0,0,0,1,0,0,1,0,21910,"Wadsworth, Ohio",NA,NA
+Ohio,Cities,Wapakoneta,3,2,1,0,0,0,0,3,0,1,1,1,9815,"Wapakoneta, Ohio",NA,NA
+Ohio,Cities,Warren,1,1,0,0,0,0,0,1,0,0,0,1,40005,"Warren, Ohio",NA,NA
+Ohio,Cities,West Chester Township,1,1,0,0,0,0,0,1,0,1,0,0,61080,"West Chester Township, Ohio",NA,NA
+Ohio,Cities,West Jefferson,1,0,0,0,1,0,0,1,0,0,1,0,4291,"West Jefferson, Ohio",NA,NA
+Ohio,Cities,Wilmington,2,1,1,0,0,0,0,2,0,1,1,0,12443,"Wilmington, Ohio",NA,NA
+Ohio,Cities,Wooster,1,1,0,0,0,0,0,1,1,0,0,0,26883,"Wooster, Ohio",NA,NA
+Ohio,Cities,Xenia,1,1,0,0,0,0,0,1,1,0,0,0,26037,"Xenia, Ohio",NA,NA
+Ohio,Cities,Yellow Springs,2,1,1,0,0,0,0,2,1,1,0,0,3857,"Yellow Springs, Ohio",NA,NA
+Ohio,Cities,Youngstown,3,2,0,1,0,0,0,3,0,1,2,0,64181,"Youngstown, Ohio",NA,NA
+Ohio,Cities,Zanesville,3,1,0,2,0,0,0,3,1,0,1,1,25494,"Zanesville, Ohio",NA,NA
+Ohio,Universities and Colleges,Capital University,1,0,0,1,0,0,0,1,0,0,0,1,3465,"Capital University, Ohio",NA,NA
+Ohio,Universities and Colleges,Kent State University,1,1,0,0,0,0,0,1,NA,NA,1,NA,30067,"Kent State University, Ohio",NA,NA
+Ohio,Universities and Colleges,"Ohio State University, Columbus",2,2,0,0,0,0,0,2,0,0,0,2,58663,"Ohio State University, Columbus, Ohio",NA,NA
+Ohio,Universities and Colleges,Otterbein University,1,1,0,0,0,0,0,1,0,1,0,0,2808,"Otterbein University, Ohio",NA,NA
+Ohio,Universities and Colleges,University of Akron,1,1,0,0,0,0,0,1,0,0,1,0,23101,"University of Akron, Ohio",NA,NA
+Ohio,Metropolitan Counties,Butler,2,1,1,0,0,0,0,2,1,0,1,0,NA,"Butler, Ohio",NA,NA
+Ohio,Metropolitan Counties,Clark,2,0,1,1,0,0,0,2,0,2,0,0,NA,"Clark, Ohio",NA,NA
+Ohio,Metropolitan Counties,Clermont,1,0,1,0,0,0,0,1,0,1,0,0,NA,"Clermont, Ohio",NA,NA
+Ohio,Metropolitan Counties,Delaware,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Delaware, Ohio",NA,NA
+Ohio,Metropolitan Counties,Geauga,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Geauga, Ohio",NA,NA
+Ohio,Metropolitan Counties,Greene,7,6,1,0,0,0,0,7,2,1,2,2,NA,"Greene, Ohio",NA,NA
+Ohio,Metropolitan Counties,Lawrence,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Lawrence, Ohio",NA,NA
+Ohio,Metropolitan Counties,Lorain,1,0,0,0,0,0,1,1,0,0,1,0,NA,"Lorain, Ohio",NA,NA
+Ohio,Metropolitan Counties,Montgomery,2,1,0,1,0,0,0,2,0,0,2,0,NA,"Montgomery, Ohio",NA,NA
+Ohio,Metropolitan Counties,Summit,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Summit, Ohio",NA,NA
+Ohio,Metropolitan Counties,Trumbull,2,1,0,0,1,0,0,2,1,0,1,0,NA,"Trumbull, Ohio",NA,NA
+Ohio,Metropolitan Counties,Warren,1,0,0,1,0,0,0,1,1,0,0,0,NA,"Warren, Ohio",NA,NA
+Ohio,Nonmetropolitan Counties,Ashland,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Ashland, Ohio",NA,NA
+Ohio,Nonmetropolitan Counties,Ashtabula,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Ashtabula, Ohio",NA,NA
+Ohio,Nonmetropolitan Counties,Champaign,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Champaign, Ohio",NA,NA
+Ohio,Nonmetropolitan Counties,Fayette,1,0,1,0,0,0,0,1,0,1,0,0,NA,"Fayette, Ohio",NA,NA
+Ohio,Nonmetropolitan Counties,Gallia,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Gallia, Ohio",NA,NA
+Ohio,Nonmetropolitan Counties,Highland,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Highland, Ohio",NA,NA
+Ohio,Nonmetropolitan Counties,Mercer,1,0,1,0,0,0,0,1,0,1,0,0,NA,"Mercer, Ohio",NA,NA
+Ohio,Nonmetropolitan Counties,Pike,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Pike, Ohio",NA,NA
+Ohio,Nonmetropolitan Counties,Ross,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Ross, Ohio",NA,NA
+Ohio,Other Agencies,Cleveland Metropolitan Park District,3,2,1,0,0,0,0,3,1,1,1,0,NA,"Cleveland Metropolitan Park District, Ohio",NA,NA
+Ohio,Other Agencies,Ohio Department of Natural Resources,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Ohio Department of Natural Resources, Ohio",NA,NA
+Oklahoma,Cities,Anadarko,1,1,0,0,0,0,0,1,0,0,1,0,6702,"Anadarko, Oklahoma",NA,NA
+Oklahoma,Cities,Blanchard,1,0,1,0,0,0,0,1,0,1,0,0,8461,"Blanchard, Oklahoma",NA,NA
+Oklahoma,Cities,Collinsville,2,2,0,0,0,0,0,2,0,1,0,1,6678,"Collinsville, Oklahoma",NA,NA
+Oklahoma,Cities,Cushing,2,1,1,0,0,0,0,2,0,0,0,2,7874,"Cushing, Oklahoma",NA,NA
+Oklahoma,Cities,Heavener,1,0,0,1,0,0,0,1,1,0,0,0,3321,"Heavener, Oklahoma",NA,NA
+Oklahoma,Cities,Norman,2,1,0,1,0,0,0,2,1,0,1,0,122143,"Norman, Oklahoma",NA,NA
+Oklahoma,Cities,Nowata,1,0,1,0,0,0,0,1,0,0,0,1,3747,"Nowata, Oklahoma",NA,NA
+Oklahoma,Cities,Oklahoma City,3,3,0,0,0,0,0,3,1,0,0,2,641681,"Oklahoma City, Oklahoma",NA,NA
+Oklahoma,Cities,Perry,1,0,0,1,0,0,0,1,1,0,0,0,5091,"Perry, Oklahoma",NA,NA
+Oklahoma,Cities,Tulsa,1,0,1,0,0,0,0,1,0,1,0,0,405748,"Tulsa, Oklahoma",NA,NA
+Oklahoma,Cities,Union City,1,1,0,0,0,0,0,1,0,0,0,1,2004,"Union City, Oklahoma",NA,NA
+Oklahoma,Cities,Woodward,1,0,0,1,0,0,0,1,0,0,0,1,13223,"Woodward, Oklahoma",NA,NA
+Oklahoma,Metropolitan Counties,Lincoln,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Lincoln, Oklahoma",NA,NA
+Oklahoma,Metropolitan Counties,Okmulgee,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Okmulgee, Oklahoma",NA,NA
+Oklahoma,Metropolitan Counties,Wagoner,5,4,1,0,0,0,0,5,1,0,3,1,NA,"Wagoner, Oklahoma",NA,NA
+Oklahoma,Nonmetropolitan Counties,Craig,1,0,0,0,1,0,0,1,0,0,1,0,NA,"Craig, Oklahoma",NA,NA
+Oklahoma,Nonmetropolitan Counties,Delaware,3,2,0,0,1,0,0,3,0,1,2,0,NA,"Delaware, Oklahoma",NA,NA
+Oklahoma,Nonmetropolitan Counties,Garvin,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Garvin, Oklahoma",NA,NA
+Oklahoma,Nonmetropolitan Counties,Kingfisher,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Kingfisher, Oklahoma",NA,NA
+Oklahoma,Nonmetropolitan Counties,Payne,1,0,0,0,1,0,0,1,0,0,0,1,NA,"Payne, Oklahoma",NA,NA
+Oklahoma,Nonmetropolitan Counties,Seminole,1,0,0,1,0,0,0,1,1,0,0,0,NA,"Seminole, Oklahoma",NA,NA
+Oklahoma,Nonmetropolitan Counties,Woodward,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Woodward, Oklahoma",NA,NA
+Oregon,Cities,Ashland,2,1,0,1,0,0,0,2,1,0,0,1,21017,"Ashland, Oregon",NA,NA
+Oregon,Cities,Beaverton,2,2,0,0,0,0,0,2,0,0,0,2,97907,"Beaverton, Oregon",NA,NA
+Oregon,Cities,Coos Bay,1,0,1,0,0,0,0,1,0,0,1,0,16224,"Coos Bay, Oregon",NA,NA
+Oregon,Cities,Cornelius,1,1,0,0,0,0,0,1,0,0,0,1,12402,"Cornelius, Oregon",NA,NA
+Oregon,Cities,Corvallis,2,1,1,0,0,0,0,2,1,1,0,0,56061,"Corvallis, Oregon",NA,NA
+Oregon,Cities,Eugene,38,27,5,4,1,0,1,38,2,12,11,13,164883,"Eugene, Oregon",NA,NA
+Oregon,Cities,Gervais,1,0,0,1,0,0,0,1,1,0,0,0,2663,"Gervais, Oregon",NA,NA
+Oregon,Cities,Gresham,6,4,1,1,0,0,0,6,2,1,1,2,111491,"Gresham, Oregon",NA,NA
+Oregon,Cities,Hood River,1,0,1,0,0,0,0,1,1,0,NA,NA,7719,"Hood River, Oregon",NA,NA
+Oregon,Cities,Lincoln City,3,0,3,0,0,0,0,3,0,0,0,3,8588,"Lincoln City, Oregon",NA,NA
+Oregon,Cities,Medford,1,0,0,1,0,0,0,1,0,1,0,0,80794,"Medford, Oregon",NA,NA
+Oregon,Cities,Newberg-Dundee,1,1,0,0,0,0,0,1,0,1,0,0,26105,"Newberg-Dundee, Oregon",NA,NA
+Oregon,Cities,Oregon City,2,2,0,0,0,0,0,2,1,1,0,0,36485,"Oregon City, Oregon",NA,NA
+Oregon,Cities,Portland,10,5,3,2,0,0,0,10,2,2,4,2,642129,"Portland, Oregon",NA,NA
+Oregon,Cities,Salem,8,4,2,2,0,0,0,8,3,1,2,2,166508,"Salem, Oregon",NA,NA
+Oregon,Cities,Springfield,7,6,1,0,0,0,0,7,2,1,2,2,61164,"Springfield, Oregon",NA,NA
+Oregon,Cities,Talent,1,1,0,0,0,0,0,1,0,1,0,0,6483,"Talent, Oregon",NA,NA
+Oregon,Cities,Tigard,3,2,1,0,0,0,0,3,0,1,0,2,51885,"Tigard, Oregon",NA,NA
+Oregon,Cities,Tualatin,1,0,0,1,0,0,0,1,0,1,0,0,27370,"Tualatin, Oregon",NA,NA
+Oregon,Metropolitan Counties,Jackson,1,0,1,0,0,0,0,1,0,0,1,0,NA,"Jackson, Oregon",NA,NA
+Oregon,Metropolitan Counties,Lane,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Lane, Oregon",NA,NA
+Oregon,Metropolitan Counties,Washington,1,0,0,1,0,0,0,1,0,0,0,1,NA,"Washington, Oregon",NA,NA
+Oregon,Nonmetropolitan Counties,Crook,2,1,0,1,0,0,0,2,2,0,0,0,NA,"Crook, Oregon",NA,NA
+Oregon,Nonmetropolitan Counties,Hood River,1,0,1,0,0,0,0,1,1,0,0,0,NA,"Hood River, Oregon",NA,NA
+Oregon,Nonmetropolitan Counties,Jefferson,1,0,0,1,0,0,0,1,0,0,1,0,NA,"Jefferson, Oregon",NA,NA
+Oregon,Nonmetropolitan Counties,Morrow,2,1,1,0,0,0,0,2,0,0,2,0,NA,"Morrow, Oregon",NA,NA
+Oregon,Nonmetropolitan Counties,Umatilla,3,0,1,1,1,0,0,3,0,0,2,1,NA,"Umatilla, Oregon",NA,NA
+Oregon,Nonmetropolitan Counties,Union,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Union, Oregon",NA,NA
+Pennsylvania,Cities,"Abington Township, Montgomery County",2,1,1,0,0,0,0,2,0,2,0,0,55623,"Abington Township, Montgomery County, Pennsylvania",NA,NA
+Pennsylvania,Cities,Camp Hill,1,1,0,0,0,0,0,1,0,0,1,0,7929,"Camp Hill, Pennsylvania",NA,NA
+Pennsylvania,Cities,Carlisle,1,0,0,1,0,0,0,1,0,1,0,0,19225,"Carlisle, Pennsylvania",NA,NA
+Pennsylvania,Cities,Ferguson Township,1,1,0,0,0,0,0,1,0,1,0,0,19222,"Ferguson Township, Pennsylvania",NA,NA
+Pennsylvania,Cities,Hamburg,1,1,0,0,0,0,0,1,0,0,0,1,4420,"Hamburg, Pennsylvania",NA,NA
+Pennsylvania,Cities,Johnstown,1,1,0,0,0,0,0,1,1,0,0,0,21227,"Johnstown, Pennsylvania",NA,NA
+Pennsylvania,Cities,Lancaster,1,1,0,0,0,0,0,1,0,1,0,0,59340,"Lancaster, Pennsylvania",NA,NA
+Pennsylvania,Cities,Mechanicsburg,2,2,0,0,0,0,0,2,0,0,0,2,9003,"Mechanicsburg, Pennsylvania",NA,NA
+Pennsylvania,Cities,Philadelphia,18,7,4,7,0,0,0,18,3,3,2,10,1570826,"Philadelphia, Pennsylvania",NA,NA
+Pennsylvania,Cities,Pittsburgh,14,11,2,1,0,0,0,14,2,2,6,4,302443,"Pittsburgh, Pennsylvania",NA,NA
+Pennsylvania,Cities,Reading,1,1,0,0,0,0,0,1,1,0,0,0,87834,"Reading, Pennsylvania",NA,NA
+Pennsylvania,Cities,Scranton,2,1,1,0,0,0,0,2,0,1,1,0,77332,"Scranton, Pennsylvania",NA,NA
+Pennsylvania,Cities,State College,3,2,0,0,1,0,0,3,2,NA,1,0,58119,"State College, Pennsylvania",NA,NA
+Pennsylvania,Cities,"Washington Township, Franklin County",1,1,0,0,0,0,0,1,1,0,0,0,14631,"Washington Township, Franklin County, Pennsylvania",NA,NA
+Pennsylvania,Cities,Whitemarsh Township,1,1,0,0,0,0,0,1,0,0,1,0,17721,"Whitemarsh Township, Pennsylvania",NA,NA
+Pennsylvania,Universities and Colleges,"Pennsylvania State University, University Park",6,4,0,2,0,0,0,6,5,0,0,1,47307,"Pennsylvania State University, University Park, Pennsylvania",NA,NA
+Pennsylvania,Metropolitan Counties,Allegheny,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Allegheny, Pennsylvania",NA,NA
+Pennsylvania,State Police Agencies,State Police: Delaware County,1,1,0,0,0,0,0,1,0,0,0,1,NA,"State Police: Delaware County, Pennsylvania",NA,NA
+Pennsylvania,State Police Agencies,State Police: Monroe County,1,0,1,0,0,0,0,1,1,0,0,0,NA,"State Police: Monroe County, Pennsylvania",NA,NA
+Pennsylvania,State Police Agencies,State Police: Skippack,2,2,0,0,0,0,0,2,0,0,0,2,NA,"State Police: Skippack, Pennsylvania",NA,NA
+Rhode Island,Cities,Cranston,1,0,1,0,0,0,0,1,0,1,0,0,81162,"Cranston, Rhode Island",NA,NA
+Rhode Island,Cities,Pawtucket,2,1,1,0,0,0,0,2,0,1,0,1,71640,"Pawtucket, Rhode Island",NA,NA
+Rhode Island,Cities,Portsmouth,1,0,1,0,0,0,0,1,0,0,1,0,17362,"Portsmouth, Rhode Island",NA,NA
+Rhode Island,Cities,Providence,1,0,0,1,0,0,0,1,0,1,0,0,179340,"Providence, Rhode Island",NA,NA
+Rhode Island,Cities,South Kingstown,1,0,1,0,0,0,0,1,0,0,1,0,30872,"South Kingstown, Rhode Island",NA,NA
+Rhode Island,Cities,Tiverton,1,1,0,0,0,0,0,1,0,0,0,1,15768,"Tiverton, Rhode Island",NA,NA
+Rhode Island,Universities and Colleges,Brown University,2,0,1,1,0,0,0,2,1,1,0,0,9458,"Brown University, Rhode Island",NA,NA
+Rhode Island,Universities and Colleges,University of Rhode Island,1,0,1,0,0,0,0,1,1,0,0,0,16613,"University of Rhode Island, Rhode Island",NA,NA
+Rhode Island,State Police Agencies,State Police: Chepachet,1,0,0,0,1,0,0,1,1,0,0,0,NA,"State Police: Chepachet, Rhode Island",NA,NA
+Rhode Island,State Police Agencies,State Police: Lincoln,1,0,0,1,0,0,0,1,0,1,0,0,NA,"State Police: Lincoln, Rhode Island",NA,NA
+South Carolina,Cities,Andrews,1,1,0,0,0,0,0,1,0,0,0,1,2894,"Andrews, South Carolina",NA,NA
+South Carolina,Cities,Blackville,1,0,1,0,0,0,0,1,1,0,0,0,2273,"Blackville, South Carolina",NA,NA
+South Carolina,Cities,Chester,1,1,0,0,0,0,0,1,0,0,1,0,5462,"Chester, South Carolina",NA,NA
+South Carolina,Cities,Cottageville,1,1,0,0,0,0,0,1,0,0,1,0,733,"Cottageville, South Carolina",NA,NA
+South Carolina,Cities,Florence,1,0,0,1,0,0,0,1,0,1,0,0,38382,"Florence, South Carolina",NA,NA
+South Carolina,Cities,Folly Beach,2,2,0,0,0,0,0,2,0,1,1,0,2806,"Folly Beach, South Carolina",NA,NA
+South Carolina,Cities,Greer,1,1,0,0,0,0,0,1,0,1,0,0,28927,"Greer, South Carolina",NA,NA
+South Carolina,Cities,Moncks Corner,1,1,0,0,0,0,0,1,0,1,0,0,10298,"Moncks Corner, South Carolina",NA,NA
+South Carolina,Cities,North Myrtle Beach,1,1,0,0,0,0,0,1,0,0,0,1,15945,"North Myrtle Beach, South Carolina",NA,NA
+South Carolina,Cities,Pageland,1,1,0,0,0,0,0,1,0,1,0,0,2745,"Pageland, South Carolina",NA,NA
+South Carolina,Cities,Simpsonville,1,1,0,0,0,0,0,1,0,1,0,0,21223,"Simpsonville, South Carolina",NA,NA
+South Carolina,Universities and Colleges,Clemson University,1,1,0,0,0,0,0,1,0,0,0,1,22698,"Clemson University, South Carolina",NA,NA
+South Carolina,Universities and Colleges,Coastal Carolina University,1,0,0,0,1,0,0,1,0,0,0,1,10263,"Coastal Carolina University, South Carolina",NA,NA
+South Carolina,Universities and Colleges,Trident Technical College,1,1,0,0,0,0,0,1,0,0,0,1,15043,"Trident Technical College, South Carolina",NA,NA
+South Carolina,Metropolitan Counties,Anderson,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Anderson, South Carolina",NA,NA
+South Carolina,Metropolitan Counties,Darlington,1,0,0,1,0,0,0,1,0,1,0,0,NA,"Darlington, South Carolina",NA,NA
+South Carolina,Metropolitan Counties,Greenville,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Greenville, South Carolina",NA,NA
+South Carolina,Metropolitan Counties,Horry County Police Department,2,2,0,0,0,0,0,2,0,2,0,0,NA,"Horry County Police Department, South Carolina",NA,NA
+South Carolina,Metropolitan Counties,Sumter,1,0,0,1,0,0,0,1,0,1,0,0,NA,"Sumter, South Carolina",NA,NA
+South Carolina,Nonmetropolitan Counties,Abbeville,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Abbeville, South Carolina",NA,NA
+South Carolina,Nonmetropolitan Counties,Georgetown,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Georgetown, South Carolina",NA,NA
+South Dakota,Cities,Aberdeen,1,0,0,0,0,0,1,1,0,0,0,1,28498,"Aberdeen, South Dakota",NA,NA
+South Dakota,Cities,Brandon,1,0,1,0,0,0,0,1,0,1,0,0,10042,"Brandon, South Dakota",NA,NA
+South Dakota,Cities,Brookings,1,0,0,0,1,0,0,1,0,1,0,0,23971,"Brookings, South Dakota",NA,NA
+South Dakota,Cities,Chamberlain,1,0,0,1,0,0,0,1,0,1,0,0,2383,"Chamberlain, South Dakota",NA,NA
+South Dakota,Cities,Madison,1,0,0,1,0,0,0,1,0,0,1,0,7411,"Madison, South Dakota",NA,NA
+South Dakota,Cities,Rapid City,3,2,0,0,1,0,0,3,0,1,1,1,74573,"Rapid City, South Dakota",NA,NA
+South Dakota,Cities,Sioux Falls,4,2,1,1,0,0,0,4,0,2,0,2,175152,"Sioux Falls, South Dakota",NA,NA
+South Dakota,Metropolitan Counties,Meade,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Meade, South Dakota",NA,NA
+South Dakota,Metropolitan Counties,Minnehaha,2,1,0,1,0,0,0,2,0,1,1,0,NA,"Minnehaha, South Dakota",NA,NA
+South Dakota,Metropolitan Counties,Union,1,0,0,0,1,0,0,1,1,0,0,0,NA,"Union, South Dakota",NA,NA
+South Dakota,Nonmetropolitan Counties,Hamlin,1,0,0,1,0,0,0,1,0,1,0,0,NA,"Hamlin, South Dakota",NA,NA
+South Dakota,Nonmetropolitan Counties,Jerauld,1,0,0,0,0,0,1,1,1,0,0,0,NA,"Jerauld, South Dakota",NA,NA
+Tennessee,Cities,Alcoa,6,4,0,2,0,0,0,6,0,0,1,5,9503,"Alcoa, Tennessee",NA,NA
+Tennessee,Cities,Alexandria,2,2,0,0,0,0,0,2,0,0,2,0,978,"Alexandria, Tennessee",NA,NA
+Tennessee,Cities,Bristol,1,1,0,0,0,0,0,1,0,0,1,0,26656,"Bristol, Tennessee",NA,NA
+Tennessee,Cities,Chattanooga,3,1,2,0,0,0,0,3,1,1,0,1,177801,"Chattanooga, Tennessee",NA,NA
+Tennessee,Cities,Clarksville,1,1,0,0,0,0,0,1,0,0,0,1,152526,"Clarksville, Tennessee",NA,NA
+Tennessee,Cities,Cleveland,4,4,0,0,0,0,0,4,1,0,2,1,44423,"Cleveland, Tennessee",NA,NA
+Tennessee,Cities,Coopertown,1,0,0,1,0,0,0,1,1,0,0,0,4426,"Coopertown, Tennessee",NA,NA
+Tennessee,Cities,Covington,2,0,1,0,1,0,0,2,0,1,1,0,9039,"Covington, Tennessee",NA,NA
+Tennessee,Cities,Cowan,1,0,0,0,1,0,0,1,0,1,0,0,1698,"Cowan, Tennessee",NA,NA
+Tennessee,Cities,Dyersburg,1,1,0,0,0,0,0,1,0,0,0,1,16711,"Dyersburg, Tennessee",NA,NA
+Tennessee,Cities,East Ridge,1,1,0,0,0,0,0,1,0,0,1,0,21311,"East Ridge, Tennessee",NA,NA
+Tennessee,Cities,Franklin,1,0,1,0,0,0,0,1,0,0,1,0,74771,"Franklin, Tennessee",NA,NA
+Tennessee,Cities,Gallaway,2,2,0,0,0,0,0,2,2,0,0,0,654,"Gallaway, Tennessee",NA,NA
+Tennessee,Cities,Greenbrier,1,1,0,0,0,0,0,1,1,0,0,0,6807,"Greenbrier, Tennessee",NA,NA
+Tennessee,Cities,Hendersonville,1,1,0,0,0,0,0,1,0,0,1,0,56965,"Hendersonville, Tennessee",NA,NA
+Tennessee,Cities,Humboldt,1,1,0,0,0,0,0,1,0,0,1,0,8287,"Humboldt, Tennessee",NA,NA
+Tennessee,Cities,Jackson,3,2,1,0,0,0,0,3,1,0,2,0,66990,"Jackson, Tennessee",NA,NA
+Tennessee,Cities,Jamestown,7,7,0,0,0,0,0,7,7,0,0,0,1945,"Jamestown, Tennessee",NA,NA
+Tennessee,Cities,Jasper,1,0,0,1,0,0,0,1,0,0,1,0,3323,"Jasper, Tennessee",NA,NA
+Tennessee,Cities,Johnson City,2,0,0,1,1,0,0,2,1,0,0,1,66511,"Johnson City, Tennessee",NA,NA
+Tennessee,Cities,Kingsport,1,1,0,0,0,0,0,1,0,0,0,1,53059,"Kingsport, Tennessee",NA,NA
+Tennessee,Cities,Knoxville,1,0,1,0,0,0,0,1,0,1,0,0,186583,"Knoxville, Tennessee",NA,NA
+Tennessee,Cities,Lebanon,3,2,1,0,0,0,0,3,2,0,0,1,31125,"Lebanon, Tennessee",NA,NA
+Tennessee,Cities,Lenoir City,1,1,0,0,0,0,0,1,0,0,0,1,9175,"Lenoir City, Tennessee",NA,NA
+Tennessee,Cities,Livingston,1,1,0,0,0,0,0,1,0,0,1,0,4073,"Livingston, Tennessee",NA,NA
+Tennessee,Cities,Memphis,9,1,1,7,0,0,0,9,3,3,2,1,656434,"Memphis, Tennessee",NA,NA
+Tennessee,Cities,Milan,1,1,0,0,0,0,0,1,0,1,0,0,7803,"Milan, Tennessee",NA,NA
+Tennessee,Cities,Millington,1,1,0,0,0,0,0,1,0,1,0,0,11002,"Millington, Tennessee",NA,NA
+Tennessee,Cities,Morristown,1,1,0,0,0,0,0,1,1,0,0,0,29576,"Morristown, Tennessee",NA,NA
+Tennessee,Cities,Murfreesboro2,3,2,0,1,0,0,0,3,0,1,1,1,129730,"Murfreesboro2, Tennessee",NA,NA
+Tennessee,Cities,Nashville Metropolitan,12,5,2,5,0,0,0,12,3,4,5,0,668685,"Nashville Metropolitan, Tennessee",NA,NA
+Tennessee,Cities,Newport,1,1,0,0,0,0,0,1,0,0,1,0,6812,"Newport, Tennessee",NA,NA
+Tennessee,Cities,Oak Ridge,1,0,0,1,0,0,0,1,0,1,0,0,29296,"Oak Ridge, Tennessee",NA,NA
+Tennessee,Cities,Pigeon Forge,3,2,1,0,0,0,0,3,1,2,0,0,6230,"Pigeon Forge, Tennessee",NA,NA
+Tennessee,Cities,Portland,1,0,1,0,0,0,0,1,0,0,1,0,12502,"Portland, Tennessee",NA,NA
+Tennessee,Cities,Spring Hill,2,2,0,0,0,0,0,2,1,0,0,1,37599,"Spring Hill, Tennessee",NA,NA
+Tennessee,Cities,White House,1,0,0,1,0,0,0,1,1,0,0,0,11419,"White House, Tennessee",NA,NA
+Tennessee,Universities and Colleges,Pellissippi State Community College,1,0,1,0,0,0,0,1,0,0,0,1,10325,"Pellissippi State Community College, Tennessee",NA,NA
+Tennessee,Universities and Colleges,Tennessee Technological University,2,2,0,0,0,0,0,2,0,0,2,0,10900,"Tennessee Technological University, Tennessee",NA,NA
+Tennessee,Universities and Colleges,"University of Tennessee, Knoxville",1,0,0,1,0,0,0,1,0,0,1,0,27845,"University of Tennessee, Knoxville, Tennessee",NA,NA
+Tennessee,Universities and Colleges,University of the South,1,1,0,0,0,0,0,1,1,0,0,0,1797,"University of the South, Tennessee",NA,NA
+Tennessee,Metropolitan Counties,Anderson,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Anderson, Tennessee",NA,NA
+Tennessee,Metropolitan Counties,Bradley,3,2,0,1,0,0,0,3,1,0,1,1,NA,"Bradley, Tennessee",NA,NA
+Tennessee,Metropolitan Counties,Dickson,2,2,0,0,0,0,0,2,0,2,0,0,NA,"Dickson, Tennessee",NA,NA
+Tennessee,Metropolitan Counties,Hamblen,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Hamblen, Tennessee",NA,NA
+Tennessee,Metropolitan Counties,Hamilton,8,2,4,1,1,0,0,8,3,2,0,3,NA,"Hamilton, Tennessee",NA,NA
+Tennessee,Metropolitan Counties,Knox,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Knox, Tennessee",NA,NA
+Tennessee,Metropolitan Counties,Montgomery,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Montgomery, Tennessee",NA,NA
+Tennessee,Metropolitan Counties,Roane,1,0,0,1,0,0,0,1,0,0,1,0,NA,"Roane, Tennessee",NA,NA
+Tennessee,Metropolitan Counties,Rutherford,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Rutherford, Tennessee",NA,NA
+Tennessee,Metropolitan Counties,Shelby,18,16,0,0,2,0,0,18,6,5,2,5,NA,"Shelby, Tennessee",NA,NA
+Tennessee,Metropolitan Counties,Sullivan,2,1,0,1,0,0,0,2,0,2,0,0,NA,"Sullivan, Tennessee",NA,NA
+Tennessee,Nonmetropolitan Counties,Lawrence,1,0,1,0,0,0,0,1,0,0,0,1,NA,"Lawrence, Tennessee",NA,NA
+Tennessee,Nonmetropolitan Counties,Sevier,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Sevier, Tennessee",NA,NA
+Tennessee,Other Agencies,Department of Safety,11,11,0,0,0,0,0,11,1,1,7,2,NA,"Department of Safety, Tennessee",NA,NA
+Texas,Cities,Arlington,5,4,1,0,0,0,0,5,0,2,2,1,392666,"Arlington, Texas",NA,NA
+Texas,Cities,Austin,19,10,2,6,0,0,1,19,7,6,4,2,956911,"Austin, Texas",NA,NA
+Texas,Cities,Beaumont,4,4,0,0,0,0,0,4,3,0,0,1,118283,"Beaumont, Texas",NA,NA
+Texas,Cities,Bedford,6,1,0,0,0,0,5,6,0,0,0,6,49803,"Bedford, Texas",NA,NA
+Texas,Cities,Borger,1,1,0,0,0,0,0,1,0,0,1,0,12894,"Borger, Texas",NA,NA
+Texas,Cities,Burleson,1,1,0,0,0,0,0,1,0,1,0,0,45116,"Burleson, Texas",NA,NA
+Texas,Cities,Cedar Hill,1,1,0,0,0,0,0,1,0,0,1,0,49215,"Cedar Hill, Texas",NA,NA
+Texas,Cities,Cedar Park,2,1,0,1,0,0,0,2,0,2,0,0,69051,"Cedar Park, Texas",NA,NA
+Texas,Cities,Center,1,0,0,0,0,1,0,1,0,0,0,1,5218,"Center, Texas",NA,NA
+Texas,Cities,College Station,1,0,1,0,0,0,0,1,0,0,1,0,110785,"College Station, Texas",NA,NA
+Texas,Cities,Converse,1,0,0,0,1,0,0,1,0,1,0,0,22782,"Converse, Texas",NA,NA
+Texas,Cities,Dallas,11,7,2,2,0,0,0,11,1,5,4,1,1320939,"Dallas, Texas",NA,NA
+Texas,Cities,Denison,1,0,0,1,0,0,0,1,0,1,0,0,23237,"Denison, Texas",NA,NA
+Texas,Cities,Denton,3,2,0,1,0,0,0,3,1,1,1,0,134054,"Denton, Texas",NA,NA
+Texas,Cities,El Paso,1,0,0,1,0,0,0,1,0,0,0,1,687193,"El Paso, Texas",NA,NA
+Texas,Cities,Fort Worth,20,11,3,5,1,0,0,20,7,5,3,5,851849,"Fort Worth, Texas",NA,NA
+Texas,Cities,Frankston,1,1,0,0,0,0,0,1,0,1,0,0,1163,"Frankston, Texas",NA,NA
+Texas,Cities,Galveston,6,5,0,1,0,0,0,6,1,1,3,1,50667,"Galveston, Texas",NA,NA
+Texas,Cities,Gilmer,1,1,0,0,0,0,0,1,0,1,0,0,5246,"Gilmer, Texas",NA,NA
+Texas,Cities,Grand Prairie,1,1,0,0,0,0,0,1,0,1,0,0,190270,"Grand Prairie, Texas",NA,NA
+Texas,Cities,Hedwig Village,1,0,1,0,0,0,0,1,0,1,0,0,2724,"Hedwig Village, Texas",NA,NA
+Texas,Cities,Houston,8,3,1,2,0,0,2,8,1,1,3,3,2334348,"Houston, Texas",NA,NA
+Texas,Cities,League City,1,1,0,0,0,0,0,1,0,1,0,0,101436,"League City, Texas",NA,NA
+Texas,Cities,Levelland,2,2,0,0,0,0,0,2,0,0,1,1,13997,"Levelland, Texas",NA,NA
+Texas,Cities,Lewisville,2,2,0,0,0,0,0,2,1,0,0,1,105762,"Lewisville, Texas",NA,NA
+Texas,Cities,Livingston,1,1,0,0,0,0,0,1,1,0,0,0,5140,"Livingston, Texas",NA,NA
+Texas,Cities,Longview,3,2,0,0,1,0,0,3,0,0,1,2,82632,"Longview, Texas",NA,NA
+Texas,Cities,McKinney,7,5,0,2,0,0,0,7,0,3,2,2,169689,"McKinney, Texas",NA,NA
+Texas,Cities,Odessa,3,2,1,0,0,0,0,3,1,0,1,1,123209,"Odessa, Texas",NA,NA
+Texas,Cities,Plano,1,1,0,0,0,0,0,1,0,0,1,0,288242,"Plano, Texas",NA,NA
+Texas,Cities,Pleasanton,1,1,0,0,0,0,0,1,0,0,1,0,10013,"Pleasanton, Texas",NA,NA
+Texas,Cities,Reno,1,0,1,0,0,0,0,1,0,0,1,0,3302,"Reno, Texas",NA,NA
+Texas,Cities,Rockwall,1,1,0,0,0,0,0,1,0,1,0,0,43542,"Rockwall, Texas",NA,NA
+Texas,Cities,Round Rock,2,0,1,1,0,0,0,2,0,1,1,0,119308,"Round Rock, Texas",NA,NA
+Texas,Cities,San Angelo,1,0,0,1,0,0,0,1,0,0,0,1,101870,"San Angelo, Texas",NA,NA
+Texas,Cities,San Antonio,9,6,2,1,0,0,0,9,2,1,4,2,1498642,"San Antonio, Texas",NA,NA
+Texas,Cities,San Marcos,1,0,0,1,0,0,0,1,0,0,0,1,64380,"San Marcos, Texas",NA,NA
+Texas,Cities,Seabrook,1,1,0,0,0,0,0,1,0,1,0,0,14091,"Seabrook, Texas",NA,NA
+Texas,Cities,Sealy,1,1,0,0,0,0,0,1,0,1,0,0,6469,"Sealy, Texas",NA,NA
+Texas,Cities,Sugar Land,1,1,0,0,0,0,0,1,0,0,0,1,90088,"Sugar Land, Texas",NA,NA
+Texas,Cities,Teague,1,1,0,0,0,0,0,1,0,0,1,0,3575,"Teague, Texas",NA,NA
+Texas,Cities,Temple,1,1,0,0,0,0,0,1,0,0,0,1,73411,"Temple, Texas",NA,NA
+Texas,Cities,Texas City,2,2,0,0,0,0,0,2,0,0,0,2,48095,"Texas City, Texas",NA,NA
+Texas,Cities,Tomball,1,1,0,0,0,0,0,1,0,0,0,1,11700,"Tomball, Texas",NA,NA
+Texas,Cities,Tyler,4,2,0,1,1,0,0,4,1,3,0,0,105044,"Tyler, Texas",NA,NA
+Texas,Cities,Weslaco,2,1,0,1,0,0,0,2,0,2,0,0,39987,"Weslaco, Texas",NA,NA
+Texas,Cities,Wichita Falls,2,1,1,0,0,0,0,2,0,1,0,1,104685,"Wichita Falls, Texas",NA,NA
+Texas,Cities,Willis,1,1,0,0,0,0,0,1,0,0,1,0,6401,"Willis, Texas",NA,NA
+Texas,Universities and Colleges,Amarillo College,1,1,0,0,0,0,0,1,1,0,0,0,9936,"Amarillo College, Texas",NA,NA
+Texas,Universities and Colleges,"Baylor University, Waco",1,1,0,0,0,0,0,1,0,0,0,1,16787,"Baylor University, Waco, Texas",NA,NA
+Texas,Universities and Colleges,Southwestern University,2,0,0,2,0,0,0,2,0,0,0,2,1515,"Southwestern University, Texas",NA,NA
+Texas,Universities and Colleges,"Texas State Technical College, West Texas3",1,0,0,1,0,0,0,1,1,0,0,0,NA,"Texas State Technical College, West Texas3, Texas",NA,NA
+Texas,Universities and Colleges,"Texas Tech University, Lubbock",1,1,0,0,0,0,0,1,0,0,0,1,35859,"Texas Tech University, Lubbock, Texas",NA,NA
+Texas,Universities and Colleges,Tyler Junior College,1,0,1,0,0,0,0,1,0,1,0,0,10934,"Tyler Junior College, Texas",NA,NA
+Texas,Universities and Colleges,"University of Texas, Dallas",2,0,2,0,0,0,0,2,2,0,0,0,24554,"University of Texas, Dallas, Texas",NA,NA
+Texas,Metropolitan Counties,Bexar,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Bexar, Texas",NA,NA
+Texas,Metropolitan Counties,Lubbock,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Lubbock, Texas",NA,NA
+Texas,Metropolitan Counties,Parker,2,0,0,1,1,0,0,2,0,1,1,0,NA,"Parker, Texas",NA,NA
+Texas,Metropolitan Counties,Travis,7,3,2,2,0,0,0,7,1,4,1,1,NA,"Travis, Texas",NA,NA
+Texas,Metropolitan Counties,Williamson,3,2,1,0,0,0,0,3,1,1,0,1,NA,"Williamson, Texas",NA,NA
+Texas,Nonmetropolitan Counties,Brewster,1,0,0,1,0,0,0,1,1,0,0,0,NA,"Brewster, Texas",NA,NA
+Texas,Nonmetropolitan Counties,San Jacinto,1,1,0,0,0,0,0,1,1,0,0,0,NA,"San Jacinto, Texas",NA,NA
+Texas,Nonmetropolitan Counties,Zavala,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Zavala, Texas",NA,NA
+Texas,Other Agencies,Dallas-Fort Worth International Airport,1,0,0,1,0,0,0,1,0,0,1,0,NA,"Dallas-Fort Worth International Airport, Texas",NA,NA
+Texas,Other Agencies,"Hospital District, Dallas County",1,1,0,0,0,0,0,1,0,0,1,0,NA,"Hospital District, Dallas County, Texas",NA,NA
+Texas,Other Agencies,"Independent School District, El Paso",1,0,0,1,0,0,0,1,0,0,0,1,NA,"Independent School District, El Paso, Texas",NA,NA
+Utah,Cities,Bountiful,3,3,0,0,0,0,0,3,0,0,0,3,44003,"Bountiful, Utah",NA,NA
+Utah,Cities,Centerville,1,1,0,0,0,0,0,1,0,0,1,0,17204,"Centerville, Utah",NA,NA
+Utah,Cities,Draper,1,0,1,0,0,0,0,1,0,1,0,0,47696,"Draper, Utah",NA,NA
+Utah,Cities,Farmington,1,0,1,0,0,0,0,1,0,1,0,0,23505,"Farmington, Utah",NA,NA
+Utah,Cities,Grantsville,2,2,0,0,0,0,0,2,0,2,0,0,10253,"Grantsville, Utah",NA,NA
+Utah,Cities,Helper,1,1,0,0,0,0,0,1,1,0,0,0,2094,"Helper, Utah",NA,NA
+Utah,Cities,Hurricane,1,1,0,0,0,0,0,1,0,0,1,0,15869,"Hurricane, Utah",NA,NA
+Utah,Cities,Layton,1,1,0,0,0,0,0,1,0,0,1,0,75482,"Layton, Utah",NA,NA
+Utah,Cities,Lindon,1,1,0,0,0,0,0,1,0,0,0,1,10958,"Lindon, Utah",NA,NA
+Utah,Cities,Moab,1,1,0,0,0,0,0,1,0,0,1,0,5262,"Moab, Utah",NA,NA
+Utah,Cities,North Ogden,2,2,0,0,0,0,0,2,0,1,1,0,18654,"North Ogden, Utah",NA,NA
+Utah,Cities,Ogden2,8,3,0,4,1,0,0,8,1,1,3,3,85930,"Ogden2, Utah",NA,NA
+Utah,Cities,Payson,2,1,0,1,0,0,0,2,1,1,0,0,19738,"Payson, Utah",NA,NA
+Utah,Cities,Pleasant View,1,1,0,0,0,0,0,1,0,1,0,0,9548,"Pleasant View, Utah",NA,NA
+Utah,Cities,Roosevelt,1,0,0,1,0,0,0,1,0,0,0,1,7179,"Roosevelt, Utah",NA,NA
+Utah,Cities,Salt Lake City,1,1,0,0,0,0,0,1,0,0,1,0,193918,"Salt Lake City, Utah",NA,NA
+Utah,Cities,Santa Clara/Ivins,1,0,1,0,0,0,0,1,0,0,0,1,15107,"Santa Clara/Ivins, Utah",NA,NA
+Utah,Cities,Saratoga Springs,2,0,2,0,0,0,0,2,0,2,0,0,27211,"Saratoga Springs, Utah",NA,NA
+Utah,Cities,South Jordan,1,1,0,0,0,0,0,1,0,1,0,0,70226,"South Jordan, Utah",NA,NA
+Utah,Cities,South Ogden,1,1,0,0,0,0,0,1,0,1,0,0,17026,"South Ogden, Utah",NA,NA
+Utah,Cities,South Salt Lake,1,1,0,0,0,0,0,1,0,0,1,0,25022,"South Salt Lake, Utah",NA,NA
+Utah,Cities,St. George,2,2,0,0,0,0,0,2,0,0,0,2,81755,"St. George, Utah",NA,NA
+Utah,Cities,Tooele,3,2,0,1,0,0,0,3,1,2,0,0,33448,"Tooele, Utah",NA,NA
+Utah,Cities,West Jordan,2,2,0,0,0,0,0,2,0,0,2,0,113595,"West Jordan, Utah",NA,NA
+Utah,Cities,West Valley,4,3,1,0,0,0,0,4,3,0,0,1,137558,"West Valley, Utah",NA,NA
+Utah,Universities and Colleges,Brigham Young University,2,2,0,0,0,0,0,2,0,0,1,1,33469,"Brigham Young University, Utah",NA,NA
+Utah,Universities and Colleges,"Utah State University, Logan",1,0,0,1,0,0,0,1,0,0,0,1,28622,"Utah State University, Logan, Utah",NA,NA
+Utah,Metropolitan Counties,Salt Lake County Unified Police Department,1,0,1,0,0,0,0,1,1,0,0,0,NA,"Salt Lake County Unified Police Department, Utah",NA,NA
+Utah,Metropolitan Counties,Utah,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Utah, Utah",NA,NA
+Utah,Metropolitan Counties,Washington,1,0,1,0,0,0,0,1,0,0,1,0,NA,"Washington, Utah",NA,NA
+Utah,State Police Agencies,Utah Highway Patrol,10,10,0,0,0,0,0,10,3,3,1,3,NA,"Utah Highway Patrol, Utah",NA,NA
+Utah,Other Agencies,Utah Transit Authority,5,3,0,1,1,0,0,5,2,0,2,1,NA,"Utah Transit Authority, Utah",NA,NA
+Vermont,Cities,Barre,1,1,0,0,0,0,0,1,0,0,1,0,8687,"Barre, Vermont",NA,NA
+Vermont,Cities,Barre Town,1,1,0,0,0,0,0,1,0,1,0,0,7791,"Barre Town, Vermont",NA,NA
+Vermont,Cities,Brandon,1,1,0,0,0,0,0,1,1,0,0,0,3801,"Brandon, Vermont",NA,NA
+Vermont,Cities,Burlington,5,2,1,2,0,0,0,5,2,0,1,2,42454,"Burlington, Vermont",NA,NA
+Vermont,Cities,Chester,1,0,0,0,1,0,0,1,0,1,0,0,3069,"Chester, Vermont",NA,NA
+Vermont,Cities,Colchester,1,1,0,0,0,0,0,1,0,1,0,0,17437,"Colchester, Vermont",NA,NA
+Vermont,Cities,Middlebury,1,0,1,0,0,0,0,1,0,0,0,1,8570,"Middlebury, Vermont",NA,NA
+Vermont,Cities,Milton,2,1,0,1,0,0,0,2,0,1,1,0,10921,"Milton, Vermont",NA,NA
+Vermont,Cities,Rutland,1,0,1,0,0,0,0,1,0,0,0,1,15698,"Rutland, Vermont",NA,NA
+Vermont,Cities,Springfield,1,1,0,0,0,0,0,1,0,0,0,1,9132,"Springfield, Vermont",NA,NA
+Vermont,Cities,St. Albans,2,2,0,0,0,0,0,2,0,2,0,0,6799,"St. Albans, Vermont",NA,NA
+Vermont,Cities,St. Johnsbury,4,4,0,0,0,0,0,4,0,3,0,1,7414,"St. Johnsbury, Vermont",NA,NA
+Vermont,Cities,Williston,1,1,0,0,0,0,0,1,0,0,0,1,9556,"Williston, Vermont",NA,NA
+Vermont,Universities and Colleges,University of Vermont,2,0,2,0,0,0,0,2,0,0,2,0,12815,"University of Vermont, Vermont",NA,NA
+Vermont,Nonmetropolitan Counties,Lamoille,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Lamoille, Vermont",NA,NA
+Virginia,Cities,Alexandria,2,0,0,2,0,0,0,2,0,1,1,0,155319,"Alexandria, Virginia",NA,NA
+Virginia,Cities,Chesapeake,4,2,1,0,1,0,0,4,2,1,1,0,236570,"Chesapeake, Virginia",NA,NA
+Virginia,Cities,Clifton Forge,1,1,0,0,0,0,0,1,1,0,0,0,3713,"Clifton Forge, Virginia",NA,NA
+Virginia,Cities,Covington,1,0,1,0,0,0,0,1,0,0,1,0,5570,"Covington, Virginia",NA,NA
+Virginia,Cities,Front Royal,3,1,0,2,0,0,0,3,1,0,1,1,15193,"Front Royal, Virginia",NA,NA
+Virginia,Cities,Hampton,1,1,0,0,0,0,0,1,0,1,0,0,135504,"Hampton, Virginia",NA,NA
+Virginia,Cities,Harrisonburg,4,3,1,0,0,0,0,4,1,0,3,0,52972,"Harrisonburg, Virginia",NA,NA
+Virginia,Cities,Herndon,1,0,1,0,0,0,0,1,0,0,1,0,24806,"Herndon, Virginia",NA,NA
+Virginia,Cities,Manassas,1,1,0,0,0,0,0,1,0,0,1,0,42267,"Manassas, Virginia",NA,NA
+Virginia,Cities,Newport News,4,3,0,1,0,0,0,4,0,1,2,1,181676,"Newport News, Virginia",NA,NA
+Virginia,Cities,Norfolk,1,0,1,0,0,0,0,1,0,0,1,0,245734,"Norfolk, Virginia",NA,NA
+Virginia,Cities,Portsmouth,3,3,0,0,0,0,0,3,0,1,1,1,95813,"Portsmouth, Virginia",NA,NA
+Virginia,Cities,Purcellville,1,1,0,0,0,0,0,1,0,0,1,0,9547,"Purcellville, Virginia",NA,NA
+Virginia,Cities,Radford,1,1,0,0,0,0,0,1,0,0,0,1,17504,"Radford, Virginia",NA,NA
+Virginia,Cities,Richmond,1,0,1,0,0,0,0,1,1,0,0,0,222430,"Richmond, Virginia",NA,NA
+Virginia,Cities,Rocky Mount,1,1,0,0,0,0,0,1,1,0,0,0,4803,"Rocky Mount, Virginia",NA,NA
+Virginia,Cities,Virginia Beach,5,2,0,3,0,0,0,5,0,0,3,2,453017,"Virginia Beach, Virginia",NA,NA
+Virginia,Cities,Waynesboro,1,1,0,0,0,0,0,1,1,0,0,0,21464,"Waynesboro, Virginia",NA,NA
+Virginia,Cities,Williamsburg,1,1,0,0,0,0,0,1,0,0,0,1,15256,"Williamsburg, Virginia",NA,NA
+Virginia,Cities,Woodstock,1,1,0,0,0,0,0,1,0,1,0,0,5277,"Woodstock, Virginia",NA,NA
+Virginia,Universities and Colleges,College of William and Mary,1,0,0,1,0,0,0,1,1,0,0,0,8484,"College of William and Mary, Virginia",NA,NA
+Virginia,Universities and Colleges,Emory and Henry College,1,1,0,0,0,0,0,1,0,1,0,0,1117,"Emory and Henry College, Virginia",NA,NA
+Virginia,Universities and Colleges,George Mason University,1,0,1,0,0,0,0,1,1,0,0,0,33929,"George Mason University, Virginia",NA,NA
+Virginia,Universities and Colleges,Hampton University,1,1,0,0,0,0,0,1,0,0,1,NA,4269,"Hampton University, Virginia",NA,NA
+Virginia,Universities and Colleges,Old Dominion University,2,2,0,0,0,0,0,2,2,0,0,0,24672,"Old Dominion University, Virginia",NA,NA
+Virginia,Universities and Colleges,Radford University,1,1,0,0,0,0,0,1,1,0,0,0,9743,"Radford University, Virginia",NA,NA
+Virginia,Universities and Colleges,University of Virginia,1,0,0,1,0,0,0,1,0,0,0,1,23883,"University of Virginia, Virginia",NA,NA
+Virginia,Universities and Colleges,Virginia Commonwealth University,2,1,0,1,0,0,0,2,0,0,0,2,30918,"Virginia Commonwealth University, Virginia",NA,NA
+Virginia,Metropolitan Counties,Albemarle County Police Department,4,3,0,1,0,0,0,4,1,2,1,0,NA,"Albemarle County Police Department, Virginia",NA,NA
+Virginia,Metropolitan Counties,Amelia,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Amelia, Virginia",NA,NA
+Virginia,Metropolitan Counties,Arlington County Police Department,3,2,1,0,0,0,0,3,0,0,1,2,NA,"Arlington County Police Department, Virginia",NA,NA
+Virginia,Metropolitan Counties,Fairfax County Police Department,24,14,6,4,0,0,0,24,7,7,3,7,NA,"Fairfax County Police Department, Virginia",NA,NA
+Virginia,Metropolitan Counties,Franklin,1,0,1,0,0,0,0,1,0,0,0,1,NA,"Franklin, Virginia",NA,NA
+Virginia,Metropolitan Counties,Frederick,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Frederick, Virginia",NA,NA
+Virginia,Metropolitan Counties,Hanover,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Hanover, Virginia",NA,NA
+Virginia,Metropolitan Counties,Henrico County Police Department,1,0,1,0,0,0,0,1,1,0,0,0,NA,"Henrico County Police Department, Virginia",NA,NA
+Virginia,Metropolitan Counties,Loudoun,8,5,1,2,0,0,0,8,0,0,1,7,NA,"Loudoun, Virginia",NA,NA
+Virginia,Metropolitan Counties,Mathews,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Mathews, Virginia",NA,NA
+Virginia,Metropolitan Counties,Montgomery,1,0,1,0,0,0,0,1,1,0,0,0,NA,"Montgomery, Virginia",NA,NA
+Virginia,Metropolitan Counties,Powhatan,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Powhatan, Virginia",NA,NA
+Virginia,Metropolitan Counties,Prince William County Police Department,6,5,1,0,0,0,0,6,1,0,2,3,NA,"Prince William County Police Department, Virginia",NA,NA
+Virginia,Metropolitan Counties,Spotsylvania,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Spotsylvania, Virginia",NA,NA
+Virginia,Metropolitan Counties,Stafford,4,4,0,0,0,0,0,4,0,2,0,2,NA,"Stafford, Virginia",NA,NA
+Virginia,Metropolitan Counties,Washington,2,2,0,0,0,0,0,2,0,1,1,0,NA,"Washington, Virginia",NA,NA
+Virginia,Metropolitan Counties,York,1,1,0,0,0,0,0,1,0,0,0,1,NA,"York, Virginia",NA,NA
+Virginia,Nonmetropolitan Counties,Accomack,2,0,0,0,2,0,0,2,0,0,2,0,NA,"Accomack, Virginia",NA,NA
+Virginia,Nonmetropolitan Counties,Grayson,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Grayson, Virginia",NA,NA
+Virginia,Nonmetropolitan Counties,Louisa,2,1,0,1,0,0,0,2,0,1,1,0,NA,"Louisa, Virginia",NA,NA
+Virginia,Nonmetropolitan Counties,Shenandoah,1,1,0,0,0,0,0,1,0,1,0,0,NA,"Shenandoah, Virginia",NA,NA
+Virginia,State Police Agencies,State Police:Chesapeake,1,1,0,0,0,0,0,1,0,0,1,0,NA,"State Police:Chesapeake, Virginia",NA,NA
+Virginia,State Police Agencies,State Police:Fairfax County,2,0,1,1,0,0,0,2,0,1,0,1,NA,"State Police:Fairfax County, Virginia",NA,NA
+Virginia,State Police Agencies,State Police:Goochland County,1,0,0,1,0,0,0,1,0,0,0,1,NA,"State Police:Goochland County, Virginia",NA,NA
+Virginia,State Police Agencies,State Police:Newport News,1,1,0,0,0,0,0,1,0,0,0,1,NA,"State Police:Newport News, Virginia",NA,NA
+Virginia,State Police Agencies,State Police:Rockingham County,1,0,0,1,0,0,0,1,0,0,1,0,NA,"State Police:Rockingham County, Virginia",NA,NA
+Virginia,State Police Agencies,State Police:Surry County,1,0,1,0,0,0,0,1,0,0,0,1,NA,"State Police:Surry County, Virginia",NA,NA
+Washington,Cities,Aberdeen,2,1,0,1,0,0,0,2,2,0,0,0,16155,"Aberdeen, Washington",NA,NA
+Washington,Cities,Algona,1,1,0,0,0,0,0,1,0,0,1,0,3166,"Algona, Washington",NA,NA
+Washington,Cities,Arlington,1,1,0,0,0,0,0,1,0,0,0,1,19142,"Arlington, Washington",NA,NA
+Washington,Cities,Auburn,5,4,1,0,0,0,0,5,1,2,1,1,78400,"Auburn, Washington",NA,NA
+Washington,Cities,Bainbridge Island,1,0,0,1,0,0,0,1,0,0,1,0,23998,"Bainbridge Island, Washington",NA,NA
+Washington,Cities,Battle Ground,1,1,0,0,0,0,0,1,0,0,0,1,19734,"Battle Ground, Washington",NA,NA
+Washington,Cities,Bellevue,18,2,13,3,0,0,0,18,6,5,3,4,142238,"Bellevue, Washington",NA,NA
+Washington,Cities,Bellingham,8,7,0,1,0,0,0,8,3,0,1,4,86005,"Bellingham, Washington",NA,NA
+Washington,Cities,Bothell,1,1,0,0,0,0,0,1,0,0,0,1,43828,"Bothell, Washington",NA,NA
+Washington,Cities,Brier,1,1,0,0,0,0,0,1,1,0,0,0,6753,"Brier, Washington",NA,NA
+Washington,Cities,Centralia,5,4,1,0,0,0,0,5,1,0,4,0,16785,"Centralia, Washington",NA,NA
+Washington,Cities,Darrington,1,1,0,0,0,0,0,1,1,0,0,0,1381,"Darrington, Washington",NA,NA
+Washington,Cities,Des Moines,1,1,0,0,0,0,0,1,0,0,0,1,31523,"Des Moines, Washington",NA,NA
+Washington,Cities,Edmonds,5,4,1,0,0,0,0,5,0,0,3,2,41705,"Edmonds, Washington",NA,NA
+Washington,Cities,Enumclaw,1,1,0,0,0,0,0,1,0,0,1,0,11709,"Enumclaw, Washington",NA,NA
+Washington,Cities,Everett,5,4,1,0,0,0,0,5,2,0,0,3,108988,"Everett, Washington",NA,NA
+Washington,Cities,Federal Way,2,2,0,0,0,0,0,2,1,0,0,1,96338,"Federal Way, Washington",NA,NA
+Washington,Cities,Forks,2,1,0,0,0,1,0,2,0,1,1,0,3787,"Forks, Washington",NA,NA
+Washington,Cities,Granite Falls,1,0,0,1,0,0,0,1,0,0,1,0,3516,"Granite Falls, Washington",NA,NA
+Washington,Cities,Kent,16,8,3,5,0,0,0,16,3,5,5,3,128604,"Kent, Washington",NA,NA
+Washington,Cities,Kettle Falls,1,1,0,0,0,0,0,1,0,0,1,0,1596,"Kettle Falls, Washington",NA,NA
+Washington,Cities,Kirkland,1,1,0,0,0,0,0,1,0,1,0,0,88627,"Kirkland, Washington",NA,NA
+Washington,Cities,Lake Forest Park,1,0,1,0,0,0,0,1,0,0,0,1,13369,"Lake Forest Park, Washington",NA,NA
+Washington,Cities,Lake Stevens,2,2,0,0,0,0,0,2,0,1,1,0,31440,"Lake Stevens, Washington",NA,NA
+Washington,Cities,Lakewood,3,2,0,1,0,0,0,3,0,0,1,2,60153,"Lakewood, Washington",NA,NA
+Washington,Cities,Longview,7,5,2,0,0,0,0,6,2,1,1,2,36854,"Longview, Washington",NA,NA
+Washington,Cities,Lynnwood,2,2,0,0,0,0,0,2,0,0,1,1,37217,"Lynnwood, Washington",NA,NA
+Washington,Cities,Marysville,4,2,1,0,0,0,1,4,2,0,1,1,68172,"Marysville, Washington",NA,NA
+Washington,Cities,Mill Creek,1,0,0,1,0,0,0,1,0,0,0,1,20419,"Mill Creek, Washington",NA,NA
+Washington,Cities,Milton,1,1,0,0,0,0,0,1,0,1,0,0,7785,"Milton, Washington",NA,NA
+Washington,Cities,Mountlake Terrace,1,1,0,0,0,0,0,1,0,0,1,0,21212,"Mountlake Terrace, Washington",NA,NA
+Washington,Cities,Mount Vernon,1,0,0,0,0,0,1,1,0,1,0,0,34521,"Mount Vernon, Washington",NA,NA
+Washington,Cities,Mukilteo,1,0,1,0,0,0,0,1,0,1,0,0,21416,"Mukilteo, Washington",NA,NA
+Washington,Cities,Oak Harbor,3,2,0,0,1,0,0,3,0,2,1,0,22795,"Oak Harbor, Washington",NA,NA
+Washington,Cities,Olympia,1,1,0,0,0,0,0,1,0,0,1,0,50972,"Olympia, Washington",NA,NA
+Washington,Cities,Orting,3,3,0,0,0,0,0,3,0,1,2,0,7594,"Orting, Washington",NA,NA
+Washington,Cities,Pasco,1,1,0,0,0,0,0,1,0,1,0,0,71077,"Pasco, Washington",NA,NA
+Washington,Cities,Port Angeles,5,4,0,1,0,0,0,5,0,2,2,1,19525,"Port Angeles, Washington",NA,NA
+Washington,Cities,Port Townsend,1,0,1,0,0,0,0,1,0,0,0,1,9378,"Port Townsend, Washington",NA,NA
+Washington,Cities,Pullman,2,0,1,1,0,0,0,2,1,0,1,0,33456,"Pullman, Washington",NA,NA
+Washington,Cities,Puyallup,3,2,1,0,0,0,0,3,1,2,0,0,40167,"Puyallup, Washington",NA,NA
+Washington,Cities,Redmond,7,2,5,0,0,0,0,6,0,1,0,5,61893,"Redmond, Washington",NA,NA
+Washington,Cities,Renton,8,5,1,2,0,0,0,8,0,4,2,2,101908,"Renton, Washington",NA,NA
+Washington,Cities,Richland,2,2,0,0,0,0,0,2,0,0,1,1,55475,"Richland, Washington",NA,NA
+Washington,Cities,Sammamish,7,5,1,0,0,1,0,7,0,0,6,1,53387,"Sammamish, Washington",NA,NA
+Washington,Cities,Seattle,118,64,12,33,0,0,9,118,30,27,33,28,700313,"Seattle, Washington",NA,NA
+Washington,Cities,Snohomish,1,1,0,0,0,0,0,1,0,0,1,0,9773,"Snohomish, Washington",NA,NA
+Washington,Cities,Spokane,8,6,1,1,0,0,0,8,1,2,NA,5,214028,"Spokane, Washington",NA,NA
+Washington,Cities,Spokane Valley,10,8,1,1,0,0,0,10,2,1,1,6,95923,"Spokane Valley, Washington",NA,NA
+Washington,Cities,Stanwood,1,1,0,0,0,0,0,1,0,0,0,1,6888,"Stanwood, Washington",NA,NA
+Washington,Cities,Tacoma,9,4,0,5,0,0,0,9,2,2,3,2,209914,"Tacoma, Washington",NA,NA
+Washington,Cities,Tenino,1,1,0,0,0,0,0,1,0,0,1,0,1761,"Tenino, Washington",NA,NA
+Washington,Cities,Tukwila,1,1,0,0,0,0,0,1,1,0,0,0,20195,"Tukwila, Washington",NA,NA
+Washington,Cities,Vancouver,4,4,0,0,0,0,0,4,0,4,0,0,174912,"Vancouver, Washington",NA,NA
+Washington,Cities,Walla Walla,7,6,0,0,1,0,0,7,4,2,0,1,32326,"Walla Walla, Washington",NA,NA
+Washington,Cities,White Salmon,2,2,0,0,0,0,0,2,1,1,0,0,2364,"White Salmon, Washington",NA,NA
+Washington,Cities,Woodinville,1,0,1,0,0,0,0,1,0,0,1,0,11953,"Woodinville, Washington",NA,NA
+Washington,Cities,Yakima,5,3,1,1,0,0,0,5,0,2,1,2,94111,"Yakima, Washington",NA,NA
+Washington,Universities and Colleges,Eastern Washington University,1,0,0,1,0,0,0,1,1,0,0,0,12361,"Eastern Washington University, Washington",NA,NA
+Washington,Universities and Colleges,Evergreen State College,2,0,0,1,0,0,1,2,1,1,0,0,4190,"Evergreen State College, Washington",NA,NA
+Washington,Universities and Colleges,University of Washington,4,1,1,1,0,1,0,4,0,2,1,1,45408,"University of Washington, Washington",NA,NA
+Washington,Universities and Colleges,"Washington State University, Pullman",1,1,0,0,0,0,0,1,1,0,0,0,29686,"Washington State University, Pullman, Washington",NA,NA
+Washington,Universities and Colleges,Western Washington University,2,1,0,1,0,0,0,2,0,0,0,2,15332,"Western Washington University, Washington",NA,NA
+Washington,Metropolitan Counties,Clark,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Clark, Washington",NA,NA
+Washington,Metropolitan Counties,Cowlitz,5,2,1,2,0,0,0,5,1,0,3,1,NA,"Cowlitz, Washington",NA,NA
+Washington,Metropolitan Counties,King,14,11,2,1,0,0,0,14,2,4,4,4,NA,"King, Washington",NA,NA
+Washington,Metropolitan Counties,Pierce,11,10,0,1,0,0,0,11,3,2,0,6,NA,"Pierce, Washington",NA,NA
+Washington,Metropolitan Counties,Skagit,1,0,0,0,0,0,1,1,0,1,0,0,NA,"Skagit, Washington",NA,NA
+Washington,Metropolitan Counties,Snohomish,6,4,2,0,0,0,0,6,2,2,1,1,NA,"Snohomish, Washington",NA,NA
+Washington,Metropolitan Counties,Spokane,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Spokane, Washington",NA,NA
+Washington,Metropolitan Counties,Walla Walla,1,0,1,0,0,0,0,1,0,0,1,0,NA,"Walla Walla, Washington",NA,NA
+Washington,Metropolitan Counties,Whatcom,13,8,2,3,0,0,0,13,5,3,3,2,NA,"Whatcom, Washington",NA,NA
+Washington,Metropolitan Counties,Yakima,4,4,0,0,0,0,0,4,0,1,1,2,NA,"Yakima, Washington",NA,NA
+Washington,Nonmetropolitan Counties,Grays Harbor,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Grays Harbor, Washington",NA,NA
+Washington,Nonmetropolitan Counties,Island,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Island, Washington",NA,NA
+Washington,Nonmetropolitan Counties,Lewis,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Lewis, Washington",NA,NA
+Washington,Nonmetropolitan Counties,Mason,1,0,1,0,0,0,0,1,0,0,1,0,NA,"Mason, Washington",NA,NA
+Washington,Nonmetropolitan Counties,San Juan,1,0,0,0,0,0,1,1,0,0,0,1,NA,"San Juan, Washington",NA,NA
+Washington,Tribal Agencies,Lummi Tribal,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Lummi Tribal, Washington",NA,NA
+Washington,Other Agencies,Port of Seattle,1,1,0,0,0,0,0,1,1,0,0,0,NA,"Port of Seattle, Washington",NA,NA
+West Virginia,Cities,Beckley,1,1,0,0,0,0,0,1,0,0,1,0,16940,"Beckley, West Virginia",NA,NA
+West Virginia,Cities,Buckhannon,1,1,0,0,0,0,0,1,0,0,0,1,5662,"Buckhannon, West Virginia",NA,NA
+West Virginia,Cities,Charleston,15,10,1,4,0,0,0,15,4,5,4,2,49429,"Charleston, West Virginia",NA,NA
+West Virginia,Cities,Fairmont,1,0,0,0,1,0,0,1,1,0,0,0,18733,"Fairmont, West Virginia",NA,NA
+West Virginia,Cities,Fayetteville,2,2,0,0,0,0,0,2,1,1,0,0,2885,"Fayetteville, West Virginia",NA,NA
+West Virginia,Cities,Huntington,2,0,0,1,1,0,0,2,1,1,0,0,48540,"Huntington, West Virginia",NA,NA
+West Virginia,Cities,Moundsville,1,1,0,0,0,0,0,1,1,0,0,0,8644,"Moundsville, West Virginia",NA,NA
+West Virginia,Cities,Oak Hill,2,2,0,0,0,0,0,2,0,1,1,0,8104,"Oak Hill, West Virginia",NA,NA
+West Virginia,Cities,Parkersburg,1,0,0,1,0,0,0,1,1,0,0,0,30913,"Parkersburg, West Virginia",NA,NA
+West Virginia,Cities,Philippi,1,1,0,0,0,0,0,1,0,0,1,0,3320,"Philippi, West Virginia",NA,NA
+West Virginia,Cities,Ranson,1,1,0,0,0,0,0,1,0,1,0,NA,5053,"Ranson, West Virginia",NA,NA
+West Virginia,Cities,Wheeling,1,1,0,0,0,0,0,1,0,1,0,0,27486,"Wheeling, West Virginia",NA,NA
+West Virginia,Metropolitan Counties,Berkeley,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Berkeley, West Virginia",NA,NA
+West Virginia,Metropolitan Counties,Brooke,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Brooke, West Virginia",NA,NA
+West Virginia,Metropolitan Counties,Cabell,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Cabell, West Virginia",NA,NA
+West Virginia,Metropolitan Counties,Hancock,2,2,0,0,0,0,0,2,1,1,0,0,NA,"Hancock, West Virginia",NA,NA
+West Virginia,Metropolitan Counties,Jefferson,1,1,0,0,0,0,0,1,0,0,0,1,NA,"Jefferson, West Virginia",NA,NA
+West Virginia,Metropolitan Counties,Kanawha,3,1,0,1,1,0,0,3,1,1,1,0,NA,"Kanawha, West Virginia",NA,NA
+West Virginia,Nonmetropolitan Counties,Mason,3,3,0,0,0,0,0,3,0,0,2,1,NA,"Mason, West Virginia",NA,NA
+Wisconsin,Cities,Appleton,1,1,0,0,0,0,0,1,1,0,0,0,74439,"Appleton, Wisconsin",NA,NA
+Wisconsin,Cities,Cross Plains,1,0,0,1,0,0,0,1,1,0,0,0,4072,"Cross Plains, Wisconsin",NA,NA
+Wisconsin,Cities,Fox Valley Metro,1,1,0,0,0,0,0,1,0,0,1,0,21515,"Fox Valley Metro, Wisconsin",NA,NA
+Wisconsin,Cities,Green Bay,1,1,0,0,0,0,0,1,1,0,0,0,105452,"Green Bay, Wisconsin",NA,NA
+Wisconsin,Cities,Hudson,1,0,0,1,0,0,0,1,0,0,0,1,13740,"Hudson, Wisconsin",NA,NA
+Wisconsin,Cities,Janesville,1,1,0,0,0,0,0,1,0,1,0,0,64234,"Janesville, Wisconsin",NA,NA
+Wisconsin,Cities,La Crosse,1,1,0,0,0,0,0,1,0,1,0,0,52498,"La Crosse, Wisconsin",NA,NA
+Wisconsin,Cities,Madison,15,8,7,0,0,0,0,15,0,8,2,5,252136,"Madison, Wisconsin",NA,NA
+Wisconsin,Cities,Manitowoc,1,1,0,0,0,0,0,1,0,1,0,0,32877,"Manitowoc, Wisconsin",NA,NA
+Wisconsin,Cities,Milwaukee,2,0,0,1,0,0,1,2,0,1,1,0,600193,"Milwaukee, Wisconsin",NA,NA
+Wisconsin,Cities,New Richmond,1,1,0,0,0,0,0,1,0,0,1,0,8913,"New Richmond, Wisconsin",NA,NA
+Wisconsin,Cities,Onalaska,1,1,0,0,0,0,0,1,0,1,0,0,18600,"Onalaska, Wisconsin",NA,NA
+Wisconsin,Cities,Osceola,1,1,0,0,0,0,0,1,0,0,0,1,2502,"Osceola, Wisconsin",NA,NA
+Wisconsin,Cities,Stoughton,1,1,0,0,0,0,0,1,0,0,0,1,13148,"Stoughton, Wisconsin",NA,NA
+Wisconsin,Metropolitan Counties,Fond du Lac,2,2,0,0,0,0,0,2,1,0,0,1,NA,"Fond du Lac, Wisconsin",NA,NA
+Wisconsin,Metropolitan Counties,Outagamie,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Outagamie, Wisconsin",NA,NA
+Wisconsin,Metropolitan Counties,St. Croix,1,0,1,0,0,0,0,1,0,0,0,1,NA,"St. Croix, Wisconsin",NA,NA
+Wisconsin,Nonmetropolitan Counties,Rusk,1,1,0,0,0,0,0,1,0,0,1,0,NA,"Rusk, Wisconsin",NA,NA
+Wyoming,Cities,Gillette,3,3,0,0,0,0,0,3,0,2,0,1,33218,"Gillette, Wyoming",NA,NA
