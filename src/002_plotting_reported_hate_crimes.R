@@ -47,7 +47,7 @@ us <- map_data("state")
 ggplot()+
   geom_map(data = us, map=us,
            aes(x=long, y=lat, map_id=region),
-           fill="#CCCC99", color="#666633", size=0.15)+
+           fill="#E7E7CB", color="#666633", size=0.15)+
   geom_point(data = reported_agency_geo_complete_2, 
              mapping = aes(x = lon, y = lat, size = Total_incidents_Q1_to_Q4))+
   scale_radius(range=c(0.01, 7))+
@@ -80,7 +80,7 @@ ggsave(filename = 'viz/reported_hate_crimes_ver2.png', device = "png", scale = 2
 ggplot()+
   geom_map(data = us, map=us,
            aes(x=long, y=lat, map_id=region),
-           fill="#CCCC99", color="#666633", size=0.25)+
+           fill="#E7E7CB", color="#666633", size=0.25)+
   coord_map("albers",lat0=39, lat1=45)+
   
   geom_point(data = reported_agency_geo_complete_2, 
