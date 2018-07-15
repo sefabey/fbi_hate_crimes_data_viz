@@ -602,7 +602,7 @@ row_id,state,agency_type,agency_name,Quarter_1,Quarter_2,Quarter_3,Quarter_4,pop
 2172,Illinois,Cities,Niles,0,0,0,0,29886,"Niles, Illinois",-87.8028402,42.0189191
 2174,Illinois,Cities,Norridge,0,0,0,0,14629,"Norridge, Illinois",-87.827284,41.9633641
 2176,Illinois,Cities,North Aurora,0,0,0,0,17599,"North Aurora, Illinois",-88.3272952,41.8061399
-2177,Illinois,Cities,Northbrook,0,0,0,0,33746,"Northbrook, Illinois",-87.829,87.829
+2177,Illinois,Cities,Northbrook,0,0,0,0,33746,"Northbrook, Illinois",-87.829,42.1275
 2179,Illinois,Cities,Northlake,0,0,0,0,12308,"Northlake, Illinois",-87.8956185,41.9172526
 2183,Illinois,Cities,Oak Forest,0,0,0,0,28088,"Oak Forest, Illinois",-87.7439384,41.6028116
 2184,Illinois,Cities,Oak Park,0,0,0,0,52365,"Oak Park, Illinois",-87.7845025,41.8850317
