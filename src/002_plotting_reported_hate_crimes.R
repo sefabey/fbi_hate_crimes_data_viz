@@ -71,7 +71,7 @@ ggplot()+
   labs(size="Number of Hate Crimes")+
   NULL
 
-ggsave(filename = 'viz/reported_hate_crimes_ver2.png', device = "png", scale = 2, dpi = 600, width = 20, height = 12, units = "cm")
+ggsave(filename = 'viz/reported_hate_crimes_ver2.png', device = "png", scale = 2, dpi = 500, width = 20, height = 12, units = "cm")
 
 
 # plot 3: less clutter, albers projection =====
