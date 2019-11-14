@@ -1,0 +1,17 @@
+name: "fbi_hate_crimes_data_viz"
+output_dir: ../docs
+navbar:
+  title: "fbi_hate_crimes_data_viz"
+  left:
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: License
+    href: license.html
+output:
+  workflowr::wflow_html:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+    highlight: textmate
