@@ -44,8 +44,8 @@ load(here::here("/data/open_ICPSR/ucr_hate_crimes_1992_2017_rda/ucr_hate_crimes_
 ```
 
 
-Lets check the data over.
-```{r}
+Lets check the raw data aggregated quarterly.
+```{r quarterly trends}
 
 
 ucr_hate_crimes_1992_2017 %>% 
@@ -53,10 +53,13 @@ ucr_hate_crimes_1992_2017 %>%
   select(contains("year"), contains("date")) %>% 
   mutate(date= lubridate::ymd(date), quarter= lubridate::quarter(date,with_year = T)) %>% 
   count(quarter, year) %>% 
-  filter(!is.na(quarter)) %>% filter(year==2016) %>% 
-  summarise(sum(n))
-  # ggplot(aes(x=quarter, y=n))+
-  # geom_line()+
-  # scale_x_continuous(breaks = seq(1992,2017,4))
+  filter(!is.na(quarter)) %>% 
+  # filter(year==2016) %>% 
+  # summarise(sum(n))
+  ggplot(aes(x=quarter, y=n))+
+  geom_line()+
+  scale_x_continuous(breaks = seq(1992,2017,4))+
+  hrbrthemes::theme_ipsum_rc()
+
 
 ```
