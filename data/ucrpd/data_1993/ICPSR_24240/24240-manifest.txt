@@ -1,0 +1,74 @@
+File Manifest for ICPSR 24240
+
+United States Department of Justice. Federal Bureau of Investigation.
+Uniform Crime Reporting Program Data [United States]: Hate Crime Data, 1993
+[Record-Type Files]. ICPSR24240-v1. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 2008-12-23.
+http://doi.org/10.3886/ICPSR24240.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    24240-descriptioncitation.pdf       -       -         -       2017-04-03  -
+
+    24240-related_literature.txt        -       -         -       daily       -
+
+    24240-manifest.txt                  -       -         -       daily       -
+
+    24240-Codebook.pdf                  -       -         -       2008-12-23  f62f2da32a7d673640c3e212bfbedca2
+
+
+DS0001 Batch Header File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    24240-0001-Data.dta                 -       18,192    54      2008-12-23  fc0467060114814a66236ab8136fb203
+
+    24240-0001-Data.sav                 -       18,192    54      2008-12-23  91d771db8eaf6aa77c06cea0fb02177c
+
+    24240-0001-Data.stc                 -       18,192    54      2008-12-23  dec272b93197f0f1f182aec3c388821c
+
+    24240-0001-Data.tsv                 -       18,192    54      2008-12-23  399b2d00babe299e4942b6d41af74026
+
+    24240-0001-Data.txt                 283     18,192    54      2008-12-23  ec8bf114b6410acb56b4d9577264314a
+
+    24240-0001-Setup.dct                -       -         -       2008-12-23  1aaf2e303567fb3fbea069e96e5fc6ed
+
+    24240-0001-Setup.do                 -       -         -       2008-12-23  d357b6824101ba17bd287bf4f9bd5f9e
+
+    24240-0001-Setup.sas                -       -         -       2008-12-23  b4b4096c4a0317c38428edc692e5fcfb
+
+    24240-0001-Setup.sps                -       -         -       2008-12-23  fc5845eed6e4826fe04f1ec0808347ef
+
+    24240-0001-Supplemental_syntax.sas  -       -         -       2008-12-23  e8d173bba552f25ba9ac68a702fcd721
+
+
+DS0002 Incident Record File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    24240-0002-Data.dta                 -       7,603     179     2008-12-23  3e0fbc0ca8b678dcb54580ebe2cb9549
+
+    24240-0002-Data.sav                 -       7,603     179     2008-12-23  35bb421b43ec404dfd487b0cdc2dcdfc
+
+    24240-0002-Data.stc                 -       7,603     179     2008-12-23  e55fe7cf27c9494c29e915485923f7d5
+
+    24240-0002-Data.tsv                 -       7,603     179     2008-12-23  2d71c727378076bb0a51602baad4fa51
+
+    24240-0002-Data.txt                 478     7,603     179     2008-12-23  074e492d3ddd617d613e530c848cfc9b
+
+    24240-0002-Setup.dct                -       -         -       2008-12-23  845e8c1f4957f7248a03708b34a5c310
+
+    24240-0002-Setup.do                 -       -         -       2008-12-23  8feae15d4332ce8f9126872f0733ecb6
+
+    24240-0002-Setup.sas                -       -         -       2008-12-23  57595d5c062007f8a4c98e887b4cba39
+
+    24240-0002-Setup.sps                -       -         -       2008-12-23  812791119131f98e89ffdb2d6e73d451
+
+    24240-0002-Supplemental_syntax.sas  -       -         -       2008-12-23  2419fd673bb42ccb94535761c1281555
+

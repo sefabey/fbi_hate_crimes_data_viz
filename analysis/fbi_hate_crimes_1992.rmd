@@ -1,0 +1,109 @@
+---
+title: "fbi_hate_crimes_1992"
+author: "Sefa Ozalp"
+date: "2019-11-14"
+output: 
+  workflowr::wflow_html:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+    highlight: textmate
+    pandoc_args: ["--bibliography=king_and_sutton.bib"]
+bibliography: king_and_sutton.bib
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+This document will recreate the Figure 1 from the 'High Times for Hate Crimes' paper [@king-2013-HighTimesHate-c]. A screenshot of the plot is provided below ![Figure 1, King and Sutton, 2013](assets/ks_static.png)
+
+This is a time series line chart, illustrating the daily count of anti-white hate crimes recorded in the FBI dataset in 1992. We observe a sudden spike following the riots which followed the acquittal of officers in [Rodney King case](https://en.wikipedia.org/wiki/Rodney_King). The spike decays rapidly; however, the increase in anti-white hate crime rates persists for a couple of weeks. Pre-incident average line is also provided for comparison and it suggests the national hate-crime were increased temporarily until they returned to normal in 6 weeks. 
+
+## Sub-tasks
+
+The sub-tasks to recreate the graph are as follows:
+
+Find the data of hate crimes during 1992 on FBI website.
+Import and process the data. 
+Calculate pre-incident mean.
+Reproduce the graph. 
+
+
+
+
+
+```{r, warning=F, message=F}
+library(tidyverse)
+```
+
+
+```{r}
+load(here::here("/data/open_ICPSR/ucr_hate_crimes_1992_2017_rda/ucr_hate_crimes_1992_2017.rda"))
+```
+
+
+Lets check the data over.
+```{r}
+ucr_hate_crimes_1992_2017 %>% 
+  as.tibble() %>% 
+  select(contains("year")) %>% 
+  count(year) %>% 
+  ggplot(aes(x=year, y=n))+
+  geom_line()+
+  scale_x_continuous(breaks = seq(1992,2017,1))
+
+```
+
+###Calculate pre-riot mean
+
+```{r pre-riot mean}
+
+preriot_mean <- ucr_hate_crimes_1992_2017 %>% 
+  as.tibble() %>% 
+  filter(year==1992) %>%
+  filter(bias_motivation_offense_1 %in% "anti-white") %>% 
+  select(contains("date")) %>% 
+  count(date) %>% 
+  filter(!is.na(date)) %>% 
+  mutate(date=lubridate::ymd(date)) %>% 
+  filter(date<lubridate::dmy("31-04-1992")) %>% 
+  summarise(mean(n)) %>% 
+  pull
+
+```
+
+Reproduce the Figure from King and Sutton 2013
+```{r king&sutton plot, fig.width=10, fig.height=8}
+ucr_hate_crimes_1992_2017 %>% 
+  as.tibble() %>% 
+  filter(year==1992) %>%
+  mutate(date=lubridate::ymd(date)) %>% 
+  filter(bias_motivation_offense_1 %in% "anti-white") %>% 
+  filter(!is.na(date)) %>% 
+  count(date) %>% 
+  right_join( tibble(date=seq.Date(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-1992"), by="day"))) %>% 
+  mutate(n=ifelse(is.na(n), 0, n)) %>% 
+  mutate(preriot_mean=preriot_mean) %>%
+  ggplot(aes(x=date))+
+  geom_line(aes(y=n, colour="Anti-White"), size=0.8)+
+  geom_line(aes(y=preriot_mean, colour="Pre-riot Average"), size=0.8)+
+  hrbrthemes::theme_ipsum_rc()+
+  scale_x_date(date_breaks = "1 month", date_labels = "%d-%b-%y", 
+               limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-1992")),
+               expand=c(0,0))+
+  scale_y_continuous(limits = c(0,60), breaks = seq(0,60,10),minor_breaks = NULL)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  annotate(geom="text", x=lubridate::dmy("30-06-1992"), y=55, label="May 1, 1992\nLAPD Officers acquitted\nin Rodney King case\ntwo days earlier,\non April 29." )+
+  annotate(geom="point", lubridate::dmy("01-05-1992"), y=55, size=8, shape=21, fill="transparent")+
+  labs(title = "Anti-White Hate Crimes in the US, 1992")+
+  scale_colour_manual(
+                      breaks = c("Anti-White", "Pre-riot Average"),
+                      values = c("Anti-White"="black", "Pre-riot Average"="grey73")
+                      ) +
+  geom_hline(yintercept=3,  color="grey66", size=1, show.legend = T)+
+  NULL
+
+# ggsave(ks_plot,filename = "ks_plot.pdf",device = cairo_pdf,width = 8, height = 6)
+```
+
+

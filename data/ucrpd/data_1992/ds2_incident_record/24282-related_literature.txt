@@ -1,0 +1,58 @@
+Bibliography
+Uniform Crime Reporting Program Data [United States]: Hate Crime Data, 1992
+[Record-Type Files]
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 24282. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Center for the Study of Hate and Extremism at California State
+University, "Final U.S. Status Report: Hate Crime Analysis and Forecast for
+2016/2017." Compilation of Official Vetted Police Data from Over 40 U.S.
+Cities, Counties and States. San Bernadino, CA: California State
+University, 2017.
+Full text PDF: https://csbs.csusb.edu/sites/csusb_csbs/files/Final%20Hate%20Crime%2017%20Status%20Report%20pdf.pdf
+
+2. Deloughery, Kathleen; King, Ryan D.; Asal, Victor, "Close cousins or
+distant relatives? The relationship between terrorism and hate crime."
+Crime and Delinquency. Sep 2012, 58, (5), 663 - 688. DOI:
+10.1177/0011128712452956
+Full text PDF: https://csbs.csusb.edu/sites/csusb_csbs/files/Final%20Hate%20Crime%2017%20Status%20Report%20pdf.pdf
+
+3. Edwards, Griffin; Rushin, Stephen, "The Effect of President Trump's
+Election on Hate Crimes." Jan 14, 2018.. DOI: 10.2139/ssrn.3102652
+Abstract: https://ssrn.com/abstract=3102652
+
+4. Gould, Eric D.; Klor, Esteban F., "Islamic Terrorism, Backlash, and the
+Assimilation of Muslim Immigrants in Western Countries." Updated Dec 16,
+2015,.
+Full text: http://www.voxeu.org/article/islamic-terrorism-and-assimilation-muslims
+
+5. King, Ryan D.; Sutton, Gretchen M., "High times for hate crimes:
+Explaining the temporal clustering of hate-motivated offending."
+Criminology. Nov 2013, 51, (4), 871 - 894. DOI: 10.1111/1745-9125.12022
+Full text: http://www.voxeu.org/article/islamic-terrorism-and-assimilation-muslims
+
+6. Levin, Brian; Nolan, James J.; Reitzel, John D., "New data shows US hate
+crimes continued to rise in 2017." Updated Jun 26, 2018, Accessed Dec 13,
+2018.
+Full text: https://theconversation.com/new-data-shows-us-hate-crimes-continued-to-rise-in-2017-97989
+
+7. Levin, Brian; Reitzel, John D., "Report to the Nation: Hate Crimes Rise
+in U.S. Cities and Counties in Time of Division and Foreign Interference."
+Compilation of Official Data (38 Jurisdictions). San Bernadino, CA: Center
+for the Study of Hate and Extremism at California State University, May
+2018.
+Full text PDF: https://csbs.csusb.edu/sites/csusb_csbs/files/2018%20Hate%20Final%20Report%205-14.pdf
+
+8. Mills, Colleen E.; Freilich, Joshua D.; Chermak, Steven M., "Extreme
+hatred: Revisiting the hate crime and terrorism relationship to determine
+whether they are 'close cousins' or 'distant relatives'." Crime and
+Delinquency. Sep 2017, 63, (10), 1191 - 1223. DOI: 10.1177/0011128715620626
+Full text PDF: https://csbs.csusb.edu/sites/csusb_csbs/files/2018%20Hate%20Final%20Report%205-14.pdf

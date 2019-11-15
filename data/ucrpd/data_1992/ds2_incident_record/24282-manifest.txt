@@ -1,0 +1,74 @@
+File Manifest for ICPSR 24282
+
+United States Department of Justice. Federal Bureau of Investigation.
+Uniform Crime Reporting Program Data [United States]: Hate Crime Data, 1992
+[Record-Type Files]. ICPSR24282-v1. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 2008-12-23.
+http://doi.org/10.3886/ICPSR24282.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    24282-descriptioncitation.pdf       -       -         -       2017-04-03  -
+
+    24282-related_literature.txt        -       -         -       daily       -
+
+    24282-manifest.txt                  -       -         -       daily       -
+
+    24282-Codebook.pdf                  -       -         -       2008-12-23  a0d8425a060a187ebdbb539fa5130b76
+
+
+DS0001 Batch Header File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    24282-0001-Data.dta                 -       18,008    54      2008-12-23  b380912389bfe1cebb8c2a8f4e5c211d
+
+    24282-0001-Data.sav                 -       18,008    54      2008-12-23  48192c80adc30f34446cf7030551085d
+
+    24282-0001-Data.stc                 -       18,008    54      2008-12-23  a2f0338c30f2fac6dae100c6553801b2
+
+    24282-0001-Data.tsv                 -       18,008    54      2008-12-23  2ae9b319c3f545df8e5d0876a6cec203
+
+    24282-0001-Data.txt                 283     18,008    54      2008-12-23  e1c175f03926e0e9991a14d6be7ecf1c
+
+    24282-0001-Setup.dct                -       -         -       2008-12-23  f3faf5a4b9f5d024c2777a1f03373528
+
+    24282-0001-Setup.do                 -       -         -       2008-12-23  1e80dbdf4ec78b058a62f31fb63ded83
+
+    24282-0001-Setup.sas                -       -         -       2008-12-23  fb53fc39310e5ee3796f704322b2f7ee
+
+    24282-0001-Setup.sps                -       -         -       2008-12-23  e0278f36abee02d1f95f0d4a4019a4e3
+
+    24282-0001-Supplemental_syntax.sas  -       -         -       2008-12-23  6171a31a1726e0975fe810c9bc666968
+
+
+DS0002 Incident Record File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    24282-0002-Data.dta                 -       6,662     179     2008-12-23  d6f51445058c56a5b30583275ef819fb
+
+    24282-0002-Data.sav                 -       6,662     179     2008-12-23  c94ab724e526e208e57c6fe3a33a948d
+
+    24282-0002-Data.stc                 -       6,662     179     2008-12-23  2ca576ec5b7859c8b4458f60e20f5386
+
+    24282-0002-Data.tsv                 -       6,662     179     2008-12-23  6e00d95afb0c1fc96265a320f8022f3c
+
+    24282-0002-Data.txt                 478     6,662     179     2008-12-23  b2a27b9879a21a90b872491b9948fa3e
+
+    24282-0002-Setup.dct                -       -         -       2008-12-23  1cf75abafe4467697825bd8581dc5ffd
+
+    24282-0002-Setup.do                 -       -         -       2008-12-23  359d74b36b20129a99a40e9c55551916
+
+    24282-0002-Setup.sas                -       -         -       2008-12-23  a16d4b7f96c69319b9472e9c3afdf8dc
+
+    24282-0002-Setup.sps                -       -         -       2008-12-23  87cb11d3a744e6f913374e6a75684755
+
+    24282-0002-Supplemental_syntax.sas  -       -         -       2008-12-23  9ce0a0a2746516af9a8ae758e8789243
+
