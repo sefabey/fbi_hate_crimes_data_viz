@@ -489,10 +489,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree5e93796039f71c9c3b2bc9c850f78089a09a5c62targetblank5e93796a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/5e93796039f71c9c3b2bc9c850f78089a09a5c62" target="_blank">5e93796</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreecff9d6e2024c88fc0a8fa7c5e61d10e3393963c6targetblankcff9d6ea"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/cff9d6e2024c88fc0a8fa7c5e61d10e3393963c6" target="_blank">cff9d6e</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree5e93796039f71c9c3b2bc9c850f78089a09a5c62targetblank5e93796a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreecff9d6e2024c88fc0a8fa7c5e61d10e3393963c6targetblankcff9d6ea" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -583,6 +583,40 @@ Message
 rmd
 </td>
 <td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/cff9d6e2024c88fc0a8fa7c5e61d10e3393963c6/analysis/fbi_hate_crimes_quarterly.rmd" target="_blank">cff9d6e</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-11-15
+</td>
+<td>
+analysis/index.Rmd
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/sefabey/fbi_hate_crimes_data_viz/e368ec15cfdb471bac3bf01bb376b6571deeb9bc/docs/fbi_hate_crimes_quarterly.html" target="_blank">e368ec1</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-11-15
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
+rmd
+</td>
+<td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/5e93796039f71c9c3b2bc9c850f78089a09a5c62/analysis/fbi_hate_crimes_quarterly.rmd" target="_blank">5e93796</a>
 </td>
 <td>
@@ -663,23 +697,22 @@ wip FBI data plots
 <p>Find the data of hate crimes between 1992 and 2017 on FBI website. Import and process the data. Detrend the data. Reproduce the graph.</p>
 <pre class="r"><code>library(tidyverse)</code></pre>
 <pre class="r"><code>load(here::here(&quot;/data/open_ICPSR/ucr_hate_crimes_1992_2017_rda/ucr_hate_crimes_1992_2017.rda&quot;))</code></pre>
-<p>Lets check the data over.</p>
+<p>Lets check the raw data aggregated quarterly.</p>
 <pre class="r"><code>ucr_hate_crimes_1992_2017 %&gt;% 
   as.tibble() %&gt;% 
   select(contains(&quot;year&quot;), contains(&quot;date&quot;)) %&gt;% 
   mutate(date= lubridate::ymd(date), quarter= lubridate::quarter(date,with_year = T)) %&gt;% 
   count(quarter, year) %&gt;% 
-  filter(!is.na(quarter)) %&gt;% filter(year==2016) %&gt;% 
-  summarise(sum(n))</code></pre>
+  filter(!is.na(quarter)) %&gt;% 
+  # filter(year==2016) %&gt;% 
+  # summarise(sum(n))
+  ggplot(aes(x=quarter, y=n))+
+  geom_line()+
+  scale_x_continuous(breaks = seq(1992,2017,4))+
+  hrbrthemes::theme_ipsum_rc()</code></pre>
 <pre><code>Warning: `as.tibble()` is deprecated, use `as_tibble()` (but mind the new semantics).
 This warning is displayed once per session.</code></pre>
-<pre><code># A tibble: 1 x 1
-  `sum(n)`
-     &lt;int&gt;
-1     6268</code></pre>
-<pre class="r"><code>  # ggplot(aes(x=quarter, y=n))+
-  # geom_line()+
-  # scale_x_continuous(breaks = seq(1992,2017,4))</code></pre>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/quarterly%20trends-1.png" width="672" style="display: block; margin: auto;" /></p>
 <div id="refs">
 <div id="ref-rushin-2018-EffectPresidentTrump-sej">
 <p>Rushin, Stephen, and Griffin Sims Edwards. 2018. “The Effect of President Trump’s Election on Hate Crimes.” <em>SSRN Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.3102652">https://doi.org/10.2139/ssrn.3102652</a>.</p>
@@ -713,20 +746,26 @@ other attached packages:
 [9] tidyverse_1.2.1
 
 loaded via a namespace (and not attached):
- [1] tidyselect_0.2.5 xfun_0.9         haven_2.1.1      lattice_0.20-38 
- [5] colorspace_1.4-1 vctrs_0.2.0      generics_0.0.2   htmltools_0.3.6 
- [9] yaml_2.2.0       utf8_1.1.4       rlang_0.4.0      pillar_1.4.2    
-[13] glue_1.3.1       withr_2.1.2      modelr_0.1.5     readxl_1.3.1    
-[17] lifecycle_0.1.0  munsell_0.5.0    gtable_0.3.0     workflowr_1.4.0 
-[21] cellranger_1.1.0 rvest_0.3.4      evaluate_0.14    knitr_1.25      
-[25] fansi_0.4.0      broom_0.5.2      Rcpp_1.0.2       scales_1.0.0    
-[29] backports_1.1.4  jsonlite_1.6     fs_1.3.1         hms_0.5.1       
-[33] digest_0.6.21    stringi_1.4.3    grid_3.6.1       rprojroot_1.3-2 
-[37] here_0.1         cli_1.1.0        tools_3.6.1      magrittr_1.5    
-[41] lazyeval_0.2.2   crayon_1.3.4     whisker_0.4      pkgconfig_2.0.3 
-[45] zeallot_0.1.0    xml2_1.2.2       lubridate_1.7.4  assertthat_0.2.1
-[49] rmarkdown_1.15   httr_1.4.1       rstudioapi_0.10  R6_2.4.0        
-[53] nlme_3.1-141     git2r_0.26.1     compiler_3.6.1  </code></pre>
+ [1] hrbrthemes_0.6.0  tidyselect_0.2.5  xfun_0.9         
+ [4] haven_2.1.1       lattice_0.20-38   colorspace_1.4-1 
+ [7] vctrs_0.2.0       generics_0.0.2    htmltools_0.3.6  
+[10] yaml_2.2.0        rlang_0.4.0       pillar_1.4.2     
+[13] glue_1.3.1        withr_2.1.2       gdtools_0.2.0    
+[16] modelr_0.1.5      readxl_1.3.1      lifecycle_0.1.0  
+[19] munsell_0.5.0     gtable_0.3.0      workflowr_1.4.0  
+[22] cellranger_1.1.0  rvest_0.3.4       evaluate_0.14    
+[25] labeling_0.3      knitr_1.25        extrafont_0.17   
+[28] Rttf2pt1_1.3.7    broom_0.5.2       Rcpp_1.0.2       
+[31] scales_1.0.0      backports_1.1.4   jsonlite_1.6     
+[34] systemfonts_0.1.1 fs_1.3.1          hms_0.5.1        
+[37] digest_0.6.21     stringi_1.4.3     grid_3.6.1       
+[40] rprojroot_1.3-2   here_0.1          cli_1.1.0        
+[43] tools_3.6.1       magrittr_1.5      lazyeval_0.2.2   
+[46] extrafontdb_1.0   crayon_1.3.4      whisker_0.4      
+[49] pkgconfig_2.0.3   zeallot_0.1.0     xml2_1.2.2       
+[52] lubridate_1.7.4   assertthat_0.2.1  rmarkdown_1.15   
+[55] httr_1.4.1        rstudioapi_0.10   R6_2.4.0         
+[58] nlme_3.1-141      git2r_0.26.1      compiler_3.6.1   </code></pre>
 </div>
 </div>
 </div>
