@@ -422,7 +422,7 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 </div>
 <div id="strongRMarkdownfilestronguncommittedchanges" class="panel-collapse collapse">
 <div class="panel-body">
-<p>The R Markdown is untracked by Git. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
+<p>The R Markdown file has unstaged changes. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
 </div>
 </div>
 </div>
@@ -489,10 +489,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree7b92ce102f3904b1e772576f500364032fdb6bc6targetblank7b92ce1a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/7b92ce102f3904b1e772576f500364032fdb6bc6" target="_blank">7b92ce1</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree7eb4b45dbec9f0ff915889f926fddf594b0da0cftargetblank7eb4b45a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/7eb4b45dbec9f0ff915889f926fddf594b0da0cf" target="_blank">7eb4b45</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree7b92ce102f3904b1e772576f500364032fdb6bc6targetblank7b92ce1a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree7eb4b45dbec9f0ff915889f926fddf594b0da0cftargetblank7eb4b45a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -506,22 +506,43 @@ Ignored files:
     Ignored:    data/data_2017/.DS_Store
     Ignored:    data/data_2017/raw/.DS_Store
     Ignored:    data/data_2017/raw/Hate Crime Statistics 2017 Tables/.DS_Store
+    Ignored:    data/open_ICPSR/.DS_Store
+    Ignored:    data/ucrpd/.DS_Store
+    Ignored:    data/ucrpd/data_1992/.DS_Store
+    Ignored:    data/ucrpd/data_1992/ds1_batch_header/.DS_Store
+    Ignored:    data/ucrpd/data_1992/ds2_incident_record/.DS_Store
+    Ignored:    data/ucrpd/data_1993/.DS_Store
+    Ignored:    data/ucrpd/data_1993/ICPSR_24240/.DS_Store
+    Ignored:    data/ucrpd/data_1994/
+    Ignored:    data/ucrpd/data_1995/
+    Ignored:    data/ucrpd/data_1996/
+    Ignored:    data/ucrpd/data_1997/
+    Ignored:    data/ucrpd/data_1998/
+    Ignored:    data/ucrpd/data_1999/
+    Ignored:    data/ucrpd/data_2000/
+    Ignored:    data/ucrpd/data_2001/
+    Ignored:    data/ucrpd/data_2002/
+    Ignored:    data/ucrpd/data_2003/
+    Ignored:    data/ucrpd/data_2004/
+    Ignored:    data/ucrpd/data_2005/
+    Ignored:    data/ucrpd/data_2006/
+    Ignored:    data/ucrpd/data_2007/
+    Ignored:    data/ucrpd/data_2008/
+    Ignored:    data/ucrpd/data_2009/
+    Ignored:    data/ucrpd/data_2010/
+    Ignored:    data/ucrpd/data_2011/
+    Ignored:    data/ucrpd/data_2012/
+    Ignored:    data/ucrpd/data_2013/
+    Ignored:    data/ucrpd/data_2014/
+    Ignored:    data/ucrpd/data_2015/
+    Ignored:    data/ucrpd/data_2016/
+    Ignored:    data/ucrpd/data_2017/
+    Ignored:    data/ucrpd/data_2018/
+    Ignored:    data/ucrpd/data_2019/
     Ignored:    docs/.DS_Store
 
-Untracked files:
-    Untracked:  analysis/fbi_hate_crimes_1992.rmd
-    Untracked:  analysis/fbi_hate_crimes_quarterly.rmd
-    Untracked:  analysis/king_and_sutton.bib
-    Untracked:  analysis/rushin.bib
-    Untracked:  data/data_1996/
-    Untracked:  data/open_ICPSR/
-    Untracked:  data/ucrpd/
-    Untracked:  docs/assets/
-    Untracked:  docs/figure/
-    Untracked:  ks_plot.pdf
-
 Unstaged changes:
-    Modified:   data/README.md
+    Modified:   analysis/fbi_hate_crimes_quarterly.rmd
 
 </code></pre>
 <p>
@@ -534,9 +555,69 @@ Note that any generated files, e.g. HTML, png, CSS, etc., are not included in t
 <hr>
 </div>
 <div id="versions" class="tab-pane fade">
+
 <p>
-There are no past versions. Publish this analysis with <code>wflow_publish()</code> to start tracking its development.
+These are the previous versions of the R Markdown and HTML files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view them.
 </p>
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+File
+</th>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+<th>
+Message
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+rmd
+</td>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/7627c7c5c3f966b949b3456fd3470911febfc94b/analysis/fbi_hate_crimes_quarterly.rmd" target="_blank">7627c7c</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-11-15
+</td>
+<td>
+wip FBI data plots
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/sefabey/fbi_hate_crimes_data_viz/7627c7c5c3f966b949b3456fd3470911febfc94b/docs/fbi_hate_crimes_quarterly.html" target="_blank">7627c7c</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-11-15
+</td>
+<td>
+wip FBI data plots
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 <hr>
 </div>
 </div>
@@ -554,14 +635,20 @@ There are no past versions. Publish this analysis with <code>wflow_publish()</co
 <p>Lets check the data over.</p>
 <pre class="r"><code>ucr_hate_crimes_1992_2017 %&gt;% 
   as.tibble() %&gt;% 
-  select(contains(&quot;year&quot;)) %&gt;% 
-  count(year) %&gt;% 
-  ggplot(aes(x=year, y=n))+
-  geom_line()+
-  scale_x_continuous(breaks = seq(1992,2017,1))</code></pre>
+  select(contains(&quot;year&quot;), contains(&quot;date&quot;)) %&gt;% 
+  mutate(date= lubridate::ymd(date), quarter= lubridate::quarter(date,with_year = T)) %&gt;% 
+  count(quarter, year) %&gt;% 
+  filter(!is.na(quarter)) %&gt;% filter(year==2016) %&gt;% 
+  summarise(sum(n))</code></pre>
 <pre><code>Warning: `as.tibble()` is deprecated, use `as_tibble()` (but mind the new semantics).
 This warning is displayed once per session.</code></pre>
-<p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+<pre><code># A tibble: 1 x 1
+  `sum(n)`
+     &lt;int&gt;
+1     6268</code></pre>
+<pre class="r"><code>  # ggplot(aes(x=quarter, y=n))+
+  # geom_line()+
+  # scale_x_continuous(breaks = seq(1992,2017,4))</code></pre>
 <div id="refs">
 <div id="ref-rushin-2018-EffectPresidentTrump-sej">
 <p>Rushin, Stephen, and Griffin Sims Edwards. 2018. “The Effect of President Trump’s Election on Hate Crimes.” <em>SSRN Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.3102652">https://doi.org/10.2139/ssrn.3102652</a>.</p>
@@ -595,20 +682,20 @@ other attached packages:
 [9] tidyverse_1.2.1
 
 loaded via a namespace (and not attached):
- [1] Rcpp_1.0.2       cellranger_1.1.0 pillar_1.4.2     compiler_3.6.1  
- [5] git2r_0.26.1     workflowr_1.4.0  tools_3.6.1      zeallot_0.1.0   
- [9] digest_0.6.21    lubridate_1.7.4  jsonlite_1.6     evaluate_0.14   
-[13] lifecycle_0.1.0  nlme_3.1-141     gtable_0.3.0     lattice_0.20-38 
-[17] pkgconfig_2.0.3  rlang_0.4.0      cli_1.1.0        rstudioapi_0.10 
-[21] yaml_2.2.0       haven_2.1.1      xfun_0.9         withr_2.1.2     
-[25] xml2_1.2.2       httr_1.4.1       knitr_1.25       hms_0.5.1       
-[29] generics_0.0.2   fs_1.3.1         vctrs_0.2.0      rprojroot_1.3-2 
-[33] grid_3.6.1       tidyselect_0.2.5 here_0.1         glue_1.3.1      
-[37] R6_2.4.0         readxl_1.3.1     rmarkdown_1.15   modelr_0.1.5    
-[41] magrittr_1.5     backports_1.1.4  scales_1.0.0     htmltools_0.3.6 
-[45] rvest_0.3.4      assertthat_0.2.1 colorspace_1.4-1 labeling_0.3    
-[49] stringi_1.4.3    lazyeval_0.2.2   munsell_0.5.0    broom_0.5.2     
-[53] crayon_1.3.4    </code></pre>
+ [1] tidyselect_0.2.5 xfun_0.9         haven_2.1.1      lattice_0.20-38 
+ [5] colorspace_1.4-1 vctrs_0.2.0      generics_0.0.2   htmltools_0.3.6 
+ [9] yaml_2.2.0       utf8_1.1.4       rlang_0.4.0      pillar_1.4.2    
+[13] glue_1.3.1       withr_2.1.2      modelr_0.1.5     readxl_1.3.1    
+[17] lifecycle_0.1.0  munsell_0.5.0    gtable_0.3.0     workflowr_1.4.0 
+[21] cellranger_1.1.0 rvest_0.3.4      evaluate_0.14    knitr_1.25      
+[25] fansi_0.4.0      broom_0.5.2      Rcpp_1.0.2       scales_1.0.0    
+[29] backports_1.1.4  jsonlite_1.6     fs_1.3.1         hms_0.5.1       
+[33] digest_0.6.21    stringi_1.4.3    grid_3.6.1       rprojroot_1.3-2 
+[37] here_0.1         cli_1.1.0        tools_3.6.1      magrittr_1.5    
+[41] lazyeval_0.2.2   crayon_1.3.4     whisker_0.4      pkgconfig_2.0.3 
+[45] zeallot_0.1.0    xml2_1.2.2       lubridate_1.7.4  assertthat_0.2.1
+[49] rmarkdown_1.15   httr_1.4.1       rstudioapi_0.10  R6_2.4.0        
+[53] nlme_3.1-141     git2r_0.26.1     compiler_3.6.1  </code></pre>
 </div>
 </div>
 </div>

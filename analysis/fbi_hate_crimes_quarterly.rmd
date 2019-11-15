@@ -47,8 +47,6 @@ load(here::here("/data/open_ICPSR/ucr_hate_crimes_1992_2017_rda/ucr_hate_crimes_
 Lets check the data over.
 ```{r}
 
-x <- lubridate::ymd(c("2012-03-26", "2012-05-04", "2012-09-23", "2012-12-31"))
-lubridate::quarter(x, with_year = T)
 
 ucr_hate_crimes_1992_2017 %>% 
   as.tibble() %>% 
@@ -57,8 +55,8 @@ ucr_hate_crimes_1992_2017 %>%
   count(quarter, year) %>% 
   filter(!is.na(quarter)) %>% filter(year==2016) %>% 
   summarise(sum(n))
-  ggplot(aes(x=quarter, y=n))+
-  geom_line()+
-  scale_x_continuous(breaks = seq(1992,2017,4))
+  # ggplot(aes(x=quarter, y=n))+
+  # geom_line()+
+  # scale_x_continuous(breaks = seq(1992,2017,4))
 
 ```

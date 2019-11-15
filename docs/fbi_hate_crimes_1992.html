@@ -380,7 +380,7 @@ div.section {
 
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
-<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span>
+<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
 </button>
 </p>
 <div id="workflowr-report" class="collapse">
@@ -389,7 +389,7 @@ div.section {
 <a data-toggle="tab" href="#summary">Summary</a>
 </li>
 <li>
-<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> </a>
+<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> </a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -401,7 +401,7 @@ div.section {
 <strong>Last updated:</strong> 2019-11-15
 </p>
 <p>
-<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 6 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 1
+<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
 </p>
 <p>
 <strong>Knit directory:</strong> <code>fbi_hate_crimes_data_viz/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
@@ -417,12 +417,12 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges"> <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted changes </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date </a>
 </p>
 </div>
-<div id="strongRMarkdownfilestronguncommittedchanges" class="panel-collapse collapse">
+<div id="strongRMarkdownfilestronguptodate" class="panel-collapse collapse">
 <div class="panel-body">
-<p>The R Markdown is untracked by Git. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
+<p>Great! Since the R Markdown file has been committed to the Git repository, you know the exact version of the code that produced these results.</p>
 </div>
 </div>
 </div>
@@ -489,10 +489,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree7b92ce102f3904b1e772576f500364032fdb6bc6targetblank7b92ce1a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/7b92ce102f3904b1e772576f500364032fdb6bc6" target="_blank">7b92ce1</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree7eb4b45dbec9f0ff915889f926fddf594b0da0cftargetblank7eb4b45a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/7eb4b45dbec9f0ff915889f926fddf594b0da0cf" target="_blank">7eb4b45</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree7b92ce102f3904b1e772576f500364032fdb6bc6targetblank7b92ce1a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree7eb4b45dbec9f0ff915889f926fddf594b0da0cftargetblank7eb4b45a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -506,19 +506,40 @@ Ignored files:
     Ignored:    data/data_2017/.DS_Store
     Ignored:    data/data_2017/raw/.DS_Store
     Ignored:    data/data_2017/raw/Hate Crime Statistics 2017 Tables/.DS_Store
-
-Untracked files:
-    Untracked:  analysis/fbi_hate_crimes_1992.rmd
-    Untracked:  analysis/king_and_sutton.bib
-    Untracked:  data/data_1996/
-    Untracked:  data/open_ICPSR/
-    Untracked:  data/ucrpd/
-    Untracked:  docs/assets/
-    Untracked:  docs/figure/
-    Untracked:  ks_plot.pdf
-
-Unstaged changes:
-    Modified:   data/README.md
+    Ignored:    data/open_ICPSR/.DS_Store
+    Ignored:    data/ucrpd/.DS_Store
+    Ignored:    data/ucrpd/data_1992/.DS_Store
+    Ignored:    data/ucrpd/data_1992/ds1_batch_header/.DS_Store
+    Ignored:    data/ucrpd/data_1992/ds2_incident_record/.DS_Store
+    Ignored:    data/ucrpd/data_1993/.DS_Store
+    Ignored:    data/ucrpd/data_1993/ICPSR_24240/.DS_Store
+    Ignored:    data/ucrpd/data_1994/
+    Ignored:    data/ucrpd/data_1995/
+    Ignored:    data/ucrpd/data_1996/
+    Ignored:    data/ucrpd/data_1997/
+    Ignored:    data/ucrpd/data_1998/
+    Ignored:    data/ucrpd/data_1999/
+    Ignored:    data/ucrpd/data_2000/
+    Ignored:    data/ucrpd/data_2001/
+    Ignored:    data/ucrpd/data_2002/
+    Ignored:    data/ucrpd/data_2003/
+    Ignored:    data/ucrpd/data_2004/
+    Ignored:    data/ucrpd/data_2005/
+    Ignored:    data/ucrpd/data_2006/
+    Ignored:    data/ucrpd/data_2007/
+    Ignored:    data/ucrpd/data_2008/
+    Ignored:    data/ucrpd/data_2009/
+    Ignored:    data/ucrpd/data_2010/
+    Ignored:    data/ucrpd/data_2011/
+    Ignored:    data/ucrpd/data_2012/
+    Ignored:    data/ucrpd/data_2013/
+    Ignored:    data/ucrpd/data_2014/
+    Ignored:    data/ucrpd/data_2015/
+    Ignored:    data/ucrpd/data_2016/
+    Ignored:    data/ucrpd/data_2017/
+    Ignored:    data/ucrpd/data_2018/
+    Ignored:    data/ucrpd/data_2019/
+    Ignored:    docs/.DS_Store
 
 </code></pre>
 <p>
@@ -531,9 +552,69 @@ Note that any generated files, e.g. HTML, png, CSS, etc., are not included in t
 <hr>
 </div>
 <div id="versions" class="tab-pane fade">
+
 <p>
-There are no past versions. Publish this analysis with <code>wflow_publish()</code> to start tracking its development.
+These are the previous versions of the R Markdown and HTML files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view them.
 </p>
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+File
+</th>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+<th>
+Message
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+rmd
+</td>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/7627c7c5c3f966b949b3456fd3470911febfc94b/analysis/fbi_hate_crimes_1992.rmd" target="_blank">7627c7c</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-11-15
+</td>
+<td>
+wip FBI data plots
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/sefabey/fbi_hate_crimes_data_viz/7627c7c5c3f966b949b3456fd3470911febfc94b/docs/fbi_hate_crimes_1992.html" target="_blank">7627c7c</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-11-15
+</td>
+<td>
+wip FBI data plots
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 <hr>
 </div>
 </div>
@@ -541,7 +622,7 @@ There are no past versions. Publish this analysis with <code>wflow_publish()</co
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
 <p>This document will recreate the Figure 1 from the ‘High Times for Hate Crimes’ paper <span class="citation">(King and Sutton 2013)</span>. A screenshot of the plot is provided below <img src="assets/ks_static.png" alt="Figure 1, King and Sutton, 2013" /></p>
-<p>This is a time series line chart of illustrating the daily count of anti-white hate crimes recorded in the FBI dataset in 1992. We observe a sudden spike following the riots which followed the acquittal of officers in <a href="https://en.wikipedia.org/wiki/Rodney_King">Rodney King case</a>. The spike decays rapidly; however, the increase in anti-white hate crime rates persists for a couple of weeks. Pre-incident average line is also provided for compariosn and it suggests the national hate-crime were increased temporarily until they returned to normal in 6 weeks.</p>
+<p>This is a time series line chart, illustrating the daily count of anti-white hate crimes recorded in the FBI dataset in 1992. We observe a sudden spike following the riots which followed the acquittal of officers in <a href="https://en.wikipedia.org/wiki/Rodney_King">Rodney King case</a>. The spike decays rapidly; however, the increase in anti-white hate crime rates persists for a couple of weeks. Pre-incident average line is also provided for comparison and it suggests the national hate-crime were increased temporarily until they returned to normal in 6 weeks.</p>
 </div>
 <div id="sub-tasks" class="section level2">
 <h2>Sub-tasks</h2>
@@ -560,6 +641,43 @@ There are no past versions. Publish this analysis with <code>wflow_publish()</co
 <pre><code>Warning: `as.tibble()` is deprecated, use `as_tibble()` (but mind the new semantics).
 This warning is displayed once per session.</code></pre>
 <p><img src="figure/fbi_hate_crimes_1992.rmd/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-3-1">
+Past versions of unnamed-chunk-3-1.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-3-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/7627c7c5c3f966b949b3456fd3470911febfc94b/docs/figure/fbi_hate_crimes_1992.rmd/unnamed-chunk-3-1.png" target="_blank">7627c7c</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-11-15
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <p>###Calculate pre-riot mean</p>
 <pre class="r"><code>preriot_mean &lt;- ucr_hate_crimes_1992_2017 %&gt;% 
   as.tibble() %&gt;% 
@@ -605,6 +723,43 @@ This warning is displayed once per session.</code></pre>
 <pre><code>Joining, by = &quot;date&quot;</code></pre>
 <pre><code>Warning: Removed 366 rows containing missing values (geom_path).</code></pre>
 <p><img src="figure/fbi_hate_crimes_1992.rmd/king&sutton%20plot-1.png" width="960" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-king&amp;sutton-plot-1">
+Past versions of “king&amp;sutton plot-1.png”
+</button>
+</p>
+<div id="fig-no-spaces-king&amp;sutton-plot-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/7627c7c5c3f966b949b3456fd3470911febfc94b/docs/figure/fbi_hate_crimes_1992.rmd/king&sutton plot-1.png" target="_blank">7627c7c</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-11-15
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <pre class="r"><code># ggsave(ks_plot,filename = &quot;ks_plot.pdf&quot;,device = cairo_pdf,width = 8, height = 6)</code></pre>
 <div id="refs">
 <div id="ref-king-2013-HighTimesHate-c">
@@ -654,11 +809,11 @@ loaded via a namespace (and not attached):
 [37] digest_0.6.21     stringi_1.4.3     grid_3.6.1       
 [40] rprojroot_1.3-2   here_0.1          cli_1.1.0        
 [43] tools_3.6.1       magrittr_1.5      lazyeval_0.2.2   
-[46] extrafontdb_1.0   crayon_1.3.4      pkgconfig_2.0.3  
-[49] zeallot_0.1.0     xml2_1.2.2        lubridate_1.7.4  
-[52] assertthat_0.2.1  rmarkdown_1.15    httr_1.4.1       
-[55] rstudioapi_0.10   R6_2.4.0          nlme_3.1-141     
-[58] git2r_0.26.1      compiler_3.6.1   </code></pre>
+[46] extrafontdb_1.0   crayon_1.3.4      whisker_0.4      
+[49] pkgconfig_2.0.3   zeallot_0.1.0     xml2_1.2.2       
+[52] lubridate_1.7.4   assertthat_0.2.1  rmarkdown_1.15   
+[55] httr_1.4.1        rstudioapi_0.10   R6_2.4.0         
+[58] nlme_3.1-141      git2r_0.26.1      compiler_3.6.1   </code></pre>
 </div>
 </div>
 
