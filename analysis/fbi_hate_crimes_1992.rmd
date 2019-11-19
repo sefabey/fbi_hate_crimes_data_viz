@@ -43,7 +43,8 @@ load(here::here("/data/open_ICPSR/ucr_hate_crimes_1992_2017_rda/ucr_hate_crimes_
 
 Lets check the data by creating a time series plot for the yearly aggregated number of hate crime incidents in the US.
 
-```{r}
+```{r yearly_aggregated_data, fig.height=8, fig.width=8}
+
 ucr_hate_crimes_1992_2017 %>% 
   as.tibble() %>% 
   filter(!is.na(bias_motivation_offense_1)) %>% 
@@ -60,7 +61,7 @@ ucr_hate_crimes_1992_2017 %>%
        caption = "Hate Lab, by @SefaOzalp, 2019"
        )+
   theme(plot.caption = element_text(size = 12))+
-  theme(axis.text.x = element_text(angle=45))
+  theme(axis.text.x = element_text(angle=45, hjust = 1))
 
 ```
 
