@@ -43,8 +43,9 @@ edwards <- haven::read_dta(here::here("/data/edwards_data/sefaozalp.dta")) %>%
   filter(!year %in% c(1985:1991) ) %>% 
   filter(!is.na(hatecrimes)) %>% 
   mutate(year_fct=as.factor(year), quarter_fct=as.factor(quarter))
-
-
+  
+  
+  
 linear_model <- lm(hatecrimes~year_fct+quarter_fct, data = edwards)
 ```
 
@@ -85,7 +86,7 @@ legend_points <-  tibble(quarter_date= dmy(c("01-10-2016", "01-10-2012", "01-10-
   left_join(edwards_processed) %>% 
   arrange(quarter_date)
   
-edwards_processed %>% 
+edwards_processed %>%
   ggplot(aes(x=quarter_date, y=hatedetrend))+
   geom_line(size=0.8)+
   scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
@@ -108,5 +109,181 @@ edwards_processed %>%
                      name = NULL)+
   NULL
 ```
+
+# Reproduce the Same Plot Using FBI data
+
+```{r}
+load(here::here("/data/open_ICPSR/ucr_hate_crimes_1992_2017_rda/ucr_hate_crimes_1992_2017.rda"))
+```
+
+
+Lets check the raw data aggregated quarterly.
+```{r quarterly_aggregated_data, fig.height=8, fig.width=8}
+
+qt_hate <- ucr_hate_crimes_1992_2017 %>% 
+  as.tibble() %>% 
+  filter(!is.na(bias_motivation_offense_1)) %>% 
+  select(contains("year"), contains("date")) %>% 
+  mutate(date= lubridate::ymd(date), quarter= lubridate::quarter(date,with_year = T), 
+         quarter_fct= as.factor(lubridate::quarter(date,with_year = F)), year_fct=as.factor(year)) %>% 
+  count(quarter, quarter_fct, year, year_fct) %>% 
+  filter(!is.na(quarter)) %>% 
+  rename(hatecrimes=n)
+
+qt_hate %>% 
+  ggplot(aes(x=quarter, y=hatecrimes))+
+  geom_line(size=0.8)+
+  scale_x_continuous(breaks = seq(1992,2017,2), expand=c(0.01,0))+
+  hrbrthemes::theme_ipsum_rc()+
+  scale_y_continuous(label=comma, breaks = seq(0,3500, 500), limits = c(0,3500), minor_breaks = NULL)+
+  labs(title = "Quarterly Aggregated Hate Crime Incidents in the US, 1992-2019",
+       y="Number of Hate Crime Incidents",
+       subtitle = "Source: FBI Hate Crime Statistics",
+       caption = "Hate Lab, by @SefaOzalp, 2019"
+       )+
+  theme(plot.caption = element_text(size = 12))+
+  theme(axis.text.x = element_text(angle=45, hjust = 1))
+
+
+```
+
+# Compare Raw Numbers
+```{r compare_raw_counts}
+
+qt_ucr_plot <- qt_hate %>% 
+  ggplot(aes(x=quarter, y=hatecrimes))+
+  geom_line(size=0.8)
+
+qt_edwards_plot <- edwards %>% 
+  group_by(quarter, year) %>% 
+  summarise(hatecrimes=sum(hatecrimes)) %>% 
+  mutate(quarter_date=dmy(paste( "01", as.character(quarter), as.character(year),sep = "-" ))) %>%
+  ggplot(aes(x=quarter_date, y=hatecrimes))+
+  geom_line(size=0.8)
+  
+gridExtra::grid.arrange(qt_ucr_plot,qt_edwards_plot, nrow=2 )
+```
+
+## Linear Model with UCR Data
+```{r}
+lm_ucr_hc <- lm(hatecrimes~ year_fct + quarter_fct, data = qt_hate)
+```
+
+## Regression results
+```{r}
+summary(linear_model)
+```
+
+## Detrend Data Using Residuals
+```{r}
+
+qt_hate$predictions= predict(lm_ucr_hc, qt_hate)
+qt_hate$residuals= resid(lm_ucr_hc)
+qt_hate$mean= mean(qt_hate$hatecrimes)
+qt_hate$hatedetrend=qt_hate$residuals+qt_hate$mean
+
+
+qt_hate %>% 
+  mutate(quarter_date=dmy(paste( "01", as.character(quarter_fct), as.character(year_fct),sep = "-" ))) %>%
+  ggplot(aes(x=quarter_date, y=hatedetrend))+
+  geom_line(size=0.8)+
+  scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
+  scale_x_date(breaks = seq.Date(dmy("01-01-1992"), dmy("31-12-2017"), by= "2 year"), 
+               date_labels = "%Y-%m", 
+               limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-2017")),
+               expand=c(0,0))+
+  hrbrthemes::theme_ipsum_rc()+
+  labs(title = "Detrended Quarterly Hate Crime in the US, 1992-2017",
+       y="Number of Hate Crime Incidents (Detrended)",
+       x= "Date (Quarter)",
+       subtitle = "Source: FBI Hate Crime Statistics",
+       caption = "Hate Lab, by @SefaOzalp, 2019"
+       )+
+  theme(plot.caption = element_text(size = 12))+
+  theme(axis.text.x = element_text(angle=45, hjust = 1))+
+  geom_point(data=legend_points, aes(x=quarter_date, y= hatedetrend , shape=factor(labels)), size=4,colour="grey50" )+
+  theme(legend.position="bottom")+
+  scale_shape_manual(values=c( 13,15, 17,18),
+                     name = NULL)+
+  NULL  
+```
+
+# Compare Both Models
+
+```{r}
+a <- edwards_processed$hatedetrend  
+b <- qt_hate$hatedetrend
+a
+b
+summary(a)
+summary(b)
+
+qplot(a)
+qplot(b)
+t.test(a,b)
+
+wilcox.test(a,b)
+```
+
+
+
+# WIP
+Using additive 
+https://anomaly.io/seasonal-trend-decomposition-in-r/index.html
+https://www.stat.pitt.edu/stoffer/tsa4/tsa4.pdf
+```{r}
+# library(fpp)
+# library(forecast)
+# 
+# data(ausbeer) 
+# tail(head(ausbeer))
+# 
+# tail(head(ausbeer, 17*4+2),17*4-4)
+# timeserie_beer = tail(head(ausbeer, 17*4+2),17*4-4)
+# plot(as.ts(timeserie_beer))
+# trend_beer = ma(timeserie_beer, order = 4, centre = T)
+# plot(as.ts(timeserie_beer))
+# lines(trend_beer)
+# plot(as.ts(trend_beer))
+# detrend_beer = timeserie_beer - trend_beer
+# plot(as.ts(detrend_beer))
+# m_beer = t(matrix(data = detrend_beer, nrow = 4))
+# seasonal_beer = colMeans(m_beer, na.rm = T)
+# plot(as.ts(rep(seasonal_beer,16)))
+# random_beer = timeserie_beer - trend_beer - seasonal_beer
+# plot(as.ts(random_beer))
+# recomposed_beer = trend_beer+seasonal_beer+random_beer
+# plot(as.ts(recomposed_beer))
+# ts_beer = ts(timeserie_beer, frequency = 4)
+# decompose_beer = decompose(ts_beer, "additive")
+#  
+# plot(as.ts(decompose_beer$seasonal))
+# plot(as.ts(decompose_beer$trend))
+# plot(as.ts(decompose_beer$random))
+# plot(decompose_beer)
+# 
+# ts_beer = ts(timeserie_beer, frequency = 4)
+# stl_beer = stl(ts_beer, "periodic")
+# seasonal_stl_beer   <- stl_beer$time.series[,1]
+# trend_stl_beer     <- stl_beer$time.series[,2]
+# random_stl_beer  <- stl_beer$time.series[,3]
+#  
+# plot(ts_beer)
+# plot(as.ts(seasonal_stl_beer))
+# plot(trend_stl_beer)
+# plot(random_stl_beer)
+# plot(stl_beer)
+```
+
+```{r}
+# str(timeserie_beer)
+# 
+# hate_vector <- hate %>% select(n) %>% pull
+# 
+# ts_hate <- ts(hate_vector, , start=c(1992, 1), end=c(2017, 12), frequency=12)
+# ts_hate
+```
+
+
 
 ## References
