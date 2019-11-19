@@ -1,5 +1,5 @@
 ---
-title: "fbi_hate_crimes_1992"
+title: "Anti-white Hate Crimes in 1992"
 author: "Sefa Ozalp"
 date: "2019-11-14"
 output: 

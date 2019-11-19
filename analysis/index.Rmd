@@ -12,4 +12,4 @@ Welcome to my research website.
 
 
 1. To see the replication of the figure by King and Sutton (2013), which depicts the hate crime in the US over time, click [here](fbi_hate_crimes_1992.html).
-2. To see the replication of the detrended and quarterly aggregated hate crime frigures in the US between 1992 to 2017, click [here](fbi_hate_crimes_quarterly.html).
+2. To see the replication of the detrended and quarterly aggregated hate crime frigures in the US between 1992 to 2017, as described in Rushin and Edwards' paper (2018) click [here](fbi_hate_crimes_quarterly.html).

@@ -1,5 +1,5 @@
 ---
-title: "fbi_hate_crimes_quarterly"
+title: "Detring Natinal Hate Crime Figures in the US, 1992-2017"
 author: "Sefa Ozalp"
 date: "2019-11-15"
 output: 
