@@ -19,7 +19,7 @@ editor_options:
 # Introduction
 This document will recreate the Figure 2 from the 'The Effect of President Trump's Election on Hate Crimes' paper [@rushin-2018-EffectPresidentTrump-sej]. A screenshot of the plot is provided below ![Figure 2, Rushin and Edwards, 2018](assets/rushin_static.png)
 
-In this line chart, the authors illustrate a detranded time series of the number of quarterly aggregated hate crimes in the US, as recorded in the FBI dataset between 1992 and 2017. Even after detrending the dataset, we observe a very large spike after 9/11. The second largest spike is after Trump's election. Citing [@hamilton-2018-WhyYouShould-res], the authors argue against using Hodrick-Prescott filter to detrend the seasonality in the data and use linear regression to subtract the quarterly and yearly effects. The authors do not provide data not the code in the paper but they might make both available on request.  
+In this line chart, the authors illustrate a detrended time series of the number of quarterly aggregated hate crimes in the US, as recorded in the FBI dataset between 1992 and 2017. Even after detrending the dataset, we observe a very large spike after 9/11. The second largest spike is after Trump's election. Citing [@hamilton-2018-WhyYouShould-res], the authors argue against using Hodrick-Prescott filter to detrend the seasonality in the data and use linear regression to subtract the quarterly and yearly effects. The authors do not provide data not the code in the paper but they might make both available on request.  
 
 ## Sub-tasks
 
@@ -53,7 +53,7 @@ linear_model <- lm(hatecrimes~year_fct+quarter_fct, data = edwards)
 summary(linear_model)
 ```
 
-## Detrend Model
+## Detrend Data Using Residuals
 ```{r}
 
 edwards$predictions= predict(linear_model, edwards)
@@ -71,6 +71,12 @@ edwards_processed <-  edwards %>%
 
 edwards_processed
 ```
+
+
+## Reproduce the Plot
+
+Finally, we can reproduce the plot. 
+
 
 ```{r Rushing and Edwards Plot, fig.height=8, fig.width=8}
 

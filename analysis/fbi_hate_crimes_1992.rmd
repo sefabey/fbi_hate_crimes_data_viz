@@ -32,6 +32,7 @@ The sub-tasks to recreate the graph are as follows:
 ```{r, warning=F, message=F}
 library(tidyverse)
 library(scales)
+library(lubridate)
 ```
 
 
@@ -63,11 +64,13 @@ ucr_hate_crimes_1992_2017 %>%
 
 ```
 
-This looks good. We immediately see the peak following 9/11. Looking at the whole data, we also abserve a fluctuating trend, an initial increase which is followed by a declining trend after 9/11 and finally an increase since 2014.
+This looks good. We immediately see the peak following 9/11. Looking at the whole data, we also observe a fluctuating trend, an initial increase which is followed by a declining trend after 9/11 and finally an increase since 2014.
 
 ## Calculate the pre-riot mean
 
 Lets now focus our attention on 1992. This chunk will calculate the mean number of hate incidents per day in 1992.  
+
+
 ```{r pre-riot mean}
 
 preriot_mean <- ucr_hate_crimes_1992_2017 %>% 
@@ -86,10 +89,9 @@ preriot_mean
 ```
 
 
-
 ## Reproduce the Figure from King and Sutton 2013
 
-Now that 
+Now that I have calculated the pre-riot mean as 3.333, last step is to reproduce the figure. 
 
 ```{r king&sutton plot, fig.width=10, fig.height=8}
 ucr_hate_crimes_1992_2017 %>% 
@@ -104,7 +106,7 @@ ucr_hate_crimes_1992_2017 %>%
   mutate(preriot_mean=preriot_mean) %>%
   ggplot(aes(x=date))+
   geom_line(aes(y=n, colour="Anti-White"), size=0.8)+
-  geom_line(aes(y=preriot_mean, colour="Pre-riot Average"), size=0.9)+
+  geom_line(aes(y=preriot_mean, colour="Pre-riot Average"), size=1)+
   hrbrthemes::theme_ipsum_rc()+
   scale_x_date(date_breaks = "1 month", date_labels = "%d-%b-%y", 
                limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-1992")),
@@ -114,7 +116,7 @@ ucr_hate_crimes_1992_2017 %>%
   annotate(geom="text", x=lubridate::dmy("30-06-1992"), y=55, label="May 1, 1992\nLAPD Officers acquitted\nin Rodney King case\ntwo days earlier,\non April 29." )+
   annotate(geom="point", lubridate::dmy("01-05-1992"), y=55, size=8, shape=21, fill="transparent")+
   scale_colour_manual(
-                      breaks = c("Anti-White", "Pre-riot Average"),
+                      # breaks = c("Anti-White", "Pre-riot Average"),
                       values = c("Anti-White"="black", "Pre-riot Average"="grey73")
                       ) +
     labs(title = "Anti-White Hate Crimes in the US, 1992",
@@ -123,11 +125,99 @@ ucr_hate_crimes_1992_2017 %>%
          caption = "Hate Lab, by @SefaOzalp, 2019"
        )+
   theme(plot.caption = element_text(size = 12))+
-
-  # geom_hline(yintercept=3,  color="grey66", size=1, show.legend = T)+
   NULL
-
 # ggsave(ks_plot,filename = "ks_plot.pdf",device = cairo_pdf,width = 8, height = 6)
 ```
 
+## Explore Seasonality in 1992
 
+Final step in this document is to explore seasonality in 1992 and detrend the data if necessary. The figure above, which is daily aggregated, does not reveal a seasonality pattern. Furthermore, we do not observe a increase/decrease trend, except the spike following LA riots. Below by visualising data in monthly and quarterly aggregates, I will explore if seasonality and a trend exists in 1992 data. 
+
+### Monthly Aggregate Plot
+
+```{r 1992 monthly aggregate, fig.width=10, fig.height=8}
+hc_quarter_92 <- ucr_hate_crimes_1992_2017 %>% 
+  as.tibble() %>% 
+  filter(year==1992) %>%
+  mutate(date=lubridate::ymd(date)) %>% 
+  filter(bias_motivation_offense_1 %in% "anti-white") %>% 
+  filter(!is.na(date)) %>% 
+  count(date) %>% 
+  right_join( tibble(date=seq.Date(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-1992"), by="day"))) %>% 
+  mutate(n=ifelse(is.na(n), 0, n)) %>% 
+  mutate(month=month(date), quarter=quarter(date)) %>% 
+  group_by(month, quarter) %>% 
+  summarise(n_month=sum(n)) %>% 
+  ungroup() 
+  
+
+preriot_mean_month <- hc_quarter_92 %>% 
+  # filter(month %in% c("January", "February", "March", "April")) %>% 
+  filter(month <=4) %>% 
+  summarise(mean(n_month)) %>% 
+  pull
+
+
+hc_quarter_92 %>% 
+  mutate(month= dmy( paste("01",month, "1992",sep = "-"))) %>% 
+  ggplot(aes(x=month))+
+  geom_line(aes(y=n_month, colour="Anti-White"), size=0.8)+
+  # geom_point(aes(y=n_month))+
+  geom_line(aes(y=preriot_mean_month, colour="Pre-riot Average"), size=1)+
+  hrbrthemes::theme_ipsum_rc()+
+  scale_x_date(date_breaks = "1 month", date_labels = "%d-%b-%y", 
+               limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-1992")),
+               expand=c(.01,0), minor_breaks = NULL)+
+  scale_y_continuous(limits = c(0,300), breaks = seq(0,300,50),minor_breaks = NULL)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  annotate(geom="text", x=lubridate::dmy("30-06-1992"), y=255, label="May 1, 1992\nLAPD Officers acquitted\nin Rodney King case\ntwo days earlier,\non April 29." )+
+  annotate(geom="point", lubridate::dmy("01-05-1992"), y=295, size=8, shape=21, fill="transparent")+
+  scale_colour_manual(
+                      breaks = c("Anti-White", "Pre-riot Average"),
+                      values = c("Anti-White"="black", "Pre-riot Average"="grey73")
+                      ) +
+    labs(title = "Monthly Anti-White Hate Crimes in the US, 1992",
+         y="Number of Hate Crime Incidents",
+         x="Month",
+         subtitle = "Source: FBI Hate Crime Statistics",
+         caption = "Hate Lab, by @SefaOzalp, 2019"
+       )+
+  theme(plot.caption = element_text(size = 12))+
+  NULL
+```
+
+
+### Quarterly Aggregate Plot
+```{r 1992 quarterly aggregate, fig.width=10, fig.height=8}
+hc_quarter_92 %>% 
+  group_by(quarter) %>% 
+  summarise(n_quarter=sum(n_month)) %>% 
+  ggplot(aes(x=quarter))+
+  geom_line(aes(y=n_quarter), size=0.8)+
+  # geom_point(aes(y=n_month))+
+  # geom_line(aes(y=preriot_mean_month, colour="Pre-riot Average"), size=1)+
+  hrbrthemes::theme_ipsum_rc()+
+  # scale_x_date(date_breaks = "1 month", date_labels = "%d-%b-%y", 
+  #              limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-1992")),
+  #              expand=c(.01,0), minor_breaks = NULL)+
+  scale_y_continuous(limits = c(0,600), breaks = seq(0,600,100),minor_breaks = NULL)+
+  # theme(axis.text.x = element_text( hjust = 1,angle = 45))+
+  # annotate(geom="text", x=lubridate::dmy("30-06-1992"), y=255, label="May 1, 1992\nLAPD Officers acquitted\nin Rodney King case\ntwo days earlier,\non April 29." )+
+  # annotate(geom="point", lubridate::dmy("01-05-1992"), y=295, size=8, shape=21, fill="transparent")+
+  # scale_colour_manual(
+  #                     breaks = c("Anti-White", "Pre-riot Average"),
+  #                     values = c("Anti-White"="black", "Pre-riot Average"="grey73")
+  #                     ) +
+    labs(title = "Quarterly Anti-White Hate Crimes in the US, 1992",
+         y="Number of Hate Crime Incidents",
+         x= "Quarter",
+         subtitle = "Source: FBI Hate Crime Statistics",
+         caption = "Hate Lab, by @SefaOzalp, 2019"
+       )+
+  scale_x_continuous(labels = c("Q1-1992", "Q2-1992","Q3-1992","Q4-1992"))+
+  theme(plot.caption = element_text(size = 12))+
+  NULL
+```
+
+
+Looking at  both monthly and quarterly aggregated data, we do not observe a seasonality or a overall trend except the in May 1992. Therefore, there it does not make sense to to detrend the data using months or quarters. 
