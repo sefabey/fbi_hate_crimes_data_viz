@@ -380,7 +380,7 @@ div.section {
 
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
-<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
+<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span>
 </button>
 </p>
 <div id="workflowr-report" class="collapse">
@@ -389,7 +389,7 @@ div.section {
 <a data-toggle="tab" href="#summary">Summary</a>
 </li>
 <li>
-<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> </a>
+<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> </a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -398,10 +398,10 @@ div.section {
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2019-11-15
+<strong>Last updated:</strong> 2019-11-19
 </p>
 <p>
-<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
+<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 6 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 1
 </p>
 <p>
 <strong>Knit directory:</strong> <code>fbi_hate_crimes_data_viz/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
@@ -417,12 +417,12 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges"> <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted changes </a>
 </p>
 </div>
-<div id="strongRMarkdownfilestronguptodate" class="panel-collapse collapse">
+<div id="strongRMarkdownfilestronguncommittedchanges" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Great! Since the R Markdown file has been committed to the Git repository, you know the exact version of the code that produced these results.</p>
+<p>The R Markdown file has unstaged changes. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
 </div>
 </div>
 </div>
@@ -489,10 +489,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreecff9d6e2024c88fc0a8fa7c5e61d10e3393963c6targetblankcff9d6ea"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/cff9d6e2024c88fc0a8fa7c5e61d10e3393963c6" target="_blank">cff9d6e</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree9277573cb13a87e602845a23af2b855b4c0ca7fdtargetblank9277573a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/9277573cb13a87e602845a23af2b855b4c0ca7fd" target="_blank">9277573</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreecff9d6e2024c88fc0a8fa7c5e61d10e3393963c6targetblankcff9d6ea" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree9277573cb13a87e602845a23af2b855b4c0ca7fdtargetblank9277573a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -541,6 +541,16 @@ Ignored files:
     Ignored:    data/ucrpd/data_2019/
     Ignored:    docs/.DS_Store
 
+Untracked files:
+    Untracked:  analysis/FBI_hate_crimes.bib
+    Untracked:  data/edwards_data/
+
+Unstaged changes:
+    Modified:   analysis/fbi_hate_crimes_1992.rmd
+    Modified:   analysis/fbi_hate_crimes_quarterly.rmd
+    Deleted:    analysis/king_and_sutton.bib
+    Deleted:    analysis/rushin.bib
+
 </code></pre>
 <p>
 Note that any generated files, e.g. HTML, png, CSS, etc., are not included in this status report because it is ok for generated content to have uncommitted changes.
@@ -578,6 +588,23 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/sefabey/fbi_hate_crimes_data_viz/9277573cb13a87e602845a23af2b855b4c0ca7fd/docs/fbi_hate_crimes_quarterly.html" target="_blank">9277573</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-11-15
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 rmd
@@ -690,30 +717,144 @@ wip FBI data plots
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
 <p>This document will recreate the Figure 2 from the ‘The Effect of President Trump’s Election on Hate Crimes’ paper <span class="citation">(Rushin and Edwards 2018)</span>. A screenshot of the plot is provided below <img src="assets/rushin_static.png" alt="Figure 2, Rushin and Edwards, 2018" /></p>
-<p>This is a line chart, illustrating a detranded time series of quarterly aggregated hate crime counts time series as recorded in the FBI dataset between 1992 and 2017. Even after being detrended, we observe a very large spike after 9/11. The second largest spike is after Trump’s election. The authors find that</p>
+<p>In this line chart, the authors illustrate a detranded time series of the number of quarterly aggregated hate crimes in the US, as recorded in the FBI dataset between 1992 and 2017. Even after detrending the dataset, we observe a very large spike after 9/11. The second largest spike is after Trump’s election. Citing <span class="citation">(Hamilton 2018)</span>, the authors argue against using Hodrick-Prescott filter to detrend the seasonality in the data and use linear regression to subtract the quarterly and yearly effects. The authors do not provide data not the code in the paper but they might make both available on request.</p>
 <div id="sub-tasks" class="section level2">
 <h2>Sub-tasks</h2>
 <p>The sub-tasks to recreate the graph are as follows:</p>
-<p>Find the data of hate crimes between 1992 and 2017 on FBI website. Import and process the data. Detrend the data. Reproduce the graph.</p>
-<pre class="r"><code>library(tidyverse)</code></pre>
-<pre class="r"><code>load(here::here(&quot;/data/open_ICPSR/ucr_hate_crimes_1992_2017_rda/ucr_hate_crimes_1992_2017.rda&quot;))</code></pre>
-<p>Lets check the raw data aggregated quarterly.</p>
-<pre class="r"><code>ucr_hate_crimes_1992_2017 %&gt;% 
-  as.tibble() %&gt;% 
-  select(contains(&quot;year&quot;), contains(&quot;date&quot;)) %&gt;% 
-  mutate(date= lubridate::ymd(date), quarter= lubridate::quarter(date,with_year = T)) %&gt;% 
-  count(quarter, year) %&gt;% 
-  filter(!is.na(quarter)) %&gt;% 
-  # filter(year==2016) %&gt;% 
-  # summarise(sum(n))
-  ggplot(aes(x=quarter, y=n))+
-  geom_line()+
-  scale_x_continuous(breaks = seq(1992,2017,4))+
-  hrbrthemes::theme_ipsum_rc()</code></pre>
-<pre><code>Warning: `as.tibble()` is deprecated, use `as_tibble()` (but mind the new semantics).
-This warning is displayed once per session.</code></pre>
-<p><img src="figure/fbi_hate_crimes_quarterly.rmd/quarterly%20trends-1.png" width="672" style="display: block; margin: auto;" /></p>
+<ul>
+<li>Find the data of hate crimes between 1992 and 2017 on FBI website.</li>
+<li>Import and process the data.</li>
+<li>Detrend the data using the same methodology as <span class="citation">(Rushin and Edwards 2018)</span>.</li>
+<li>Reproduce the graph.</li>
+</ul>
+</div>
+</div>
+<div id="reproducing-the-figure-using-the-data-from-the-paper" class="section level1">
+<h1>Reproducing the Figure Using the Data from the Paper</h1>
+<pre class="r"><code>library(tidyverse)
+library(lubridate)
+library(scales)</code></pre>
+<pre class="r"><code>edwards &lt;- haven::read_dta(here::here(&quot;/data/edwards_data/sefaozalp.dta&quot;)) %&gt;%  
+  filter(!year %in% c(1985:1991) ) %&gt;% 
+  filter(!is.na(hatecrimes)) %&gt;% 
+  mutate(year_fct=as.factor(year), quarter_fct=as.factor(quarter))
+
+
+linear_model &lt;- lm(hatecrimes~year_fct+quarter_fct, data = edwards)</code></pre>
+<div id="regression-results" class="section level2">
+<h2>Regression results</h2>
+<pre class="r"><code>summary(linear_model)</code></pre>
+<pre><code>
+Call:
+lm(formula = hatecrimes ~ year_fct + quarter_fct, data = edwards)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+ -0.809  -0.631  -0.559  -0.474 301.191 
+
+Coefficients:
+              Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)   0.484576   0.037291  12.995  &lt; 2e-16 ***
+year_fct1993  0.074678   0.049936   1.495 0.134789    
+year_fct1994 -0.056334   0.049935  -1.128 0.259262    
+year_fct1995  0.102244   0.049935   2.048 0.040606 *  
+year_fct1996  0.166683   0.049932   3.338 0.000843 ***
+year_fct1997  0.109271   0.049934   2.188 0.028648 *  
+year_fct1998  0.083748   0.049931   1.677 0.093490 .  
+year_fct1999  0.092995   0.049933   1.862 0.062548 .  
+year_fct2000  0.104078   0.049932   2.084 0.037125 *  
+year_fct2001  0.232612   0.049933   4.658 3.19e-06 ***
+year_fct2002  0.060869   0.049935   1.219 0.222859    
+year_fct2003  0.061860   0.049934   1.239 0.215409    
+year_fct2004  0.074423   0.049934   1.490 0.136112    
+year_fct2005  0.034325   0.049934   0.687 0.491827    
+year_fct2006  0.077647   0.049933   1.555 0.119940    
+year_fct2007  0.070178   0.049935   1.405 0.159905    
+year_fct2008  0.083307   0.049935   1.668 0.095256 .  
+year_fct2009 -0.009620   0.049935  -0.193 0.847228    
+year_fct2010 -0.008831   0.049935  -0.177 0.859620    
+year_fct2011 -0.042409   0.049935  -0.849 0.395726    
+year_fct2012 -0.011658   0.049936  -0.233 0.815400    
+year_fct2013 -0.066591   0.049935  -1.334 0.182352    
+year_fct2014 -0.101956   0.049934  -2.042 0.041170 *  
+year_fct2015 -0.074865   0.049933  -1.499 0.133792    
+year_fct2016 -0.044155   0.049931  -0.884 0.376521    
+year_fct2017  0.037715   0.049935   0.755 0.450082    
+quarter_fct2  0.085000   0.019585   4.340 1.43e-05 ***
+quarter_fct3  0.091694   0.019586   4.682 2.85e-06 ***
+quarter_fct4  0.004990   0.019585   0.255 0.798906    
+---
+Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+
+Residual standard error: 3.958 on 326764 degrees of freedom
+Multiple R-squared:  0.0004988, Adjusted R-squared:  0.0004132 
+F-statistic: 5.824 on 28 and 326764 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<div id="detrend-model" class="section level2">
+<h2>Detrend Model</h2>
+<pre class="r"><code>edwards$predictions= predict(linear_model, edwards)
+edwards$residuals= resid(linear_model)
+edwards$mean= mean(edwards$hatecrimes)
+edwards$hatedetrend=edwards$residuals+edwards$mean
+
+edwards_processed &lt;-  edwards %&gt;% 
+  arrange(date) %&gt;% 
+  group_by(date, year, quarter) %&gt;% 
+  summarise(hatedetrend=sum(hatedetrend), predictions=sum(predictions), residuals=sum(residuals), mean=sum(mean)) %&gt;% 
+  ungroup() %&gt;% 
+  mutate(quarter_str=paste(as.character(year), as.character(quarter),sep = &quot;-&quot;)) %&gt;% 
+  mutate(quarter_date= yq(quarter_str))
+
+edwards_processed</code></pre>
+<pre><code># A tibble: 104 x 9
+    date  year quarter hatedetrend predictions residuals  mean quarter_str
+   &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;      
+ 1   128  1992       1       1893.       1523.   100.    1792. 1992-1     
+ 2   129  1992       2       1986.       1790.   193.    1792. 1992-2     
+ 3   130  1992       3       1511.       1811.  -282.    1792. 1992-3     
+ 4   131  1992       4       1780.       1538.   -12.2   1792. 1992-4     
+ 5   132  1993       1       1833.       1757.    41.4   1792. 1993-1     
+ 6   133  1993       2       1792.       2024.    -0.247 1792. 1993-2     
+ 7   134  1993       3       1766.       2045.   -26.3   1792. 1993-3     
+ 8   135  1993       4       1777.       1773.   -14.9   1792. 1993-4     
+ 9   136  1994       1       1920.       1346.   127.    1792. 1994-1     
+10   137  1994       2       1684.       1613.  -109.    1792. 1994-2     
+# … with 94 more rows, and 1 more variable: quarter_date &lt;date&gt;</code></pre>
+<pre class="r"><code>legend_points &lt;-  tibble(quarter_date= dmy(c(&quot;01-10-2016&quot;, &quot;01-10-2012&quot;, &quot;01-10-2008&quot;, &quot;01-07-2001&quot;)),
+                         labels= c(&quot;Trump 2016&quot;, &quot;Obama 2012&quot;, &quot;Obama 2008&quot;, &quot;September 11&quot;)) %&gt;%
+  left_join(edwards_processed) %&gt;% 
+  arrange(quarter_date)</code></pre>
+<pre><code>Joining, by = &quot;quarter_date&quot;</code></pre>
+<pre class="r"><code>edwards_processed %&gt;% 
+  ggplot(aes(x=quarter_date, y=hatedetrend))+
+  geom_line(size=0.8)+
+  scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+               date_labels = &quot;%Y-%m&quot;, 
+               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               expand=c(0,0))+
+  hrbrthemes::theme_ipsum_rc()+
+  labs(title = &quot;Detrended Quarterly Hate Crime in the US, 1992-2017&quot;,
+       y=&quot;Number of Hate Crime Incidents (Detrended)&quot;,
+       x= &quot;Date (Quarter)&quot;,
+       subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
+       caption = &quot;Hate Lab, by @SefaOzalp, 2019&quot;
+       )+
+  theme(plot.caption = element_text(size = 12))+
+  theme(axis.text.x = element_text(angle=45, hjust = 1))+
+  geom_point(data=legend_points, aes(x=quarter_date, y= hatedetrend , shape=factor(labels)), size=4,colour=&quot;grey50&quot; )+
+  theme(legend.position=&quot;bottom&quot;)+
+  scale_shape_manual(
+    # labels=c(&quot;Trump 2016&quot;, &quot;Obama 2012&quot;, &quot;Obama 2008&quot;, &quot;September 11&quot;),
+    # labels=c(&quot;Trump 2016&quot;, &quot;Obama 2012&quot;, &quot;Obama 2008&quot;, &quot;September 11&quot;),
+                     values=c( 13,15, 17,18),
+                     name = NULL)+
+  NULL</code></pre>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/Rushing%20and%20Edwards%20Plot-1.png" width="768" style="display: block; margin: auto;" /></p>
 <div id="refs">
+<div id="ref-hamilton-2018-WhyYouShould-res">
+<p>Hamilton, James D. 2018. “Why You Should Never Use the Hodrick-Prescott Filter.” <em>The Review of Economics and Statistics</em> 100 (5): 831–43. <a href="https://doi.org/10.1162/rest_a_00706">https://doi.org/10.1162/rest_a_00706</a>.</p>
+</div>
 <div id="ref-rushin-2018-EffectPresidentTrump-sej">
 <p>Rushin, Stephen, and Griffin Sims Edwards. 2018. “The Effect of President Trump’s Election on Hate Crimes.” <em>SSRN Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.3102652">https://doi.org/10.2139/ssrn.3102652</a>.</p>
 </div>
@@ -741,31 +882,31 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] forcats_0.4.0   stringr_1.4.0   dplyr_0.8.3     purrr_0.3.2    
-[5] readr_1.3.1     tidyr_1.0.0     tibble_2.1.3    ggplot2_3.2.1  
-[9] tidyverse_1.2.1
+ [1] scales_1.0.0    lubridate_1.7.4 forcats_0.4.0   stringr_1.4.0  
+ [5] dplyr_0.8.3     purrr_0.3.2     readr_1.3.1     tidyr_1.0.0    
+ [9] tibble_2.1.3    ggplot2_3.2.1   tidyverse_1.2.1
 
 loaded via a namespace (and not attached):
  [1] hrbrthemes_0.6.0  tidyselect_0.2.5  xfun_0.9         
  [4] haven_2.1.1       lattice_0.20-38   colorspace_1.4-1 
  [7] vctrs_0.2.0       generics_0.0.2    htmltools_0.3.6  
-[10] yaml_2.2.0        rlang_0.4.0       pillar_1.4.2     
-[13] glue_1.3.1        withr_2.1.2       gdtools_0.2.0    
-[16] modelr_0.1.5      readxl_1.3.1      lifecycle_0.1.0  
-[19] munsell_0.5.0     gtable_0.3.0      workflowr_1.4.0  
-[22] cellranger_1.1.0  rvest_0.3.4       evaluate_0.14    
-[25] labeling_0.3      knitr_1.25        extrafont_0.17   
-[28] Rttf2pt1_1.3.7    broom_0.5.2       Rcpp_1.0.2       
-[31] scales_1.0.0      backports_1.1.4   jsonlite_1.6     
+[10] yaml_2.2.0        utf8_1.1.4        rlang_0.4.0      
+[13] pillar_1.4.2      glue_1.3.1        withr_2.1.2      
+[16] gdtools_0.2.0     modelr_0.1.5      readxl_1.3.1     
+[19] lifecycle_0.1.0   munsell_0.5.0     gtable_0.3.0     
+[22] workflowr_1.4.0   cellranger_1.1.0  rvest_0.3.4      
+[25] evaluate_0.14     knitr_1.25        extrafont_0.17   
+[28] fansi_0.4.0       Rttf2pt1_1.3.7    broom_0.5.2      
+[31] Rcpp_1.0.2        backports_1.1.4   jsonlite_1.6     
 [34] systemfonts_0.1.1 fs_1.3.1          hms_0.5.1        
 [37] digest_0.6.21     stringi_1.4.3     grid_3.6.1       
 [40] rprojroot_1.3-2   here_0.1          cli_1.1.0        
 [43] tools_3.6.1       magrittr_1.5      lazyeval_0.2.2   
 [46] extrafontdb_1.0   crayon_1.3.4      whisker_0.4      
 [49] pkgconfig_2.0.3   zeallot_0.1.0     xml2_1.2.2       
-[52] lubridate_1.7.4   assertthat_0.2.1  rmarkdown_1.15   
-[55] httr_1.4.1        rstudioapi_0.10   R6_2.4.0         
-[58] nlme_3.1-141      git2r_0.26.1      compiler_3.6.1   </code></pre>
+[52] assertthat_0.2.1  rmarkdown_1.15    httr_1.4.1       
+[55] rstudioapi_0.10   R6_2.4.0          nlme_3.1-141     
+[58] git2r_0.26.1      compiler_3.6.1   </code></pre>
 </div>
 </div>
 </div>

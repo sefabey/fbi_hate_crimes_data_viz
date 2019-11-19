@@ -8,8 +8,8 @@ output:
     toc_float: yes
     theme: cosmo
     highlight: textmate
-    pandoc_args: ["--bibliography=rushin.bib"]
-bibliography: rushin.bib
+    pandoc_args: ["--bibliography=FBI_hate_crimes.bib"]
+bibliography: FBI_hate_crimes.bib
 editor_options:
   chunk_output_type: console
 ---
@@ -19,47 +19,87 @@ editor_options:
 # Introduction
 This document will recreate the Figure 2 from the 'The Effect of President Trump's Election on Hate Crimes' paper [@rushin-2018-EffectPresidentTrump-sej]. A screenshot of the plot is provided below ![Figure 2, Rushin and Edwards, 2018](assets/rushin_static.png)
 
-This is a line chart, illustrating a detranded time series of quarterly aggregated hate crime counts time series as recorded in the FBI dataset between 1992 and 2017. Even after being detrended, we observe a very large spike after 9/11. The second largest spike is after Trump's election. The authors find that 
+In this line chart, the authors illustrate a detranded time series of the number of quarterly aggregated hate crimes in the US, as recorded in the FBI dataset between 1992 and 2017. Even after detrending the dataset, we observe a very large spike after 9/11. The second largest spike is after Trump's election. Citing [@hamilton-2018-WhyYouShould-res], the authors argue against using Hodrick-Prescott filter to detrend the seasonality in the data and use linear regression to subtract the quarterly and yearly effects. The authors do not provide data not the code in the paper but they might make both available on request.  
 
 ## Sub-tasks
 
 The sub-tasks to recreate the graph are as follows:
 
-Find the data of hate crimes between 1992 and 2017 on FBI website.
-Import and process the data. 
-Detrend the data.
-Reproduce the graph. 
+- Find the data of hate crimes between 1992 and 2017 on FBI website.
+- Import and process the data. 
+- Detrend the data using the same methodology as [@rushin-2018-EffectPresidentTrump-sej].
+- Reproduce the graph.
 
 
-
-
-
+# Reproducing the Figure Using the Data from the Paper
 ```{r, warning=F, message=F}
 library(tidyverse)
+library(lubridate)
+library(scales)
 ```
-
 
 ```{r}
-load(here::here("/data/open_ICPSR/ucr_hate_crimes_1992_2017_rda/ucr_hate_crimes_1992_2017.rda"))
+edwards <- haven::read_dta(here::here("/data/edwards_data/sefaozalp.dta")) %>%  
+  filter(!year %in% c(1985:1991) ) %>% 
+  filter(!is.na(hatecrimes)) %>% 
+  mutate(year_fct=as.factor(year), quarter_fct=as.factor(quarter))
+
+
+linear_model <- lm(hatecrimes~year_fct+quarter_fct, data = edwards)
 ```
 
-
-Lets check the raw data aggregated quarterly.
-```{r quarterly trends}
-
-
-ucr_hate_crimes_1992_2017 %>% 
-  as.tibble() %>% 
-  select(contains("year"), contains("date")) %>% 
-  mutate(date= lubridate::ymd(date), quarter= lubridate::quarter(date,with_year = T)) %>% 
-  count(quarter, year) %>% 
-  filter(!is.na(quarter)) %>% 
-  # filter(year==2016) %>% 
-  # summarise(sum(n))
-  ggplot(aes(x=quarter, y=n))+
-  geom_line()+
-  scale_x_continuous(breaks = seq(1992,2017,4))+
-  hrbrthemes::theme_ipsum_rc()
-
-
+## Regression results
+```{r}
+summary(linear_model)
 ```
+
+## Detrend Model
+```{r}
+
+edwards$predictions= predict(linear_model, edwards)
+edwards$residuals= resid(linear_model)
+edwards$mean= mean(edwards$hatecrimes)
+edwards$hatedetrend=edwards$residuals+edwards$mean
+
+edwards_processed <-  edwards %>% 
+  arrange(date) %>% 
+  group_by(date, year, quarter) %>% 
+  summarise(hatedetrend=sum(hatedetrend), predictions=sum(predictions), residuals=sum(residuals), mean=sum(mean)) %>% 
+  ungroup() %>% 
+  mutate(quarter_str=paste(as.character(year), as.character(quarter),sep = "-")) %>% 
+  mutate(quarter_date= yq(quarter_str))
+
+edwards_processed
+```
+
+```{r Rushing and Edwards Plot, fig.height=8, fig.width=8}
+
+legend_points <-  tibble(quarter_date= dmy(c("01-10-2016", "01-10-2012", "01-10-2008", "01-07-2001")),
+                         labels= c("Trump 2016", "Obama 2012", "Obama 2008", "September 11")) %>%
+  left_join(edwards_processed) %>% 
+  arrange(quarter_date)
+  
+edwards_processed %>% 
+  ggplot(aes(x=quarter_date, y=hatedetrend))+
+  geom_line(size=0.8)+
+  scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
+  scale_x_date(breaks = seq.Date(dmy("01-01-1992"), dmy("31-12-2017"), by= "2 year"), 
+               date_labels = "%Y-%m", 
+               limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-2017")),
+               expand=c(0,0))+
+  hrbrthemes::theme_ipsum_rc()+
+  labs(title = "Detrended Quarterly Hate Crime in the US, 1992-2017",
+       y="Number of Hate Crime Incidents (Detrended)",
+       x= "Date (Quarter)",
+       subtitle = "Source: FBI Hate Crime Statistics",
+       caption = "Hate Lab, by @SefaOzalp, 2019"
+       )+
+  theme(plot.caption = element_text(size = 12))+
+  theme(axis.text.x = element_text(angle=45, hjust = 1))+
+  geom_point(data=legend_points, aes(x=quarter_date, y= hatedetrend , shape=factor(labels)), size=4,colour="grey50" )+
+  theme(legend.position="bottom")+
+  scale_shape_manual(values=c( 13,15, 17,18),
+                     name = NULL)+
+  NULL
+```
+
