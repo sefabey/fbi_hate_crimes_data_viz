@@ -221,3 +221,5 @@ hc_quarter_92 %>%
 
 
 Looking at  both monthly and quarterly aggregated data, we do not observe a seasonality or a overall trend except the in May 1992. Therefore, there it does not make sense to to detrend the data using months or quarters. 
+
+## References
