@@ -489,10 +489,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree3bdcdbd8d2642c99d354e86463a61b9c1680e070targetblank3bdcdbda"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/3bdcdbd8d2642c99d354e86463a61b9c1680e070" target="_blank">3bdcdbd</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreeba72196923beaed9e71bcae10cdd8c4bb41e8ecetargetblankba72196a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/ba72196923beaed9e71bcae10cdd8c4bb41e8ece" target="_blank">ba72196</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree3bdcdbd8d2642c99d354e86463a61b9c1680e070targetblank3bdcdbda" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreeba72196923beaed9e71bcae10cdd8c4bb41e8ecetargetblankba72196a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -506,6 +506,7 @@ Ignored files:
     Ignored:    data/data_2017/.DS_Store
     Ignored:    data/data_2017/raw/.DS_Store
     Ignored:    data/data_2017/raw/Hate Crime Statistics 2017 Tables/.DS_Store
+    Ignored:    data/data_2018/
     Ignored:    data/edwards_data/.DS_Store
     Ignored:    data/open_ICPSR/.DS_Store
     Ignored:    data/ucrpd/.DS_Store
@@ -579,6 +580,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+rmd
+</td>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/ba72196923beaed9e71bcae10cdd8c4bb41e8ece/analysis/fbi_hate_crimes_quarterly.rmd" target="_blank">ba72196</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-11-19
+</td>
+<td>
+polish yearly plot
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/sefabey/fbi_hate_crimes_data_viz/6a419885559b814288b5004c086240c987275bec/docs/fbi_hate_crimes_quarterly.html" target="_blank">6a41988</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-11-19
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 html
@@ -899,8 +934,9 @@ library(scales)</code></pre>
   filter(!year %in% c(1985:1991) ) %&gt;% 
   filter(!is.na(hatecrimes)) %&gt;% 
   mutate(year_fct=as.factor(year), quarter_fct=as.factor(quarter))
-
-
+  
+  
+  
 linear_model &lt;- lm(hatecrimes~year_fct+quarter_fct, data = edwards)</code></pre>
 <div id="regression-results" class="section level2">
 <h2>Regression results</h2>
@@ -990,7 +1026,7 @@ edwards_processed</code></pre>
   left_join(edwards_processed) %&gt;% 
   arrange(quarter_date)</code></pre>
 <pre><code>Joining, by = &quot;quarter_date&quot;</code></pre>
-<pre class="r"><code>edwards_processed %&gt;% 
+<pre class="r"><code>edwards_processed %&gt;%
   ggplot(aes(x=quarter_date, y=hatedetrend))+
   geom_line(size=0.8)+
   scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
@@ -1051,6 +1087,257 @@ Sefa Ozalp
 </div>
 </div>
 </div>
+</div>
+<div id="reproduce-the-same-plot-using-fbi-data" class="section level1">
+<h1>Reproduce the Same Plot Using FBI data</h1>
+<pre class="r"><code>load(here::here(&quot;/data/open_ICPSR/ucr_hate_crimes_1992_2017_rda/ucr_hate_crimes_1992_2017.rda&quot;))</code></pre>
+<p>Lets check the raw data aggregated quarterly.</p>
+<pre class="r"><code>qt_hate &lt;- ucr_hate_crimes_1992_2017 %&gt;% 
+  as.tibble() %&gt;% 
+  filter(!is.na(bias_motivation_offense_1)) %&gt;% 
+  select(contains(&quot;year&quot;), contains(&quot;date&quot;)) %&gt;% 
+  mutate(date= lubridate::ymd(date), quarter= lubridate::quarter(date,with_year = T), 
+         quarter_fct= as.factor(lubridate::quarter(date,with_year = F)), year_fct=as.factor(year)) %&gt;% 
+  count(quarter, quarter_fct, year, year_fct) %&gt;% 
+  filter(!is.na(quarter)) %&gt;% 
+  rename(hatecrimes=n)</code></pre>
+<pre><code>Warning: `as.tibble()` is deprecated, use `as_tibble()` (but mind the new semantics).
+This warning is displayed once per session.</code></pre>
+<pre class="r"><code>qt_hate %&gt;% 
+  ggplot(aes(x=quarter, y=hatecrimes))+
+  geom_line(size=0.8)+
+  scale_x_continuous(breaks = seq(1992,2017,2), expand=c(0.01,0))+
+  hrbrthemes::theme_ipsum_rc()+
+  scale_y_continuous(label=comma, breaks = seq(0,3500, 500), limits = c(0,3500), minor_breaks = NULL)+
+  labs(title = &quot;Quarterly Aggregated Hate Crime Incidents in the US, 1992-2019&quot;,
+       y=&quot;Number of Hate Crime Incidents&quot;,
+       subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
+       caption = &quot;Hate Lab, by @SefaOzalp, 2019&quot;
+       )+
+  theme(plot.caption = element_text(size = 12))+
+  theme(axis.text.x = element_text(angle=45, hjust = 1))</code></pre>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/quarterly_aggregated_data-1.png" width="768" style="display: block; margin: auto;" /></p>
+</div>
+<div id="compare-raw-numbers" class="section level1">
+<h1>Compare Raw Numbers</h1>
+<pre class="r"><code>qt_ucr_plot &lt;- qt_hate %&gt;% 
+  ggplot(aes(x=quarter, y=hatecrimes))+
+  geom_line(size=0.8)
+
+qt_edwards_plot &lt;- edwards %&gt;% 
+  group_by(quarter, year) %&gt;% 
+  summarise(hatecrimes=sum(hatecrimes)) %&gt;% 
+  mutate(quarter_date=dmy(paste( &quot;01&quot;, as.character(quarter), as.character(year),sep = &quot;-&quot; ))) %&gt;%
+  ggplot(aes(x=quarter_date, y=hatecrimes))+
+  geom_line(size=0.8)
+  
+gridExtra::grid.arrange(qt_ucr_plot,qt_edwards_plot, nrow=2 )</code></pre>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/compare_raw_counts-1.png" width="672" style="display: block; margin: auto;" /></p>
+<div id="linear-model-with-ucr-data" class="section level2">
+<h2>Linear Model with UCR Data</h2>
+<pre class="r"><code>lm_ucr_hc &lt;- lm(hatecrimes~ year_fct + quarter_fct, data = qt_hate)</code></pre>
+</div>
+<div id="regression-results-1" class="section level2">
+<h2>Regression results</h2>
+<pre class="r"><code>summary(linear_model)</code></pre>
+<pre><code>
+Call:
+lm(formula = hatecrimes ~ year_fct + quarter_fct, data = edwards)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+ -0.809  -0.631  -0.559  -0.474 301.191 
+
+Coefficients:
+              Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)   0.484576   0.037291  12.995  &lt; 2e-16 ***
+year_fct1993  0.074678   0.049936   1.495 0.134789    
+year_fct1994 -0.056334   0.049935  -1.128 0.259262    
+year_fct1995  0.102244   0.049935   2.048 0.040606 *  
+year_fct1996  0.166683   0.049932   3.338 0.000843 ***
+year_fct1997  0.109271   0.049934   2.188 0.028648 *  
+year_fct1998  0.083748   0.049931   1.677 0.093490 .  
+year_fct1999  0.092995   0.049933   1.862 0.062548 .  
+year_fct2000  0.104078   0.049932   2.084 0.037125 *  
+year_fct2001  0.232612   0.049933   4.658 3.19e-06 ***
+year_fct2002  0.060869   0.049935   1.219 0.222859    
+year_fct2003  0.061860   0.049934   1.239 0.215409    
+year_fct2004  0.074423   0.049934   1.490 0.136112    
+year_fct2005  0.034325   0.049934   0.687 0.491827    
+year_fct2006  0.077647   0.049933   1.555 0.119940    
+year_fct2007  0.070178   0.049935   1.405 0.159905    
+year_fct2008  0.083307   0.049935   1.668 0.095256 .  
+year_fct2009 -0.009620   0.049935  -0.193 0.847228    
+year_fct2010 -0.008831   0.049935  -0.177 0.859620    
+year_fct2011 -0.042409   0.049935  -0.849 0.395726    
+year_fct2012 -0.011658   0.049936  -0.233 0.815400    
+year_fct2013 -0.066591   0.049935  -1.334 0.182352    
+year_fct2014 -0.101956   0.049934  -2.042 0.041170 *  
+year_fct2015 -0.074865   0.049933  -1.499 0.133792    
+year_fct2016 -0.044155   0.049931  -0.884 0.376521    
+year_fct2017  0.037715   0.049935   0.755 0.450082    
+quarter_fct2  0.085000   0.019585   4.340 1.43e-05 ***
+quarter_fct3  0.091694   0.019586   4.682 2.85e-06 ***
+quarter_fct4  0.004990   0.019585   0.255 0.798906    
+---
+Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+
+Residual standard error: 3.958 on 326764 degrees of freedom
+Multiple R-squared:  0.0004988, Adjusted R-squared:  0.0004132 
+F-statistic: 5.824 on 28 and 326764 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<div id="detrend-data-using-residuals-1" class="section level2">
+<h2>Detrend Data Using Residuals</h2>
+<pre class="r"><code>qt_hate$predictions= predict(lm_ucr_hc, qt_hate)
+qt_hate$residuals= resid(lm_ucr_hc)
+qt_hate$mean= mean(qt_hate$hatecrimes)
+qt_hate$hatedetrend=qt_hate$residuals+qt_hate$mean
+
+
+qt_hate %&gt;% 
+  mutate(quarter_date=dmy(paste( &quot;01&quot;, as.character(quarter_fct), as.character(year_fct),sep = &quot;-&quot; ))) %&gt;%
+  ggplot(aes(x=quarter_date, y=hatedetrend))+
+  geom_line(size=0.8)+
+  scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+               date_labels = &quot;%Y-%m&quot;, 
+               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               expand=c(0,0))+
+  hrbrthemes::theme_ipsum_rc()+
+  labs(title = &quot;Detrended Quarterly Hate Crime in the US, 1992-2017&quot;,
+       y=&quot;Number of Hate Crime Incidents (Detrended)&quot;,
+       x= &quot;Date (Quarter)&quot;,
+       subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
+       caption = &quot;Hate Lab, by @SefaOzalp, 2019&quot;
+       )+
+  theme(plot.caption = element_text(size = 12))+
+  theme(axis.text.x = element_text(angle=45, hjust = 1))+
+  geom_point(data=legend_points, aes(x=quarter_date, y= hatedetrend , shape=factor(labels)), size=4,colour=&quot;grey50&quot; )+
+  theme(legend.position=&quot;bottom&quot;)+
+  scale_shape_manual(values=c( 13,15, 17,18),
+                     name = NULL)+
+  NULL  </code></pre>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-8-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<div id="compare-both-models" class="section level1">
+<h1>Compare Both Models</h1>
+<pre class="r"><code>a &lt;- edwards_processed$hatedetrend  
+b &lt;- qt_hate$hatedetrend
+a</code></pre>
+<pre><code>  [1] 1892.633 1985.563 1510.530 1779.956 1832.982 1791.923 1765.890
+  [8] 1777.316 1919.633 1683.563 1752.530 1812.956 1814.383 1631.313
+ [15] 1827.280 1895.706 1866.835 1808.680 1804.640 1690.238 1822.305
+ [22] 1872.234 1713.086 1761.627 1842.499 1789.344 1764.304 1774.817
+ [29] 1811.436 1855.281 1773.340 1729.766 1869.620 1750.447 1723.407
+ [36] 1826.919 1415.766 1542.696 2548.424 1662.937 1831.383 1853.313
+ [43] 1832.280 1651.706 1767.294 1818.200 1770.167 1813.592 1854.796
+ [50] 1851.726 1690.613 1772.118 1848.784 1835.681 1703.681 1781.107
+ [57] 1740.674 1854.595 1772.563 1801.991 1690.133 1843.063 1830.030
+ [64] 1805.456 1818.883 1800.813 1740.780 1808.206 1822.956 1772.790
+ [71] 1773.754 1799.183 1779.382 1828.321 1827.276 1733.704 1722.882
+ [78] 1794.855 1767.742 1883.204 1980.264 1799.194 1761.161 1627.494
+ [85] 1721.862 1843.791 1829.698 1773.332 1709.980 1798.910 1821.877
+ [92] 1838.486 1679.861 1844.866 1802.758 1842.339 1649.499 1621.344
+ [99] 1761.304 2138.817 1893.133 1729.063 1729.030 1817.456</code></pre>
+<pre class="r"><code>b</code></pre>
+<pre><code>  [1] 1910.481 2002.596 1525.865 1792.865 1849.231 1810.346 1782.615
+  [8] 1789.615 1936.731 1700.846 1768.115 1826.115 1831.481 1648.596
+ [15] 1842.865 1908.865 1883.231 1825.346 1820.615 1702.615 1838.981
+ [22] 1888.096 1730.365 1774.365 1857.231 1804.346 1778.615 1791.615
+ [29] 1827.231 1869.346 1792.615 1742.615 1877.231 1767.346 1734.615
+ [36] 1852.615 1430.481 1564.596 2566.865 1669.865 1850.481 1866.596
+ [43] 1847.865 1666.865 1778.731 1831.846 1790.115 1831.115 1877.731
+ [50] 1868.846 1699.115 1786.115 1866.231 1852.346 1720.615 1792.615
+ [57] 1751.481 1878.596 1795.865 1805.865 1709.981 1857.096 1846.365
+ [64] 1818.365 1832.231 1812.346 1753.615 1833.615 1832.981 1787.096
+ [71] 1799.365 1812.365 1805.981 1842.096 1839.365 1744.365 1739.481
+ [78] 1810.596 1778.865 1902.865 1996.731 1813.846 1783.115 1638.115
+ [85] 1738.481 1857.596 1847.865 1787.865 1723.231 1814.346 1837.615
+ [92] 1856.615 1702.481 1854.596 1816.865 1857.865 1647.981 1637.096
+ [99] 1764.365 2182.365 1910.231 1740.346 1742.615 1838.615</code></pre>
+<pre class="r"><code>summary(a)</code></pre>
+<pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1416    1748    1799    1792    1832    2548 </code></pre>
+<pre class="r"><code>summary(b)</code></pre>
+<pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1430    1762    1812    1808    1851    2567 </code></pre>
+<pre class="r"><code>qplot(a)</code></pre>
+<pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-9-1.png" width="672" style="display: block; margin: auto;" /></p>
+<pre class="r"><code>qplot(b)</code></pre>
+<pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-9-2.png" width="672" style="display: block; margin: auto;" /></p>
+<pre class="r"><code>t.test(a,b)</code></pre>
+<pre><code>
+    Welch Two Sample t-test
+
+data:  a and b
+t = -0.94654, df = 205.97, p-value = 0.345
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -48.22953  16.94107
+sample estimates:
+mean of x mean of y 
+ 1792.308  1807.952 </code></pre>
+<pre class="r"><code>wilcox.test(a,b)</code></pre>
+<pre><code>
+    Wilcoxon rank sum test with continuity correction
+
+data:  a and b
+W = 4693, p-value = 0.09972
+alternative hypothesis: true location shift is not equal to 0</code></pre>
+</div>
+<div id="wip" class="section level1">
+<h1>WIP</h1>
+<p>Using additive <a href="https://anomaly.io/seasonal-trend-decomposition-in-r/index.html" class="uri">https://anomaly.io/seasonal-trend-decomposition-in-r/index.html</a> <a href="https://www.stat.pitt.edu/stoffer/tsa4/tsa4.pdf" class="uri">https://www.stat.pitt.edu/stoffer/tsa4/tsa4.pdf</a></p>
+<pre class="r"><code># library(fpp)
+# library(forecast)
+# 
+# data(ausbeer) 
+# tail(head(ausbeer))
+# 
+# tail(head(ausbeer, 17*4+2),17*4-4)
+# timeserie_beer = tail(head(ausbeer, 17*4+2),17*4-4)
+# plot(as.ts(timeserie_beer))
+# trend_beer = ma(timeserie_beer, order = 4, centre = T)
+# plot(as.ts(timeserie_beer))
+# lines(trend_beer)
+# plot(as.ts(trend_beer))
+# detrend_beer = timeserie_beer - trend_beer
+# plot(as.ts(detrend_beer))
+# m_beer = t(matrix(data = detrend_beer, nrow = 4))
+# seasonal_beer = colMeans(m_beer, na.rm = T)
+# plot(as.ts(rep(seasonal_beer,16)))
+# random_beer = timeserie_beer - trend_beer - seasonal_beer
+# plot(as.ts(random_beer))
+# recomposed_beer = trend_beer+seasonal_beer+random_beer
+# plot(as.ts(recomposed_beer))
+# ts_beer = ts(timeserie_beer, frequency = 4)
+# decompose_beer = decompose(ts_beer, &quot;additive&quot;)
+#  
+# plot(as.ts(decompose_beer$seasonal))
+# plot(as.ts(decompose_beer$trend))
+# plot(as.ts(decompose_beer$random))
+# plot(decompose_beer)
+# 
+# ts_beer = ts(timeserie_beer, frequency = 4)
+# stl_beer = stl(ts_beer, &quot;periodic&quot;)
+# seasonal_stl_beer   &lt;- stl_beer$time.series[,1]
+# trend_stl_beer     &lt;- stl_beer$time.series[,2]
+# random_stl_beer  &lt;- stl_beer$time.series[,3]
+#  
+# plot(ts_beer)
+# plot(as.ts(seasonal_stl_beer))
+# plot(trend_stl_beer)
+# plot(random_stl_beer)
+# plot(stl_beer)</code></pre>
+<pre class="r"><code># str(timeserie_beer)
+# 
+# hate_vector &lt;- hate %&gt;% select(n) %&gt;% pull
+# 
+# ts_hate &lt;- ts(hate_vector, , start=c(1992, 1), end=c(2017, 12), frequency=12)
+# ts_hate</code></pre>
 <div id="references" class="section level2">
 <h2>References</h2>
 <div id="refs">
@@ -1097,18 +1384,19 @@ loaded via a namespace (and not attached):
 [16] gdtools_0.2.0     modelr_0.1.5      readxl_1.3.1     
 [19] lifecycle_0.1.0   munsell_0.5.0     gtable_0.3.0     
 [22] workflowr_1.4.0   cellranger_1.1.0  rvest_0.3.4      
-[25] evaluate_0.14     knitr_1.25        extrafont_0.17   
-[28] fansi_0.4.0       Rttf2pt1_1.3.7    broom_0.5.2      
-[31] Rcpp_1.0.2        backports_1.1.4   jsonlite_1.6     
-[34] systemfonts_0.1.1 fs_1.3.1          hms_0.5.1        
-[37] digest_0.6.21     stringi_1.4.3     grid_3.6.1       
-[40] rprojroot_1.3-2   here_0.1          cli_1.1.0        
-[43] tools_3.6.1       magrittr_1.5      lazyeval_0.2.2   
-[46] extrafontdb_1.0   crayon_1.3.4      whisker_0.4      
-[49] pkgconfig_2.0.3   zeallot_0.1.0     xml2_1.2.2       
-[52] assertthat_0.2.1  rmarkdown_1.15    httr_1.4.1       
-[55] rstudioapi_0.10   R6_2.4.0          nlme_3.1-141     
-[58] git2r_0.26.1      compiler_3.6.1   </code></pre>
+[25] evaluate_0.14     labeling_0.3      knitr_1.25       
+[28] extrafont_0.17    fansi_0.4.0       Rttf2pt1_1.3.7   
+[31] broom_0.5.2       Rcpp_1.0.2        backports_1.1.4  
+[34] jsonlite_1.6      systemfonts_0.1.1 fs_1.3.1         
+[37] gridExtra_2.3     hms_0.5.1         digest_0.6.21    
+[40] stringi_1.4.3     grid_3.6.1        rprojroot_1.3-2  
+[43] here_0.1          cli_1.1.0         tools_3.6.1      
+[46] magrittr_1.5      lazyeval_0.2.2    extrafontdb_1.0  
+[49] crayon_1.3.4      whisker_0.4       pkgconfig_2.0.3  
+[52] zeallot_0.1.0     xml2_1.2.2        assertthat_0.2.1 
+[55] rmarkdown_1.15    httr_1.4.1        rstudioapi_0.10  
+[58] R6_2.4.0          nlme_3.1-141      git2r_0.26.1     
+[61] compiler_3.6.1   </code></pre>
 </div>
 </div>
 </div>
