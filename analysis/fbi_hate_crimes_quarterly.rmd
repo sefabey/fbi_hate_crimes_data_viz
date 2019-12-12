@@ -89,7 +89,7 @@ legend_points <-  tibble(quarter_date= dmy(c("01-10-2016", "01-10-2012", "01-10-
 edwards_processed %>%
   ggplot(aes(x=quarter_date, y=hatedetrend))+
   geom_line(size=0.8)+
-  scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
+  scale_y_continuous(labels = comma, limits = c(1400, 2600), breaks = seq(1500,3500,250), minor_breaks = NULL)+
   scale_x_date(breaks = seq.Date(dmy("01-01-1992"), dmy("31-12-2017"), by= "2 year"), 
                date_labels = "%Y-%m", 
                limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-2017")),
