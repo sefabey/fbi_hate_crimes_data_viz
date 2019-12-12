@@ -489,10 +489,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree5fdefcde0fefa2f7e71d6e85e34d14fbb1b2253ctargetblank5fdefcda"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/5fdefcde0fefa2f7e71d6e85e34d14fbb1b2253c" target="_blank">5fdefcd</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree38e517f20d8ae7c587e9320bb89891bf7da69055targetblank38e517fa"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/38e517f20d8ae7c587e9320bb89891bf7da69055" target="_blank">38e517f</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree5fdefcde0fefa2f7e71d6e85e34d14fbb1b2253ctargetblank5fdefcda" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree38e517f20d8ae7c587e9320bb89891bf7da69055targetblank38e517fa" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -580,6 +580,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+rmd
+</td>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/38e517f20d8ae7c587e9320bb89891bf7da69055/analysis/fbi_hate_crimes_quarterly.rmd" target="_blank">38e517f</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-12-12
+</td>
+<td>
+wflow_publish(c(“analysis/fbi_hate_crimes_1992.rmd”,
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/sefabey/fbi_hate_crimes_data_viz/c9ae9991613f394e49f27693425e6f01abeaea02/docs/fbi_hate_crimes_quarterly.html" target="_blank">c9ae999</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-12-12
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 rmd
@@ -1063,7 +1097,7 @@ edwards_processed</code></pre>
 <pre class="r"><code>edwards_processed %&gt;%
   ggplot(aes(x=quarter_date, y=hatedetrend))+
   geom_line(size=0.8)+
-  scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
+  scale_y_continuous(labels = comma, limits = c(1400, 2600), breaks = seq(1500,3500,250), minor_breaks = NULL)+
   scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
                date_labels = &quot;%Y-%m&quot;, 
                limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
@@ -1083,6 +1117,43 @@ edwards_processed</code></pre>
                      name = NULL)+
   NULL</code></pre>
 <p><img src="figure/fbi_hate_crimes_quarterly.rmd/Rushin%20and%20Edwards%20Plot-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Rushin-and-Edwards-Plot-1">
+Past versions of “Rushin and Edwards Plot-1.png”
+</button>
+</p>
+<div id="fig-no-spaces-Rushin-and-Edwards-Plot-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/c9ae9991613f394e49f27693425e6f01abeaea02/docs/figure/fbi_hate_crimes_quarterly.rmd/Rushin and Edwards Plot-1.png" target="_blank">c9ae999</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-12-12
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="reproduce-the-same-plot-using-fbi-data" class="section level1">
@@ -1311,6 +1382,17 @@ Date
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/c9ae9991613f394e49f27693425e6f01abeaea02/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-8-1.png" target="_blank">c9ae999</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-12-12
+</td>
+</tr>
 <tr>
 <td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/7020e8192cbf9e1af9818faca8eeac602c904ebf/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-8-1.png" target="_blank">7020e81</a>
