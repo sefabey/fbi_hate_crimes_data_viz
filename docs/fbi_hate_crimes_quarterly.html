@@ -489,10 +489,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree632cd838a2396aa8b5637e34c868449a79a6a0c8targetblank632cd83a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/632cd838a2396aa8b5637e34c868449a79a6a0c8" target="_blank">632cd83</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreef379d7c4f0c3cf5d3729c910c3eeb94e169e4a0dtargetblankf379d7ca"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/f379d7c4f0c3cf5d3729c910c3eeb94e169e4a0d" target="_blank">f379d7c</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree632cd838a2396aa8b5637e34c868449a79a6a0c8targetblank632cd83a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreef379d7c4f0c3cf5d3729c910c3eeb94e169e4a0dtargetblankf379d7ca" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -580,6 +580,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+rmd
+</td>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/f379d7c4f0c3cf5d3729c910c3eeb94e169e4a0d/analysis/fbi_hate_crimes_quarterly.rmd" target="_blank">f379d7c</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-12-12
+</td>
+<td>
+drop Q1 stuff
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/sefabey/fbi_hate_crimes_data_viz/2d115e2f11b1836177190a0be707f44b4d499a9b/docs/fbi_hate_crimes_quarterly.html" target="_blank">2d115e2</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2019-12-12
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 html
@@ -1150,7 +1184,7 @@ edwards_processed</code></pre>
   geom_line(size=0.8)+
   scale_y_continuous(labels = comma, limits = c(1400, 2600), breaks = seq(1500,3500,250), minor_breaks = NULL)+
   scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
-               date_labels = &quot;%Y-Q1&quot;, 
+               date_labels = &quot;%Y&quot;, 
                limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
