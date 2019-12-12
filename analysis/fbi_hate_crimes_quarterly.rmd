@@ -91,7 +91,7 @@ edwards_processed %>%
   geom_line(size=0.8)+
   scale_y_continuous(labels = comma, limits = c(1400, 2600), breaks = seq(1500,3500,250), minor_breaks = NULL)+
   scale_x_date(breaks = seq.Date(dmy("01-01-1992"), dmy("31-12-2017"), by= "2 year"), 
-               date_labels = "%Y-%m", 
+               date_labels = "%Y-Q1", 
                limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-2017")),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
