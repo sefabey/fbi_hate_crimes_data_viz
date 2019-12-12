@@ -79,10 +79,10 @@ edwards_processed
 Finally, we can reproduce the plot. 
 
 
-```{r Rushing and Edwards Plot, fig.height=8, fig.width=8}
+```{r Rushin and Edwards Plot, fig.height=8, fig.width=8}
 
 legend_points <-  tibble(quarter_date= dmy(c("01-10-2016", "01-10-2012", "01-10-2008", "01-07-2001")),
-                         labels= c("Trump 2016", "Obama 2012", "Obama 2008", "September 11")) %>%
+                         labels= c("Trump 2016", "Obama 2012", "Obama 2008", "9/11")) %>%
   left_join(edwards_processed) %>% 
   arrange(quarter_date)
   
@@ -103,9 +103,9 @@ edwards_processed %>%
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
-  geom_point(data=legend_points, aes(x=quarter_date, y= hatedetrend , shape=factor(labels)), size=4,colour="grey50" )+
+  geom_point(data=legend_points, aes(x=quarter_date, y= hatedetrend , shape=factor(labels)), size=3.5,colour="grey45" )+
   theme(legend.position="bottom")+
-  scale_shape_manual(values=c( 13,15, 17,18),
+  scale_shape_manual(values=c( 15,17, 19,18),
                      name = NULL)+
   NULL
 ```

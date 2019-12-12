@@ -109,7 +109,7 @@ ucr_hate_crimes_1992_2017 %>%
   geom_line(aes(y=n, colour="Anti-White"), size=0.8)+
   geom_line(aes(y=preriot_mean, colour="Pre-riot Average"), size=1)+
   hrbrthemes::theme_ipsum_rc()+
-  scale_x_date(date_breaks = "1 month", date_labels = "%d-%b-%y", 
+  scale_x_date(date_breaks = "1 month", date_labels = "%b-%y", 
                limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-1992")),
                expand=c(0,0))+
   scale_y_continuous(limits = c(0,60), breaks = seq(0,60,10),minor_breaks = NULL)+
@@ -123,7 +123,8 @@ ucr_hate_crimes_1992_2017 %>%
     labs(title = "Anti-White Hate Crimes in the US, 1992",
          y="Number of Hate Crime Incidents",
          subtitle = "Source: FBI Hate Crime Statistics",
-         caption = "Hate Lab, by @SefaOzalp, 2019"
+         caption = "Hate Lab, by @SefaOzalp, 2019",
+         colour="Line"
        )+
   theme(plot.caption = element_text(size = 12))+
   NULL
