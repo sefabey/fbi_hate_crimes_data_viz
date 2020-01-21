@@ -603,7 +603,7 @@ Row_id,State,Agency_Type,Agency_name,Total_incidents_bias_motivation,Bias_Motiva
 602,Kentucky,State Police Agencies,State Police: Frankfort,2,2,0,0,0,0,0,2,0,1,1,0,
 603,Kentucky,State Police Agencies,State Police: Hazard,3,3,0,0,0,0,0,3,0,0,2,1,
 604,Kentucky,State Police Agencies,State Police: Madisonville,1,1,0,0,0,0,0,1,0,1,0,0,
-605,Kentucky,State Police Agencies,State Police: vMorehead,2,2,0,0,0,0,0,2,0,1,1,0,
+605,Kentucky,State Police Agencies,State Police: Morehead,2,2,0,0,0,0,0,2,0,1,1,0,
 606,Kentucky,State Police Agencies,State Police: West Drug Enforcement Branch,2,2,0,0,0,0,0,2,0,0,1,1,
 607,Kentucky,Other Agencies,Cincinnati-Northern Kentucky International Airport,1,1,0,0,0,0,0,1,1,0,0,0,
 608,Kentucky,Other Agencies,Fayette County Schools,1,1,0,0,0,0,0,1,0,0,0,1,
