@@ -1,13 +1,14 @@
 # Geocoding Hate Crime Data
 library(tidyverse)
 library(ggmap)
+library(hrbrthemes)
 
 # DATA I/O and health check-----------
 # read data and clean
 reported_agency <- read_csv("data/data_2018/processed_data/Table_13_Hate_Crime_Incidents_per_Bias_Motivation_and_Quarter_by_State_and_Agency_2018_processed.csv") %>% 
   mutate(agency_with_state= paste(Agency_name, State, sep = ", ")) %>%
-  mutate(agency_with_state= str_remove_all(agency_with_state, pattern = regex( paste0( c( "State Police: ", "Federal Bureau of Investigation Field Offices: "), collapse = "|" )))) %>% # without removing these, nominatim would not work
-  mutate(agency_with_state= str_replace_all( agency_with_state,pattern = ":", ",")) # this is to remove the : from unis
+  mutate(agency_with_state_clean= str_remove_all(agency_with_state, pattern = regex( paste0( c( "State Police: ", "Federal Bureau of Investigation Field Offices: "), collapse = "|" )))) %>% # without removing these, nominatim would not work
+  mutate(agency_with_state_clean= str_replace_all( agency_with_state_clean,pattern = ":", ",")) # this is to remove the : from unis
 
 
 # sample 20 and manually compare to FBI data 
@@ -19,8 +20,31 @@ reported_agency %>%
 
 # Geo-coding data-------------
 
-# using Open Street Maps Nominatim API (https://datascienceplus.com/osm-nominatim-with-r-getting-locations-geo-coordinates-by-its-address/)
+
+# using ggmap
+register_google(key = "xxxx")
+geocode("1600 Amphitheatre Parkway, Mountain View, CA")
+
+
+trial <- reported_agency %>% 
+  head(10) %>% 
+  mutate_geocode(agency_with_state,output = c("latlon", "latlona", "more", "all"))
+
+
+reported_agency_geo <- reported_agency %>% 
+  mutate_geocode(agency_with_state,output = c("latlon", "latlona", "more", "all"))
   
+reported_agency_geo %>% 
+  select(lon, lat, agency_with_state) %>% 
+  skimr::skim() #no missing values
+
+reported_agency_geo %>% 
+  write_csv("data/data_2018/processed_data/Table_13_geocoded.csv")
+
+
+
+# using Open Street Maps Nominatim API (https://datascienceplus.com/osm-nominatim-with-r-getting-locations-geo-coordinates-by-its-address/)------------
+# This works but banned my ip due to mass querying. 
   
 nominatim_osm <- function(address = NULL)
   {
@@ -225,3 +249,10 @@ reported_agency_geo_complete <- read_csv('data/Table_13_geo_003.csv')
 reported_agency_geo_complete %>% 
   filter(is.na(Population)) # 394 agencies are mising population information
 #not a big issue here but will be an issue for missing data
+
+
+
+# using 
+
+
+

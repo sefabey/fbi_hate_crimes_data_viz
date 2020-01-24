@@ -1,22 +1,28 @@
 library(tidyverse)
 library(ggmap)
 library(hrbrthemes)
-# try plotting
-# devtools::install_github("dkahle/ggmap", force=T)
-# install.packages("ggmap")
-# devtools:: install_version("ggplot2", version = "2.2.1", repos = "http://cran.us.r-project.org")
-# install.packages("ggplot2")
-reported_agency_geo_complete <- read_csv('data/Table_13_geo_003.csv')
+
+reported_agency_geo_complete <- read_csv('data/data_2018/processed_data/Table_13_geocoded.csv')
+
+reported_agency_geo_complete %>% 
+  arrange(desc(Total_incidents_bias_motivation))
+
+# data check
+reported_agency_geo_complete %>% 
+  select(lon, lat, agency_with_state) %>% 
+  skimr::skim() # data looking good
+
+
 
 reported_agency_geo_complete_2 <- reported_agency_geo_complete%>% 
-  filter(State!='Alaska') %>% 
+  filter(!State %in% c('Alaska', "Hawaii")) %>% 
   filter(Population>10000 | is.na(Population)) #%>%  # NAs are metropolitan counties. They should be included.
 
 usa_bbox <- make_bbox(lat = lat, lon = lon, data = reported_agency_geo_complete_2)
 usa_big <- get_map(location = usa_bbox, maptype = 'terrain-background')
 reported_agency_geo_complete %>% names
 
-ggmap(usa_big) + 
+plot_ggmap <-  ggmap(usa_big) + 
   geom_point(data = reported_agency_geo_complete_2, 
              mapping = aes(x = lon, y = lat, size = Total_incidents_Q1_to_Q4))+
   # scale_size_area()+
@@ -34,7 +40,7 @@ ggmap(usa_big) +
   labs(size="Legend")+
   NULL
 
-ggsave(filename = 'viz/reported_hate_crimes.png', device = "png", scale = 2, dpi = 'retina', width = 20, height = 12, units = "cm")
+ggsave(plot_ggmap, filename = 'viz/viz_2018/reported_hate_crimes_crowded_map.pdf', device = cairo_pdf, scale = 1.8, dpi = 'retina', width = 20, height = 12, units = "cm")
 
 # Above plot was too busy. Replotting with an empty plot.
 
@@ -43,18 +49,18 @@ ggsave(filename = 'viz/reported_hate_crimes.png', device = "png", scale = 2, dpi
 
 us <- map_data("state")
 
-ggplot()+
+plot_flat <- ggplot()+
   geom_map(data = us, map=us,
            aes(x=long, y=lat, map_id=region),
            fill="#E7E7CB", color="#666633", size=0.15)+
   geom_point(data = reported_agency_geo_complete_2, 
              mapping = aes(x = lon, y = lat, size = Total_incidents_Q1_to_Q4))+
-  scale_radius(range=c(0.01, 7))+
+  scale_radius(range=c(0.01, 4))+
   scale_alpha()+
   labs(x="Longitude", y="Latitude",
-       title="Hate Crimes Reported by the US Law Enforcement Agencies in 2016",
+       title="Hate Crimes Reported by the US Law Enforcement Agencies in 2018",
        subtitle="Source: FBI Hate Crime Statistics",
-       caption="Social Data Science Lab, Cardiff University") +
+       caption="HateLab, 2020, by @SefaOzalp") +
   
   theme_ipsum_rc()+
   theme(legend.position="bottom",
@@ -66,17 +72,20 @@ ggplot()+
         axis.title = element_blank(),
         axis.text = element_blank()
         
-        )+
+  )+
   labs(size="Number of Hate Crimes")+
+  # scale_size(guide = "legend", 
+             # trans = "log10"
+             # )+
   NULL
 
-ggsave(filename = 'viz/reported_hate_crimes_ver2.png', device = "png", scale = 2, dpi = 500, width = 20, height = 12, units = "cm")
+ggsave(plot_flat, filename = 'viz/viz_2018/reported_hate_crimes_flat.pdf', device = cairo_pdf, scale=1.8, dpi = 500, width = 20, height = 12, units = "cm")
 
 
 # plot 3: less clutter, albers projection =====
 
 
-ggplot()+
+plot_albers <- ggplot()+
   geom_map(data = us, map=us,
            aes(x=long, y=lat, map_id=region),
            fill="#E7E7CB", color="#666633", size=0.25)+
@@ -84,12 +93,12 @@ ggplot()+
   
   geom_point(data = reported_agency_geo_complete_2, 
              mapping = aes(x = lon, y = lat, size = Total_incidents_Q1_to_Q4))+
-  scale_radius(range=c(0.01, 7))+
+  scale_radius(range=c(0.01, 4))+
   scale_alpha()+
   labs(x="Longitude", y="Latitude",
        title="Hate Crimes Reported by the US Law Enforcement Agencies in 2016",
        subtitle="Source: FBI Hate Crime Statistics",
-       caption="Social Data Science Lab, Cardiff University") +
+       caption="HateLab, 2020, by @SefaOzalp") +
   
   theme_ipsum_rc()+
   theme(legend.position="bottom",
@@ -105,6 +114,4 @@ ggplot()+
   labs(size="Number of Hate Crimes")+
   NULL
 
-ggsave(filename = 'viz/reported_hate_crimes_ver3.png', device = "png", scale = 2, dpi = 600, width = 20, height = 12, units = "cm")
-
-
+ggsave(plot_albers, filename = 'viz/viz_2018/reported_hate_crimes_albers.pdf', device = cairo_pdf, scale=1.8, dpi = 500, width = 20, height = 12, units = "cm")
