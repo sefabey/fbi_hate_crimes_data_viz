@@ -128,7 +128,7 @@ library(usmap) # includes alaska and Hawaii
 
 dt_fbi_hatecrimes <- reported_agency_geo_complete %>% 
   group_by(State) %>% 
-  summarise(total_incidents_state=sum(Total_incidents_Q1_to_Q4)) %>% view()
+  summarise(total_incidents_state=sum(Total_incidents_Q1_to_Q4)) %>%
   mutate(fips=usmap::fips(State)) %>% 
   arrange(fips)
 
