@@ -489,10 +489,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree71469eb5b1c7776084cf9f9ef17ba9a7762ba147targetblank71469eba"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/71469eb5b1c7776084cf9f9ef17ba9a7762ba147" target="_blank">71469eb</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreed1f8069a8a55a98301b9afffa4d08a9d62780348targetblankd1f8069a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/d1f8069a8a55a98301b9afffa4d08a9d62780348" target="_blank">d1f8069</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree71469eb5b1c7776084cf9f9ef17ba9a7762ba147targetblank71469eba" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreed1f8069a8a55a98301b9afffa4d08a9d62780348targetblankd1f8069a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -599,6 +599,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+rmd
+</td>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/d1f8069a8a55a98301b9afffa4d08a9d62780348/analysis/fbi_hate_crimes_quarterly.rmd" target="_blank">d1f8069</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+<td>
+wflow_publish(“analysis/fbi_hate_crimes_quarterly.rmd”)
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/sefabey/fbi_hate_crimes_data_viz/32106bf34a38de1465139c3850240bdaac4485e2/docs/fbi_hate_crimes_quarterly.html" target="_blank">32106bf</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 rmd
@@ -1136,7 +1170,7 @@ wip FBI data plots
 <pre class="r"><code>library(tidyverse)
 library(lubridate)
 library(scales)
-knitr::opts_chunk$set(fig.width=8, fig.height=8)</code></pre>
+knitr::opts_chunk$set(fig.width=10, fig.height=8)</code></pre>
 <pre class="r"><code>edwards &lt;- haven::read_dta(here::here(&quot;/data/edwards_data/sefaozalp.dta&quot;)) %&gt;%  
   filter(!year %in% c(1985:1991) ) %&gt;% 
   filter(!is.na(hatecrimes)) %&gt;% 
@@ -1349,7 +1383,7 @@ This warning is displayed once per session.</code></pre>
   scale_x_continuous(breaks = seq(1992,2017,2), expand=c(0.01,0))+
   hrbrthemes::theme_ipsum_rc()+
   scale_y_continuous(label=comma, breaks = seq(0,3500, 500), limits = c(0,3500), minor_breaks = NULL)+
-  labs(title = &quot;Quarterly Aggregated Hate Crime Incidents in the US, 1992-2019&quot;,
+  labs(title = &quot;Quarterly Aggregated Hate Crime Incidents in the US, 1992-2017&quot;,
        y=&quot;Number of Hate Crime Incidents&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
        caption = &quot;Hate Lab, by @SefaOzalp, 2019&quot;
@@ -1408,7 +1442,7 @@ qt_edwards_plot &lt;- edwards %&gt;%
   geom_line(size=0.8)
   
 gridExtra::grid.arrange(qt_ucr_plot,qt_edwards_plot, nrow=2 )</code></pre>
-<p><img src="figure/fbi_hate_crimes_quarterly.rmd/compare_raw_counts-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/compare_raw_counts-1.png" width="960" style="display: block; margin: auto;" /></p>
 <p>
 <button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-compare_raw_counts-1">
 Past versions of compare_raw_counts-1.png
@@ -1431,6 +1465,17 @@ Date
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/compare_raw_counts-1.png" target="_blank">32106bf</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
 <tr>
 <td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/7020e8192cbf9e1af9818faca8eeac602c904ebf/docs/figure/fbi_hate_crimes_quarterly.rmd/compare_raw_counts-1.png" target="_blank">7020e81</a>
@@ -1531,7 +1576,7 @@ qt_hate %&gt;%
   scale_shape_manual(values=c( 13,15, 17,18),
                      name = NULL)+
   NULL  </code></pre>
-<p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-9-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-9-1.png" width="960" style="display: block; margin: auto;" /></p>
 <p>
 <button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-9-1">
 Past versions of unnamed-chunk-9-1.png
@@ -1554,6 +1599,17 @@ Date
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-9-1.png" target="_blank">32106bf</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
 <tr>
 <td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/7020e8192cbf9e1af9818faca8eeac602c904ebf/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-9-1.png" target="_blank">7020e81</a>
@@ -1615,10 +1671,84 @@ a</code></pre>
    1430    1762    1812    1808    1851    2567 </code></pre>
 <pre class="r"><code>qplot(a)</code></pre>
 <pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
-<p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-1.png" width="960" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-10-1">
+Past versions of unnamed-chunk-10-1.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-10-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-1.png" target="_blank">32106bf</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <pre class="r"><code>qplot(b)</code></pre>
 <pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
-<p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-2.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-2.png" width="960" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-10-2">
+Past versions of unnamed-chunk-10-2.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-10-2" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-2.png" target="_blank">32106bf</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <pre class="r"><code>t.test(a,b)</code></pre>
 <pre><code>
     Welch Two Sample t-test
@@ -1857,7 +1987,44 @@ coercing to character vector</code></pre>
   scale_shape_manual(values=c( 13,15, 17,18),
                      name = NULL)+
   NULL</code></pre>
-<p><img src="figure/fbi_hate_crimes_quarterly.rmd/anti-muslim_incidents-1.png" width="4000" style="display: block; margin: auto;" /></p>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/anti-muslim_incidents-1.png" width="5000" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-anti-muslim_incidents-1">
+Past versions of anti-muslim_incidents-1.png
+</button>
+</p>
+<div id="fig-anti-muslim_incidents-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/anti-muslim_incidents-1.png" target="_blank">32106bf</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="detrending-anti-muslim-hate-crimes" class="section level3">
 <h3>Detrending Anti-Muslim Hate Crimes</h3>
@@ -1954,7 +2121,44 @@ legend_points_muslim_det</code></pre>
   scale_shape_manual(values=c( 13,15, 17,18),
                      name = NULL)+
   NULL  </code></pre>
-<p><img src="figure/fbi_hate_crimes_quarterly.rmd/antimuslim_detrended_plot-1.png" width="4000" style="display: block; margin: auto;" /></p>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/antimuslim_detrended_plot-1.png" width="5000" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-antimuslim_detrended_plot-1">
+Past versions of antimuslim_detrended_plot-1.png
+</button>
+</p>
+<div id="fig-antimuslim_detrended_plot-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/antimuslim_detrended_plot-1.png" target="_blank">32106bf</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="anti-hispanic-hate-crimes" class="section level2">
@@ -2002,7 +2206,44 @@ coercing to character vector</code></pre>
   scale_shape_manual(values=c( 13,15, 17,18),
                      name = NULL)+
   NULL</code></pre>
-<p><img src="figure/fbi_hate_crimes_quarterly.rmd/anti-hispanic_incidents-1.png" width="4000" style="display: block; margin: auto;" /></p>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/anti-hispanic_incidents-1.png" width="5000" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-anti-hispanic_incidents-1">
+Past versions of anti-hispanic_incidents-1.png
+</button>
+</p>
+<div id="fig-anti-hispanic_incidents-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/anti-hispanic_incidents-1.png" target="_blank">32106bf</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="detrending-anti-hispanic-hate-crimes" class="section level3">
 <h3>Detrending Anti-Hispanic Hate Crimes</h3>
@@ -2099,8 +2340,137 @@ legend_points_hispanic_det</code></pre>
   scale_shape_manual(values=c( 13,15, 17,18),
                      name = NULL)+
   NULL  </code></pre>
-<p><img src="figure/fbi_hate_crimes_quarterly.rmd/antihispanic_detrended-1.png" width="4000" style="display: block; margin: auto;" /></p>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/antihispanic_detrended-1.png" width="5000" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-antihispanic_detrended-1">
+Past versions of antihispanic_detrended-1.png
+</button>
+</p>
+<div id="fig-antihispanic_detrended-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/antihispanic_detrended-1.png" target="_blank">32106bf</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
+</tbody>
+</table>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div id="the-effect-trumps-election-on-anti-muslim-and-anti-hispanic-hate-crimes" class="section level1">
+<h1>The Effect Trumps Election on Anti-Muslim and Anti-Hispanic Hate Crimes</h1>
+<pre class="r"><code>qt_hate_muslim %&gt;% 
+  filter(year&gt;=2016) %&gt;% 
+  mutate(after_trump= ifelse( ( year==2016 &amp; as.numeric(quarter_fct)&lt;4 ), 0, 1 )) %&gt;% 
+  select(after_trump, everything()) %&gt;%
+  slice(1:6) %&gt;% 
+  group_by(after_trump) %&gt;% 
+  summarise(mean_hatecrimes=mean(hatecrimes))</code></pre>
+<pre><code># A tibble: 2 x 2
+  after_trump mean_hatecrimes
+        &lt;dbl&gt;           &lt;dbl&gt;
+1           0            71.3
+2           1            81.7</code></pre>
+<pre class="r"><code>qt_hate_muslim</code></pre>
+<pre><code># A tibble: 104 x 9
+   quarter quarter_fct  year year_fct hatecrimes predictions residuals
+     &lt;dbl&gt; &lt;fct&gt;       &lt;dbl&gt; &lt;fct&gt;         &lt;int&gt;       &lt;dbl&gt;     &lt;dbl&gt;
+ 1   1992. 1            1992 1992              3      -4.13      7.13 
+ 2   1992. 2            1992 1992              3       0.952     2.05 
+ 3   1992. 3            1992 1992              7      13.7      -6.72 
+ 4   1992. 4            1992 1992              2       4.45     -2.45 
+ 5   1993. 1            1993 1993              1      -4.62      5.62 
+ 6   1993. 2            1993 1993              3       0.452     2.55 
+ 7   1993. 3            1993 1993              4      13.2      -9.22 
+ 8   1993. 4            1993 1993              5       3.95      1.05 
+ 9   1994. 1            1994 1994              5      -3.62      8.63 
+10   1994. 2            1994 1994              2       1.45      0.548
+# … with 94 more rows, and 2 more variables: mean &lt;dbl&gt;, hatedetrend &lt;dbl&gt;</code></pre>
+<pre class="r"><code>calc_perc_change &lt;- function(data, n){
+  dt &lt;- data %&gt;% 
+    mutate(quarter_date=dmy(paste( &quot;01&quot;, as.character( (as.numeric(quarter_fct)*3 -2) ), as.character(year_fct),sep = &quot;-&quot; ))) %&gt;% 
+    mutate(after_trump= ifelse(  quarter_date&gt;=lubridate::ymd(&quot;2016-10-01&quot;), 1, 0 )) %&gt;% select(after_trump, everything())
+
+  index_trump &lt;-  which(dt$after_trump==1)[1]
+  
+  dt_sliced &lt;-  dt %&gt;% 
+    slice((index_trump-(n+1)):(index_trump+n))
+  
+  before_mean= mean(dt_sliced[dt_sliced$after_trump==0,]$hatecrimes)
+  after_mean= mean(dt_sliced[dt_sliced$after_trump==1,]$hatecrimes)
+
+  cat ( paste(&quot;The increase in Hate Crimes&quot;, as.character(3*n+3), &quot;before and after Trumps election is&quot;,  round(after_mean/before_mean*100-100, 2), &quot;percent.\n&quot; ) )
+  # return(dt_sliced)
+}</code></pre>
+<div id="percentage-change-for-muslim" class="section level3">
+<h3>Percentage change for Muslim</h3>
+<pre class="r"><code>map(0:4, calc_perc_change, data =qt_hate_muslim )</code></pre>
+<pre><code>The increase in Hate Crimes 3 before and after Trumps election is 30.56 percent.
+The increase in Hate Crimes 6 before and after Trumps election is 21.77 percent.
+The increase in Hate Crimes 9 before and after Trumps election is 14.49 percent.
+The increase in Hate Crimes 12 before and after Trumps election is -8.41 percent.
+The increase in Hate Crimes 15 before and after Trumps election is -0.27 percent.</code></pre>
+<pre><code>[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL
+
+[[5]]
+NULL</code></pre>
+</div>
+<div id="percentage-change-for-anti-hispanic" class="section level3">
+<h3>Percentage change for Anti-Hispanic</h3>
+<pre class="r"><code>map(0:4, calc_perc_change, data =qt_hate_hispanic )</code></pre>
+<pre><code>The increase in Hate Crimes 3 before and after Trumps election is 8 percent.
+The increase in Hate Crimes 6 before and after Trumps election is 23.5 percent.
+The increase in Hate Crimes 9 before and after Trumps election is 35.39 percent.
+The increase in Hate Crimes 12 before and after Trumps election is 43.87 percent.
+The increase in Hate Crimes 15 before and after Trumps election is 37.95 percent.</code></pre>
+<pre><code>[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL
+
+[[5]]
+NULL</code></pre>
 </div>
 </div>
 <div id="wip" class="section level1">
