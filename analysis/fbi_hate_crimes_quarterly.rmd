@@ -36,7 +36,7 @@ The sub-tasks to recreate the graph are as follows:
 library(tidyverse)
 library(lubridate)
 library(scales)
-knitr::opts_chunk$set(fig.width=8, fig.height=8)
+knitr::opts_chunk$set(fig.width=10, fig.height=8)
 ```
 
 ```{r}
@@ -142,7 +142,7 @@ qt_hate %>%
   scale_x_continuous(breaks = seq(1992,2017,2), expand=c(0.01,0))+
   hrbrthemes::theme_ipsum_rc()+
   scale_y_continuous(label=comma, breaks = seq(0,3500, 500), limits = c(0,3500), minor_breaks = NULL)+
-  labs(title = "Quarterly Aggregated Hate Crime Incidents in the US, 1992-2019",
+  labs(title = "Quarterly Aggregated Hate Crime Incidents in the US, 1992-2017",
        y="Number of Hate Crime Incidents",
        subtitle = "Source: FBI Hate Crime Statistics",
        caption = "Hate Lab, by @SefaOzalp, 2019"
@@ -470,8 +470,51 @@ qt_hate_hispanic %>%
   NULL  
 ```
 
+# The Effect Trumps Election on Anti-Muslim and Anti-Hispanic Hate Crimes
 
 
+```{r}
+qt_hate_muslim %>% 
+  filter(year>=2016) %>% 
+  mutate(after_trump= ifelse( ( year==2016 & as.numeric(quarter_fct)<4 ), 0, 1 )) %>% 
+  select(after_trump, everything()) %>%
+  slice(1:6) %>% 
+  group_by(after_trump) %>% 
+  summarise(mean_hatecrimes=mean(hatecrimes))
+qt_hate_muslim
+
+calc_perc_change <- function(data, n){
+  dt <- data %>% 
+    mutate(quarter_date=dmy(paste( "01", as.character( (as.numeric(quarter_fct)*3 -2) ), as.character(year_fct),sep = "-" ))) %>% 
+    mutate(after_trump= ifelse(  quarter_date>=lubridate::ymd("2016-10-01"), 1, 0 )) %>% select(after_trump, everything())
+
+  index_trump <-  which(dt$after_trump==1)[1]
+  
+  dt_sliced <-  dt %>% 
+    slice((index_trump-(n+1)):(index_trump+n))
+  
+  before_mean= mean(dt_sliced[dt_sliced$after_trump==0,]$hatecrimes)
+  after_mean= mean(dt_sliced[dt_sliced$after_trump==1,]$hatecrimes)
+
+  cat ( paste("The increase in Hate Crimes", as.character(3*n+3), "before and after Trumps election is",  round(after_mean/before_mean*100-100, 2), "percent.\n" ) )
+  # return(dt_sliced)
+}
+
+
+
+```
+
+### Percentage change for Muslim
+```{r}
+
+map(0:4, calc_perc_change, data =qt_hate_muslim )
+```
+
+### Percentage change for Anti-Hispanic
+```{r}
+map(0:4, calc_perc_change, data =qt_hate_hispanic )
+
+```
 
 
 # WIP
