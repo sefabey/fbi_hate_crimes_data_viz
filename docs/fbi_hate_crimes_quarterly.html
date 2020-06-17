@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -237,6 +236,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -265,6 +265,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -398,7 +404,7 @@ div.section {
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2020-02-26
+<strong>Last updated:</strong> 2020-06-17
 </p>
 <p>
 <strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
@@ -489,10 +495,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreed1f8069a8a55a98301b9afffa4d08a9d62780348targetblankd1f8069a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/d1f8069a8a55a98301b9afffa4d08a9d62780348" target="_blank">d1f8069</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree81c152936ded26950c0ce3c60d0eb8fb114135a8targetblank81c1529a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/81c152936ded26950c0ce3c60d0eb8fb114135a8" target="_blank">81c1529</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreed1f8069a8a55a98301b9afffa4d08a9d62780348targetblankd1f8069a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree81c152936ded26950c0ce3c60d0eb8fb114135a8targetblank81c1529a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -599,6 +605,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+rmd
+</td>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/81c152936ded26950c0ce3c60d0eb8fb114135a8/analysis/fbi_hate_crimes_quarterly.rmd" target="_blank">81c1529</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-06-17
+</td>
+<td>
+wflow_publish(“analysis/fbi_hate_crimes_quarterly.rmd”)
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/sefabey/fbi_hate_crimes_data_viz/232a1162a9eb8b6224e163328addbc27203e3eb4/docs/fbi_hate_crimes_quarterly.html" target="_blank">232a116</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 rmd
@@ -1415,6 +1455,17 @@ Date
 <tbody>
 <tr>
 <td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/232a1162a9eb8b6224e163328addbc27203e3eb4/docs/figure/fbi_hate_crimes_quarterly.rmd/quarterly_aggregated_data-1.png" target="_blank">232a116</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
+<tr>
+<td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/7020e8192cbf9e1af9818faca8eeac602c904ebf/docs/figure/fbi_hate_crimes_quarterly.rmd/quarterly_aggregated_data-1.png" target="_blank">7020e81</a>
 </td>
 <td>
@@ -1465,6 +1516,17 @@ Date
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/232a1162a9eb8b6224e163328addbc27203e3eb4/docs/figure/fbi_hate_crimes_quarterly.rmd/compare_raw_counts-1.png" target="_blank">232a116</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
 <tr>
 <td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/compare_raw_counts-1.png" target="_blank">32106bf</a>
@@ -1601,6 +1663,17 @@ Date
 <tbody>
 <tr>
 <td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/232a1162a9eb8b6224e163328addbc27203e3eb4/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-9-1.png" target="_blank">232a116</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
+<tr>
+<td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-9-1.png" target="_blank">32106bf</a>
 </td>
 <td>
@@ -1696,6 +1769,17 @@ Date
 <tbody>
 <tr>
 <td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/232a1162a9eb8b6224e163328addbc27203e3eb4/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-1.png" target="_blank">232a116</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
+<tr>
+<td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-1.png" target="_blank">32106bf</a>
 </td>
 <td>
@@ -1736,6 +1820,17 @@ Date
 <tbody>
 <tr>
 <td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/232a1162a9eb8b6224e163328addbc27203e3eb4/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-2.png" target="_blank">232a116</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
+<tr>
+<td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-2.png" target="_blank">32106bf</a>
 </td>
 <td>
@@ -1769,8 +1864,8 @@ data:  a and b
 W = 4693, p-value = 0.09972
 alternative hypothesis: true location shift is not equal to 0</code></pre>
 </div>
-<div id="desegregate-trends-for-anti-muslim-and-anti-latino-hate-crimes" class="section level1">
-<h1>Desegregate trends for anti-Muslim and anti-Latino Hate Crimes</h1>
+<div id="desegregate-trends-for-anti-muslim-anti-latino-and-anti-black-hate-crimes" class="section level1">
+<h1>Desegregate trends for anti-Muslim, anti-Latino and Anti-Black Hate Crimes</h1>
 <pre class="r"><code>ucr_hate &lt;- ucr_hate_crimes_1992_2017 %&gt;% 
   as_tibble() %&gt;% 
   filter(!is.na(bias_motivation_offense_1)) %&gt;% 
@@ -2012,6 +2107,17 @@ Date
 <tbody>
 <tr>
 <td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/232a1162a9eb8b6224e163328addbc27203e3eb4/docs/figure/fbi_hate_crimes_quarterly.rmd/anti-muslim_incidents-1.png" target="_blank">232a116</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
+<tr>
+<td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/anti-muslim_incidents-1.png" target="_blank">32106bf</a>
 </td>
 <td>
@@ -2146,6 +2252,17 @@ Date
 <tbody>
 <tr>
 <td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/232a1162a9eb8b6224e163328addbc27203e3eb4/docs/figure/fbi_hate_crimes_quarterly.rmd/antimuslim_detrended_plot-1.png" target="_blank">232a116</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
+<tr>
+<td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/antimuslim_detrended_plot-1.png" target="_blank">32106bf</a>
 </td>
 <td>
@@ -2229,6 +2346,17 @@ Date
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/232a1162a9eb8b6224e163328addbc27203e3eb4/docs/figure/fbi_hate_crimes_quarterly.rmd/anti-hispanic_incidents-1.png" target="_blank">232a116</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
 <tr>
 <td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/anti-hispanic_incidents-1.png" target="_blank">32106bf</a>
@@ -2365,6 +2493,17 @@ Date
 <tbody>
 <tr>
 <td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/232a1162a9eb8b6224e163328addbc27203e3eb4/docs/figure/fbi_hate_crimes_quarterly.rmd/antihispanic_detrended-1.png" target="_blank">232a116</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-02-26
+</td>
+</tr>
+<tr>
+<td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/antihispanic_detrended-1.png" target="_blank">32106bf</a>
 </td>
 <td>
@@ -2380,9 +2519,151 @@ Sefa Ozalp
 </div>
 </div>
 </div>
+<div id="anti-black-hate-crimes-since-1992." class="section level2">
+<h2>Anti-black Hate Crimes Since 1992.</h2>
+<pre class="r"><code>qt_hate_black &lt;- ucr_hate_small %&gt;% 
+  filter(bias_motivation_offense_1 == &quot;anti-black&quot;) %&gt;% 
+  select(contains(&quot;year&quot;), contains(&quot;date&quot;)) %&gt;% 
+  mutate(date= lubridate::ymd(date), quarter= lubridate::quarter(date,with_year = T), 
+         quarter_fct= as.factor(lubridate::quarter(date,with_year = F)), year_fct=as.factor(year)) %&gt;% 
+  count(quarter, quarter_fct, year, year_fct) %&gt;% 
+  filter(!is.na(quarter)) %&gt;% 
+  rename(hatecrimes=n)</code></pre>
+<div id="quarterly-aggregated-anti-black-hate-crimes-plot" class="section level3">
+<h3>Quarterly Aggregated Anti-black Hate Crimes Plot</h3>
+<pre class="r"><code>legend_points_black &lt;-  tibble(quarter_date= dmy(c(&quot;01-10-2016&quot;, &quot;01-10-2012&quot;, &quot;01-10-2008&quot;, &quot;01-07-2001&quot;)),
+                         labels= c(&quot;Trump 2016&quot;, &quot;Obama 2012&quot;, &quot;Obama 2008&quot;, &quot;9/11&quot;)) %&gt;%
+  mutate(quarter= lubridate::quarter(quarter_date,with_year = T),  quarter_fct= as.factor(lubridate::quarter(quarter_date,with_year = F))) %&gt;% 
+  left_join(qt_hate_black) %&gt;% 
+  arrange(quarter_date)</code></pre>
+<pre><code>Joining, by = c(&quot;quarter&quot;, &quot;quarter_fct&quot;)</code></pre>
+<pre><code>Warning: Column `quarter_fct` joining factors with different levels,
+coercing to character vector</code></pre>
+<pre class="r"><code>qt_hate_black %&gt;% 
+  mutate(quarter_date=dmy(paste( &quot;01&quot;, as.character( (as.numeric(quarter_fct)*3 -2) ), as.character(year_fct),sep = &quot;-&quot; ))) %&gt;% 
+  ggplot(aes(x=quarter_date, y=hatecrimes))+
+  geom_line(size=0.8)+
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+               date_labels = &quot;%Y-%m&quot;, 
+               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               expand=c(0,0))+
+  hrbrthemes::theme_ipsum_rc()+
+  scale_y_continuous(label=comma, breaks = seq(0,1100, 100), limits = c(300,1100), minor_breaks = NULL)+
+  labs(title = &quot;Quarterly Aggregated Anti-black Hate Crime Incidents in the US, 1992-2017&quot;,
+       y=&quot;Number of Anti-black Hate Crime Incidents&quot;,
+       subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
+       caption = &quot;Hate Lab, by @SefaOzalp, 2020&quot;
+       )+
+  theme(plot.caption = element_text(size = 12))+
+  theme(axis.text.x = element_text(angle=45, hjust = 1))+
+  geom_point(data=legend_points_black, aes(x=quarter_date, y= hatecrimes , shape=factor(labels)), size=4,colour=&quot;grey50&quot; )+
+  theme(legend.position=&quot;bottom&quot;)+
+  scale_shape_manual(values=c( 13,15, 17,18),
+                     name = NULL)+
+  NULL</code></pre>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/anti-black_incidents-1.png" width="5000" style="display: block; margin: auto;" /></p>
 </div>
-<div id="the-effect-trumps-election-on-anti-muslim-and-anti-hispanic-hate-crimes" class="section level1">
-<h1>The Effect Trumps Election on Anti-Muslim and Anti-Hispanic Hate Crimes</h1>
+<div id="detrending-anti-black-hate-crimes" class="section level3">
+<h3>Detrending Anti-black Hate Crimes</h3>
+<pre class="r"><code>lm_antiblack &lt;- lm(hatecrimes~ year_fct + quarter_fct, data = qt_hate_black)
+
+summary(lm_antiblack)</code></pre>
+<pre><code>
+Call:
+lm(formula = hatecrimes ~ year_fct + quarter_fct, data = qt_hate_black)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-103.846  -16.933    1.394   17.019  117.904 
+
+Coefficients:
+             Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)    535.73      21.80  24.572  &lt; 2e-16 ***
+year_fct1993   127.25      29.20   4.359 4.10e-05 ***
+year_fct1994   -33.50      29.20  -1.147 0.254848    
+year_fct1995   169.50      29.20   5.806 1.45e-07 ***
+year_fct1996   340.75      29.20  11.671  &lt; 2e-16 ***
+year_fct1997   202.00      29.20   6.919 1.32e-09 ***
+year_fct1998   147.50      29.20   5.052 2.99e-06 ***
+year_fct1999   162.00      29.20   5.549 4.13e-07 ***
+year_fct2000   143.75      29.20   4.924 4.92e-06 ***
+year_fct2001   147.00      29.20   5.035 3.19e-06 ***
+year_fct2002    43.75      29.20   1.499 0.138196    
+year_fct2003    59.50      29.20   2.038 0.045078 *  
+year_fct2004   105.75      29.20   3.622 0.000529 ***
+year_fct2005    79.75      29.20   2.732 0.007854 ** 
+year_fct2006    82.25      29.20   2.817 0.006189 ** 
+year_fct2007    86.75      29.20   2.971 0.003982 ** 
+year_fct2008   141.25      29.20   4.838 6.83e-06 ***
+year_fct2009    -3.75      29.20  -0.128 0.898141    
+year_fct2010   -27.75      29.20  -0.950 0.344917    
+year_fct2011   -59.00      29.20  -2.021 0.046864 *  
+year_fct2012   -63.00      29.20  -2.158 0.034140 *  
+year_fct2013  -114.75      29.20  -3.930 0.000187 ***
+year_fct2014  -170.50      29.20  -5.840 1.26e-07 ***
+year_fct2015  -138.00      29.20  -4.727 1.04e-05 ***
+year_fct2016  -130.75      29.20  -4.478 2.64e-05 ***
+year_fct2017   -66.75      29.20  -2.286 0.025060 *  
+quarter_fct2    85.96      11.45   7.507 1.03e-10 ***
+quarter_fct3    98.00      11.45   8.558 1.03e-12 ***
+quarter_fct4   -14.88      11.45  -1.300 0.197649    
+---
+Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+
+Residual standard error: 41.29 on 75 degrees of freedom
+Multiple R-squared:  0.9335,    Adjusted R-squared:  0.9087 
+F-statistic:  37.6 on 28 and 75 DF,  p-value: &lt; 2.2e-16</code></pre>
+<pre class="r"><code>qt_hate_black$predictions= predict(lm_antiblack, qt_hate_black)
+qt_hate_black$residuals= resid(lm_antiblack)
+qt_hate_black$mean= mean(qt_hate_black$hatecrimes)
+qt_hate_black$hatedetrend=qt_hate_black$residuals+qt_hate_black$mean
+
+
+legend_points_black_det &lt;-  legend_points_black %&gt;% 
+  left_join(qt_hate_black, by=&quot;quarter&quot;) %&gt;% 
+  arrange(quarter_date)
+
+legend_points_black_det</code></pre>
+<pre><code># A tibble: 4 x 15
+  quarter_date labels quarter quarter_fct.x year.x year_fct.x hatecrimes.x
+  &lt;date&gt;       &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;          &lt;dbl&gt; &lt;fct&gt;             &lt;int&gt;
+1 2001-07-01   9/11     2001. 3               2001 2001                760
+2 2008-10-01   Obama…   2008. 4               2008 2008                698
+3 2012-10-01   Obama…   2012. 4               2012 2012                398
+4 2016-10-01   Trump…   2016. 4               2016 2016                508
+# … with 8 more variables: quarter_fct.y &lt;fct&gt;, year.y &lt;dbl&gt;,
+#   year_fct.y &lt;fct&gt;, hatecrimes.y &lt;int&gt;, predictions &lt;dbl&gt;,
+#   residuals &lt;dbl&gt;, mean &lt;dbl&gt;, hatedetrend &lt;dbl&gt;</code></pre>
+<pre class="r"><code>qt_hate_black %&gt;% 
+  mutate(quarter_date=dmy(paste( &quot;01&quot;, as.character( (as.numeric(quarter_fct)*3 -2) ), as.character(year_fct),sep = &quot;-&quot; ))) %&gt;% 
+  mutate(hatedetrend= ifelse(hatedetrend&lt;0, 0, hatedetrend)) %&gt;% 
+  ggplot(aes(x=quarter_date, y=hatedetrend))+
+  geom_line(size=0.8)+
+  # scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+               date_labels = &quot;%Y-%m&quot;, 
+               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               expand=c(0,0))+
+  hrbrthemes::theme_ipsum_rc()+
+  labs(title = &quot;Detrended Quarterly Anti-black Hate Crime in the US, 1992-2017&quot;,
+       y=&quot;Number of Hate Anti- black Crime Incidents (Detrended)&quot;,
+       x= &quot;Date (Quarter)&quot;,
+       subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
+       caption = &quot;Hate Lab, by @SefaOzalp, 2020&quot;
+       )+
+  theme(plot.caption = element_text(size = 12))+
+  theme(axis.text.x = element_text(angle=45, hjust = 1))+
+  geom_point(data=legend_points_black_det, aes(x=quarter_date, y= hatedetrend , shape=factor(labels)), size=4,colour=&quot;grey50&quot; )+
+  theme(legend.position=&quot;bottom&quot;)+
+  scale_shape_manual(values=c( 13,15, 17,18),
+                     name = NULL)+
+  NULL  </code></pre>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/antiblack_detrended_plot-1.png" width="5000" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</div>
+<div id="the-effect-trumps-election-on-anti-muslim-anti-hispanic-and-anti-black-hate-crimes" class="section level1">
+<h1>The Effect Trumps Election on Anti-Muslim, Anti-Hispanic, and anti-Black Hate Crimes</h1>
 <pre class="r"><code>qt_hate_muslim %&gt;% 
   filter(year&gt;=2016) %&gt;% 
   mutate(after_trump= ifelse( ( year==2016 &amp; as.numeric(quarter_fct)&lt;4 ), 0, 1 )) %&gt;% 
@@ -2423,17 +2704,17 @@ Sefa Ozalp
   before_mean= mean(dt_sliced[dt_sliced$after_trump==0,]$hatecrimes)
   after_mean= mean(dt_sliced[dt_sliced$after_trump==1,]$hatecrimes)
 
-  cat ( paste(&quot;The increase in Hate Crimes&quot;, as.character(3*n+3), &quot;before and after Trumps election is&quot;,  round(after_mean/before_mean*100-100, 2), &quot;percent.\n&quot; ) )
+  cat ( paste(&quot;The increase in Hate Crimes&quot;, as.character(3*n+3), &quot; months before and after Trumps election is&quot;,  round(after_mean/before_mean*100-100, 2), &quot;percent.\n&quot; ) )
   # return(dt_sliced)
 }</code></pre>
 <div id="percentage-change-for-muslim" class="section level3">
 <h3>Percentage change for Muslim</h3>
 <pre class="r"><code>map(0:4, calc_perc_change, data =qt_hate_muslim )</code></pre>
-<pre><code>The increase in Hate Crimes 3 before and after Trumps election is 30.56 percent.
-The increase in Hate Crimes 6 before and after Trumps election is 21.77 percent.
-The increase in Hate Crimes 9 before and after Trumps election is 14.49 percent.
-The increase in Hate Crimes 12 before and after Trumps election is -8.41 percent.
-The increase in Hate Crimes 15 before and after Trumps election is -0.27 percent.</code></pre>
+<pre><code>The increase in Hate Crimes 3  months before and after Trumps election is 30.56 percent.
+The increase in Hate Crimes 6  months before and after Trumps election is 21.77 percent.
+The increase in Hate Crimes 9  months before and after Trumps election is 14.49 percent.
+The increase in Hate Crimes 12  months before and after Trumps election is -8.41 percent.
+The increase in Hate Crimes 15  months before and after Trumps election is -0.27 percent.</code></pre>
 <pre><code>[[1]]
 NULL
 
@@ -2452,11 +2733,34 @@ NULL</code></pre>
 <div id="percentage-change-for-anti-hispanic" class="section level3">
 <h3>Percentage change for Anti-Hispanic</h3>
 <pre class="r"><code>map(0:4, calc_perc_change, data =qt_hate_hispanic )</code></pre>
-<pre><code>The increase in Hate Crimes 3 before and after Trumps election is 8 percent.
-The increase in Hate Crimes 6 before and after Trumps election is 23.5 percent.
-The increase in Hate Crimes 9 before and after Trumps election is 35.39 percent.
-The increase in Hate Crimes 12 before and after Trumps election is 43.87 percent.
-The increase in Hate Crimes 15 before and after Trumps election is 37.95 percent.</code></pre>
+<pre><code>The increase in Hate Crimes 3  months before and after Trumps election is 8 percent.
+The increase in Hate Crimes 6  months before and after Trumps election is 23.5 percent.
+The increase in Hate Crimes 9  months before and after Trumps election is 35.39 percent.
+The increase in Hate Crimes 12  months before and after Trumps election is 43.87 percent.
+The increase in Hate Crimes 15  months before and after Trumps election is 37.95 percent.</code></pre>
+<pre><code>[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL
+
+[[5]]
+NULL</code></pre>
+</div>
+<div id="percentage-change-for-anti-black" class="section level3">
+<h3>Percentage change for Anti-Black</h3>
+<pre class="r"><code>map(0:4, calc_perc_change, data =qt_hate_black )</code></pre>
+<pre><code>The increase in Hate Crimes 3  months before and after Trumps election is 1.6 percent.
+The increase in Hate Crimes 6  months before and after Trumps election is 0.22 percent.
+The increase in Hate Crimes 9  months before and after Trumps election is 16.32 percent.
+The increase in Hate Crimes 12  months before and after Trumps election is 23.26 percent.
+The increase in Hate Crimes 15  months before and after Trumps election is 17.22 percent.</code></pre>
 <pre><code>[[1]]
 NULL
 
@@ -2557,14 +2861,14 @@ attached base packages:
 
 other attached packages:
  [1] scales_1.0.0    lubridate_1.7.4 forcats_0.4.0   stringr_1.4.0  
- [5] dplyr_0.8.4     purrr_0.3.3     readr_1.3.1     tidyr_1.0.0    
- [9] tibble_2.1.3    ggplot2_3.2.1   tidyverse_1.2.1
+ [5] dplyr_0.8.5     purrr_0.3.3     readr_1.3.1     tidyr_1.0.0    
+ [9] tibble_2.1.3    ggplot2_3.3.0   tidyverse_1.2.1
 
 loaded via a namespace (and not attached):
  [1] hrbrthemes_0.6.0  tidyselect_0.2.5  xfun_0.9         
  [4] haven_2.1.1       lattice_0.20-38   colorspace_1.4-1 
- [7] vctrs_0.2.1       generics_0.0.2    htmltools_0.3.6  
-[10] yaml_2.2.0        utf8_1.1.4        rlang_0.4.4      
+ [7] vctrs_0.2.4       generics_0.0.2    htmltools_0.3.6  
+[10] yaml_2.2.0        utf8_1.1.4        rlang_0.4.6      
 [13] pillar_1.4.3      glue_1.3.1        withr_2.1.2      
 [16] gdtools_0.2.0     modelr_0.1.5      readxl_1.3.1     
 [19] lifecycle_0.1.0   munsell_0.5.0     gtable_0.3.0     
@@ -2576,12 +2880,11 @@ loaded via a namespace (and not attached):
 [37] gridExtra_2.3     hms_0.5.2         digest_0.6.23    
 [40] stringi_1.4.3     grid_3.6.1        rprojroot_1.3-2  
 [43] here_0.1          cli_2.0.1         tools_3.6.1      
-[46] magrittr_1.5      lazyeval_0.2.2    extrafontdb_1.0  
-[49] crayon_1.3.4      whisker_0.4       pkgconfig_2.0.3  
-[52] zeallot_0.1.0     xml2_1.2.2        assertthat_0.2.1 
-[55] rmarkdown_1.15    httr_1.4.1        rstudioapi_0.11  
-[58] R6_2.4.0          nlme_3.1-141      git2r_0.26.1     
-[61] compiler_3.6.1   </code></pre>
+[46] magrittr_1.5      extrafontdb_1.0   crayon_1.3.4     
+[49] whisker_0.4       pkgconfig_2.0.3   xml2_1.2.2       
+[52] assertthat_0.2.1  rmarkdown_2.1     httr_1.4.1       
+[55] rstudioapi_0.11   R6_2.4.0          nlme_3.1-141     
+[58] git2r_0.26.1      compiler_3.6.1   </code></pre>
 </div>
 </div>
 </div>
