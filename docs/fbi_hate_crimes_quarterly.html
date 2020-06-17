@@ -495,10 +495,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree81c152936ded26950c0ce3c60d0eb8fb114135a8targetblank81c1529a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/81c152936ded26950c0ce3c60d0eb8fb114135a8" target="_blank">81c1529</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree2f5b1497c2532d156679b00e6dc0f447e35f7f2atargetblank2f5b149a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/2f5b1497c2532d156679b00e6dc0f447e35f7f2a" target="_blank">2f5b149</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree81c152936ded26950c0ce3c60d0eb8fb114135a8targetblank81c1529a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree2f5b1497c2532d156679b00e6dc0f447e35f7f2atargetblank2f5b149a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -508,6 +508,7 @@ Ignored files:
     Ignored:    .DS_Store
     Ignored:    .Rhistory
     Ignored:    .Rproj.user/
+    Ignored:    analysis/figure/
     Ignored:    data/.DS_Store
     Ignored:    data/data_2016/.DS_Store
     Ignored:    data/data_2016/Hate Crime Statistics 2016 Tables/.DS_Store
@@ -605,6 +606,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+rmd
+</td>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/2f5b1497c2532d156679b00e6dc0f447e35f7f2a/analysis/fbi_hate_crimes_quarterly.rmd" target="_blank">2f5b149</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-06-17
+</td>
+<td>
+fix titles and typos
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/sefabey/fbi_hate_crimes_data_viz/cd25ee057eda4fbeac010350b8d7d3d2acc7012b/docs/fbi_hate_crimes_quarterly.html" target="_blank">cd25ee0</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-06-17
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 rmd
@@ -2520,7 +2555,7 @@ Sefa Ozalp
 </div>
 </div>
 <div id="anti-black-hate-crimes-since-1992." class="section level2">
-<h2>Anti-black Hate Crimes Since 1992.</h2>
+<h2>Anti-Black Hate Crimes Since 1992.</h2>
 <pre class="r"><code>qt_hate_black &lt;- ucr_hate_small %&gt;% 
   filter(bias_motivation_offense_1 == &quot;anti-black&quot;) %&gt;% 
   select(contains(&quot;year&quot;), contains(&quot;date&quot;)) %&gt;% 
@@ -2549,8 +2584,8 @@ coercing to character vector</code></pre>
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
   scale_y_continuous(label=comma, breaks = seq(0,1100, 100), limits = c(300,1100), minor_breaks = NULL)+
-  labs(title = &quot;Quarterly Aggregated Anti-black Hate Crime Incidents in the US, 1992-2017&quot;,
-       y=&quot;Number of Anti-black Hate Crime Incidents&quot;,
+  labs(title = &quot;Quarterly Aggregated Anti-Black Hate Crime Incidents in the US, 1992-2017&quot;,
+       y=&quot;Number of Anti-Black Hate Crime Incidents&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
        caption = &quot;Hate Lab, by @SefaOzalp, 2020&quot;
        )+
@@ -2562,9 +2597,46 @@ coercing to character vector</code></pre>
                      name = NULL)+
   NULL</code></pre>
 <p><img src="figure/fbi_hate_crimes_quarterly.rmd/anti-black_incidents-1.png" width="5000" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-anti-black_incidents-1">
+Past versions of anti-black_incidents-1.png
+</button>
+</p>
+<div id="fig-anti-black_incidents-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/cd25ee057eda4fbeac010350b8d7d3d2acc7012b/docs/figure/fbi_hate_crimes_quarterly.rmd/anti-black_incidents-1.png" target="_blank">cd25ee0</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-06-17
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="detrending-anti-black-hate-crimes" class="section level3">
-<h3>Detrending Anti-black Hate Crimes</h3>
+<h3>Detrending Anti-Black Hate Crimes</h3>
 <pre class="r"><code>lm_antiblack &lt;- lm(hatecrimes~ year_fct + quarter_fct, data = qt_hate_black)
 
 summary(lm_antiblack)</code></pre>
@@ -2645,8 +2717,8 @@ legend_points_black_det</code></pre>
                limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
-  labs(title = &quot;Detrended Quarterly Anti-black Hate Crime in the US, 1992-2017&quot;,
-       y=&quot;Number of Hate Anti- black Crime Incidents (Detrended)&quot;,
+  labs(title = &quot;Detrended Quarterly Anti-Black Hate Crime in the US, 1992-2017&quot;,
+       y=&quot;Number of Hate Anti-Black Crime Incidents (Detrended)&quot;,
        x= &quot;Date (Quarter)&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
        caption = &quot;Hate Lab, by @SefaOzalp, 2020&quot;
@@ -2659,6 +2731,43 @@ legend_points_black_det</code></pre>
                      name = NULL)+
   NULL  </code></pre>
 <p><img src="figure/fbi_hate_crimes_quarterly.rmd/antiblack_detrended_plot-1.png" width="5000" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-antiblack_detrended_plot-1">
+Past versions of antiblack_detrended_plot-1.png
+</button>
+</p>
+<div id="fig-antiblack_detrended_plot-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/cd25ee057eda4fbeac010350b8d7d3d2acc7012b/docs/figure/fbi_hate_crimes_quarterly.rmd/antiblack_detrended_plot-1.png" target="_blank">cd25ee0</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-06-17
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -2704,17 +2813,17 @@ legend_points_black_det</code></pre>
   before_mean= mean(dt_sliced[dt_sliced$after_trump==0,]$hatecrimes)
   after_mean= mean(dt_sliced[dt_sliced$after_trump==1,]$hatecrimes)
 
-  cat ( paste(&quot;The increase in Hate Crimes&quot;, as.character(3*n+3), &quot; months before and after Trumps election is&quot;,  round(after_mean/before_mean*100-100, 2), &quot;percent.\n&quot; ) )
+  cat ( paste(&quot;The increase in Hate Crimes&quot;, as.character(3*n+3), &quot; months before and after Trump&#39;s election is&quot;,  round(after_mean/before_mean*100-100, 2), &quot;percent.\n&quot; ) )
   # return(dt_sliced)
 }</code></pre>
 <div id="percentage-change-for-muslim" class="section level3">
 <h3>Percentage change for Muslim</h3>
 <pre class="r"><code>map(0:4, calc_perc_change, data =qt_hate_muslim )</code></pre>
-<pre><code>The increase in Hate Crimes 3  months before and after Trumps election is 30.56 percent.
-The increase in Hate Crimes 6  months before and after Trumps election is 21.77 percent.
-The increase in Hate Crimes 9  months before and after Trumps election is 14.49 percent.
-The increase in Hate Crimes 12  months before and after Trumps election is -8.41 percent.
-The increase in Hate Crimes 15  months before and after Trumps election is -0.27 percent.</code></pre>
+<pre><code>The increase in Hate Crimes 3  months before and after Trump&#39;s election is 30.56 percent.
+The increase in Hate Crimes 6  months before and after Trump&#39;s election is 21.77 percent.
+The increase in Hate Crimes 9  months before and after Trump&#39;s election is 14.49 percent.
+The increase in Hate Crimes 12  months before and after Trump&#39;s election is -8.41 percent.
+The increase in Hate Crimes 15  months before and after Trump&#39;s election is -0.27 percent.</code></pre>
 <pre><code>[[1]]
 NULL
 
@@ -2733,11 +2842,11 @@ NULL</code></pre>
 <div id="percentage-change-for-anti-hispanic" class="section level3">
 <h3>Percentage change for Anti-Hispanic</h3>
 <pre class="r"><code>map(0:4, calc_perc_change, data =qt_hate_hispanic )</code></pre>
-<pre><code>The increase in Hate Crimes 3  months before and after Trumps election is 8 percent.
-The increase in Hate Crimes 6  months before and after Trumps election is 23.5 percent.
-The increase in Hate Crimes 9  months before and after Trumps election is 35.39 percent.
-The increase in Hate Crimes 12  months before and after Trumps election is 43.87 percent.
-The increase in Hate Crimes 15  months before and after Trumps election is 37.95 percent.</code></pre>
+<pre><code>The increase in Hate Crimes 3  months before and after Trump&#39;s election is 8 percent.
+The increase in Hate Crimes 6  months before and after Trump&#39;s election is 23.5 percent.
+The increase in Hate Crimes 9  months before and after Trump&#39;s election is 35.39 percent.
+The increase in Hate Crimes 12  months before and after Trump&#39;s election is 43.87 percent.
+The increase in Hate Crimes 15  months before and after Trump&#39;s election is 37.95 percent.</code></pre>
 <pre><code>[[1]]
 NULL
 
@@ -2756,11 +2865,11 @@ NULL</code></pre>
 <div id="percentage-change-for-anti-black" class="section level3">
 <h3>Percentage change for Anti-Black</h3>
 <pre class="r"><code>map(0:4, calc_perc_change, data =qt_hate_black )</code></pre>
-<pre><code>The increase in Hate Crimes 3  months before and after Trumps election is 1.6 percent.
-The increase in Hate Crimes 6  months before and after Trumps election is 0.22 percent.
-The increase in Hate Crimes 9  months before and after Trumps election is 16.32 percent.
-The increase in Hate Crimes 12  months before and after Trumps election is 23.26 percent.
-The increase in Hate Crimes 15  months before and after Trumps election is 17.22 percent.</code></pre>
+<pre><code>The increase in Hate Crimes 3  months before and after Trump&#39;s election is 1.6 percent.
+The increase in Hate Crimes 6  months before and after Trump&#39;s election is 0.22 percent.
+The increase in Hate Crimes 9  months before and after Trump&#39;s election is 16.32 percent.
+The increase in Hate Crimes 12  months before and after Trump&#39;s election is 23.26 percent.
+The increase in Hate Crimes 15  months before and after Trump&#39;s election is 17.22 percent.</code></pre>
 <pre><code>[[1]]
 NULL
 
