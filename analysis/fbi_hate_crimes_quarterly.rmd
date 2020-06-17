@@ -472,7 +472,7 @@ qt_hate_hispanic %>%
 
 
 
-## Anti-black Hate Crimes Since 1992.
+## Anti-Black Hate Crimes Since 1992.
 
 ```{r, subset_anti_black}
  
@@ -508,8 +508,8 @@ qt_hate_black %>%
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
   scale_y_continuous(label=comma, breaks = seq(0,1100, 100), limits = c(300,1100), minor_breaks = NULL)+
-  labs(title = "Quarterly Aggregated Anti-black Hate Crime Incidents in the US, 1992-2017",
-       y="Number of Anti-black Hate Crime Incidents",
+  labs(title = "Quarterly Aggregated Anti-Black Hate Crime Incidents in the US, 1992-2017",
+       y="Number of Anti-Black Hate Crime Incidents",
        subtitle = "Source: FBI Hate Crime Statistics",
        caption = "Hate Lab, by @SefaOzalp, 2020"
        )+
@@ -523,7 +523,7 @@ qt_hate_black %>%
 
 ```
 
-### Detrending Anti-black Hate Crimes
+### Detrending Anti-Black Hate Crimes
 
 ```{r}
 lm_antiblack <- lm(hatecrimes~ year_fct + quarter_fct, data = qt_hate_black)
@@ -563,8 +563,8 @@ qt_hate_black %>%
                limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-2017")),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
-  labs(title = "Detrended Quarterly Anti-black Hate Crime in the US, 1992-2017",
-       y="Number of Hate Anti- black Crime Incidents (Detrended)",
+  labs(title = "Detrended Quarterly Anti-Black Hate Crime in the US, 1992-2017",
+       y="Number of Hate Anti-Black Crime Incidents (Detrended)",
        x= "Date (Quarter)",
        subtitle = "Source: FBI Hate Crime Statistics",
        caption = "Hate Lab, by @SefaOzalp, 2020"
@@ -577,9 +577,6 @@ qt_hate_black %>%
                      name = NULL)+
   NULL  
 ```
-
-
-
 
 
 # The Effect Trumps Election on Anti-Muslim, Anti-Hispanic, and anti-Black Hate Crimes
@@ -608,7 +605,7 @@ calc_perc_change <- function(data, n){
   before_mean= mean(dt_sliced[dt_sliced$after_trump==0,]$hatecrimes)
   after_mean= mean(dt_sliced[dt_sliced$after_trump==1,]$hatecrimes)
 
-  cat ( paste("The increase in Hate Crimes", as.character(3*n+3), " months before and after Trumps election is",  round(after_mean/before_mean*100-100, 2), "percent.\n" ) )
+  cat ( paste("The increase in Hate Crimes", as.character(3*n+3), " months before and after Trump's election is",  round(after_mean/before_mean*100-100, 2), "percent.\n" ) )
   # return(dt_sliced)
 }
 
