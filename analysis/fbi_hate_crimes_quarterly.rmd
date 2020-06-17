@@ -233,7 +233,7 @@ wilcox.test(a,b)
 
 
 
-# Desegregate trends for anti-Muslim and anti-Latino Hate Crimes
+# Desegregate trends for anti-Muslim, anti-Latino and Anti-Black Hate Crimes
 
 
 ```{r}
@@ -470,7 +470,119 @@ qt_hate_hispanic %>%
   NULL  
 ```
 
-# The Effect Trumps Election on Anti-Muslim and Anti-Hispanic Hate Crimes
+
+
+## Anti-black Hate Crimes Since 1992.
+
+```{r, subset_anti_black}
+ 
+qt_hate_black <- ucr_hate_small %>% 
+  filter(bias_motivation_offense_1 == "anti-black") %>% 
+  select(contains("year"), contains("date")) %>% 
+  mutate(date= lubridate::ymd(date), quarter= lubridate::quarter(date,with_year = T), 
+         quarter_fct= as.factor(lubridate::quarter(date,with_year = F)), year_fct=as.factor(year)) %>% 
+  count(quarter, quarter_fct, year, year_fct) %>% 
+  filter(!is.na(quarter)) %>% 
+  rename(hatecrimes=n)
+
+
+```
+
+### Quarterly Aggregated Anti-black Hate Crimes Plot
+```{r, anti-black_incidents, dpi=500}
+
+
+legend_points_black <-  tibble(quarter_date= dmy(c("01-10-2016", "01-10-2012", "01-10-2008", "01-07-2001")),
+                         labels= c("Trump 2016", "Obama 2012", "Obama 2008", "9/11")) %>%
+  mutate(quarter= lubridate::quarter(quarter_date,with_year = T),  quarter_fct= as.factor(lubridate::quarter(quarter_date,with_year = F))) %>% 
+  left_join(qt_hate_black) %>% 
+  arrange(quarter_date)
+
+qt_hate_black %>% 
+  mutate(quarter_date=dmy(paste( "01", as.character( (as.numeric(quarter_fct)*3 -2) ), as.character(year_fct),sep = "-" ))) %>% 
+  ggplot(aes(x=quarter_date, y=hatecrimes))+
+  geom_line(size=0.8)+
+  scale_x_date(breaks = seq.Date(dmy("01-01-1992"), dmy("31-12-2017"), by= "2 year"), 
+               date_labels = "%Y-%m", 
+               limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-2017")),
+               expand=c(0,0))+
+  hrbrthemes::theme_ipsum_rc()+
+  scale_y_continuous(label=comma, breaks = seq(0,1100, 100), limits = c(300,1100), minor_breaks = NULL)+
+  labs(title = "Quarterly Aggregated Anti-black Hate Crime Incidents in the US, 1992-2017",
+       y="Number of Anti-black Hate Crime Incidents",
+       subtitle = "Source: FBI Hate Crime Statistics",
+       caption = "Hate Lab, by @SefaOzalp, 2020"
+       )+
+  theme(plot.caption = element_text(size = 12))+
+  theme(axis.text.x = element_text(angle=45, hjust = 1))+
+  geom_point(data=legend_points_black, aes(x=quarter_date, y= hatecrimes , shape=factor(labels)), size=4,colour="grey50" )+
+  theme(legend.position="bottom")+
+  scale_shape_manual(values=c( 13,15, 17,18),
+                     name = NULL)+
+  NULL
+
+```
+
+### Detrending Anti-black Hate Crimes
+
+```{r}
+lm_antiblack <- lm(hatecrimes~ year_fct + quarter_fct, data = qt_hate_black)
+
+summary(lm_antiblack)
+
+```
+
+
+```{r}
+
+qt_hate_black$predictions= predict(lm_antiblack, qt_hate_black)
+qt_hate_black$residuals= resid(lm_antiblack)
+qt_hate_black$mean= mean(qt_hate_black$hatecrimes)
+qt_hate_black$hatedetrend=qt_hate_black$residuals+qt_hate_black$mean
+
+
+legend_points_black_det <-  legend_points_black %>% 
+  left_join(qt_hate_black, by="quarter") %>% 
+  arrange(quarter_date)
+
+legend_points_black_det
+
+```
+
+
+```{r, antiblack_detrended_plot, dpi=500}
+
+qt_hate_black %>% 
+  mutate(quarter_date=dmy(paste( "01", as.character( (as.numeric(quarter_fct)*3 -2) ), as.character(year_fct),sep = "-" ))) %>% 
+  mutate(hatedetrend= ifelse(hatedetrend<0, 0, hatedetrend)) %>% 
+  ggplot(aes(x=quarter_date, y=hatedetrend))+
+  geom_line(size=0.8)+
+  # scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
+  scale_x_date(breaks = seq.Date(dmy("01-01-1992"), dmy("31-12-2017"), by= "2 year"), 
+               date_labels = "%Y-%m", 
+               limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-2017")),
+               expand=c(0,0))+
+  hrbrthemes::theme_ipsum_rc()+
+  labs(title = "Detrended Quarterly Anti-black Hate Crime in the US, 1992-2017",
+       y="Number of Hate Anti- black Crime Incidents (Detrended)",
+       x= "Date (Quarter)",
+       subtitle = "Source: FBI Hate Crime Statistics",
+       caption = "Hate Lab, by @SefaOzalp, 2020"
+       )+
+  theme(plot.caption = element_text(size = 12))+
+  theme(axis.text.x = element_text(angle=45, hjust = 1))+
+  geom_point(data=legend_points_black_det, aes(x=quarter_date, y= hatedetrend , shape=factor(labels)), size=4,colour="grey50" )+
+  theme(legend.position="bottom")+
+  scale_shape_manual(values=c( 13,15, 17,18),
+                     name = NULL)+
+  NULL  
+```
+
+
+
+
+
+# The Effect Trumps Election on Anti-Muslim, Anti-Hispanic, and anti-Black Hate Crimes
 
 
 ```{r}
@@ -496,7 +608,7 @@ calc_perc_change <- function(data, n){
   before_mean= mean(dt_sliced[dt_sliced$after_trump==0,]$hatecrimes)
   after_mean= mean(dt_sliced[dt_sliced$after_trump==1,]$hatecrimes)
 
-  cat ( paste("The increase in Hate Crimes", as.character(3*n+3), "before and after Trumps election is",  round(after_mean/before_mean*100-100, 2), "percent.\n" ) )
+  cat ( paste("The increase in Hate Crimes", as.character(3*n+3), " months before and after Trumps election is",  round(after_mean/before_mean*100-100, 2), "percent.\n" ) )
   # return(dt_sliced)
 }
 
@@ -514,6 +626,13 @@ map(0:4, calc_perc_change, data =qt_hate_muslim )
 ```{r}
 map(0:4, calc_perc_change, data =qt_hate_hispanic )
 
+```
+
+
+### Percentage change for Anti-Black
+```{r}
+
+map(0:4, calc_perc_change, data =qt_hate_black )
 ```
 
 
