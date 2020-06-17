@@ -233,7 +233,7 @@ wilcox.test(a,b)
 
 
 
-# Desegregate trends for anti-Muslim, anti-Latino and Anti-Black Hate Crimes
+# Segregate trends for anti-Muslim, anti-Latino, Anti-Black and anti-LGBTI Hate Crimes
 
 
 ```{r}
@@ -579,7 +579,121 @@ qt_hate_black %>%
 ```
 
 
-# The Effect Trumps Election on Anti-Muslim, Anti-Hispanic, and anti-Black Hate Crimes
+
+
+
+## Anti-LGBTI Hate Crimes Since 1992
+
+```{r, subset_anti_LGBTI}
+ 
+qt_hate_LGBTI <- ucr_hate_small %>% 
+  filter(bias_motivation_offense_1 %in% c("anti-male homosexual (gay)","anti-female homosexual (lesbian)", "anti-homosexual (gay and lesbian)", "anti-lesbian, gay, bisexual, or transgender, mixed group (lgbt)", "anti-bisexual", "anti-transgender","anti-gender non-conforming" ) ) %>% 
+  select(contains("year"), contains("date")) %>% 
+  mutate(date= lubridate::ymd(date), quarter= lubridate::quarter(date,with_year = T), 
+         quarter_fct= as.factor(lubridate::quarter(date,with_year = F)), year_fct=as.factor(year)) %>% 
+  count(quarter, quarter_fct, year, year_fct) %>% 
+  filter(!is.na(quarter)) %>% 
+  rename(hatecrimes=n)
+
+
+```
+
+### Quarterly Aggregated Anti-LGBTI Hate Crimes Plot
+```{r, anti-LGBTI_incidents, dpi=500}
+
+
+legend_points_LGBTI <-  tibble(quarter_date= dmy(c("01-10-2016", "01-10-2012", "01-10-2008", "01-07-2001")),
+                         labels= c("Trump 2016", "Obama 2012", "Obama 2008", "9/11")) %>%
+  mutate(quarter= lubridate::quarter(quarter_date,with_year = T),  quarter_fct= as.factor(lubridate::quarter(quarter_date,with_year = F))) %>% 
+  left_join(qt_hate_LGBTI) %>% 
+  arrange(quarter_date)
+
+qt_hate_LGBTI %>% 
+  mutate(quarter_date=dmy(paste( "01", as.character( (as.numeric(quarter_fct)*3 -2) ), as.character(year_fct),sep = "-" ))) %>% 
+  ggplot(aes(x=quarter_date, y=hatecrimes))+
+  geom_line(size=0.8)+
+  scale_x_date(breaks = seq.Date(dmy("01-01-1992"), dmy("31-12-2017"), by= "2 year"), 
+               date_labels = "%Y-%m", 
+               limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-2017")),
+               expand=c(0,0))+
+  hrbrthemes::theme_ipsum_rc()+
+  # scale_y_continuous(label=comma, breaks = seq(0,1100, 100), limits = c(300,1100), minor_breaks = NULL)+
+  labs(title = "Quarterly Aggregated Anti-LGBTI Hate Crime Incidents in the US, 1992-2017",
+       y="Number of Anti-LGBTI Hate Crime Incidents",
+       subtitle = "Source: FBI Hate Crime Statistics",
+       caption = "Hate Lab, by @SefaOzalp, 2020"
+       )+
+  theme(plot.caption = element_text(size = 12))+
+  theme(axis.text.x = element_text(angle=45, hjust = 1))+
+  geom_point(data=legend_points_LGBTI, aes(x=quarter_date, y= hatecrimes , shape=factor(labels)), size=4,colour="grey50" )+
+  theme(legend.position="bottom")+
+  scale_shape_manual(values=c( 13,15, 17,18),
+                     name = NULL)+
+  NULL
+
+```
+
+### Detrending Anti-LGBTI Hate Crimes
+
+```{r}
+lm_antiLGBTI <- lm(hatecrimes~ year_fct + quarter_fct, data = qt_hate_LGBTI)
+
+summary(lm_antiLGBTI)
+
+```
+
+
+```{r}
+
+qt_hate_LGBTI$predictions= predict(lm_antiLGBTI, qt_hate_LGBTI)
+qt_hate_LGBTI$residuals= resid(lm_antiLGBTI)
+qt_hate_LGBTI$mean= mean(qt_hate_LGBTI$hatecrimes)
+qt_hate_LGBTI$hatedetrend=qt_hate_LGBTI$residuals+qt_hate_LGBTI$mean
+
+
+legend_points_LGBTI_det <-  legend_points_LGBTI %>% 
+  left_join(qt_hate_LGBTI, by="quarter") %>% 
+  arrange(quarter_date)
+
+legend_points_LGBTI_det
+
+```
+
+
+```{r, antiLGBTI_detrended_plot, dpi=500}
+
+qt_hate_LGBTI %>% 
+  mutate(quarter_date=dmy(paste( "01", as.character( (as.numeric(quarter_fct)*3 -2) ), as.character(year_fct),sep = "-" ))) %>% 
+  mutate(hatedetrend= ifelse(hatedetrend<0, 0, hatedetrend)) %>% 
+  ggplot(aes(x=quarter_date, y=hatedetrend))+
+  geom_line(size=0.8)+
+  # scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
+  scale_x_date(breaks = seq.Date(dmy("01-01-1992"), dmy("31-12-2017"), by= "2 year"), 
+               date_labels = "%Y-%m", 
+               limits = c(lubridate::dmy("01-01-1992"), lubridate::dmy("31-12-2017")),
+               expand=c(0,0))+
+  hrbrthemes::theme_ipsum_rc()+
+  labs(title = "Detrended Quarterly Anti-LGBTI Hate Crime in the US, 1992-2017",
+       y="Number of Hate Anti-LGBTI Crime Incidents (Detrended)",
+       x= "Date (Quarter)",
+       subtitle = "Source: FBI Hate Crime Statistics",
+       caption = "Hate Lab, by @SefaOzalp, 2020"
+       )+
+  theme(plot.caption = element_text(size = 12))+
+  theme(axis.text.x = element_text(angle=45, hjust = 1))+
+  geom_point(data=legend_points_LGBTI_det, aes(x=quarter_date, y= hatedetrend , shape=factor(labels)), size=4,colour="grey50" )+
+  theme(legend.position="bottom")+
+  scale_shape_manual(values=c( 13,15, 17,18),
+                     name = NULL)+
+  NULL  
+```
+
+
+
+
+
+
+# The Effect Trumps Election on Anti-Muslim, Anti-Hispanic, and anti-Black and anti-LGBTI Hate Crimes
 
 
 ```{r}
@@ -632,6 +746,12 @@ map(0:4, calc_perc_change, data =qt_hate_hispanic )
 map(0:4, calc_perc_change, data =qt_hate_black )
 ```
 
+
+### Percentage change for Anti-LGBTI
+```{r}
+
+map(0:4, calc_perc_change, data =qt_hate_LGBTI )
+```
 
 # WIP
 Using additive 
