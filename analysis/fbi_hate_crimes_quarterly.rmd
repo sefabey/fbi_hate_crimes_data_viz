@@ -266,7 +266,7 @@ ucr_hate_small %>%
 ```{r, subset_anti_muslim}
  
 qt_hate_muslim <- ucr_hate_small %>% 
-  filter(bias_motivation_offense_1 == "anti-muslim") %>% 
+  filter(bias_motivation_offense_1 %in% c("anti-muslim", "anti-arab")) %>% 
   select(contains("year"), contains("date")) %>% 
   mutate(date= lubridate::ymd(date), quarter= lubridate::quarter(date,with_year = T), 
          quarter_fct= as.factor(lubridate::quarter(date,with_year = F)), year_fct=as.factor(year)) %>% 
@@ -296,9 +296,9 @@ qt_hate_muslim %>%
                limits = c(lubridate::dmy("01-01-1991"), lubridate::dmy("31-12-2018")),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
-  scale_y_continuous(label=comma, breaks = seq(0,350, 50), limits = c(0,350), minor_breaks = NULL)+
-  labs(title = "Quarterly Aggregated Anti-Muslim Hate Crime Incidents in the US, 1991-2018",
-       y="Number of Anti-Muslim Hate Crime Incidents",
+  scale_y_continuous(label=comma, breaks = seq(0,600, 50), limits = c(0,600), minor_breaks = NULL)+
+  labs(title = "Quarterly Aggregated Anti-Muslim (Including Anti-Arab) Hate Crime Incidents in the US, 1991-2018",
+       y="Number of Anti-Muslim and Anti-Arab Hate Crime Incidents",
        subtitle = "Source: FBI Hate Crime Statistics",
        caption = "HateLab, by @SefaOzalp, 2020"
        )+
@@ -352,8 +352,8 @@ qt_hate_muslim %>%
                limits = c(lubridate::dmy("01-01-1991"), lubridate::dmy("31-12-2018")),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
-  labs(title = "Detrended Quarterly Anti-Muslim Hate Crime in the US, 1991-2018",
-       y="Number of Hate Anti- Muslim Crime Incidents (Detrended)",
+  labs(title = "Detrended Quarterly Anti-Muslim and Anti-Arab Hate Crime in the US, 1991-2018",
+       y="Number of Anti-Muslim and Anti-Arab Hate Crime Incidents (Detrended)",
        x= "Date (Quarter)",
        subtitle = "Source: FBI Hate Crime Statistics",
        caption = "HateLab, by @SefaOzalp, 2020"
@@ -462,7 +462,7 @@ qt_hate_hispanic %>%
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
   labs(title = "Detrended Quarterly Anti-Hispanic Hate Crime in the US, 1991-2018",
-       y="Number of Hate Anti-Hispanic Crime Incidents (Detrended)",
+       y="Number of Anti-Hispanic Hate Crime Incidents (Detrended)",
        x= "Date (Quarter)",
        subtitle = "Source: FBI Hate Crime Statistics",
        caption = "HateLab, by @SefaOzalp, 2020"
@@ -570,7 +570,7 @@ qt_hate_black %>%
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
   labs(title = "Detrended Quarterly Anti-Black Hate Crime in the US, 1991-2018",
-       y="Number of Hate Anti-Black Crime Incidents (Detrended)",
+       y="Number of Anti-Black Hate Crime Incidents (Detrended)",
        x= "Date (Quarter)",
        subtitle = "Source: FBI Hate Crime Statistics",
        caption = "HateLab, by @SefaOzalp, 2020"
@@ -680,7 +680,7 @@ qt_hate_LGBTI %>%
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
   labs(title = "Detrended Quarterly Anti-LGBTI Hate Crime in the US, 1991-2018",
-       y="Number of Hate Anti-LGBTI Crime Incidents (Detrended)",
+       y="Number of Anti-LGBTI Hate Crime Incidents (Detrended)",
        x= "Date (Quarter)",
        subtitle = "Source: FBI Hate Crime Statistics",
        caption = "HateLab, by @SefaOzalp, 2020"
@@ -774,7 +774,7 @@ calc_perc_change <- function(data, n){
 }
 ```
 
-## Percentage change for anti-Muslim Hate Crimes
+## Percentage change for anti-Muslim (including anti-Arab) Hate Crimes
 
 ### Change across Quarters of 2015 and 2016
 ```{r}
