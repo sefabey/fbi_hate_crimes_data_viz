@@ -13,7 +13,7 @@
 
 <meta name="date" content="2019-11-15" />
 
-<title>Detrending National Hate Crime Figures in the US, 1992-2017</title>
+<title>Detrending National Hate Crime Figures in the US, 1991-2018</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -377,7 +377,7 @@ div.section {
 
 
 
-<h1 class="title toc-ignore">Detrending National Hate Crime Figures in the US, 1992-2017</h1>
+<h1 class="title toc-ignore">Detrending National Hate Crime Figures in the US, 1991-2018</h1>
 <h4 class="author">Sefa Ozalp</h4>
 <h4 class="date">2019-11-15</h4>
 
@@ -404,7 +404,7 @@ div.section {
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2020-06-17
+<strong>Last updated:</strong> 2020-07-01
 </p>
 <p>
 <strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
@@ -495,10 +495,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree4e79e92ab2a5766ee921e66af3f63252d5642e9atargetblank4e79e92a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/4e79e92ab2a5766ee921e66af3f63252d5642e9a" target="_blank">4e79e92</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree1e43434e2ffc8a96900b8005213910b3004671c7targetblank1e43434a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/1e43434e2ffc8a96900b8005213910b3004671c7" target="_blank">1e43434</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree4e79e92ab2a5766ee921e66af3f63252d5642e9atargetblank4e79e92a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree1e43434e2ffc8a96900b8005213910b3004671c7targetblank1e43434a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -568,6 +568,10 @@ Ignored files:
     Ignored:    docs/.DS_Store
     Ignored:    src/.DS_Store
 
+Untracked files:
+    Untracked:  data/open_ICPSR/ucr_hate_crimes_1991_2018_rda.zip
+    Untracked:  data/open_ICPSR/ucr_hate_crimes_1991_2018_rda/
+
 </code></pre>
 <p>
 Note that any generated files, e.g. HTML, png, CSS, etc., are not included in this status report because it is ok for generated content to have uncommitted changes.
@@ -605,6 +609,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+rmd
+</td>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/1e43434e2ffc8a96900b8005213910b3004671c7/analysis/fbi_hate_crimes_quarterly.rmd" target="_blank">1e43434</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-07-01
+</td>
+<td>
+update 2018 data and add quarter comparison
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/sefabey/fbi_hate_crimes_data_viz/b0ef67a5009fe47b6a05fdb0fc0eec1201c61aa7/docs/fbi_hate_crimes_quarterly.html" target="_blank">b0ef67a</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-06-17
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 rmd
@@ -1266,7 +1304,7 @@ wip FBI data plots
 <h2>Sub-tasks</h2>
 <p>The sub-tasks to recreate the graph are as follows:</p>
 <ul>
-<li>Find the data of hate crimes between 1992 and 2017 on FBI website.</li>
+<li>Find the data of hate crimes between 1992 and 2018 on FBI website.</li>
 <li>Import and process the data.</li>
 <li>Detrend the data using the same methodology as <span class="citation">(Rushin and Edwards 2018)</span>.</li>
 <li>Reproduce the graph.</li>
@@ -1379,12 +1417,12 @@ edwards_processed</code></pre>
   ggplot(aes(x=quarter_date, y=hatedetrend))+
   geom_line(size=0.8)+
   scale_y_continuous(labels = comma, limits = c(1400, 2600), breaks = seq(1500,3500,250), minor_breaks = NULL)+
-  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2018&quot;), by= &quot;2 year&quot;), 
                date_labels = &quot;%Y&quot;, 
-               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2018&quot;)),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
-  labs(title = &quot;Detrended Quarterly Hate Crime in the US, 1992-2017&quot;,
+  labs(title = &quot;Detrended Quarterly Hate Crime in the US, 1991-2018&quot;,
        y=&quot;Number of Hate Crime Incidents (Detrended)&quot;,
        x= &quot;Date (Quarter)&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
@@ -1472,14 +1510,18 @@ Sefa Ozalp
 </div>
 <div id="reproduce-the-same-plot-using-fbi-data" class="section level1">
 <h1>Reproduce the Same Plot Using FBI data</h1>
-<pre class="r"><code>load(here::here(&quot;/data/open_ICPSR/ucr_hate_crimes_1992_2017_rda/ucr_hate_crimes_1992_2017.rda&quot;))</code></pre>
+<pre class="r"><code># load(here::here(&quot;/data/open_ICPSR/ucr_hate_crimes_1992_2017_rda/ucr_hate_crimes_1992_2017.rda&quot;))
+
+load(here::here(&quot;/data/open_ICPSR/ucr_hate_crimes_1991_2018_rda/ucr_hate_crimes_1991_2018.rda&quot;))</code></pre>
 <p>Lets check the raw data aggregated quarterly.</p>
-<pre class="r"><code>qt_hate &lt;- ucr_hate_crimes_1992_2017 %&gt;% 
+<pre class="r"><code>qt_hate &lt;- ucr_hate_crimes_1991_2018 %&gt;% 
   as.tibble() %&gt;% 
   filter(!is.na(bias_motivation_offense_1)) %&gt;% 
   select(contains(&quot;year&quot;), contains(&quot;date&quot;)) %&gt;% 
-  mutate(date= lubridate::ymd(date), quarter= lubridate::quarter(date,with_year = T), 
-         quarter_fct= as.factor(lubridate::quarter(date,with_year = F)), year_fct=as.factor(year)) %&gt;% 
+  mutate(date= lubridate::ymd(incident_date), # data source changed date to incident_date
+         quarter= lubridate::quarter(date,with_year = T), 
+         quarter_fct= as.factor(lubridate::quarter(date,with_year = F)),
+         year_fct=as.factor(year)) %&gt;% 
   count(quarter, quarter_fct, year, year_fct) %&gt;% 
   filter(!is.na(quarter)) %&gt;% 
   rename(hatecrimes=n)</code></pre>
@@ -1488,13 +1530,13 @@ This warning is displayed once per session.</code></pre>
 <pre class="r"><code>qt_hate %&gt;% 
   ggplot(aes(x=quarter, y=hatecrimes))+
   geom_line(size=0.8)+
-  scale_x_continuous(breaks = seq(1992,2017,2), expand=c(0.01,0))+
+  scale_x_continuous(breaks = seq(1991,2018,1), expand=c(0.01,0))+
   hrbrthemes::theme_ipsum_rc()+
   scale_y_continuous(label=comma, breaks = seq(0,3500, 500), limits = c(0,3500), minor_breaks = NULL)+
-  labs(title = &quot;Quarterly Aggregated Hate Crime Incidents in the US, 1992-2017&quot;,
+  labs(title = &quot;Quarterly Aggregated Hate Crime Incidents in the US, 1991-2018&quot;,
        y=&quot;Number of Hate Crime Incidents&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
-       caption = &quot;Hate Lab, by @SefaOzalp, 2019&quot;
+       caption = &quot;HateLab, by @SefaOzalp, 2020&quot;
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))</code></pre>
@@ -1688,12 +1730,12 @@ qt_hate %&gt;%
   ggplot(aes(x=quarter_date, y=hatedetrend))+
   geom_line(size=0.8)+
   scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
-  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1991&quot;), dmy(&quot;31-12-2018&quot;), by= &quot;1 year&quot;), 
                date_labels = &quot;%Y-%m&quot;, 
-               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               limits = c(lubridate::dmy(&quot;01-01-1991&quot;), lubridate::dmy(&quot;31-12-2018&quot;)),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
-  labs(title = &quot;Detrended Quarterly Hate Crime in the US, 1992-2017&quot;,
+  labs(title = &quot;Detrended Quarterly Hate Crime in the US, 1991-2018&quot;,
        y=&quot;Number of Hate Crime Incidents (Detrended)&quot;,
        x= &quot;Date (Quarter)&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
@@ -1789,27 +1831,28 @@ a</code></pre>
  [92] 1838.486 1679.861 1844.866 1802.758 1842.339 1649.499 1621.344
  [99] 1761.304 2138.817 1893.133 1729.063 1729.030 1817.456</code></pre>
 <pre class="r"><code>b</code></pre>
-<pre><code>  [1] 1910.481 2002.596 1525.865 1792.865 1849.231 1810.346 1782.615
-  [8] 1789.615 1936.731 1700.846 1768.115 1826.115 1831.481 1648.596
- [15] 1842.865 1908.865 1883.231 1825.346 1820.615 1702.615 1838.981
- [22] 1888.096 1730.365 1774.365 1857.231 1804.346 1778.615 1791.615
- [29] 1827.231 1869.346 1792.615 1742.615 1877.231 1767.346 1734.615
- [36] 1852.615 1430.481 1564.596 2566.865 1669.865 1850.481 1866.596
- [43] 1847.865 1666.865 1778.731 1831.846 1790.115 1831.115 1877.731
- [50] 1868.846 1699.115 1786.115 1866.231 1852.346 1720.615 1792.615
- [57] 1751.481 1878.596 1795.865 1805.865 1709.981 1857.096 1846.365
- [64] 1818.365 1832.231 1812.346 1753.615 1833.615 1832.981 1787.096
- [71] 1799.365 1812.365 1805.981 1842.096 1839.365 1744.365 1739.481
- [78] 1810.596 1778.865 1902.865 1996.731 1813.846 1783.115 1638.115
- [85] 1738.481 1857.596 1847.865 1787.865 1723.231 1814.346 1837.615
- [92] 1856.615 1702.481 1854.596 1816.865 1857.865 1647.981 1637.096
- [99] 1764.365 2182.365 1910.231 1740.346 1742.615 1838.615</code></pre>
+<pre><code>  [1] 1664.000 1567.000 1940.500 1960.071 1893.750 1988.750 1494.250
+  [8] 1754.821 1832.500 1796.500 1751.000 1751.571 1920.000 1687.000
+ [15] 1736.500 1788.071 1814.750 1634.750 1811.250 1870.821 1866.500
+ [22] 1811.500 1789.000 1664.571 1822.250 1874.250 1698.750 1736.321
+ [29] 1840.500 1790.500 1747.000 1753.571 1810.500 1855.500 1761.000
+ [36] 1704.571 1860.500 1753.500 1703.000 1814.571 1413.750 1550.750
+ [43] 2535.250 1631.821 1833.750 1852.750 1816.250 1628.821 1762.000
+ [50] 1818.000 1758.500 1793.071 1861.000 1855.000 1667.500 1748.071
+ [57] 1849.500 1838.500 1689.000 1754.571 1734.750 1864.750 1764.250
+ [64] 1767.821 1693.250 1843.250 1814.750 1780.321 1815.500 1798.500
+ [71] 1722.000 1795.571 1816.250 1773.250 1767.750 1774.321 1789.250
+ [78] 1828.250 1807.750 1706.321 1722.750 1796.750 1747.250 1864.821
+ [85] 1980.000 1800.000 1751.500 1600.071 1721.750 1843.750 1816.250
+ [92] 1749.821 1706.500 1800.500 1806.000 1818.571 1685.750 1840.750
+ [99] 1785.250 1819.821 1648.000 1625.000 1747.500 2111.071 1893.500
+[106] 1726.500 1711.000 1800.571 1668.500 1705.500 1781.000 1976.571</code></pre>
 <pre class="r"><code>summary(a)</code></pre>
 <pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
    1416    1748    1799    1792    1832    2548 </code></pre>
 <pre class="r"><code>summary(b)</code></pre>
 <pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-   1430    1762    1812    1808    1851    2567 </code></pre>
+   1414    1726    1789    1783    1829    2535 </code></pre>
 <pre class="r"><code>qplot(a)</code></pre>
 <pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
 <p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-1.png" width="960" style="display: block; margin: auto;" /></p>
@@ -1917,153 +1960,159 @@ Sefa Ozalp
     Welch Two Sample t-test
 
 data:  a and b
-t = -0.94654, df = 205.97, p-value = 0.345
+t = 0.57676, df = 213.48, p-value = 0.5647
 alternative hypothesis: true difference in means is not equal to 0
 95 percent confidence interval:
- -48.22953  16.94107
+ -22.76149  41.59116
 sample estimates:
 mean of x mean of y 
- 1792.308  1807.952 </code></pre>
+ 1792.308  1782.893 </code></pre>
 <pre class="r"><code>wilcox.test(a,b)</code></pre>
 <pre><code>
     Wilcoxon rank sum test with continuity correction
 
 data:  a and b
-W = 4693, p-value = 0.09972
+W = 6289, p-value = 0.3115
 alternative hypothesis: true location shift is not equal to 0</code></pre>
 </div>
 <div id="segregate-trends-for-anti-muslim-anti-latino-anti-black-and-anti-lgbti-hate-crimes" class="section level1">
 <h1>Segregate trends for anti-Muslim, anti-Latino, Anti-Black and anti-LGBTI Hate Crimes</h1>
-<pre class="r"><code>ucr_hate &lt;- ucr_hate_crimes_1992_2017 %&gt;% 
+<pre class="r"><code>ucr_hate &lt;- ucr_hate_crimes_1991_2018 %&gt;% 
   as_tibble() %&gt;% 
   filter(!is.na(bias_motivation_offense_1)) %&gt;% 
-  purrr::discard(~sum(is.na(.x))/length(.x)* 100 &gt;=50)
+  purrr::discard(~sum(is.na(.x))/length(.x)* 100 &gt;=50) %&gt;% 
+  mutate(date=incident_date)
 
-rm(ucr_hate_crimes_1992_2017)
+# rm(ucr_hate_crimes_1991_2018)
 
 glimpse(ucr_hate)</code></pre>
-<pre><code>Observations: 188,027
-Variables: 120
-$ ori                              &lt;chr&gt; &quot;AK00101&quot;, &quot;AK00103&quot;, &quot;AK00103&quot;…
-$ ori9                             &lt;chr&gt; &quot;AK0010100&quot;, &quot;AK0010300&quot;, &quot;AK00…
+<pre><code>Observations: 199,684
+Variables: 125
+$ ori                              &lt;chr&gt; &quot;AK00101&quot;, &quot;AK00102&quot;, &quot;AK00102&quot;…
+$ ori9                             &lt;chr&gt; &quot;AK0010100&quot;, &quot;AK0010200&quot;, &quot;AK00…
 $ hate_crime_incident_present_flag &lt;chr&gt; &quot;one or more hate crime inciden…
 $ state                            &lt;chr&gt; &quot;alaska&quot;, &quot;alaska&quot;, &quot;alaska&quot;, &quot;…
-$ state_abb                        &lt;chr&gt; &quot;ak&quot;, &quot;ak&quot;, &quot;ak&quot;, &quot;al&quot;, &quot;al&quot;, &quot;…
-$ date                             &lt;chr&gt; &quot;2017-10-29&quot;, &quot;2017-10-24&quot;, &quot;20…
-$ month                            &lt;chr&gt; &quot;october&quot;, &quot;october&quot;, &quot;december…
-$ month_num                        &lt;dbl&gt; 10, 10, 12, 3, 1, 6, 7, 8, 10, …
-$ day_of_week                      &lt;chr&gt; &quot;sunday&quot;, &quot;tuesday&quot;, &quot;friday&quot;, …
-$ year                             &lt;dbl&gt; 2017, 2017, 2017, 2017, 2017, 2…
-$ population                       &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0…
-$ agency_name                      &lt;chr&gt; &quot;anchorage&quot;, &quot;juneau&quot;, &quot;juneau&quot;…
-$ city_name                        &lt;chr&gt; &quot;anchorage&quot;, &quot;juneau&quot;, &quot;juneau&quot;…
-$ fips_state_code                  &lt;chr&gt; &quot;02&quot;, &quot;02&quot;, &quot;02&quot;, &quot;01&quot;, &quot;01&quot;, &quot;…
-$ fips_county_code                 &lt;chr&gt; &quot;020&quot;, &quot;110&quot;, &quot;110&quot;, &quot;073&quot;, &quot;07…
-$ fips_state_county_code           &lt;chr&gt; &quot;02020&quot;, &quot;02110&quot;, &quot;02110&quot;, &quot;010…
-$ fips_place_code                  &lt;chr&gt; &quot;03000&quot;, &quot;36400&quot;, &quot;36400&quot;, &quot;358…
-$ fips_state_place_code            &lt;chr&gt; &quot;0203000&quot;, &quot;0236400&quot;, &quot;0236400&quot;…
-$ agency_type                      &lt;chr&gt; &quot;local police department&quot;, &quot;loc…
-$ agency_subtype_1                 &lt;chr&gt; &quot;not applicable&quot;, &quot;not applicab…
-$ agency_subtype_2                 &lt;chr&gt; &quot;not applicable&quot;, &quot;not applicab…
-$ crosswalk_agency_name            &lt;chr&gt; &quot;anchorage police department&quot;, …
-$ census_name                      &lt;chr&gt; &quot;anchorage municipality&quot;, &quot;june…
+$ state_abb                        &lt;chr&gt; &quot;AK&quot;, &quot;AK&quot;, &quot;AK&quot;, &quot;AK&quot;, &quot;AK&quot;, &quot;…
+$ incident_date                    &lt;chr&gt; &quot;2018-07-05&quot;, &quot;2018-03-08&quot;, &quot;20…
+$ month                            &lt;chr&gt; &quot;July&quot;, &quot;March&quot;, &quot;June&quot;, &quot;Augus…
+$ month_num                        &lt;dbl&gt; 7, 3, 6, 8, 7, 9, 5, 7, 4, 11, …
+$ day_of_week                      &lt;chr&gt; &quot;Thursday&quot;, &quot;Thursday&quot;, &quot;Monday…
+$ year                             &lt;dbl&gt; 2018, 2018, 2018, 2018, 2018, 2…
+$ population                       &lt;dbl&gt; 291992, 31635, 31635, 31635, 31…
+$ agency_name                      &lt;chr&gt; &quot;anchorage&quot;, &quot;fairbanks&quot;, &quot;fair…
+$ city_name                        &lt;chr&gt; &quot;anchorage&quot;, &quot;fairbanks&quot;, &quot;fair…
 $ population_group                 &lt;chr&gt; &quot;city 250,000 thru 499,999&quot;, &quot;c…
 $ country_division                 &lt;chr&gt; &quot;pacific&quot;, &quot;pacific&quot;, &quot;pacific&quot;…
-$ country_region                   &lt;chr&gt; &quot;west&quot;, &quot;west&quot;, &quot;west&quot;, &quot;south&quot;…
-$ core_city                        &lt;chr&gt; &quot;core city&quot;, &quot;not a core city&quot;,…
-$ fbi_field_office                 &lt;chr&gt; &quot;3030&quot;, &quot;3030&quot;, &quot;3030&quot;, &quot;3070&quot;,…
-$ judicial_district                &lt;chr&gt; &quot;020a&quot;, &quot;020a&quot;, &quot;020a&quot;, &quot;010n&quot;,…
-$ date_ori_was_added               &lt;dbl&gt; 19910430, 19910430, 19910430, 1…
-$ msa_code_1                       &lt;dbl&gt; 38, NA, NA, 98, 98, 98, 98, 98,…
-$ incident_number                  &lt;chr&gt; &quot;en-6xn851aem&quot;, &quot;cp103e97ufct&quot;,…
-$ unique_id                        &lt;chr&gt; &quot;2017_ak0010100_en-6xn851aem&quot;, …
-$ total_num_of_individual_victims  &lt;dbl&gt; 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1…
-$ total_offenders                  &lt;dbl&gt; 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1…
-$ offenders_race_as_a_group        &lt;chr&gt; &quot;black&quot;, &quot;unknown&quot;, &quot;american i…
-$ number_of_victims_offense_1      &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…
-$ ucr_offense_code_1               &lt;chr&gt; &quot;aggravated assault&quot;, &quot;destruct…
-$ bias_motivation_offense_1        &lt;chr&gt; &quot;anti-white&quot;, &quot;anti-multi-racia…
-$ location_code_offense_1          &lt;chr&gt; &quot;amusement park&quot;, &quot;school - col…
-$ vic_type_individual_offense_1    &lt;chr&gt; &quot;individual victim&quot;, &quot;not victi…
-$ vic_type_individual_offense_2    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_individual_offense_3    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_individual_offense_4    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_individual_offense_5    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_individual_offense_6    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_individual_offense_7    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_individual_offense_8    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_individual_offense_9    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_individual_offense_10   &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_business_offense_1      &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_business_offense_2      &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_business_offense_3      &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_business_offense_4      &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_business_offense_5      &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_business_offense_6      &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_business_offense_7      &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_business_offense_8      &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_business_offense_9      &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_business_offense_10     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_government_offense_1    &lt;chr&gt; &quot;not victim&quot;, &quot;government victi…
-$ vic_type_government_offense_2    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_government_offense_3    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_government_offense_4    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_government_offense_5    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_government_offense_6    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_government_offense_7    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_government_offense_8    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_government_offense_9    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_government_offense_10   &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_society_offense_1       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_society_offense_2       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_society_offense_3       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_society_offense_4       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_society_offense_5       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_society_offense_6       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_society_offense_7       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_society_offense_8       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_society_offense_9       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_society_offense_10      &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_unknown_offense_1       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_unknown_offense_2       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_unknown_offense_3       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_unknown_offense_4       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_unknown_offense_5       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_unknown_offense_6       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_unknown_offense_7       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_unknown_offense_8       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_unknown_offense_9       &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_unknown_offense_10      &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_financial_offense_1     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_financial_offense_2     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_financial_offense_3     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_financial_offense_4     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_financial_offense_5     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_financial_offense_6     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_financial_offense_7     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_financial_offense_8     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_financial_offense_9     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_financial_offense_10    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_religious_offense_1     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_religious_offense_2     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_religious_offense_3     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_religious_offense_4     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_religious_offense_5     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_religious_offense_6     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_religious_offense_7     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_religious_offense_8     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_religious_offense_9     &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_religious_offense_10    &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_other_offense_1         &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_other_offense_2         &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_other_offense_3         &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_other_offense_4         &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_other_offense_5         &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_other_offense_6         &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_other_offense_7         &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_other_offense_8         &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_other_offense_9         &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…
-$ vic_type_other_offense_10        &lt;chr&gt; &quot;not victim&quot;, &quot;not victim&quot;, &quot;no…</code></pre>
+$ country_region                   &lt;chr&gt; &quot;west&quot;, &quot;west&quot;, &quot;west&quot;, &quot;west&quot;,…
+$ core_city                        &lt;chr&gt; &quot;yes&quot;, &quot;yes&quot;, &quot;yes&quot;, &quot;yes&quot;, &quot;no…
+$ fbi_field_office                 &lt;chr&gt; &quot;3030&quot;, &quot;3030&quot;, &quot;3030&quot;, &quot;3030&quot;,…
+$ judicial_district                &lt;chr&gt; &quot;020a&quot;, &quot;020a&quot;, &quot;020a&quot;, &quot;020a&quot;,…
+$ date_ori_was_added               &lt;chr&gt; &quot;2020-01-01&quot;, &quot;2020-01-01&quot;, &quot;20…
+$ state_first_quarter_activity     &lt;chr&gt; &quot;zero-report was submitted&quot;, &quot;i…
+$ state_second_quarter_activity    &lt;chr&gt; &quot;zero-report was submitted&quot;, &quot;i…
+$ state_third_quarter_activity     &lt;chr&gt; &quot;incident report was submitted&quot;…
+$ state_fourth_quarter_activity    &lt;chr&gt; &quot;zero-report was submitted&quot;, &quot;z…
+$ data_source                      &lt;chr&gt; &quot;floppy diskette&quot;, &quot;floppy disk…
+$ quarter_of_the_year              &lt;chr&gt; &quot;july through september&quot;, &quot;janu…
+$ agency_indicator                 &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA,…
+$ fips_state_code                  &lt;chr&gt; &quot;02&quot;, &quot;02&quot;, &quot;02&quot;, &quot;02&quot;, &quot;02&quot;, &quot;…
+$ fips_county_code                 &lt;chr&gt; &quot;020&quot;, &quot;090&quot;, &quot;090&quot;, &quot;090&quot;, &quot;11…
+$ fips_state_county_code           &lt;chr&gt; &quot;02020&quot;, &quot;02090&quot;, &quot;02090&quot;, &quot;020…
+$ fips_place_code                  &lt;chr&gt; &quot;03000&quot;, &quot;24230&quot;, &quot;24230&quot;, &quot;242…
+$ agency_type                      &lt;chr&gt; &quot;local police department&quot;, &quot;loc…
+$ crosswalk_agency_name            &lt;chr&gt; &quot;anchorage police department&quot;, …
+$ census_name                      &lt;chr&gt; &quot;anchorage municipality&quot;, &quot;fair…
+$ msa_code_1                       &lt;chr&gt; &quot;38&quot;, &quot;258&quot;, &quot;258&quot;, &quot;258&quot;, &quot;0&quot;,…
+$ incident_number                  &lt;chr&gt; &quot;g-00-hc6x i&quot;, &quot;8d000mm0728n&quot;, …
+$ unique_id                        &lt;chr&gt; &quot;2018_AK0010100_g-00-hc6x i&quot;, &quot;…
+$ total_num_of_individual_victims  &lt;dbl&gt; 2, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1…
+$ total_offenders                  &lt;dbl&gt; 0, 1, 1, 2, 0, 1, 1, 0, 0, 0, 0…
+$ offenders_race_as_a_group        &lt;chr&gt; &quot;unknown&quot;, &quot;american indian or …
+$ number_of_victims_offense_1      &lt;chr&gt; &quot;002&quot;, &quot;001&quot;, &quot;001&quot;, &quot;001&quot;, &quot;00…
+$ ucr_offense_code_1               &lt;chr&gt; &quot;intimidation&quot;, &quot;simple assault…
+$ bias_motivation_offense_1        &lt;chr&gt; &quot;anti-black&quot;, &quot;anti-white&quot;, &quot;an…
+$ location_code_offense_1          &lt;chr&gt; &quot;service/gas station&quot;, &quot;residen…
+$ vic_type_individual_offense_1    &lt;chr&gt; &quot;1&quot;, &quot;1&quot;, &quot;1&quot;, &quot;1&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_individual_offense_2    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_individual_offense_3    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_individual_offense_4    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_individual_offense_5    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_individual_offense_6    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_individual_offense_7    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_individual_offense_8    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_individual_offense_9    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_individual_offense_10   &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_business_offense_1      &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_business_offense_2      &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_business_offense_3      &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_business_offense_4      &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_business_offense_5      &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_business_offense_6      &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_business_offense_7      &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_business_offense_8      &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_business_offense_9      &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_business_offense_10     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_government_offense_1    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_government_offense_2    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_government_offense_3    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_government_offense_4    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_government_offense_5    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_government_offense_6    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_government_offense_7    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_government_offense_8    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_government_offense_9    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_government_offense_10   &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_society_offense_1       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_society_offense_2       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_society_offense_3       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_society_offense_4       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_society_offense_5       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_society_offense_6       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_society_offense_7       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_society_offense_8       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_society_offense_9       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_society_offense_10      &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_unknown_offense_1       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_unknown_offense_2       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_unknown_offense_3       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_unknown_offense_4       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_unknown_offense_5       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_unknown_offense_6       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_unknown_offense_7       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_unknown_offense_8       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_unknown_offense_9       &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_unknown_offense_10      &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_financial_offense_1     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_financial_offense_2     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_financial_offense_3     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_financial_offense_4     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_financial_offense_5     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_financial_offense_6     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_financial_offense_7     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_financial_offense_8     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_financial_offense_9     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_financial_offense_10    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_religious_offense_1     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;1&quot;, &quot;1&quot;, &quot;…
+$ vic_type_religious_offense_2     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_religious_offense_3     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_religious_offense_4     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_religious_offense_5     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_religious_offense_6     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_religious_offense_7     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_religious_offense_8     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_religious_offense_9     &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_religious_offense_10    &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_other_offense_1         &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_other_offense_2         &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_other_offense_3         &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_other_offense_4         &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_other_offense_5         &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_other_offense_6         &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_other_offense_7         &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_other_offense_8         &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_other_offense_9         &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ vic_type_other_offense_10        &lt;chr&gt; &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;…
+$ date                             &lt;chr&gt; &quot;2018-07-05&quot;, &quot;2018-03-08&quot;, &quot;20…</code></pre>
 <pre class="r"><code>ucr_hate_small &lt;- ucr_hate %&gt;% 
   select(state, date, month, month_num, year, city_name, offenders_race_as_a_group, number_of_victims_offense_1, ucr_offense_code_1, bias_motivation_offense_1)
 
@@ -2073,43 +2122,43 @@ ucr_hate_small %&gt;%
 <pre><code># A tibble: 35 x 2
    bias_motivation_offense_1                                           n
    &lt;chr&gt;                                                           &lt;int&gt;
- 1 anti-black                                                      65036
- 2 anti-jewish                                                     24284
- 3 anti-white                                                      21740
- 4 anti-male homosexual (gay)                                      19159
- 5 anti-hispanic                                                   12004
- 6 anti-not hispanic                                               10346
- 7 anti-asian or pacific islander                                   5472
- 8 anti-multi-racial group                                          4593
- 9 anti-female homosexual (lesbian)                                 4051
-10 anti-homosexual (gay and lesbian)                                4048
-11 anti-muslim                                                      3359
-12 anti-other religion                                              3133
-13 anti-american indian or native alaskan                           1997
-14 anti-lesbian, gay, bisexual, or transgender, mixed group (lgbt)  1575
-15 anti-catholic                                                    1387
-16 anti-protestant                                                  1137
-17 anti-multi-religious group                                       1054
-18 anti-mental disability                                            854
-19 anti-heterosexual                                                 520
-20 anti-bisexual                                                     506
-21 anti-physical disability                                          458
-22 anti-transgender                                                  367
-23 anti-arab                                                         198
-24 anti-atheism/agnosticism                                          141
-25 anti-gender non-conforming                                        126
-26 anti-eastern orthodox (greek, russian, etc.)                      103
-27 anti-female                                                       101
-28 anti-other christian                                               78
-29 anti-male                                                          52
-30 anti-sikh                                                          36
-31 anti-native hawaiian or other pacific islander                     35
-32 anti-mormon                                                        30
-33 anti-hindu                                                         27
-34 anti-buddhist                                                      10
-35 anti-jehovahs witness                                              10</code></pre>
-<div id="anti-muslim-hate-crimes-since-1992." class="section level2">
-<h2>Anti-Muslim Hate Crimes Since 1992.</h2>
+ 1 anti-black                                                      68588
+ 2 anti-jewish                                                     25943
+ 3 anti-white                                                      23366
+ 4 anti-male homosexual (gay)                                      20188
+ 5 anti-hispanic                                                   12725
+ 6 anti-ethnicity other than hispanic                              10016
+ 7 anti-lesbian, gay, bisexual, or transgender, mixed group (lgbt)  5990
+ 8 anti-asian                                                       5891
+ 9 anti-multi-racial group                                          4811
+10 anti-female homosexual (lesbian)                                 4221
+11 anti-muslim                                                      3561
+12 anti-other religion                                              3269
+13 anti-american indian or native alaskan                           2195
+14 anti-catholic                                                    1458
+15 anti-protestant                                                  1196
+16 anti-multi-religious group                                       1118
+17 anti-arab                                                        1091
+18 anti-mental disability                                            944
+19 anti-heterosexual                                                 542
+20 anti-bisexual                                                     527
+21 anti-transgender                                                  513
+22 anti-physical disability                                          503
+23 anti-gender non-conforming                                        152
+24 anti-atheism/agnosticism                                          149
+25 anti-female                                                       142
+26 anti-eastern orthodox (greek, russian, etc.)                      131
+27 anti-other christian                                              130
+28 anti-sikh                                                          80
+29 anti-male                                                          77
+30 anti-native hawaiian or other pacific islander                     49
+31 anti-hindu                                                         40
+32 anti-mormon                                                        38
+33 anti-jehovahs witness                                              20
+34 anti-buddhist                                                      19
+35 99                                                                  1</code></pre>
+<div id="anti-muslim-hate-crimes-since-1991." class="section level2">
+<h2>Anti-Muslim Hate Crimes Since 1991.</h2>
 <pre class="r"><code>qt_hate_muslim &lt;- ucr_hate_small %&gt;% 
   filter(bias_motivation_offense_1 == &quot;anti-muslim&quot;) %&gt;% 
   select(contains(&quot;year&quot;), contains(&quot;date&quot;)) %&gt;% 
@@ -2132,16 +2181,16 @@ coercing to character vector</code></pre>
   mutate(quarter_date=dmy(paste( &quot;01&quot;, as.character( (as.numeric(quarter_fct)*3 -2) ), as.character(year_fct),sep = &quot;-&quot; ))) %&gt;% 
   ggplot(aes(x=quarter_date, y=hatecrimes))+
   geom_line(size=0.8)+
-  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1991&quot;), dmy(&quot;31-12-2018&quot;), by= &quot;2 year&quot;), 
                date_labels = &quot;%Y-%m&quot;, 
-               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               limits = c(lubridate::dmy(&quot;01-01-1991&quot;), lubridate::dmy(&quot;31-12-2018&quot;)),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
   scale_y_continuous(label=comma, breaks = seq(0,350, 50), limits = c(0,350), minor_breaks = NULL)+
-  labs(title = &quot;Quarterly Aggregated Anti-Muslim Hate Crime Incidents in the US, 1992-2017&quot;,
+  labs(title = &quot;Quarterly Aggregated Anti-Muslim Hate Crime Incidents in the US, 1991-2018&quot;,
        y=&quot;Number of Anti-Muslim Hate Crime Incidents&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
-       caption = &quot;Hate Lab, by @SefaOzalp, 2020&quot;
+       caption = &quot;HateLab, by @SefaOzalp, 2020&quot;
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -2211,45 +2260,47 @@ lm(formula = hatecrimes ~ year_fct + quarter_fct, data = qt_hate_muslim)
 
 Residuals:
      Min       1Q   Median       3Q      Max 
--108.452   -6.091   -0.702    6.567  190.779 
+-109.208   -6.007   -0.672    6.132  191.828 
 
 Coefficients:
              Estimate Std. Error t value Pr(&gt;|t|)    
-(Intercept)    -4.125     16.318  -0.253  0.80113    
-year_fct1993   -0.500     21.852  -0.023  0.98181    
-year_fct1994    0.500     21.852   0.023  0.98181    
-year_fct1995    3.500     21.852   0.160  0.87318    
-year_fct1996    3.000     21.852   0.137  0.89117    
-year_fct1997    3.250     21.852   0.149  0.88216    
-year_fct1998    1.500     21.852   0.069  0.94545    
-year_fct1999    4.250     21.852   0.194  0.84631    
-year_fct2000    3.250     21.852   0.149  0.88216    
-year_fct2001  116.500     21.852   5.331 9.91e-07 ***
-year_fct2002   35.000     21.852   1.602  0.11342    
-year_fct2003   33.750     21.852   1.545  0.12667    
-year_fct2004   35.250     21.852   1.613  0.11091    
-year_fct2005   28.250     21.852   1.293  0.20004    
-year_fct2006   35.250     21.852   1.613  0.11091    
-year_fct2007   25.000     21.852   1.144  0.25623    
-year_fct2008   22.500     21.852   1.030  0.30647    
-year_fct2009   23.000     21.852   1.053  0.29592    
-year_fct2010   36.250     21.852   1.659  0.10131    
-year_fct2011   35.500     21.852   1.625  0.10844    
-year_fct2012   33.250     21.852   1.522  0.13231    
-year_fct2013   30.250     21.852   1.384  0.17036    
-year_fct2014   34.750     21.852   1.590  0.11598    
-year_fct2015   60.750     21.852   2.780  0.00687 ** 
-year_fct2016   73.250     21.852   3.352  0.00126 ** 
-year_fct2017   65.000     21.852   2.975  0.00394 ** 
-quarter_fct2    5.077      8.571   0.592  0.55540    
-quarter_fct3   17.846      8.571   2.082  0.04074 *  
-quarter_fct4    8.577      8.571   1.001  0.32019    
+(Intercept)   -3.6071    17.9989  -0.200  0.84167    
+year_fct1992   0.3148    23.0637   0.014  0.98914    
+year_fct1993  -0.1852    23.0637  -0.008  0.99361    
+year_fct1994   0.8148    23.0637   0.035  0.97191    
+year_fct1995   3.8148    23.0637   0.165  0.86904    
+year_fct1996   3.3148    23.0637   0.144  0.88608    
+year_fct1997   3.5648    23.0637   0.155  0.87755    
+year_fct1998   1.8148    23.0637   0.079  0.93748    
+year_fct1999   4.5648    23.0637   0.198  0.84361    
+year_fct2000   3.5648    23.0637   0.155  0.87755    
+year_fct2001 116.8148    23.0637   5.065 2.57e-06 ***
+year_fct2002  35.3148    23.0637   1.531  0.12967    
+year_fct2003  34.0648    23.0637   1.477  0.14361    
+year_fct2004  35.5648    23.0637   1.542  0.12701    
+year_fct2005  28.5648    23.0637   1.239  0.21915    
+year_fct2006  35.5648    23.0637   1.542  0.12701    
+year_fct2007  25.3148    23.0637   1.098  0.27567    
+year_fct2008  22.8148    23.0637   0.989  0.32554    
+year_fct2009  23.3148    23.0637   1.011  0.31512    
+year_fct2010  36.5648    23.0637   1.585  0.11682    
+year_fct2011  35.8148    23.0637   1.553  0.12440    
+year_fct2012  33.5648    23.0637   1.455  0.14950    
+year_fct2013  30.5648    23.0637   1.325  0.18887    
+year_fct2014  35.0648    23.0637   1.520  0.13237    
+year_fct2015  61.0648    23.0637   2.648  0.00976 ** 
+year_fct2016  73.3148    23.0637   3.179  0.00210 ** 
+year_fct2017  65.3148    23.0637   2.832  0.00585 ** 
+year_fct2018  44.8148    23.0637   1.943  0.05552 .  
+quarter_fct2   4.8571     8.0494   0.603  0.54794    
+quarter_fct3  15.9643     8.0494   1.983  0.05077 .  
+quarter_fct4   7.3479     8.1481   0.902  0.36988    
 ---
 Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 
-Residual standard error: 30.9 on 75 degrees of freedom
-Multiple R-squared:  0.5269,    Adjusted R-squared:  0.3502 
-F-statistic: 2.983 on 28 and 75 DF,  p-value: 9.072e-05</code></pre>
+Residual standard error: 30.12 on 80 degrees of freedom
+Multiple R-squared:  0.5322,    Adjusted R-squared:  0.3567 
+F-statistic: 3.033 on 30 and 80 DF,  p-value: 4.25e-05</code></pre>
 <pre class="r"><code>qt_hate_muslim$predictions= predict(lm_antimuslim, qt_hate_muslim)
 qt_hate_muslim$residuals= resid(lm_antimuslim)
 qt_hate_muslim$mean= mean(qt_hate_muslim$hatecrimes)
@@ -2267,7 +2318,7 @@ legend_points_muslim_det</code></pre>
 1 2001-07-01   9/11     2001. 3               2001 2001                321
 2 2008-10-01   Obama…   2008. 4               2008 2008                 25
 3 2012-10-01   Obama…   2012. 4               2012 2012                 31
-4 2016-10-01   Trump…   2016. 4               2016 2016                 94
+4 2016-10-01   Trump…   2016. 4               2016 2016                 93
 # … with 8 more variables: quarter_fct.y &lt;fct&gt;, year.y &lt;dbl&gt;,
 #   year_fct.y &lt;fct&gt;, hatecrimes.y &lt;int&gt;, predictions &lt;dbl&gt;,
 #   residuals &lt;dbl&gt;, mean &lt;dbl&gt;, hatedetrend &lt;dbl&gt;</code></pre>
@@ -2277,16 +2328,16 @@ legend_points_muslim_det</code></pre>
   ggplot(aes(x=quarter_date, y=hatedetrend))+
   geom_line(size=0.8)+
   # scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
-  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1991&quot;), dmy(&quot;31-12-2018&quot;), by= &quot;2 year&quot;), 
                date_labels = &quot;%Y-%m&quot;, 
-               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               limits = c(lubridate::dmy(&quot;01-01-1991&quot;), lubridate::dmy(&quot;31-12-2018&quot;)),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
-  labs(title = &quot;Detrended Quarterly Anti-Muslim Hate Crime in the US, 1992-2017&quot;,
+  labs(title = &quot;Detrended Quarterly Anti-Muslim Hate Crime in the US, 1991-2018&quot;,
        y=&quot;Number of Hate Anti- Muslim Crime Incidents (Detrended)&quot;,
        x= &quot;Date (Quarter)&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
-       caption = &quot;Hate Lab, by @SefaOzalp, 2020&quot;
+       caption = &quot;HateLab, by @SefaOzalp, 2020&quot;
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -2348,8 +2399,8 @@ Sefa Ozalp
 </div>
 <div id="anti-hispanic-hate-crimes" class="section level2">
 <h2>Anti-Hispanic Hate Crimes</h2>
-<div id="anti-hispanic-hate-crimes-since-1992." class="section level3">
-<h3>Anti-Hispanic Hate Crimes Since 1992.</h3>
+<div id="anti-hispanic-hate-crimes-since-1991." class="section level3">
+<h3>Anti-Hispanic Hate Crimes Since 1991.</h3>
 <pre class="r"><code>qt_hate_hispanic &lt;- ucr_hate_small %&gt;% 
   filter(bias_motivation_offense_1 == &quot;anti-hispanic&quot;) %&gt;% 
   select(contains(&quot;year&quot;), contains(&quot;date&quot;)) %&gt;% 
@@ -2373,16 +2424,16 @@ coercing to character vector</code></pre>
   mutate(quarter_date=dmy(paste( &quot;01&quot;, as.character( (as.numeric(quarter_fct)*3 -2) ), as.character(year_fct),sep = &quot;-&quot; ))) %&gt;% 
   ggplot(aes(x=quarter_date, y=hatecrimes))+
   geom_line(size=0.8)+
-  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1991&quot;), dmy(&quot;31-12-2018&quot;), by= &quot;2 year&quot;), 
                date_labels = &quot;%Y-%m&quot;, 
-               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               limits = c(lubridate::dmy(&quot;01-01-1991&quot;), lubridate::dmy(&quot;31-12-2018&quot;)),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
   scale_y_continuous(label=comma, breaks = seq(0,250, 50), limits = c(0,250), minor_breaks = NULL)+
-  labs(title = &quot;Quarterly Aggregated Anti-Hispanic Hate Crime Incidents in the US, 1992-2017&quot;,
+  labs(title = &quot;Quarterly Aggregated Anti-Hispanic Hate Crime Incidents in the US, 1991-2018&quot;,
        y=&quot;Number of Anti-Hispanic Hate Crime Incidents&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
-       caption = &quot;Hate Lab, by @SefaOzalp, 2020&quot;
+       caption = &quot;HateLab, by @SefaOzalp, 2020&quot;
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -2452,45 +2503,47 @@ lm(formula = hatecrimes ~ year_fct + quarter_fct, data = qt_hate_hispanic)
 
 Residuals:
     Min      1Q  Median      3Q     Max 
--31.269  -8.010  -0.096   7.077  58.654 
+-30.170  -8.321  -0.009   6.830  58.902 
 
 Coefficients:
              Estimate Std. Error t value Pr(&gt;|t|)    
-(Intercept)    82.019      7.969  10.292 5.43e-16 ***
-year_fct1993   11.500     10.672   1.078 0.284657    
-year_fct1994   -7.750     10.672  -0.726 0.469963    
-year_fct1995   36.250     10.672   3.397 0.001093 ** 
-year_fct1996   48.250     10.672   4.521 2.26e-05 ***
-year_fct1997   30.000     10.672   2.811 0.006294 ** 
-year_fct1998   27.750     10.672   2.600 0.011212 *  
-year_fct1999   23.750     10.672   2.226 0.029051 *  
-year_fct2000   46.500     10.672   4.357 4.12e-05 ***
-year_fct2001   56.500     10.672   5.294 1.15e-06 ***
-year_fct2002   27.500     10.672   2.577 0.011933 *  
-year_fct2003   13.750     10.672   1.288 0.201547    
-year_fct2004   26.000     10.672   2.436 0.017209 *  
-year_fct2005   37.750     10.672   3.537 0.000697 ***
-year_fct2006   51.250     10.672   4.802 7.83e-06 ***
-year_fct2007   56.000     10.672   5.248 1.38e-06 ***
-year_fct2008   47.500     10.672   4.451 2.93e-05 ***
-year_fct2009   28.750     10.672   2.694 0.008706 ** 
-year_fct2010   40.750     10.672   3.819 0.000274 ***
-year_fct2011    8.500     10.672   0.797 0.428254    
-year_fct2012   14.500     10.672   1.359 0.178302    
-year_fct2013  -10.750     10.672  -1.007 0.317010    
-year_fct2014  -16.500     10.672  -1.546 0.126278    
-year_fct2015  -18.000     10.672  -1.687 0.095815 .  
-year_fct2016   -5.000     10.672  -0.469 0.640764    
-year_fct2017   14.750     10.672   1.382 0.171024    
-quarter_fct2   22.077      4.186   5.274 1.24e-06 ***
-quarter_fct3   25.731      4.186   6.147 3.51e-08 ***
-quarter_fct4   -4.885      4.186  -1.167 0.246925    
+(Intercept)    45.920      7.944   5.781 1.34e-07 ***
+year_fct1992   35.000     10.677   3.278 0.001540 ** 
+year_fct1993   46.500     10.677   4.355 3.86e-05 ***
+year_fct1994   27.250     10.677   2.552 0.012579 *  
+year_fct1995   71.250     10.677   6.674 2.86e-09 ***
+year_fct1996   83.250     10.677   7.797 1.88e-11 ***
+year_fct1997   65.000     10.677   6.088 3.63e-08 ***
+year_fct1998   62.750     10.677   5.877 8.90e-08 ***
+year_fct1999   58.750     10.677   5.503 4.26e-07 ***
+year_fct2000   81.500     10.677   7.634 3.94e-11 ***
+year_fct2001   91.500     10.677   8.570 5.62e-13 ***
+year_fct2002   62.500     10.677   5.854 9.83e-08 ***
+year_fct2003   48.750     10.677   4.566 1.75e-05 ***
+year_fct2004   61.000     10.677   5.713 1.77e-07 ***
+year_fct2005   72.750     10.677   6.814 1.54e-09 ***
+year_fct2006   86.250     10.677   8.078 5.26e-12 ***
+year_fct2007   91.000     10.677   8.523 6.96e-13 ***
+year_fct2008   82.500     10.677   7.727 2.58e-11 ***
+year_fct2009   63.750     10.677   5.971 5.98e-08 ***
+year_fct2010   75.750     10.677   7.095 4.42e-10 ***
+year_fct2011   43.500     10.677   4.074 0.000107 ***
+year_fct2012   49.500     10.677   4.636 1.34e-05 ***
+year_fct2013   24.250     10.677   2.271 0.025779 *  
+year_fct2014   17.000     10.677   1.592 0.115217    
+year_fct2015   17.000     10.677   1.592 0.115217    
+year_fct2016   29.000     10.677   2.716 0.008070 ** 
+year_fct2017   49.750     10.677   4.660 1.23e-05 ***
+year_fct2018   67.250     10.677   6.299 1.46e-08 ***
+quarter_fct2   22.929      4.035   5.682 2.02e-07 ***
+quarter_fct3   27.893      4.035   6.912 9.96e-10 ***
+quarter_fct4   -3.500      4.035  -0.867 0.388319    
 ---
 Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 
-Residual standard error: 15.09 on 75 degrees of freedom
-Multiple R-squared:  0.8036,    Adjusted R-squared:  0.7303 
-F-statistic: 10.96 on 28 and 75 DF,  p-value: &lt; 2.2e-16</code></pre>
+Residual standard error: 15.1 on 81 degrees of freedom
+Multiple R-squared:  0.8242,    Adjusted R-squared:  0.7591 
+F-statistic: 12.66 on 30 and 81 DF,  p-value: &lt; 2.2e-16</code></pre>
 <pre class="r"><code>qt_hate_hispanic$predictions= predict(lm_antihispanic, qt_hate_hispanic)
 qt_hate_hispanic$residuals= resid(lm_antihispanic)
 qt_hate_hispanic$mean= mean(qt_hate_hispanic$hatecrimes)
@@ -2508,7 +2561,7 @@ legend_points_hispanic_det</code></pre>
 1 2001-07-01   9/11     2001. 3               2001 2001                180
 2 2008-10-01   Obama…   2008. 4               2008 2008                117
 3 2012-10-01   Obama…   2012. 4               2012 2012                 83
-4 2016-10-01   Trump…   2016. 4               2016 2016                108
+4 2016-10-01   Trump…   2016. 4               2016 2016                106
 # … with 8 more variables: quarter_fct.y &lt;fct&gt;, year.y &lt;dbl&gt;,
 #   year_fct.y &lt;fct&gt;, hatecrimes.y &lt;int&gt;, predictions &lt;dbl&gt;,
 #   residuals &lt;dbl&gt;, mean &lt;dbl&gt;, hatedetrend &lt;dbl&gt;</code></pre>
@@ -2518,16 +2571,16 @@ legend_points_hispanic_det</code></pre>
   ggplot(aes(x=quarter_date, y=hatedetrend))+
   geom_line(size=0.8)+
   scale_y_continuous(labels = comma, limits = c(75, 200), breaks = seq(75,200,25), minor_breaks = NULL)+
-  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1991&quot;), dmy(&quot;31-12-2018&quot;), by= &quot;2 year&quot;), 
                date_labels = &quot;%Y-%m&quot;, 
-               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               limits = c(lubridate::dmy(&quot;01-01-1991&quot;), lubridate::dmy(&quot;31-12-2018&quot;)),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
-  labs(title = &quot;Detrended Quarterly Anti-Hispanic Hate Crime in the US, 1992-2017&quot;,
+  labs(title = &quot;Detrended Quarterly Anti-Hispanic Hate Crime in the US, 1991-2018&quot;,
        y=&quot;Number of Hate Anti-Hispanic Crime Incidents (Detrended)&quot;,
        x= &quot;Date (Quarter)&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
-       caption = &quot;Hate Lab, by @SefaOzalp, 2020&quot;
+       caption = &quot;HateLab, by @SefaOzalp, 2020&quot;
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -2587,8 +2640,8 @@ Sefa Ozalp
 </div>
 </div>
 </div>
-<div id="anti-black-hate-crimes-since-1992." class="section level2">
-<h2>Anti-Black Hate Crimes Since 1992.</h2>
+<div id="anti-black-hate-crimes-since-1991." class="section level2">
+<h2>Anti-Black Hate Crimes Since 1991.</h2>
 <pre class="r"><code>qt_hate_black &lt;- ucr_hate_small %&gt;% 
   filter(bias_motivation_offense_1 == &quot;anti-black&quot;) %&gt;% 
   select(contains(&quot;year&quot;), contains(&quot;date&quot;)) %&gt;% 
@@ -2611,16 +2664,16 @@ coercing to character vector</code></pre>
   mutate(quarter_date=dmy(paste( &quot;01&quot;, as.character( (as.numeric(quarter_fct)*3 -2) ), as.character(year_fct),sep = &quot;-&quot; ))) %&gt;% 
   ggplot(aes(x=quarter_date, y=hatecrimes))+
   geom_line(size=0.8)+
-  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1991&quot;), dmy(&quot;31-12-2018&quot;), by= &quot;2 year&quot;), 
                date_labels = &quot;%Y-%m&quot;, 
-               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               limits = c(lubridate::dmy(&quot;01-01-1991&quot;), lubridate::dmy(&quot;31-12-2018&quot;)),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
   scale_y_continuous(label=comma, breaks = seq(0,1100, 100), limits = c(300,1100), minor_breaks = NULL)+
-  labs(title = &quot;Quarterly Aggregated Anti-Black Hate Crime Incidents in the US, 1992-2017&quot;,
+  labs(title = &quot;Quarterly Aggregated Anti-Black Hate Crime Incidents in the US, 1991-2018&quot;,
        y=&quot;Number of Anti-Black Hate Crime Incidents&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
-       caption = &quot;Hate Lab, by @SefaOzalp, 2020&quot;
+       caption = &quot;HateLab, by @SefaOzalp, 2020&quot;
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -2690,45 +2743,47 @@ lm(formula = hatecrimes ~ year_fct + quarter_fct, data = qt_hate_black)
 
 Residuals:
      Min       1Q   Median       3Q      Max 
--103.846  -16.933    1.394   17.019  117.904 
+-109.179  -22.214    1.679   18.357  108.321 
 
 Coefficients:
              Estimate Std. Error t value Pr(&gt;|t|)    
-(Intercept)    535.73      21.80  24.572  &lt; 2e-16 ***
-year_fct1993   127.25      29.20   4.359 4.10e-05 ***
-year_fct1994   -33.50      29.20  -1.147 0.254848    
-year_fct1995   169.50      29.20   5.806 1.45e-07 ***
-year_fct1996   340.75      29.20  11.671  &lt; 2e-16 ***
-year_fct1997   202.00      29.20   6.919 1.32e-09 ***
-year_fct1998   147.50      29.20   5.052 2.99e-06 ***
-year_fct1999   162.00      29.20   5.549 4.13e-07 ***
-year_fct2000   143.75      29.20   4.924 4.92e-06 ***
-year_fct2001   147.00      29.20   5.035 3.19e-06 ***
-year_fct2002    43.75      29.20   1.499 0.138196    
-year_fct2003    59.50      29.20   2.038 0.045078 *  
-year_fct2004   105.75      29.20   3.622 0.000529 ***
-year_fct2005    79.75      29.20   2.732 0.007854 ** 
-year_fct2006    82.25      29.20   2.817 0.006189 ** 
-year_fct2007    86.75      29.20   2.971 0.003982 ** 
-year_fct2008   141.25      29.20   4.838 6.83e-06 ***
-year_fct2009    -3.75      29.20  -0.128 0.898141    
-year_fct2010   -27.75      29.20  -0.950 0.344917    
-year_fct2011   -59.00      29.20  -2.021 0.046864 *  
-year_fct2012   -63.00      29.20  -2.158 0.034140 *  
-year_fct2013  -114.75      29.20  -3.930 0.000187 ***
-year_fct2014  -170.50      29.20  -5.840 1.26e-07 ***
-year_fct2015  -138.00      29.20  -4.727 1.04e-05 ***
-year_fct2016  -130.75      29.20  -4.478 2.64e-05 ***
-year_fct2017   -66.75      29.20  -2.286 0.025060 *  
-quarter_fct2    85.96      11.45   7.507 1.03e-10 ***
-quarter_fct3    98.00      11.45   8.558 1.03e-12 ***
-quarter_fct4   -14.88      11.45  -1.300 0.197649    
+(Intercept)   361.964     22.948  15.773  &lt; 2e-16 ***
+year_fct1992  170.750     30.843   5.536 3.71e-07 ***
+year_fct1993  298.000     30.843   9.662 3.92e-15 ***
+year_fct1994  137.250     30.843   4.450 2.71e-05 ***
+year_fct1995  340.250     30.843  11.032  &lt; 2e-16 ***
+year_fct1996  511.500     30.843  16.584  &lt; 2e-16 ***
+year_fct1997  372.750     30.843  12.086  &lt; 2e-16 ***
+year_fct1998  318.250     30.843  10.318  &lt; 2e-16 ***
+year_fct1999  332.750     30.843  10.789  &lt; 2e-16 ***
+year_fct2000  314.500     30.843  10.197 3.49e-16 ***
+year_fct2001  317.750     30.843  10.302  &lt; 2e-16 ***
+year_fct2002  214.500     30.843   6.955 8.25e-10 ***
+year_fct2003  230.250     30.843   7.465 8.41e-11 ***
+year_fct2004  276.500     30.843   8.965 9.32e-14 ***
+year_fct2005  250.500     30.843   8.122 4.32e-12 ***
+year_fct2006  253.000     30.843   8.203 2.99e-12 ***
+year_fct2007  257.500     30.843   8.349 1.54e-12 ***
+year_fct2008  312.000     30.843  10.116 5.03e-16 ***
+year_fct2009  167.000     30.843   5.415 6.13e-07 ***
+year_fct2010  143.000     30.843   4.636 1.34e-05 ***
+year_fct2011  111.750     30.843   3.623 0.000506 ***
+year_fct2012  107.750     30.843   3.494 0.000775 ***
+year_fct2013   56.000     30.843   1.816 0.073122 .  
+year_fct2014    0.250     30.843   0.008 0.993553    
+year_fct2015   32.750     30.843   1.062 0.291464    
+year_fct2016   32.250     30.843   1.046 0.298843    
+year_fct2017  104.000     30.843   3.372 0.001146 ** 
+year_fct2018   81.250     30.843   2.634 0.010097 *  
+quarter_fct2   85.071     11.657   7.298 1.79e-10 ***
+quarter_fct3  102.607     11.657   8.802 1.96e-13 ***
+quarter_fct4   -6.536     11.657  -0.561 0.576586    
 ---
 Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 
-Residual standard error: 41.29 on 75 degrees of freedom
-Multiple R-squared:  0.9335,    Adjusted R-squared:  0.9087 
-F-statistic:  37.6 on 28 and 75 DF,  p-value: &lt; 2.2e-16</code></pre>
+Residual standard error: 43.62 on 81 degrees of freedom
+Multiple R-squared:  0.9304,    Adjusted R-squared:  0.9046 
+F-statistic: 36.09 on 30 and 81 DF,  p-value: &lt; 2.2e-16</code></pre>
 <pre class="r"><code>qt_hate_black$predictions= predict(lm_antiblack, qt_hate_black)
 qt_hate_black$residuals= resid(lm_antiblack)
 qt_hate_black$mean= mean(qt_hate_black$hatecrimes)
@@ -2746,7 +2801,7 @@ legend_points_black_det</code></pre>
 1 2001-07-01   9/11     2001. 3               2001 2001                760
 2 2008-10-01   Obama…   2008. 4               2008 2008                698
 3 2012-10-01   Obama…   2012. 4               2012 2012                398
-4 2016-10-01   Trump…   2016. 4               2016 2016                508
+4 2016-10-01   Trump…   2016. 4               2016 2016                496
 # … with 8 more variables: quarter_fct.y &lt;fct&gt;, year.y &lt;dbl&gt;,
 #   year_fct.y &lt;fct&gt;, hatecrimes.y &lt;int&gt;, predictions &lt;dbl&gt;,
 #   residuals &lt;dbl&gt;, mean &lt;dbl&gt;, hatedetrend &lt;dbl&gt;</code></pre>
@@ -2756,16 +2811,16 @@ legend_points_black_det</code></pre>
   ggplot(aes(x=quarter_date, y=hatedetrend))+
   geom_line(size=0.8)+
   # scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
-  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1991&quot;), dmy(&quot;31-12-2018&quot;), by= &quot;2 year&quot;), 
                date_labels = &quot;%Y-%m&quot;, 
-               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               limits = c(lubridate::dmy(&quot;01-01-1991&quot;), lubridate::dmy(&quot;31-12-2018&quot;)),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
-  labs(title = &quot;Detrended Quarterly Anti-Black Hate Crime in the US, 1992-2017&quot;,
+  labs(title = &quot;Detrended Quarterly Anti-Black Hate Crime in the US, 1991-2018&quot;,
        y=&quot;Number of Hate Anti-Black Crime Incidents (Detrended)&quot;,
        x= &quot;Date (Quarter)&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
-       caption = &quot;Hate Lab, by @SefaOzalp, 2020&quot;
+       caption = &quot;HateLab, by @SefaOzalp, 2020&quot;
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -2825,8 +2880,8 @@ Sefa Ozalp
 </div>
 </div>
 </div>
-<div id="anti-lgbti-hate-crimes-since-1992" class="section level2">
-<h2>Anti-LGBTI Hate Crimes Since 1992</h2>
+<div id="anti-lgbti-hate-crimes-since-1991" class="section level2">
+<h2>Anti-LGBTI Hate Crimes Since 1991</h2>
 <pre class="r"><code>qt_hate_LGBTI &lt;- ucr_hate_small %&gt;% 
   filter(bias_motivation_offense_1 %in% c(&quot;anti-male homosexual (gay)&quot;,&quot;anti-female homosexual (lesbian)&quot;, &quot;anti-homosexual (gay and lesbian)&quot;, &quot;anti-lesbian, gay, bisexual, or transgender, mixed group (lgbt)&quot;, &quot;anti-bisexual&quot;, &quot;anti-transgender&quot;,&quot;anti-gender non-conforming&quot; ) ) %&gt;% 
   select(contains(&quot;year&quot;), contains(&quot;date&quot;)) %&gt;% 
@@ -2849,16 +2904,16 @@ coercing to character vector</code></pre>
   mutate(quarter_date=dmy(paste( &quot;01&quot;, as.character( (as.numeric(quarter_fct)*3 -2) ), as.character(year_fct),sep = &quot;-&quot; ))) %&gt;% 
   ggplot(aes(x=quarter_date, y=hatecrimes))+
   geom_line(size=0.8)+
-  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1991&quot;), dmy(&quot;31-12-2018&quot;), by= &quot;2 year&quot;), 
                date_labels = &quot;%Y-%m&quot;, 
-               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               limits = c(lubridate::dmy(&quot;01-01-1991&quot;), lubridate::dmy(&quot;31-12-2018&quot;)),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
   # scale_y_continuous(label=comma, breaks = seq(0,1100, 100), limits = c(300,1100), minor_breaks = NULL)+
-  labs(title = &quot;Quarterly Aggregated Anti-LGBTI Hate Crime Incidents in the US, 1992-2017&quot;,
+  labs(title = &quot;Quarterly Aggregated Anti-LGBTI Hate Crime Incidents in the US, 1991-2018&quot;,
        y=&quot;Number of Anti-LGBTI Hate Crime Incidents&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
-       caption = &quot;Hate Lab, by @SefaOzalp, 2020&quot;
+       caption = &quot;HateLab, by @SefaOzalp, 2020&quot;
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -2868,6 +2923,43 @@ coercing to character vector</code></pre>
                      name = NULL)+
   NULL</code></pre>
 <p><img src="figure/fbi_hate_crimes_quarterly.rmd/anti-LGBTI_incidents-1.png" width="5000" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-anti-LGBTI_incidents-1">
+Past versions of anti-LGBTI_incidents-1.png
+</button>
+</p>
+<div id="fig-anti-LGBTI_incidents-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/b0ef67a5009fe47b6a05fdb0fc0eec1201c61aa7/docs/figure/fbi_hate_crimes_quarterly.rmd/anti-LGBTI_incidents-1.png" target="_blank">b0ef67a</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-06-17
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="detrending-anti-lgbti-hate-crimes" class="section level3">
 <h3>Detrending Anti-LGBTI Hate Crimes</h3>
@@ -2880,45 +2972,47 @@ lm(formula = hatecrimes ~ year_fct + quarter_fct, data = qt_hate_LGBTI)
 
 Residuals:
     Min      1Q  Median      3Q     Max 
--46.327 -14.639  -1.837  12.563  62.423 
+-45.437 -14.679  -2.366  12.821  61.884 
 
 Coefficients:
              Estimate Std. Error t value Pr(&gt;|t|)    
-(Intercept)   161.327     11.886  13.573  &lt; 2e-16 ***
-year_fct1993   18.750     15.916   1.178 0.242486    
-year_fct1994  -21.250     15.916  -1.335 0.185861    
-year_fct1995   61.500     15.916   3.864 0.000235 ***
-year_fct1996   61.000     15.916   3.833 0.000262 ***
-year_fct1997   83.750     15.916   5.262 1.31e-06 ***
-year_fct1998  122.750     15.916   7.713 4.20e-11 ***
-year_fct1999  136.750     15.916   8.592 8.89e-13 ***
-year_fct2000  130.250     15.916   8.184 5.33e-12 ***
-year_fct2001  154.750     15.916   9.723 6.35e-15 ***
-year_fct2002  119.500     15.916   7.508 1.02e-10 ***
-year_fct2003  117.000     15.916   7.351 2.03e-10 ***
-year_fct2004  102.000     15.916   6.409 1.16e-08 ***
-year_fct2005   60.000     15.916   3.770 0.000323 ***
-year_fct2006  103.000     15.916   6.472 8.92e-09 ***
-year_fct2007  121.500     15.916   7.634 5.91e-11 ***
-year_fct2008  127.000     15.916   7.980 1.30e-11 ***
-year_fct2009  112.500     15.916   7.069 6.91e-10 ***
-year_fct2010  125.000     15.916   7.854 2.26e-11 ***
-year_fct2011  131.000     15.916   8.231 4.34e-12 ***
-year_fct2012  130.000     15.916   8.168 5.71e-12 ***
-year_fct2013  122.250     15.916   7.681 4.81e-11 ***
-year_fct2014   85.250     15.916   5.356 8.97e-07 ***
-year_fct2015   99.250     15.916   6.236 2.41e-08 ***
-year_fct2016  117.500     15.916   7.383 1.77e-10 ***
-year_fct2017  116.500     15.916   7.320 2.32e-10 ***
-quarter_fct2   49.269      6.243   7.892 1.91e-11 ***
-quarter_fct3   55.923      6.243   8.958 1.79e-13 ***
-quarter_fct4    6.500      6.243   1.041 0.301114    
+(Intercept)    71.937     11.914   6.038 4.49e-08 ***
+year_fct1992   88.500     16.013   5.527 3.86e-07 ***
+year_fct1993  107.250     16.013   6.698 2.57e-09 ***
+year_fct1994   67.250     16.013   4.200 6.82e-05 ***
+year_fct1995  150.000     16.013   9.368 1.49e-14 ***
+year_fct1996  149.500     16.013   9.336 1.72e-14 ***
+year_fct1997  172.250     16.013  10.757  &lt; 2e-16 ***
+year_fct1998  211.250     16.013  13.193  &lt; 2e-16 ***
+year_fct1999  225.250     16.013  14.067  &lt; 2e-16 ***
+year_fct2000  218.750     16.013  13.661  &lt; 2e-16 ***
+year_fct2001  243.250     16.013  15.191  &lt; 2e-16 ***
+year_fct2002  208.000     16.013  12.990  &lt; 2e-16 ***
+year_fct2003  205.500     16.013  12.834  &lt; 2e-16 ***
+year_fct2004  190.500     16.013  11.897  &lt; 2e-16 ***
+year_fct2005  148.500     16.013   9.274 2.28e-14 ***
+year_fct2006  191.500     16.013  11.959  &lt; 2e-16 ***
+year_fct2007  210.000     16.013  13.115  &lt; 2e-16 ***
+year_fct2008  215.500     16.013  13.458  &lt; 2e-16 ***
+year_fct2009  201.000     16.013  12.553  &lt; 2e-16 ***
+year_fct2010  213.500     16.013  13.333  &lt; 2e-16 ***
+year_fct2011  219.500     16.013  13.708  &lt; 2e-16 ***
+year_fct2012  218.500     16.013  13.645  &lt; 2e-16 ***
+year_fct2013  210.750     16.013  13.161  &lt; 2e-16 ***
+year_fct2014  173.750     16.013  10.851  &lt; 2e-16 ***
+year_fct2015  187.750     16.013  11.725  &lt; 2e-16 ***
+year_fct2016  197.500     16.013  12.334  &lt; 2e-16 ***
+year_fct2017  205.000     16.013  12.802  &lt; 2e-16 ***
+year_fct2018  246.750     16.013  15.410  &lt; 2e-16 ***
+quarter_fct2   50.107      6.052   8.279 2.12e-12 ***
+quarter_fct3   57.214      6.052   9.453 1.01e-14 ***
+quarter_fct4    7.929      6.052   1.310    0.194    
 ---
 Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 
-Residual standard error: 22.51 on 75 degrees of freedom
-Multiple R-squared:  0.8703,    Adjusted R-squared:  0.8218 
-F-statistic: 17.97 on 28 and 75 DF,  p-value: &lt; 2.2e-16</code></pre>
+Residual standard error: 22.65 on 81 degrees of freedom
+Multiple R-squared:  0.9082,    Adjusted R-squared:  0.8742 
+F-statistic:  26.7 on 30 and 81 DF,  p-value: &lt; 2.2e-16</code></pre>
 <pre class="r"><code>qt_hate_LGBTI$predictions= predict(lm_antiLGBTI, qt_hate_LGBTI)
 qt_hate_LGBTI$residuals= resid(lm_antiLGBTI)
 qt_hate_LGBTI$mean= mean(qt_hate_LGBTI$hatecrimes)
@@ -2936,7 +3030,7 @@ legend_points_LGBTI_det</code></pre>
 1 2001-07-01   9/11     2001. 3               2001 2001                380
 2 2008-10-01   Obama…   2008. 4               2008 2008                338
 3 2012-10-01   Obama…   2012. 4               2012 2012                272
-4 2016-10-01   Trump…   2016. 4               2016 2016                306
+4 2016-10-01   Trump…   2016. 4               2016 2016                288
 # … with 8 more variables: quarter_fct.y &lt;fct&gt;, year.y &lt;dbl&gt;,
 #   year_fct.y &lt;fct&gt;, hatecrimes.y &lt;int&gt;, predictions &lt;dbl&gt;,
 #   residuals &lt;dbl&gt;, mean &lt;dbl&gt;, hatedetrend &lt;dbl&gt;</code></pre>
@@ -2946,16 +3040,16 @@ legend_points_LGBTI_det</code></pre>
   ggplot(aes(x=quarter_date, y=hatedetrend))+
   geom_line(size=0.8)+
   # scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
-  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1992&quot;), dmy(&quot;31-12-2017&quot;), by= &quot;2 year&quot;), 
+  scale_x_date(breaks = seq.Date(dmy(&quot;01-01-1991&quot;), dmy(&quot;31-12-2018&quot;), by= &quot;2 year&quot;), 
                date_labels = &quot;%Y-%m&quot;, 
-               limits = c(lubridate::dmy(&quot;01-01-1992&quot;), lubridate::dmy(&quot;31-12-2017&quot;)),
+               limits = c(lubridate::dmy(&quot;01-01-1991&quot;), lubridate::dmy(&quot;31-12-2018&quot;)),
                expand=c(0,0))+
   hrbrthemes::theme_ipsum_rc()+
-  labs(title = &quot;Detrended Quarterly Anti-LGBTI Hate Crime in the US, 1992-2017&quot;,
+  labs(title = &quot;Detrended Quarterly Anti-LGBTI Hate Crime in the US, 1991-2018&quot;,
        y=&quot;Number of Hate Anti-LGBTI Crime Incidents (Detrended)&quot;,
        x= &quot;Date (Quarter)&quot;,
        subtitle = &quot;Source: FBI Hate Crime Statistics&quot;,
-       caption = &quot;Hate Lab, by @SefaOzalp, 2020&quot;
+       caption = &quot;HateLab, by @SefaOzalp, 2020&quot;
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -2965,38 +3059,110 @@ legend_points_LGBTI_det</code></pre>
                      name = NULL)+
   NULL  </code></pre>
 <p><img src="figure/fbi_hate_crimes_quarterly.rmd/antiLGBTI_detrended_plot-1.png" width="5000" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-antiLGBTI_detrended_plot-1">
+Past versions of antiLGBTI_detrended_plot-1.png
+</button>
+</p>
+<div id="fig-antiLGBTI_detrended_plot-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/b0ef67a5009fe47b6a05fdb0fc0eec1201c61aa7/docs/figure/fbi_hate_crimes_quarterly.rmd/antiLGBTI_detrended_plot-1.png" target="_blank">b0ef67a</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-06-17
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="the-effect-trumps-election-on-anti-muslim-anti-hispanic-and-anti-black-and-anti-lgbti-hate-crimes" class="section level1">
 <h1>The Effect Trumps Election on Anti-Muslim, Anti-Hispanic, and anti-Black and anti-LGBTI Hate Crimes</h1>
+<div id="define-functions" class="section level3">
+<h3>Define Functions</h3>
 <pre class="r"><code>qt_hate_muslim %&gt;% 
+  filter( year==2016&amp;quarter_fct%in%c(3,4) | year==2015&amp;quarter_fct%in%c(3,4) )%&gt;% 
+  select(quarter, hatecrimes,year) %&gt;% 
+  group_by(year) %&gt;% 
+  summarise(sum_hatecrimes=sum(hatecrimes)) %&gt;% 
+  pivot_wider(names_from = year, values_from = sum_hatecrimes, names_prefix = &quot;quarters_&quot;) %&gt;% 
+  summarise(percentage_change=round(quarters_2016/quarters_2015*100-100, 3))</code></pre>
+<pre><code># A tibble: 1 x 1
+  percentage_change
+              &lt;dbl&gt;
+1              5.77</code></pre>
+<pre class="r"><code>year_change &lt;- function(data, quarters=c(3,4)){
+  dt &lt;- data %&gt;% 
+    filter( year==2016&amp;quarter_fct%in%quarters | year==2015&amp;quarter_fct%in%quarters )%&gt;% 
+  select(quarter, hatecrimes,year) %&gt;% 
+  group_by(year) %&gt;% 
+  summarise(sum_hatecrimes=sum(hatecrimes)) %&gt;% 
+  pivot_wider(names_from = year, values_from = sum_hatecrimes, names_prefix = &quot;quarters_&quot;) %&gt;% 
+  summarise(percentage_change=round(quarters_2016/quarters_2015*100-100, 3))
+  
+  message &lt;- paste(&quot;The change in mean&quot;, str_replace(string =  deparse(substitute(data)), #to use arg name as char vertor using non-standard evaluation
+                                           pattern = &quot;qt_hate_&quot;,
+                                           replacement = &quot;anti-&quot;), 
+              &quot;hate crimes between quarter(s)&quot;,
+              paste(quarters, collapse =&quot;,&quot;), &quot;of 2015 and quarter(s)&quot;, paste(quarters, collapse =&quot;,&quot;) ,&quot;of 2016 is&quot;, dt, &quot;%.\n&quot; ) 
+  cat(message)
+}
+
+# year_change(qt_hate_muslim, quarters = c(2,3,4))
+# map(list(4,c(3,4), c(2,3,4), c(1,2,3,4) ), ~year_change(qt_hate_LGBTI, quarters=.x) )</code></pre>
+<pre class="r"><code>qt_hate_muslim</code></pre>
+<pre><code># A tibble: 111 x 9
+   quarter quarter_fct  year year_fct hatecrimes predictions residuals
+     &lt;dbl&gt; &lt;fct&gt;       &lt;dbl&gt; &lt;fct&gt;         &lt;int&gt;       &lt;dbl&gt;     &lt;dbl&gt;
+ 1   1991. 1            1991 1991              4       -3.61      7.61
+ 2   1991. 2            1991 1991              4        1.25      2.75
+ 3   1991. 3            1991 1991              2       12.4     -10.4 
+ 4   1992. 1            1992 1992              3       -3.29      6.29
+ 5   1992. 2            1992 1992              3        1.56      1.44
+ 6   1992. 3            1992 1992              7       12.7      -5.67
+ 7   1992. 4            1992 1992              2        4.06     -2.06
+ 8   1993. 1            1993 1993              1       -3.79      4.79
+ 9   1993. 2            1993 1993              3        1.06      1.94
+10   1993. 3            1993 1993              4       12.2      -8.17
+# … with 101 more rows, and 2 more variables: mean &lt;dbl&gt;,
+#   hatedetrend &lt;dbl&gt;</code></pre>
+<pre class="r"><code>#9 month percentage change 
+qt_hate_muslim %&gt;% 
   filter(year&gt;=2016) %&gt;% 
   mutate(after_trump= ifelse( ( year==2016 &amp; as.numeric(quarter_fct)&lt;4 ), 0, 1 )) %&gt;% 
   select(after_trump, everything()) %&gt;%
   slice(1:6) %&gt;% 
   group_by(after_trump) %&gt;% 
-  summarise(mean_hatecrimes=mean(hatecrimes))</code></pre>
-<pre><code># A tibble: 2 x 2
-  after_trump mean_hatecrimes
-        &lt;dbl&gt;           &lt;dbl&gt;
-1           0            71.3
-2           1            81.7</code></pre>
-<pre class="r"><code>qt_hate_muslim</code></pre>
-<pre><code># A tibble: 104 x 9
-   quarter quarter_fct  year year_fct hatecrimes predictions residuals
-     &lt;dbl&gt; &lt;fct&gt;       &lt;dbl&gt; &lt;fct&gt;         &lt;int&gt;       &lt;dbl&gt;     &lt;dbl&gt;
- 1   1992. 1            1992 1992              3      -4.13      7.13 
- 2   1992. 2            1992 1992              3       0.952     2.05 
- 3   1992. 3            1992 1992              7      13.7      -6.72 
- 4   1992. 4            1992 1992              2       4.45     -2.45 
- 5   1993. 1            1993 1993              1      -4.62      5.62 
- 6   1993. 2            1993 1993              3       0.452     2.55 
- 7   1993. 3            1993 1993              4      13.2      -9.22 
- 8   1993. 4            1993 1993              5       3.95      1.05 
- 9   1994. 1            1994 1994              5      -3.62      8.63 
-10   1994. 2            1994 1994              2       1.45      0.548
-# … with 94 more rows, and 2 more variables: mean &lt;dbl&gt;, hatedetrend &lt;dbl&gt;</code></pre>
+  summarise(mean_hatecrimes=mean(hatecrimes)) %&gt;% 
+  pivot_wider(names_from = after_trump, values_from = mean_hatecrimes, names_prefix = &quot;after_trump_&quot;) %&gt;% 
+  summarise(percentage_change=after_trump_1/after_trump_0*100)</code></pre>
+<pre><code># A tibble: 1 x 1
+  percentage_change
+              &lt;dbl&gt;
+1              114.</code></pre>
 <pre class="r"><code>calc_perc_change &lt;- function(data, n){
   dt &lt;- data %&gt;% 
     mutate(quarter_date=dmy(paste( &quot;01&quot;, as.character( (as.numeric(quarter_fct)*3 -2) ), as.character(year_fct),sep = &quot;-&quot; ))) %&gt;% 
@@ -3010,17 +3176,24 @@ legend_points_LGBTI_det</code></pre>
   before_mean= mean(dt_sliced[dt_sliced$after_trump==0,]$hatecrimes)
   after_mean= mean(dt_sliced[dt_sliced$after_trump==1,]$hatecrimes)
 
-  cat ( paste(&quot;The increase in Hate Crimes&quot;, as.character(3*n+3), &quot; months before and after Trump&#39;s election is&quot;,  round(after_mean/before_mean*100-100, 2), &quot;percent.\n&quot; ) )
-  # return(dt_sliced)
+  message &lt;- paste(&quot;The change in mean&quot;, str_replace(string =  deparse(substitute(data)), #to use arg name as char vertor using non-standard evaluation
+                                           pattern = &quot;qt_hate_&quot;,
+                                           replacement = &quot;anti-&quot;), 
+              &quot;hate crimes&quot;,
+              as.character(3*n+3), &quot;months before and after Trump&#39;s election is&quot;,
+              round(after_mean/before_mean*100-100, 2), &quot;%.\n&quot; ) 
+  cat(message)
 }</code></pre>
-<div id="percentage-change-for-muslim" class="section level3">
-<h3>Percentage change for Muslim</h3>
-<pre class="r"><code>map(0:4, calc_perc_change, data =qt_hate_muslim )</code></pre>
-<pre><code>The increase in Hate Crimes 3  months before and after Trump&#39;s election is 30.56 percent.
-The increase in Hate Crimes 6  months before and after Trump&#39;s election is 21.77 percent.
-The increase in Hate Crimes 9  months before and after Trump&#39;s election is 14.49 percent.
-The increase in Hate Crimes 12  months before and after Trump&#39;s election is -8.41 percent.
-The increase in Hate Crimes 15  months before and after Trump&#39;s election is -0.27 percent.</code></pre>
+</div>
+<div id="percentage-change-for-anti-muslim-hate-crimes" class="section level2">
+<h2>Percentage change for anti-Muslim Hate Crimes</h2>
+<div id="change-across-quarters-of-2015-and-2016" class="section level3">
+<h3>Change across Quarters of 2015 and 2016</h3>
+<pre class="r"><code>map(list(4,c(3,4), c(2,3,4), c(1,2,3,4) ), ~year_change(qt_hate_muslim, quarters=.x) )</code></pre>
+<pre><code>The change in mean anti-muslim hate crimes between quarter(s) 4 of 2015 and quarter(s) 4 of 2016 is -21.849 %.
+The change in mean anti-muslim hate crimes between quarter(s) 3,4 of 2015 and quarter(s) 3,4 of 2016 is 5.769 %.
+The change in mean anti-muslim hate crimes between quarter(s) 2,3,4 of 2015 and quarter(s) 2,3,4 of 2016 is 12.676 %.
+The change in mean anti-muslim hate crimes between quarter(s) 1,2,3,4 of 2015 and quarter(s) 1,2,3,4 of 2016 is 18.992 %.</code></pre>
 <pre><code>[[1]]
 NULL
 
@@ -3031,19 +3204,19 @@ NULL
 NULL
 
 [[4]]
-NULL
-
-[[5]]
 NULL</code></pre>
 </div>
-<div id="percentage-change-for-anti-hispanic" class="section level3">
-<h3>Percentage change for Anti-Hispanic</h3>
-<pre class="r"><code>map(0:4, calc_perc_change, data =qt_hate_hispanic )</code></pre>
-<pre><code>The increase in Hate Crimes 3  months before and after Trump&#39;s election is 8 percent.
-The increase in Hate Crimes 6  months before and after Trump&#39;s election is 23.5 percent.
-The increase in Hate Crimes 9  months before and after Trump&#39;s election is 35.39 percent.
-The increase in Hate Crimes 12  months before and after Trump&#39;s election is 43.87 percent.
-The increase in Hate Crimes 15  months before and after Trump&#39;s election is 37.95 percent.</code></pre>
+<div id="cumulative-change-before-and-after-trumps-election-2016q4" class="section level3">
+<h3>Cumulative change before and after Trump’s election (2016Q4)</h3>
+<pre class="r"><code>map(0:7, ~calc_perc_change(data =qt_hate_muslim, .x ))</code></pre>
+<pre><code>The change in mean anti-muslim hate crimes 3 months before and after Trump&#39;s election is 29.17 %.
+The change in mean anti-muslim hate crimes 6 months before and after Trump&#39;s election is 21.09 %.
+The change in mean anti-muslim hate crimes 9 months before and after Trump&#39;s election is 14.02 %.
+The change in mean anti-muslim hate crimes 12 months before and after Trump&#39;s election is -8.71 %.
+The change in mean anti-muslim hate crimes 15 months before and after Trump&#39;s election is -0.54 %.
+The change in mean anti-muslim hate crimes 18 months before and after Trump&#39;s election is -0.94 %.
+The change in mean anti-muslim hate crimes 21 months before and after Trump&#39;s election is 2.12 %.
+The change in mean anti-muslim hate crimes 24 months before and after Trump&#39;s election is 2.35 %.</code></pre>
 <pre><code>[[1]]
 NULL
 
@@ -3057,16 +3230,50 @@ NULL
 NULL
 
 [[5]]
+NULL
+
+[[6]]
+NULL
+
+[[7]]
+NULL
+
+[[8]]
 NULL</code></pre>
 </div>
-<div id="percentage-change-for-anti-black" class="section level3">
-<h3>Percentage change for Anti-Black</h3>
-<pre class="r"><code>map(0:4, calc_perc_change, data =qt_hate_black )</code></pre>
-<pre><code>The increase in Hate Crimes 3  months before and after Trump&#39;s election is 1.6 percent.
-The increase in Hate Crimes 6  months before and after Trump&#39;s election is 0.22 percent.
-The increase in Hate Crimes 9  months before and after Trump&#39;s election is 16.32 percent.
-The increase in Hate Crimes 12  months before and after Trump&#39;s election is 23.26 percent.
-The increase in Hate Crimes 15  months before and after Trump&#39;s election is 17.22 percent.</code></pre>
+</div>
+<div id="percentage-change-for-anti-hispanic-hate-crimes" class="section level2">
+<h2>Percentage change for anti-hispanic Hate Crimes</h2>
+<div id="change-across-quarters-of-2015-and-2016-1" class="section level3">
+<h3>Change across Quarters of 2015 and 2016</h3>
+<pre class="r"><code>map(list(4,c(3,4), c(2,3,4), c(1,2,3,4) ), ~year_change(qt_hate_hispanic, quarters=.x) )</code></pre>
+<pre><code>The change in mean anti-hispanic hate crimes between quarter(s) 4 of 2015 and quarter(s) 4 of 2016 is 58.209 %.
+The change in mean anti-hispanic hate crimes between quarter(s) 3,4 of 2015 and quarter(s) 3,4 of 2016 is 40.136 %.
+The change in mean anti-hispanic hate crimes between quarter(s) 2,3,4 of 2015 and quarter(s) 2,3,4 of 2016 is 23.176 %.
+The change in mean anti-hispanic hate crimes between quarter(s) 1,2,3,4 of 2015 and quarter(s) 1,2,3,4 of 2016 is 16.054 %.</code></pre>
+<pre><code>[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL</code></pre>
+</div>
+<div id="cumulative-change-before-and-after-trumps-election-2016q4-1" class="section level3">
+<h3>Cumulative change before and after Trump’s election (2016Q4)</h3>
+<pre class="r"><code>map(0:7, ~calc_perc_change(data =qt_hate_hispanic, .x ))</code></pre>
+<pre><code>The change in mean anti-hispanic hate crimes 3 months before and after Trump&#39;s election is 6 %.
+The change in mean anti-hispanic hate crimes 6 months before and after Trump&#39;s election is 23.76 %.
+The change in mean anti-hispanic hate crimes 9 months before and after Trump&#39;s election is 35.68 %.
+The change in mean anti-hispanic hate crimes 12 months before and after Trump&#39;s election is 44.16 %.
+The change in mean anti-hispanic hate crimes 15 months before and after Trump&#39;s election is 38.14 %.
+The change in mean anti-hispanic hate crimes 18 months before and after Trump&#39;s election is 31.86 %.
+The change in mean anti-hispanic hate crimes 21 months before and after Trump&#39;s election is 42.04 %.
+The change in mean anti-hispanic hate crimes 24 months before and after Trump&#39;s election is 53.3 %.</code></pre>
 <pre><code>[[1]]
 NULL
 
@@ -3080,16 +3287,139 @@ NULL
 NULL
 
 [[5]]
+NULL
+
+[[6]]
+NULL
+
+[[7]]
+NULL
+
+[[8]]
+NULL</code></pre>
+</div>
+</div>
+<div id="percentage-change-for-anti-black-hate-crimes" class="section level2">
+<h2>Percentage change for anti-black Hate Crimes</h2>
+<div id="change-across-quarters-of-2015-and-2016-2" class="section level3">
+<h3>Change across Quarters of 2015 and 2016</h3>
+<pre class="r"><code>map(list(4,c(3,4), c(2,3,4), c(1,2,3,4) ), ~year_change(qt_hate_black, quarters=.x) )</code></pre>
+<pre><code>The change in mean anti-black hate crimes between quarter(s) 4 of 2015 and quarter(s) 4 of 2016 is 28.165 %.
+The change in mean anti-black hate crimes between quarter(s) 3,4 of 2015 and quarter(s) 3,4 of 2016 is 10.368 %.
+The change in mean anti-black hate crimes between quarter(s) 2,3,4 of 2015 and quarter(s) 2,3,4 of 2016 is 0.719 %.
+The change in mean anti-black hate crimes between quarter(s) 1,2,3,4 of 2015 and quarter(s) 1,2,3,4 of 2016 is -0.114 %.</code></pre>
+<pre><code>[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL</code></pre>
+</div>
+<div id="cumulative-change-before-and-after-trumps-election-2016q4-2" class="section level3">
+<h3>Cumulative change before and after Trump’s election (2016Q4)</h3>
+<pre class="r"><code>map(0:7, ~calc_perc_change(data =qt_hate_black, .x ))</code></pre>
+<pre><code>The change in mean anti-black hate crimes 3 months before and after Trump&#39;s election is 0.4 %.
+The change in mean anti-black hate crimes 6 months before and after Trump&#39;s election is 0.99 %.
+The change in mean anti-black hate crimes 9 months before and after Trump&#39;s election is 17.12 %.
+The change in mean anti-black hate crimes 12 months before and after Trump&#39;s election is 23.95 %.
+The change in mean anti-black hate crimes 15 months before and after Trump&#39;s election is 17.69 %.
+The change in mean anti-black hate crimes 18 months before and after Trump&#39;s election is 11.16 %.
+The change in mean anti-black hate crimes 21 months before and after Trump&#39;s election is 14.63 %.
+The change in mean anti-black hate crimes 24 months before and after Trump&#39;s election is 16.79 %.</code></pre>
+<pre><code>[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL
+
+[[5]]
+NULL
+
+[[6]]
+NULL
+
+[[7]]
+NULL
+
+[[8]]
+NULL</code></pre>
+</div>
+</div>
+<div id="percentage-change-for-anti-lgbti-hate-crimes" class="section level2">
+<h2>Percentage change for anti-LGBTI Hate Crimes</h2>
+<div id="change-across-quarters-of-2015-and-2016-3" class="section level3">
+<h3>Change across Quarters of 2015 and 2016</h3>
+<pre class="r"><code>map(list(4,c(3,4), c(2,3,4), c(1,2,3,4) ), ~year_change(qt_hate_LGBTI, quarters=.x) )</code></pre>
+<pre><code>The change in mean anti-LGBTI hate crimes between quarter(s) 4 of 2015 and quarter(s) 4 of 2016 is 18.033 %.
+The change in mean anti-LGBTI hate crimes between quarter(s) 3,4 of 2015 and quarter(s) 3,4 of 2016 is 3.061 %.
+The change in mean anti-LGBTI hate crimes between quarter(s) 2,3,4 of 2015 and quarter(s) 2,3,4 of 2016 is 2.5 %.
+The change in mean anti-LGBTI hate crimes between quarter(s) 1,2,3,4 of 2015 and quarter(s) 1,2,3,4 of 2016 is 3.38 %.</code></pre>
+<pre><code>[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL</code></pre>
+</div>
+<div id="cumulative-change-before-and-after-trumps-election-2016q4-3" class="section level3">
+<h3>Cumulative change before and after Trump’s election (2016Q4)</h3>
+<pre class="r"><code>map(0:7, ~calc_perc_change(data =qt_hate_LGBTI, .x ))</code></pre>
+<pre><code>The change in mean anti-LGBTI hate crimes 3 months before and after Trump&#39;s election is -9.43 %.
+The change in mean anti-LGBTI hate crimes 6 months before and after Trump&#39;s election is -10.84 %.
+The change in mean anti-LGBTI hate crimes 9 months before and after Trump&#39;s election is -1.22 %.
+The change in mean anti-LGBTI hate crimes 12 months before and after Trump&#39;s election is 6.27 %.
+The change in mean anti-LGBTI hate crimes 15 months before and after Trump&#39;s election is 1.21 %.
+The change in mean anti-LGBTI hate crimes 18 months before and after Trump&#39;s election is 0.27 %.
+The change in mean anti-LGBTI hate crimes 21 months before and after Trump&#39;s election is 7.72 %.
+The change in mean anti-LGBTI hate crimes 24 months before and after Trump&#39;s election is 12.18 %.</code></pre>
+<pre><code>[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL
+
+[[5]]
+NULL
+
+[[6]]
+NULL
+
+[[7]]
+NULL
+
+[[8]]
 NULL</code></pre>
 </div>
 <div id="percentage-change-for-anti-lgbti" class="section level3">
 <h3>Percentage change for Anti-LGBTI</h3>
 <pre class="r"><code>map(0:4, calc_perc_change, data =qt_hate_LGBTI )</code></pre>
-<pre><code>The increase in Hate Crimes 3  months before and after Trump&#39;s election is -6.71 percent.
-The increase in Hate Crimes 6  months before and after Trump&#39;s election is -9.88 percent.
-The increase in Hate Crimes 9  months before and after Trump&#39;s election is -0.98 percent.
-The increase in Hate Crimes 12  months before and after Trump&#39;s election is 6.35 percent.
-The increase in Hate Crimes 15  months before and after Trump&#39;s election is 1.33 percent.</code></pre>
+<pre><code>The change in mean anti-LGBTI hate crimes 3 months before and after Trump&#39;s election is -9.43 %.
+The change in mean anti-LGBTI hate crimes 6 months before and after Trump&#39;s election is -10.84 %.
+The change in mean anti-LGBTI hate crimes 9 months before and after Trump&#39;s election is -1.22 %.
+The change in mean anti-LGBTI hate crimes 12 months before and after Trump&#39;s election is 6.27 %.
+The change in mean anti-LGBTI hate crimes 15 months before and after Trump&#39;s election is 1.21 %.</code></pre>
 <pre><code>[[1]]
 NULL
 
@@ -3104,6 +3434,7 @@ NULL
 
 [[5]]
 NULL</code></pre>
+</div>
 </div>
 </div>
 <div id="wip" class="section level1">
@@ -3154,7 +3485,7 @@ NULL</code></pre>
 # 
 # hate_vector &lt;- hate %&gt;% select(n) %&gt;% pull
 # 
-# ts_hate &lt;- ts(hate_vector, , start=c(1992, 1), end=c(2017, 12), frequency=12)
+# ts_hate &lt;- ts(hate_vector, , start=c(1991, 1), end=c(2018, 12), frequency=12)
 # ts_hate</code></pre>
 <div id="references" class="section level2">
 <h2>References</h2>
