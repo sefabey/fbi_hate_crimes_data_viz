@@ -2,13 +2,25 @@
 
 ## Uniform Crime Reporting (UCR) Program Data: Hate Crime Data 1992-2017
 
-####Data from 1992-2017
+###Data from 1992-2017
 https://www.openicpsr.org/openicpsr/project/103500/version/V4/view
 https://www.openicpsr.org/openicpsr/project/103500/version/V4/view?path=/openicpsr/103500/fcr:versions/V4/ucr_hate_crimes_1992_2017_rda.zip&type=file
-#### Citation: 
+### Citation: 
 https://doi.org/10.3886/E103500V4
-#### R code
+### R code
 https://github.com/jacobkap/crime_data
+
+
+
+### Data from 1991-2018
+https://www.openicpsr.org/openicpsr/project/103500/version/V6/view
+
+https://www.openicpsr.org/openicpsr/project/103500/version/V6/view?path=/openicpsr/103500/fcr:versions/V6/ucr_hate_crimes_1991_2018_rda.zip&type=file
+### Citation: 
+Kaplan, Jacob. Jacob Kaplan’s Concatenated Files: Uniform Crime Reporting (UCR) Program Data: Hate Crime Data 1991-2018. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2020-02-19. https://doi.org/10.3886/E103500V6
+### R code
+https://github.com/jacobkap/crime_data
+
 
 
 
