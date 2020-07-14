@@ -304,7 +304,7 @@ qt_hate_muslim %>%
   labs(title = "Quarterly Aggregated Anti-Muslim Hate Crime Incidents in the US, 1992-2017",
        y="Number of Anti-Muslim Hate Crime Incidents",
        subtitle = "Source: FBI Hate Crime Statistics",
-       caption = "Hate Lab, by @SefaOzalp, 2020"
+       caption = "Hate Lab, by @SefaOzalp, 2019"
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -360,7 +360,7 @@ qt_hate_muslim %>%
        y="Number of Hate Anti- Muslim Crime Incidents (Detrended)",
        x= "Date (Quarter)",
        subtitle = "Source: FBI Hate Crime Statistics",
-       caption = "Hate Lab, by @SefaOzalp, 2020"
+       caption = "Hate Lab, by @SefaOzalp, 2019"
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -413,7 +413,7 @@ qt_hate_hispanic %>%
   labs(title = "Quarterly Aggregated Anti-Hispanic Hate Crime Incidents in the US, 1992-2017",
        y="Number of Anti-Hispanic Hate Crime Incidents",
        subtitle = "Source: FBI Hate Crime Statistics",
-       caption = "Hate Lab, by @SefaOzalp, 2020"
+       caption = "Hate Lab, by @SefaOzalp, 2019"
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -469,7 +469,7 @@ qt_hate_hispanic %>%
        y="Number of Hate Anti-Hispanic Crime Incidents (Detrended)",
        x= "Date (Quarter)",
        subtitle = "Source: FBI Hate Crime Statistics",
-       caption = "Hate Lab, by @SefaOzalp, 2020"
+       caption = "Hate Lab, by @SefaOzalp, 2019"
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -521,7 +521,7 @@ qt_hate_black %>%
   labs(title = "Quarterly Aggregated Anti-Black Hate Crime Incidents in the US, 1992-2017",
        y="Number of Anti-Black Hate Crime Incidents",
        subtitle = "Source: FBI Hate Crime Statistics",
-       caption = "Hate Lab, by @SefaOzalp, 2020"
+       caption = "Hate Lab, by @SefaOzalp, 2019"
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -577,7 +577,7 @@ qt_hate_black %>%
        y="Number of Hate Anti-Black Crime Incidents (Detrended)",
        x= "Date (Quarter)",
        subtitle = "Source: FBI Hate Crime Statistics",
-       caption = "Hate Lab, by @SefaOzalp, 2020"
+       caption = "Hate Lab, by @SefaOzalp, 2019"
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -631,7 +631,7 @@ qt_hate_LGBTI %>%
   labs(title = "Quarterly Aggregated Anti-LGBTI Hate Crime Incidents in the US, 1992-2017",
        y="Number of Anti-LGBTI Hate Crime Incidents",
        subtitle = "Source: FBI Hate Crime Statistics",
-       caption = "Hate Lab, by @SefaOzalp, 2020"
+       caption = "Hate Lab, by @SefaOzalp, 2019"
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
@@ -687,7 +687,7 @@ qt_hate_LGBTI %>%
        y="Number of Hate Anti-LGBTI Crime Incidents (Detrended)",
        x= "Date (Quarter)",
        subtitle = "Source: FBI Hate Crime Statistics",
-       caption = "Hate Lab, by @SefaOzalp, 2020"
+       caption = "Hate Lab, by @SefaOzalp, 2019"
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
