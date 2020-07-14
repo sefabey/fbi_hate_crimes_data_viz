@@ -495,10 +495,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreebe14a1ada9bb59b7d4d0ea8000758ed7f679d4bbtargetblankbe14a1aa"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/be14a1ada9bb59b7d4d0ea8000758ed7f679d4bb" target="_blank">be14a1a</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree1708be7939aba5e69083b59e3ccbd7ac36915cfctargetblank1708be7a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/1708be7939aba5e69083b59e3ccbd7ac36915cfc" target="_blank">1708be7</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreebe14a1ada9bb59b7d4d0ea8000758ed7f679d4bbtargetblankbe14a1aa" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree1708be7939aba5e69083b59e3ccbd7ac36915cfctargetblank1708be7a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -609,6 +609,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+rmd
+</td>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/1708be7939aba5e69083b59e3ccbd7ac36915cfc/analysis/fbi_hate_crimes_quarterly.rmd" target="_blank">1708be7</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-07-14
+</td>
+<td>
+fix labels in edwards rushin replication
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/sefabey/fbi_hate_crimes_data_viz/204eb682bc5eccd4b7eb02a806c1332e8022fcfe/docs/fbi_hate_crimes_quarterly.html" target="_blank">204eb68</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-07-14
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 html
@@ -1396,6 +1430,15 @@ edwards_processed</code></pre>
   left_join(edwards_processed) %&gt;% 
   arrange(quarter_date)</code></pre>
 <pre><code>Joining, by = &quot;quarter_date&quot;</code></pre>
+<pre class="r"><code>legend_points</code></pre>
+<pre><code># A tibble: 4 x 10
+  quarter_date labels  date  year quarter hatedetrend predictions residuals
+  &lt;date&gt;       &lt;chr&gt;  &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;     &lt;dbl&gt;
+1 2001-07-01   9/11     166  2001       3       2548.       2542.     756. 
+2 2008-10-01   Obama…   195  2008       4       1808.       1800.      16.0
+3 2012-10-01   Obama…   211  2012       4       1627.       1501.    -164. 
+4 2016-10-01   Trump…   227  2016       4       2139.       1400.     346. 
+# … with 2 more variables: mean &lt;dbl&gt;, quarter_str &lt;chr&gt;</code></pre>
 <pre class="r"><code>edwards_processed %&gt;%
   ggplot(aes(x=quarter_date, y=hatedetrend))+
   geom_line(size=0.8)+
@@ -1703,8 +1746,23 @@ qt_hate$residuals= resid(lm_ucr_hc)
 qt_hate$mean= mean(qt_hate$hatecrimes)
 qt_hate$hatedetrend=qt_hate$residuals+qt_hate$mean
 
-
-qt_hate %&gt;% 
+legend_points_fbi &lt;-  tibble(quarter_date= dmy(c(&quot;01-10-2016&quot;, &quot;01-10-2012&quot;, &quot;01-10-2008&quot;, &quot;01-07-2001&quot;)),
+                         labels= c(&quot;Trump 2016&quot;, &quot;Obama 2012&quot;, &quot;Obama 2008&quot;, &quot;9/11&quot;)) %&gt;%
+  left_join(qt_hate %&gt;% 
+  mutate(quarter_date=dmy(paste( &quot;01&quot;, as.character( (as.numeric(quarter_fct)*3-2) ), as.character(year_fct),sep = &quot;-&quot; )))) %&gt;% 
+  arrange(quarter_date)</code></pre>
+<pre><code>Joining, by = &quot;quarter_date&quot;</code></pre>
+<pre class="r"><code>legend_points_fbi</code></pre>
+<pre><code># A tibble: 4 x 11
+  quarter_date labels quarter quarter_fct  year year_fct hatecrimes
+  &lt;date&gt;       &lt;chr&gt;    &lt;dbl&gt; &lt;fct&gt;       &lt;dbl&gt; &lt;fct&gt;         &lt;int&gt;
+1 2001-07-01   9/11     2001. 3            2001 2001           3337
+2 2008-10-01   Obama…   2008. 4            2008 2008           1847
+3 2012-10-01   Obama…   2012. 4            2012 2012           1354
+4 2016-10-01   Trump…   2016. 4            2016 2016           1817
+# … with 4 more variables: predictions &lt;dbl&gt;, residuals &lt;dbl&gt;, mean &lt;dbl&gt;,
+#   hatedetrend &lt;dbl&gt;</code></pre>
+<pre class="r"><code>qt_hate %&gt;% 
   mutate(quarter_date=dmy(paste( &quot;01&quot;, as.character( (as.numeric(quarter_fct)*3-2) ), as.character(year_fct),sep = &quot;-&quot; ))) %&gt;%
   ggplot(aes(x=quarter_date, y=hatedetrend))+
   geom_line(size=0.8)+
@@ -1722,12 +1780,49 @@ qt_hate %&gt;%
        )+
   theme(plot.caption = element_text(size = 12))+
   theme(axis.text.x = element_text(angle=45, hjust = 1))+
-  geom_point(data=legend_points, aes(x=quarter_date, y= hatedetrend , shape=factor(labels)), size=4,colour=&quot;grey50&quot; )+
+  geom_point(data=legend_points_fbi, aes(x=quarter_date, y= hatedetrend , shape=factor(labels)), size=4,colour=&quot;grey50&quot; )+
   theme(legend.position=&quot;bottom&quot;)+
   scale_shape_manual(values=c( 13,15, 17,18),
                      name = NULL)+
   NULL  </code></pre>
 <p><img src="figure/fbi_hate_crimes_quarterly.rmd/detrented_all_hate_crime_rushin_edwards_using_fbi_data-1.png" width="5000" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-detrented_all_hate_crime_rushin_edwards_using_fbi_data-1">
+Past versions of detrented_all_hate_crime_rushin_edwards_using_fbi_data-1.png
+</button>
+</p>
+<div id="fig-detrented_all_hate_crime_rushin_edwards_using_fbi_data-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/204eb682bc5eccd4b7eb02a806c1332e8022fcfe/docs/figure/fbi_hate_crimes_quarterly.rmd/detrented_all_hate_crime_rushin_edwards_using_fbi_data-1.png" target="_blank">204eb68</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-07-14
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="compare-both-models" class="section level1">
@@ -1859,6 +1954,17 @@ Date
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/204eb682bc5eccd4b7eb02a806c1332e8022fcfe/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-9-2.png" target="_blank">204eb68</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-07-14
+</td>
+</tr>
 <tr>
 <td>
 <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/7020e8192cbf9e1af9818faca8eeac602c904ebf/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-9-2.png" target="_blank">7020e81</a>
