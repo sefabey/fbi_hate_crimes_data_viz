@@ -181,7 +181,7 @@ summary(linear_model)
 ```
 
 ## Detrend Data Using Residuals
-```{r}
+```{r detrented_all_hate_crime_rushin_edwards_using_fbi_data, dpi=500}
 
 qt_hate$predictions= predict(lm_ucr_hc, qt_hate)
 qt_hate$residuals= resid(lm_ucr_hc)
