@@ -404,7 +404,7 @@ div.section {
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2020-06-17
+<strong>Last updated:</strong> 2020-07-14
 </p>
 <p>
 <strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
@@ -495,10 +495,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree4e79e92ab2a5766ee921e66af3f63252d5642e9atargetblank4e79e92a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/4e79e92ab2a5766ee921e66af3f63252d5642e9a" target="_blank">4e79e92</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreebe14a1ada9bb59b7d4d0ea8000758ed7f679d4bbtargetblankbe14a1aa"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/tree/be14a1ada9bb59b7d4d0ea8000758ed7f679d4bb" target="_blank">be14a1a</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztree4e79e92ab2a5766ee921e66af3f63252d5642e9atargetblank4e79e92a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomsefabeyfbihatecrimesdataviztreebe14a1ada9bb59b7d4d0ea8000758ed7f679d4bbtargetblankbe14a1aa" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -568,6 +568,10 @@ Ignored files:
     Ignored:    docs/.DS_Store
     Ignored:    src/.DS_Store
 
+Untracked files:
+    Untracked:  data/open_ICPSR/ucr_hate_crimes_1991_2018_rda.zip
+    Untracked:  data/open_ICPSR/ucr_hate_crimes_1991_2018_rda/
+
 </code></pre>
 <p>
 Note that any generated files, e.g. HTML, png, CSS, etc., are not included in this status report because it is ok for generated content to have uncommitted changes.
@@ -605,6 +609,23 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/sefabey/fbi_hate_crimes_data_viz/b0ef67a5009fe47b6a05fdb0fc0eec1201c61aa7/docs/fbi_hate_crimes_quarterly.html" target="_blank">b0ef67a</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-06-17
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 rmd
@@ -1706,6 +1727,53 @@ qt_hate %&gt;%
   scale_shape_manual(values=c( 13,15, 17,18),
                      name = NULL)+
   NULL  </code></pre>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/detrented_all_hate_crime_rushin_edwards_using_fbi_data-1.png" width="5000" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<div id="compare-both-models" class="section level1">
+<h1>Compare Both Models</h1>
+<pre class="r"><code>a &lt;- edwards_processed$hatedetrend  
+b &lt;- qt_hate$hatedetrend
+a</code></pre>
+<pre><code>  [1] 1892.633 1985.563 1510.530 1779.956 1832.982 1791.923 1765.890
+  [8] 1777.316 1919.633 1683.563 1752.530 1812.956 1814.383 1631.313
+ [15] 1827.280 1895.706 1866.835 1808.680 1804.640 1690.238 1822.305
+ [22] 1872.234 1713.086 1761.627 1842.499 1789.344 1764.304 1774.817
+ [29] 1811.436 1855.281 1773.340 1729.766 1869.620 1750.447 1723.407
+ [36] 1826.919 1415.766 1542.696 2548.424 1662.937 1831.383 1853.313
+ [43] 1832.280 1651.706 1767.294 1818.200 1770.167 1813.592 1854.796
+ [50] 1851.726 1690.613 1772.118 1848.784 1835.681 1703.681 1781.107
+ [57] 1740.674 1854.595 1772.563 1801.991 1690.133 1843.063 1830.030
+ [64] 1805.456 1818.883 1800.813 1740.780 1808.206 1822.956 1772.790
+ [71] 1773.754 1799.183 1779.382 1828.321 1827.276 1733.704 1722.882
+ [78] 1794.855 1767.742 1883.204 1980.264 1799.194 1761.161 1627.494
+ [85] 1721.862 1843.791 1829.698 1773.332 1709.980 1798.910 1821.877
+ [92] 1838.486 1679.861 1844.866 1802.758 1842.339 1649.499 1621.344
+ [99] 1761.304 2138.817 1893.133 1729.063 1729.030 1817.456</code></pre>
+<pre class="r"><code>b</code></pre>
+<pre><code>  [1] 1910.481 2002.596 1525.865 1792.865 1849.231 1810.346 1782.615
+  [8] 1789.615 1936.731 1700.846 1768.115 1826.115 1831.481 1648.596
+ [15] 1842.865 1908.865 1883.231 1825.346 1820.615 1702.615 1838.981
+ [22] 1888.096 1730.365 1774.365 1857.231 1804.346 1778.615 1791.615
+ [29] 1827.231 1869.346 1792.615 1742.615 1877.231 1767.346 1734.615
+ [36] 1852.615 1430.481 1564.596 2566.865 1669.865 1850.481 1866.596
+ [43] 1847.865 1666.865 1778.731 1831.846 1790.115 1831.115 1877.731
+ [50] 1868.846 1699.115 1786.115 1866.231 1852.346 1720.615 1792.615
+ [57] 1751.481 1878.596 1795.865 1805.865 1709.981 1857.096 1846.365
+ [64] 1818.365 1832.231 1812.346 1753.615 1833.615 1832.981 1787.096
+ [71] 1799.365 1812.365 1805.981 1842.096 1839.365 1744.365 1739.481
+ [78] 1810.596 1778.865 1902.865 1996.731 1813.846 1783.115 1638.115
+ [85] 1738.481 1857.596 1847.865 1787.865 1723.231 1814.346 1837.615
+ [92] 1856.615 1702.481 1854.596 1816.865 1857.865 1647.981 1637.096
+ [99] 1764.365 2182.365 1910.231 1740.346 1742.615 1838.615</code></pre>
+<pre class="r"><code>summary(a)</code></pre>
+<pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1416    1748    1799    1792    1832    2548 </code></pre>
+<pre class="r"><code>summary(b)</code></pre>
+<pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1430    1762    1812    1808    1851    2567 </code></pre>
+<pre class="r"><code>qplot(a)</code></pre>
+<pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
 <p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-9-1.png" width="960" style="display: block; margin: auto;" /></p>
 <p>
 <button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-9-1">
@@ -1766,110 +1834,15 @@ Sefa Ozalp
 </table>
 </div>
 </div>
-</div>
-</div>
-<div id="compare-both-models" class="section level1">
-<h1>Compare Both Models</h1>
-<pre class="r"><code>a &lt;- edwards_processed$hatedetrend  
-b &lt;- qt_hate$hatedetrend
-a</code></pre>
-<pre><code>  [1] 1892.633 1985.563 1510.530 1779.956 1832.982 1791.923 1765.890
-  [8] 1777.316 1919.633 1683.563 1752.530 1812.956 1814.383 1631.313
- [15] 1827.280 1895.706 1866.835 1808.680 1804.640 1690.238 1822.305
- [22] 1872.234 1713.086 1761.627 1842.499 1789.344 1764.304 1774.817
- [29] 1811.436 1855.281 1773.340 1729.766 1869.620 1750.447 1723.407
- [36] 1826.919 1415.766 1542.696 2548.424 1662.937 1831.383 1853.313
- [43] 1832.280 1651.706 1767.294 1818.200 1770.167 1813.592 1854.796
- [50] 1851.726 1690.613 1772.118 1848.784 1835.681 1703.681 1781.107
- [57] 1740.674 1854.595 1772.563 1801.991 1690.133 1843.063 1830.030
- [64] 1805.456 1818.883 1800.813 1740.780 1808.206 1822.956 1772.790
- [71] 1773.754 1799.183 1779.382 1828.321 1827.276 1733.704 1722.882
- [78] 1794.855 1767.742 1883.204 1980.264 1799.194 1761.161 1627.494
- [85] 1721.862 1843.791 1829.698 1773.332 1709.980 1798.910 1821.877
- [92] 1838.486 1679.861 1844.866 1802.758 1842.339 1649.499 1621.344
- [99] 1761.304 2138.817 1893.133 1729.063 1729.030 1817.456</code></pre>
-<pre class="r"><code>b</code></pre>
-<pre><code>  [1] 1910.481 2002.596 1525.865 1792.865 1849.231 1810.346 1782.615
-  [8] 1789.615 1936.731 1700.846 1768.115 1826.115 1831.481 1648.596
- [15] 1842.865 1908.865 1883.231 1825.346 1820.615 1702.615 1838.981
- [22] 1888.096 1730.365 1774.365 1857.231 1804.346 1778.615 1791.615
- [29] 1827.231 1869.346 1792.615 1742.615 1877.231 1767.346 1734.615
- [36] 1852.615 1430.481 1564.596 2566.865 1669.865 1850.481 1866.596
- [43] 1847.865 1666.865 1778.731 1831.846 1790.115 1831.115 1877.731
- [50] 1868.846 1699.115 1786.115 1866.231 1852.346 1720.615 1792.615
- [57] 1751.481 1878.596 1795.865 1805.865 1709.981 1857.096 1846.365
- [64] 1818.365 1832.231 1812.346 1753.615 1833.615 1832.981 1787.096
- [71] 1799.365 1812.365 1805.981 1842.096 1839.365 1744.365 1739.481
- [78] 1810.596 1778.865 1902.865 1996.731 1813.846 1783.115 1638.115
- [85] 1738.481 1857.596 1847.865 1787.865 1723.231 1814.346 1837.615
- [92] 1856.615 1702.481 1854.596 1816.865 1857.865 1647.981 1637.096
- [99] 1764.365 2182.365 1910.231 1740.346 1742.615 1838.615</code></pre>
-<pre class="r"><code>summary(a)</code></pre>
-<pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-   1416    1748    1799    1792    1832    2548 </code></pre>
-<pre class="r"><code>summary(b)</code></pre>
-<pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-   1430    1762    1812    1808    1851    2567 </code></pre>
-<pre class="r"><code>qplot(a)</code></pre>
-<pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
-<p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-1.png" width="960" style="display: block; margin: auto;" /></p>
-<p>
-<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-10-1">
-Past versions of unnamed-chunk-10-1.png
-</button>
-</p>
-<div id="fig-unnamed-chunk-10-1" class="collapse">
-<div class="table-responsive">
-<table class="table table-condensed table-hover">
-<thead>
-<tr>
-<th>
-Version
-</th>
-<th>
-Author
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/232a1162a9eb8b6224e163328addbc27203e3eb4/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-1.png" target="_blank">232a116</a>
-</td>
-<td>
-Sefa Ozalp
-</td>
-<td>
-2020-02-26
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-1.png" target="_blank">32106bf</a>
-</td>
-<td>
-Sefa Ozalp
-</td>
-<td>
-2020-02-26
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
 <pre class="r"><code>qplot(b)</code></pre>
 <pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
-<p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-2.png" width="960" style="display: block; margin: auto;" /></p>
+<p><img src="figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-9-2.png" width="960" style="display: block; margin: auto;" /></p>
 <p>
-<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-10-2">
-Past versions of unnamed-chunk-10-2.png
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-9-2">
+Past versions of unnamed-chunk-9-2.png
 </button>
 </p>
-<div id="fig-unnamed-chunk-10-2" class="collapse">
+<div id="fig-unnamed-chunk-9-2" class="collapse">
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
 <thead>
@@ -1888,24 +1861,13 @@ Date
 <tbody>
 <tr>
 <td>
-<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/232a1162a9eb8b6224e163328addbc27203e3eb4/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-2.png" target="_blank">232a116</a>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/7020e8192cbf9e1af9818faca8eeac602c904ebf/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-9-2.png" target="_blank">7020e81</a>
 </td>
 <td>
 Sefa Ozalp
 </td>
 <td>
-2020-02-26
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/32106bf34a38de1465139c3850240bdaac4485e2/docs/figure/fbi_hate_crimes_quarterly.rmd/unnamed-chunk-10-2.png" target="_blank">32106bf</a>
-</td>
-<td>
-Sefa Ozalp
-</td>
-<td>
-2020-02-26
+2019-11-19
 </td>
 </tr>
 </tbody>
@@ -2868,6 +2830,43 @@ coercing to character vector</code></pre>
                      name = NULL)+
   NULL</code></pre>
 <p><img src="figure/fbi_hate_crimes_quarterly.rmd/anti-LGBTI_incidents-1.png" width="5000" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-anti-LGBTI_incidents-1">
+Past versions of anti-LGBTI_incidents-1.png
+</button>
+</p>
+<div id="fig-anti-LGBTI_incidents-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/b0ef67a5009fe47b6a05fdb0fc0eec1201c61aa7/docs/figure/fbi_hate_crimes_quarterly.rmd/anti-LGBTI_incidents-1.png" target="_blank">b0ef67a</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-06-17
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="detrending-anti-lgbti-hate-crimes" class="section level3">
 <h3>Detrending Anti-LGBTI Hate Crimes</h3>
@@ -2965,6 +2964,43 @@ legend_points_LGBTI_det</code></pre>
                      name = NULL)+
   NULL  </code></pre>
 <p><img src="figure/fbi_hate_crimes_quarterly.rmd/antiLGBTI_detrended_plot-1.png" width="5000" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-antiLGBTI_detrended_plot-1">
+Past versions of antiLGBTI_detrended_plot-1.png
+</button>
+</p>
+<div id="fig-antiLGBTI_detrended_plot-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/sefabey/fbi_hate_crimes_data_viz/blob/b0ef67a5009fe47b6a05fdb0fc0eec1201c61aa7/docs/figure/fbi_hate_crimes_quarterly.rmd/antiLGBTI_detrended_plot-1.png" target="_blank">b0ef67a</a>
+</td>
+<td>
+Sefa Ozalp
+</td>
+<td>
+2020-06-17
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 </div>
