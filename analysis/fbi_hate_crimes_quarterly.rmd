@@ -37,6 +37,8 @@ library(tidyverse)
 library(lubridate)
 library(scales)
 knitr::opts_chunk$set(fig.width=10, fig.height=8)
+knitr::opts_chunk$set(dev=c('png','cairo_ps'))
+
 ```
 
 ```{r}
