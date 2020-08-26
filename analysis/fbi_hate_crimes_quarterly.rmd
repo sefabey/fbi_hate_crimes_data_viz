@@ -254,7 +254,6 @@ ucr_hate <- ucr_hate_crimes_1992_2017 %>%
 
 rm(ucr_hate_crimes_1992_2017)
 
-glimpse(ucr_hate)
 
 ucr_hate_small <- ucr_hate %>% 
   select(state, date, month, month_num, year, city_name, offenders_race_as_a_group, number_of_victims_offense_1, ucr_offense_code_1, bias_motivation_offense_1)
@@ -452,10 +451,10 @@ legend_points_hispanic_det
 ```
 
 ```{r}
-qt_hate_hispanic %>% View() 
-  select(year, hatecrimes, residuals, )
-  group_by(year) %>% 
-  summarise( detrend_sum =sum(hatedetrend)) %>% View()
+# qt_hate_hispanic %>%
+#   select(year, hatecrimes, residuals ) %>% 
+#   group_by(year) %>% 
+#   summarise( detrend_sum =sum(hatedetrend))
 
 
 ```
