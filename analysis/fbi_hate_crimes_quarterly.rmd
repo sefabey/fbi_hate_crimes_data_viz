@@ -200,7 +200,7 @@ qt_hate %>%
   ggplot(aes(x=quarter_date, y=hatedetrend))+
   geom_line(size=0.8)+
   scale_y_continuous(labels = comma, limits = c(1250, 2750), breaks = seq(1500,3500,250), minor_breaks = NULL)+
-  scale_x_date(breaks = seq.Date(dmy("01-01-1991"), dmy("31-12-2018"), by= "2 year"), 
+  scale_x_date(breaks = seq.Date(dmy("01-01-1991"), dmy("31-12-2018"), by= "1 year"), 
                date_labels = "%Y-%m", 
                limits = c(lubridate::dmy("01-01-1991"), lubridate::dmy("31-12-2018")),
                expand=c(0,0))+
