@@ -451,6 +451,15 @@ legend_points_hispanic_det
 
 ```
 
+```{r}
+qt_hate_hispanic %>% View() 
+  select(year, hatecrimes, residuals, )
+  group_by(year) %>% 
+  summarise( detrend_sum =sum(hatedetrend)) %>% View()
+
+
+```
+
 
 ```{r, antihispanic_detrended, dpi=500}
 
