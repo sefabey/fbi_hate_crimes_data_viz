@@ -33,6 +33,7 @@ The sub-tasks to recreate the graph are as follows:
 library(tidyverse)
 library(scales)
 library(lubridate)
+knitr::opts_chunk$set(dev=c('png','cairo_ps'))
 ```
 
 
